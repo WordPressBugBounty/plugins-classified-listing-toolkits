@@ -1,0 +1,55 @@
+# Copyright (C) 2023 {{author_name}}
+# This file is distributed under the same license as the {{The Plugin Name}} plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: {{The Plugin Name}} {{version}}\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rex_plugin_boilerplate\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-19T09:35:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: the-plugin-name-text-domain\n"
+
+#. Plugin Name of the plugin
+msgid "{{The Plugin Name}}"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "{{plugin_url}}"
+msgstr ""
+
+#. Description of the plugin
+msgid "{{plugin_description}}"
+msgstr ""
+
+#. Author of the plugin
+msgid "{{author_name}}"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "{{author_url}}"
+msgstr ""
+
+#: includes/Admin/Menu.php:33
+msgid "Plugin Name"
+msgstr ""
+
+#: includes/Admin/Menu.php:36
+msgid "Home"
+msgstr ""
+
+#: includes/Admin/Menu.php:37
+msgid "Custom"
+msgstr ""
+
+#: plugin.php:303
+msgid "Settings"
+msgstr ""
+
+#: plugin.php:304
+msgid "Documentation"
+msgstr ""
