@@ -44,8 +44,8 @@ if ( empty( $selected_category ) ) {
 	}
 }
 
-$orderby = strtolower( Functions::get_option_item( 'rtcl_general_settings', 'taxonomy_orderby', 'name' ) );
-$order   = strtoupper( Functions::get_option_item( 'rtcl_general_settings', 'taxonomy_order', 'ASC' ) );
+$orderby = strtolower( Functions::get_option_item( 'rtcl_archive_listing_settings', 'taxonomy_orderby', 'name' ) );
+$order   = strtoupper( Functions::get_option_item( 'rtcl_archive_listing_settings', 'taxonomy_order', 'ASC' ) );
 
 $style       = $style ?? 'dependency';
 $orientation = $orientation ?? 'inline';

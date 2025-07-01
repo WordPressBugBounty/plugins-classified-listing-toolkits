@@ -22,8 +22,8 @@ use Rtcl\Helpers\Text;
 use Rtcl\Helpers\Functions;
 use Rtcl\Resources\Options;
 
-$orderby   = strtolower( Functions::get_option_item( 'rtcl_general_settings', 'taxonomy_orderby', 'name' ) );
-$order     = strtoupper( Functions::get_option_item( 'rtcl_general_settings', 'taxonomy_order', 'DESC' ) );
+$orderby   = strtolower( Functions::get_option_item( 'rtcl_archive_listing_settings', 'taxonomy_orderby', 'name' ) );
+$order     = strtoupper( Functions::get_option_item( 'rtcl_archive_listing_settings', 'taxonomy_order', 'DESC' ) );
 $classes[] = 'rtcl-elementor-widget-search';
 
 $data = array(

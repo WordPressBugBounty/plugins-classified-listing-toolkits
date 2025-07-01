@@ -4,7 +4,7 @@
  * Plugin Name:         Classified Listing Toolkits
  * Plugin URI:          https://wordpress.org/plugins/classified-listing-toolkits/
  * Description:         Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts.
- * Version:             1.1.3
+ * Version:             1.1.4
  * Requires at least:   6
  * Requires PHP:        7.4
  * Author:              RadiusTheme
@@ -24,7 +24,7 @@ use RadisuTheme\ClassifiedListingToolkits\Admin\ELStoreController;
 
 defined( 'ABSPATH' ) || exit;
 
-const CLASSIFIED_LISTING_MIN_VERSION = '4.2.0';
+const CLASSIFIED_LISTING_MIN_VERSION = '5.0.0';
 
 
 final class ClassifiedListingToolkits {
@@ -33,7 +33,7 @@ final class ClassifiedListingToolkits {
 	 *
 	 * @var string
 	 */
-	const VERSION = '1.1.3';
+	const VERSION = '1.1.4';
 
 	/**
 	 * Plugin slug.
@@ -250,6 +250,11 @@ final class ClassifiedListingToolkits {
 	 *
 	 */
 	public function init_classes() {
+
+		if ( class_exists( \ET_Builder_Element::class ) ) {
+			new DiviController;
+		}
+
 		// Only init Elementor if it's loaded
 		if ( defined( 'ELEMENTOR_VERSION' ) ) {
 			if ( defined( "RTCL_PRO_VERSION" ) && ! version_compare( RTCL_PRO_VERSION, '3.2.0', '>=' ) ) {
@@ -257,14 +262,11 @@ final class ClassifiedListingToolkits {
 			}
 			ElementorController::elementor_init();
 		}
-		if ( defined( 'RTCL_STORE_VERSION' )  ) {
-			if( !version_compare( RTCL_STORE_VERSION, '2.1.0', '>=' )){
+		if ( defined( 'RTCL_STORE_VERSION' ) ) {
+			if ( ! version_compare( RTCL_STORE_VERSION, '2.1.0', '>=' ) ) {
 				return;
 			}
 			ELStoreController::init();
-		}
-		if (  class_exists( \ET_Builder_Element::class ) ) {
-			new DiviController;
 		}
 
 	}
@@ -351,7 +353,7 @@ function classified_listing_toolkits_init() {
 		if ( version_compare( RTCL_VERSION, CLASSIFIED_LISTING_MIN_VERSION, '<' ) ) {
 			add_action( 'admin_notices', 'classified_listing_toolkits_missing_notice_version' );
 			add_action( 'admin_init', function () {
-				if ( ! class_exists( 'Rtcl' ) || ! defined( 'RTCL_VERSION' ) || version_compare( RTCL_VERSION, '4.2.0', '<=' ) ) {
+				if ( ! class_exists( 'Rtcl' ) || ! defined( 'RTCL_VERSION' ) || version_compare( RTCL_VERSION, '5.0.0', '<=' ) ) {
 					classified_listing_toolkits_self_deactivation();
 				}
 			} );
@@ -398,7 +400,7 @@ function classified_listing_toolkits_wc_missing_notice() {
  */
 function classified_listing_toolkits_missing_notice_version() {
 	echo '<div class="error"><p><strong>' . sprintf(
-			esc_html__( 'Classified Listing Toolkit requires Classified Listing to be minimum version 4.2.0', 'classified-listing-toolkits' )
+			esc_html__( 'Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.0', 'classified-listing-toolkits' )
 		),
 	'</strong></p></div>';
 }

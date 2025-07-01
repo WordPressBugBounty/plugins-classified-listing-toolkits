@@ -39,7 +39,11 @@ class Helper {
 		$category_dropdown = [];
 
 		foreach ( $terms as $id => $name ) {
-			$category_dropdown[ $id ] = html_entity_decode( $name );
+			if ( is_array( $name ) ) {
+				$category_dropdown[ $id ] = '';
+			} else {
+				$category_dropdown[ $id ] = html_entity_decode( $name );
+			}
 		}
 
 		return $category_dropdown;

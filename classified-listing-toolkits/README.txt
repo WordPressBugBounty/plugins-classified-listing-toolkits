@@ -4,7 +4,7 @@ Tags: classified listing, Elementor, Divi, listing plugin, WordPress builder sup
 Requires at least: 5.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,15 +72,18 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
+= 1.1.4 =
+* Added: New settings compatibility
+
 = 1.1.3 =
-Fixed: Builder addon store dependency issue
+* Fixed: Builder addon store dependency issue
 
 = 1.1.2 =
-Fixed: Compatibility with Store old version
+* Fixed: Compatibility with Store old version
 
 = 1.1.1 =
-Fixed: Pagination issue
-Fixed: Responsive column issue
+* Fixed: Pagination issue
+* Fixed: Responsive column issue
 
 = 1.1.0 =
 * Stable version release

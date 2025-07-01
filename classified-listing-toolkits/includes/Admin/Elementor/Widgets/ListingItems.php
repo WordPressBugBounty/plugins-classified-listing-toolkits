@@ -141,7 +141,7 @@ class ListingItems extends ListingItemsSettings {
 		
 		if ( ! empty( $promotion_in ) && is_array( $promotion_in ) ) {
 			$promotions = array_keys( Options::get_listing_promotions() );
-			$popular_threshold = (int) Functions::get_option_item( 'rtcl_moderation_settings', 'popular_listing_threshold', 0, 'number' );
+			$popular_threshold = (int) Functions::get_option_item( 'rtcl_general_listing_label_settings', 'popular_listing_threshold', 0, 'number' );
 			foreach ( $promotion_in as $promotion ) {
 				if(  '_views' === $promotion ){
 					$meta_queries[] = [
@@ -162,7 +162,7 @@ class ListingItems extends ListingItemsSettings {
 
 		if ( ! empty( $promotion_not_in ) && is_array( $promotion_not_in ) ) {
 			$promotions = array_keys( Options::get_listing_promotions() );
-			$popular_threshold = (int) Functions::get_option_item( 'rtcl_moderation_settings', 'popular_listing_threshold', 0, 'number' );
+			$popular_threshold = (int) Functions::get_option_item( 'rtcl_general_listing_label_settings', 'popular_listing_threshold', 0, 'number' );
 			foreach ( $promotion_not_in as $promotion ) {
 				if(  '_views' === $promotion ){
 					$meta_queries[] = [
