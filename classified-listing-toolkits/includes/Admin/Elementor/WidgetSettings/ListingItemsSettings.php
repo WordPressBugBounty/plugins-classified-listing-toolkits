@@ -5,19 +5,20 @@
  * The main class that initiates and runs the plugin.
  *
  * @package  Classifid-listing
- * @since 1.0.0
+ * @since    1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 use Elementor\Group_Control_Border;
 use Rtcl\Resources\Options;
 use Elementor\Group_Control_Image_Size;
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits\{
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits\{
 	ListingStyleTrait,
 	ListingWrapperTrait,
 	ListingPromotionFieldsTrait,
@@ -33,22 +34,27 @@ class ListingItemsSettings extends ElementorWidgetBase {
 	 * Content visiblity field.
 	 */
 	use ListingContentVisibilityTrait;
+
 	/**
 	 * Responsive control.
 	 */
 	use ListingResponsiveControlTrait;
+
 	/**
 	 * Item Wrapper Control.
 	 */
 	use ListingWrapperTrait;
+
 	/**
 	 * Promotion Section.
 	 */
 	use ListingPromotionFieldsTrait;
+
 	/**
 	 * Listing style or view related trait
 	 */
 	use ListingStyleTrait;
+
 	/**
 	 * Set style controlls
 	 *
@@ -184,7 +190,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_meta_color',
 				'label'     => __( 'Color', 'classified-listing-toolkits' ),
 				'selectors' => [
-					'{{WRAPPER}} .rtcl-elementor-widget' => '--meta-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-elementor-widget'     => '--meta-color: {{VALUE}}',
 					'{{WRAPPER}} .rtcl-listing-meta-data li' => 'color: {{VALUE}}',
 				],
 			],
@@ -214,7 +220,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_meta_hover_color',
 				'label'     => __( 'Color', 'classified-listing-toolkits' ),
 				'selectors' => [
-					'{{WRAPPER}} .rtcl-elementor-widget' => '--meta-hover-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-elementor-widget'                         => '--meta-hover-color: {{VALUE}}',
 					'{{WRAPPER}} .listing-item:hover .rtcl-listing-meta-data li' => 'color: {{VALUE}}',
 				],
 			],
@@ -223,7 +229,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_meta_hover_icon_color',
 				'label'     => __( 'Meta Icon Color', 'classified-listing-toolkits' ),
 				'selectors' => [
-					'{{WRAPPER}} .rtcl-elementor-widget' => '--meta-icon-hove-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-elementor-widget'                           => '--meta-icon-hove-color: {{VALUE}}',
 					'{{WRAPPER}} .listing-item:hover .rtcl-listing-meta-data li i' => 'color: {{VALUE}}',
 				],
 			],
@@ -318,7 +324,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_price_unit_label_color',
 				'label'     => __( 'Unit Label Text Color', 'classified-listing-toolkits' ),
 				'selectors' => [
-					'{{WRAPPER}} .listing-item .item-price .rtcl-price-unit-label'       => 'color: {{VALUE}};',
+					'{{WRAPPER}} .listing-item .item-price .rtcl-price-unit-label' => 'color: {{VALUE}};',
 				],
 				'condition' => [
 					'rtcl_show_price_unit' => [ 'yes' ],
@@ -391,7 +397,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_amount_text_color',
 				'label'     => __( 'Text Color', 'classified-listing-toolkits' ),
 				'selectors' => [
-					'{{WRAPPER}} .rtcl-listings .listing-item .rtcl-price'       => 'color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-listings .listing-item .rtcl-price' => 'color: {{VALUE}};',
 				],
 			],
 
@@ -425,13 +431,6 @@ class ListingItemsSettings extends ElementorWidgetBase {
 					'{{WRAPPER}} .rtcl-listings .listing-item .rtcl-listing-badge-wrap .badge' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				],
 			],
-			// [
-			// 	'mode'     => 'group',
-			// 	'type'     => Group_Control_Typography::get_type(),
-			// 	'id'       => 'rtcl_badge_sold_typo',
-			// 	'label'    => __( 'Sold Out Typography', 'classified-listing-toolkits' ),
-			// 	'selector' => '{{WRAPPER}}  .rtcl-sold-out',
-			// ],
 			[
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_badge_sold_out_bg_color',
@@ -555,7 +554,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode' => 'section_end',
 			],
-			
+
 			[
 				'mode'      => 'section_start',
 				'id'        => 'rtcl_sec_pagination',
@@ -623,6 +622,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			],
 		];
+
 		return apply_filters( 'rtcl_el_listing_widget_style_field', $fields, $this );
 	}
 
@@ -649,6 +649,10 @@ class ListingItemsSettings extends ElementorWidgetBase {
 		if ( rtcl()->has_pro() ) {
 			$promotions['_views'] = esc_html__( "Popular", "classified-listing-toolkits" );
 		}
+
+		$pro_link          = 'https://www.radiustheme.com/downloads/classified-listing-pro-wordpress/';
+		$style_description = sprintf( __( '<a href="%s" target="_blank" style="color: #d004d4">Upgrade to pro</a> to unlock more styles.',
+			"classified-listing-toolkits" ), $pro_link );
 
 		$fields = [
 			[
@@ -681,31 +685,33 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'content_classes' => 'elementor-panel-heading-title',
 			],
 			[
-				'type'      => 'rtcl-image-selector',
-				'id'        => 'rtcl_listings_style',
-				'options'   => $this->list_style(),
-				'default'   => 'style-1',
-				'condition' => [
+				'type'        => 'rtcl-image-selector',
+				'id'          => 'rtcl_listings_style',
+				'options'     => $this->list_style(),
+				'default'     => 'style-1',
+				'condition'   => [
 					'rtcl_listings_view' => 'list',
 				],
+				'description' => ! Helper::is_pro_with_old_dependency() ? wp_kses_post( $style_description ) : ''
 			],
 			[
-				'type'      => 'rtcl-image-selector',
-				'id'        => 'rtcl_listings_grid_style',
-				'options'   => $this->grid_style(),
-				'default'   => 'style-1',
-				'condition' => [
+				'type'        => 'rtcl-image-selector',
+				'id'          => 'rtcl_listings_grid_style',
+				'options'     => $this->grid_style(),
+				'default'     => 'style-1',
+				'condition'   => [
 					'rtcl_listings_view' => 'grid',
 				],
+				'description' => ! Helper::is_pro_with_old_dependency() ? wp_kses_post( $style_description ) : ''
 			],
 			[
-				'type'    => Controls_Manager::SELECT,
-				'mode'    => 'responsive',
-				'id'      => 'rtcl_listings_column',
-				'label'   => __( 'Column', 'classified-listing-toolkits' ),
-				'options' => $this->column_number(),
-				'default' => '3',
-				'devices' => [ 'desktop', 'tablet', 'mobile' ],
+				'type'      => Controls_Manager::SELECT,
+				'mode'      => 'responsive',
+				'id'        => 'rtcl_listings_column',
+				'label'     => __( 'Column', 'classified-listing-toolkits' ),
+				'options'   => $this->column_number(),
+				'default'   => '3',
+				'devices'   => [ 'desktop', 'tablet', 'mobile' ],
 				'condition' => [
 					'rtcl_listings_view' => 'grid',
 				],
@@ -753,7 +759,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'label'       => __( 'Categories', 'classified-listing-toolkits' ),
 				'options'     => $category_dropdown,
 				'multiple'    => true,
-				'label_block'    => true,
+				'label_block' => true,
 				'default'     => '',
 				'description' => __( 'Start typing category names. If empty then all listings will display.', 'classified-listing-toolkits' ),
 			],
@@ -783,7 +789,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'label'       => __( 'Locations', 'classified-listing-toolkits' ),
 				'options'     => $location_dropdown,
 				'multiple'    => true,
-				'label_block'    => true,
+				'label_block' => true,
 				'default'     => '',
 				'description' => __( 'Start typing locations names.', 'classified-listing-toolkits' ),
 			],
@@ -841,18 +847,18 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'label'     => __( 'Image Size', 'classified-listing-toolkits' ),
 				'type'      => Group_Control_Image_Size::get_type(),
 				'id'        => 'rtcl_thumb_image',
-				'exclude' => [ 'custom' ], // phpcs:ignore 	WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_exclude
+				'exclude'   => [ 'custom' ], // phpcs:ignore 	WordPressVIPMinimum.Performance.WPQueryParams.PostNotIn_exclude
 				'mode'      => 'group',
 				'default'   => 'rtcl-thumbnail',
 				'separator' => 'none',
 			],
 			[
-				'id'        	=> 'rtcl_no_listing_text',
-				'label' 		=> esc_html__( 'No Listing Text', 'classified-listing-toolkits' ),
-				'type' 			=> Controls_Manager::TEXTAREA,
-				'rows' 			=> 10,
-				'default' 		=> esc_html__( 'No Listing Found', 'classified-listing-toolkits' ),
-				'placeholder' 	=> esc_html__( 'Type your description here', 'classified-listing-toolkits' ),
+				'id'          => 'rtcl_no_listing_text',
+				'label'       => esc_html__( 'No Listing Text', 'classified-listing-toolkits' ),
+				'type'        => Controls_Manager::TEXTAREA,
+				'rows'        => 10,
+				'default'     => esc_html__( 'No Listing Found', 'classified-listing-toolkits' ),
+				'placeholder' => esc_html__( 'Type your description here', 'classified-listing-toolkits' ),
 			],
 			[
 				'mode' => 'section_end',
@@ -862,7 +868,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 
 		return apply_filters( 'rtcl_el_listing_widget_general_field', $fields, $this );
 	}
-	
+
 	public function widget_button_style_fields(): array {
 		$fields = [
 
@@ -941,11 +947,11 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'         => 'rtcl_button_bg_color',
 				'label'      => __( 'Background Color', 'classified-listing-toolkits' ),
 				'selectors'  => [
-					'{{WRAPPER}} .rtin-el-button a' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button a' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-list-view.rtcl-style-5-view .rtin-el-button a' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a'                                            => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button a'                    => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-list-view.rtcl-style-5-view .rtin-el-button a'          => 'background-color: {{VALUE}};',
 					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtin-el-button a' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a'                                            => 'background-color: {{VALUE}};',
 
 				],
 				'conditions' => [
@@ -988,9 +994,9 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'         => 'rtcl_button_text_color',
 				'label'      => __( 'Button Text Color', 'classified-listing-toolkits' ),
 				'selectors'  => [
-					'{{WRAPPER}} .rtin-el-button a,{{WRAPPER}} .rtin-el-button a .rtcl-icon ' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a,{{WRAPPER}} .rtin-el-button a .rtcl-icon '                                               => 'color: {{VALUE}};',
 					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button,{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button a .rtcl-icon ' => 'color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom  a' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom  a'                                                         => 'color: {{VALUE}};',
 				],
 				'conditions' => [
 					'relation' => 'or',
@@ -1027,10 +1033,10 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				],
 			],
 			[
-				'type'       => Controls_Manager::COLOR,
-				'id'         => 'rtcl_button_borger_color',
-				'label'      => __( 'Border Color', 'classified-listing-toolkits' ),
-				'selectors'  => [
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'rtcl_button_borger_color',
+				'label'     => __( 'Border Color', 'classified-listing-toolkits' ),
+				'selectors' => [
 					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a' => 'border-color: {{VALUE}};',
 				],
 
@@ -1082,10 +1088,10 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				],
 			],
 			[
-				'type'     => Group_Control_Border::get_type(),
-				'mode'     => 'group',
-				'id'         => 'rtcl_button_border_color',
-				'label'      => __( 'Border', 'classified-listing-toolkits' ),
+				'type'           => Group_Control_Border::get_type(),
+				'mode'           => 'group',
+				'id'             => 'rtcl_button_border_color',
+				'label'          => __( 'Border', 'classified-listing-toolkits' ),
 				'fields_options' => [
 					'border' => [
 						'default' => 'solid',
@@ -1103,8 +1109,8 @@ class ListingItemsSettings extends ElementorWidgetBase {
 						'default' => '#e1e1e1',
 					],
 				],
-				'selector'  => '{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a',
-				'conditions' => [
+				'selector'       => '{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a',
+				'conditions'     => [
 					'relation' => 'or',
 					'terms'    => [
 						[
@@ -1191,9 +1197,9 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'         => 'rtcl_button_bg_hover_color',
 				'label'      => __( 'Background Color', 'classified-listing-toolkits' ),
 				'selectors'  => [
-					'{{WRAPPER}} .rtin-el-button a:hover' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button:hover a' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-list-view.rtcl-style-5-view .rtin-el-button a:hover' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a:hover'                                            => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button:hover a'                    => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-list-view.rtcl-style-5-view .rtin-el-button a:hover'          => 'background-color: {{VALUE}};',
 					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a:hover' => 'background-color: {{VALUE}};',
 				],
 				'conditions' => [
@@ -1236,9 +1242,9 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'         => 'rtcl_button_hover_text_color',
 				'label'      => __( 'Text Color In hover', 'classified-listing-toolkits' ),
 				'selectors'  => [
-					'{{WRAPPER}} .rtin-el-button a:hover,{{WRAPPER}} .rtin-el-button a:hover .rtcl-icon ' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a:hover,{{WRAPPER}} .rtin-el-button a:hover .rtcl-icon '                                               => 'color: {{VALUE}};',
 					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button:hover,{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button:hover a .rtcl-icon ' => 'color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a:hover' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a:hover'                                                    => 'color: {{VALUE}};',
 				],
 				'conditions' => [
 					'relation' => 'or',
@@ -1339,7 +1345,8 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			],
 		];
-		return apply_filters( 'rtcl_el_listing_items_widget_button_style_field', $fields , $this );
+
+		return apply_filters( 'rtcl_el_listing_items_widget_button_style_field', $fields, $this );
 	}
 
 	/**
@@ -1356,6 +1363,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			$this->widget_button_style_fields(),
 			$this->widget_style_fields()
 		);
+
 		return $fields;
 	}
 

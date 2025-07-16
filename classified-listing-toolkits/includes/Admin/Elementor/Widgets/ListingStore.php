@@ -7,10 +7,10 @@
  * @version 1.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\ListingStoreSettings;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\ListingStoreSettings;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 use Rtcl\Helpers\Pagination;
 

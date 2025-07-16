@@ -1,21 +1,22 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsList;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsList;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
 
 class Settings extends \ET_Builder_Module {
 	public $slug = 'rtcl_listings_list';
 	public $vb_support = 'on';
 	public $icon_path;
-    public $bind_wrapper = '';
+	public $bind_wrapper = '';
+
 	public function init() {
-		$this->name      = esc_html__( 'Listings List', 'classified-listing-toolkits' );
-		$this->icon_path = plugin_dir_path( __FILE__ ) . 'icon.svg';
-        $this->bind_wrapper = Helper::is_divi_plugin_active() ? '' : '.et-db .et-l ' ;
-		$this->folder_name = 'et_pb_classified_general_module';
+		$this->name         = esc_html__( 'Listings List', 'classified-listing-toolkits' );
+		$this->icon_path    = plugin_dir_path( __FILE__ ) . 'icon.svg';
+		$this->bind_wrapper = Helper::is_divi_plugin_active() ? '' : '.et-db .et-l ';
+		$this->folder_name  = 'et_pb_classified_general_module';
 
 		$this->settings_modal_toggles = [
 			'general'  => [
@@ -44,10 +45,9 @@ class Settings extends \ET_Builder_Module {
 			'rtcl_list_style'          => [
 				'label'       => esc_html__( 'Style', 'classified-listing-toolkits' ),
 				'type'        => 'select',
-				'options'     => [
+				'options'     => apply_filters( 'rtcl_divi_listing_list_styles', [
 					'style-1' => __( 'Style 1', 'classified-listing-toolkits' ),
-					'style-2' => __( 'Style 2', 'classified-listing-toolkits' ),
-				],
+				] ),
 				'default'     => 'style-1',
 				'tab_slug'    => 'general',
 				'toggle_slug' => 'layout',
@@ -403,7 +403,7 @@ class Settings extends \ET_Builder_Module {
 		$advanced_fields['fonts'] = [
 			'title' => [
 				'css'              => array(
-					'main' => $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper .rtcl-listing-title',
+					'main' => $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper .rtcl-listing-title',
 				),
 				'important'        => 'all',
 				'hide_text_color'  => true,
@@ -428,7 +428,7 @@ class Settings extends \ET_Builder_Module {
 			],
 			'meta'  => [
 				'css'              => array(
-					'main' => $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper .rtcl-listing-meta-data li',
+					'main' => $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper .rtcl-listing-meta-data li',
 				),
 				'important'        => 'all',
 				'hide_text_color'  => true,
@@ -453,7 +453,7 @@ class Settings extends \ET_Builder_Module {
 			],
 			'price' => [
 				'css'              => array(
-					'main' => $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper .rtcl-listings .item-price .rtcl-price .rtcl-price-amount',
+					'main' => $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper .rtcl-listings .item-price .rtcl-price .rtcl-price-amount',
 				),
 				'important'        => 'all',
 				'hide_text_color'  => true,

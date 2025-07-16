@@ -1,6 +1,6 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\Base;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\Base;
 
 use ET_Builder_Element;
 

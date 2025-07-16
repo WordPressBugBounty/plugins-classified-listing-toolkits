@@ -1,10 +1,10 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingCategories;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingCategories;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
 
 class Settings extends \ET_Builder_Module {
 	public $slug = 'rtcl_listing_categories';

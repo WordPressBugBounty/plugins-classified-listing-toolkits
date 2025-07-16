@@ -1,11 +1,11 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsSlider;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsSlider;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
 
 class Settings extends DiviModule {
 	public $slug = 'rtcl_listings_slider';

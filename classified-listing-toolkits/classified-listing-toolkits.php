@@ -4,7 +4,7 @@
  * Plugin Name:         Classified Listing Toolkits
  * Plugin URI:          https://wordpress.org/plugins/classified-listing-toolkits/
  * Description:         Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts.
- * Version:             1.1.4
+ * Version:             1.2.0
  * Requires at least:   6
  * Requires PHP:        7.4
  * Author:              RadiusTheme
@@ -18,23 +18,15 @@
  *
  */
 
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviController;
-use RadisuTheme\ClassifiedListingToolkits\Admin\ElementorController;
-use RadisuTheme\ClassifiedListingToolkits\Admin\ELStoreController;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviController;
+use RadiusTheme\ClassifiedListingToolkits\Admin\ElementorController;
+use RadiusTheme\ClassifiedListingToolkits\Admin\ELStoreController;
 
 defined( 'ABSPATH' ) || exit;
-
-const CLASSIFIED_LISTING_MIN_VERSION = '5.0.0';
-
+const CLASSIFIED_LISTING_TOOLKITS_VERSION = '1.2.0';
+const CLASSIFIED_LISTING_MIN_VERSION      = '5.0.1';
 
 final class ClassifiedListingToolkits {
-	/**
-	 * Plugin version.
-	 *
-	 * @var string
-	 */
-	const VERSION = '1.1.4';
-
 	/**
 	 * Plugin slug.
 	 *
@@ -130,7 +122,6 @@ final class ClassifiedListingToolkits {
 	 *
 	 */
 	public function define_constants() {
-		define( 'CLASSIFIED_LISTING_TOOLKITS_VERSION', self::VERSION );
 		define( 'CLASSIFIED_LISTING_TOOLKITS_SLUG', self::SLUG );
 		define( 'CLASSIFIED_LISTING_TOOLKITS_FILE', __FILE__ );
 		define( 'CLASSIFIED_LISTING_TOOLKITS_DIR', __DIR__ );
@@ -153,6 +144,7 @@ final class ClassifiedListingToolkits {
 	public function init_plugin() {
 		$this->includes();
 		$this->init_hooks();
+		$this->add_version();
 
 		/**
 		 * Fires after the plugin is loaded.
@@ -171,7 +163,7 @@ final class ClassifiedListingToolkits {
 	 */
 	public function activate() {
 		// Run the installer to create necessary migrations.
-//        $this->install();
+		$this->install();
 	}
 
 	/**
@@ -204,8 +196,13 @@ final class ClassifiedListingToolkits {
 	 *
 	 */
 	private function install() {
-		$installer = new RadisuTheme\ClassifiedListingToolkits\Setup\Installer();
+		$installer = new RadiusTheme\ClassifiedListingToolkits\Setup\Installer();
 		$installer->run();
+	}
+
+	private function add_version() {
+		$installer = new RadiusTheme\ClassifiedListingToolkits\Setup\Installer();
+		$installer->add_version();
 	}
 
 	/**
@@ -217,10 +214,10 @@ final class ClassifiedListingToolkits {
 	 */
 	public function includes() {
 		if ( $this->is_request( 'admin' ) ) {
-			$this->container['admin_menu'] = new RadisuTheme\ClassifiedListingToolkits\Admin\Menu();
+			$this->container['admin_menu'] = new RadiusTheme\ClassifiedListingToolkits\Admin\Menu();
 		}
-		$this->container['assets']   = new RadisuTheme\ClassifiedListingToolkits\Assets\LoadAssets();
-		$this->container['rest_api'] = new RadisuTheme\ClassifiedListingToolkits\Rest\Api();
+		$this->container['assets']   = new RadiusTheme\ClassifiedListingToolkits\Assets\LoadAssets();
+		$this->container['rest_api'] = new RadiusTheme\ClassifiedListingToolkits\Rest\Api();
 
 	}
 
@@ -400,7 +397,7 @@ function classified_listing_toolkits_wc_missing_notice() {
  */
 function classified_listing_toolkits_missing_notice_version() {
 	echo '<div class="error"><p><strong>' . sprintf(
-			esc_html__( 'Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.0', 'classified-listing-toolkits' )
+			esc_html__( 'Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1', 'classified-listing-toolkits' )
 		),
 	'</strong></p></div>';
 }

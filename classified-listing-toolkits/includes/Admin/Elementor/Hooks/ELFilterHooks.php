@@ -7,11 +7,11 @@
  * @since 1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Hooks;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Hooks;
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 use RtclPro\Helpers\Fns;
 
@@ -30,11 +30,10 @@ class ELFilterHooks {
 		add_filter( 'rtcl_el_listing_order_by', [ __CLASS__, 'el_listing_order_by' ], 10 );
 		add_filter( 'rtcl_el_listings_list_style', [ __CLASS__, 'el_listings_style' ], 10 );
 		add_filter( 'rtcl_el_listings_grid_style', [ __CLASS__, 'el_listings_style_grid' ], 10 );
-		add_filter( 'rtcl_el_listing_filter_data', [ __CLASS__, 'el_listing_filter_path' ], 10 );
+		add_filter( 'rtcl_divi_listing_grid_styles', [ __CLASS__, 'divi_listing_grid_styles' ], 10 );
+		add_filter( 'rtcl_divi_listing_list_styles', [ __CLASS__, 'divi_listing_grid_styles' ], 10 );
 		add_filter( 'rtcl_el_category_box_style', [ __CLASS__, 'el_listing_category_box_style' ], 10 );
-		add_filter( 'rtcl_el_category_box_data', [ __CLASS__, 'el_listing_category_box_path' ], 10 );
 		add_filter( 'rtcl_el_location_box_style', [ __CLASS__, 'el_listings_location_style' ], 10 );
-		add_filter( 'rtcl_el_location_box_data', [ __CLASS__, 'el_location_box_path' ], 10 );
 		add_filter( 'el_listing_widget_content_visibility_fields', [ __CLASS__, 'listing_widget_content_visibility_fields' ], 10, 2 );
 		add_filter( 'el_header_button_visibility_fields', [ __CLASS__, 'header_button_visibility_fields' ], 10, 2 );
 		add_filter( 'rtcl_el_search_widget_data', [ __CLASS__, 'el_search_widget_data' ], 10, 2 );
@@ -42,7 +41,6 @@ class ELFilterHooks {
 		add_filter( 'rtcl_el_listing_widget_style_field', [ __CLASS__, 'custom_field_settings' ], 10, 2 );
 		add_filter( 'rtcl_el_archive_listing_widget_style_field', [ __CLASS__, 'custom_field_settings' ], 10, 2 );
 		add_filter( 'rtcl_el_related_listing_widget_style_field', [ __CLASS__, 'custom_field_settings' ], 10, 2 );
-		// add_action( 'rtcl_listing_seller_information', [ __CLASS__, 'show_author' ], 1 );
 
 		/* End Elementor Addons Hooks */
 	}
@@ -84,6 +82,10 @@ class ELFilterHooks {
 	 * @return array
 	 */
 	public static function custom_field_settings( $fields, $obj ) {
+
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $fields;
+		}
 
 		$new_fields = [
 			[
@@ -137,6 +139,10 @@ class ELFilterHooks {
 	 * @return array
 	 */
 	public static function el_listing_order_by( $data ) {
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $data;
+		}
+
 		$new  = [
 			'rand' => __( 'Rand', 'classified-listing-toolkits' ),
 		];
@@ -159,8 +165,7 @@ class ELFilterHooks {
 	 */
 	public static function header_button_visibility_fields( $fields, $obj ) {
 		$new_fields = [];
-		// Fns::is_enable_quick_view()
-		// Fns::is_enable_compare()
+
 		if ( Helper::is_enable_compare() ) {
 			$new_fields[] = [
 				'type'        => Controls_Manager::SWITCHER,
@@ -214,6 +219,10 @@ class ELFilterHooks {
 	 * @return array.
 	 */
 	public static function listing_widget_content_visibility_fields( $fields, $obj ) {
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $fields;
+		}
+
 		$new_fields   = [];
 		$new_fields[] = [
 			'type'        => Controls_Manager::SWITCHER,
@@ -315,6 +324,10 @@ class ELFilterHooks {
 	 * @return array
 	 */
 	public static function el_listings_location_style( $data ) {
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $data;
+		}
+
 		$data['style-3'] = esc_html__( 'Style 3', 'classified-listing-toolkits' );
 
 		return $data;
@@ -344,6 +357,10 @@ class ELFilterHooks {
 	 * @return array
 	 */
 	public static function el_listing_category_box_style( $data ) {
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $data;
+		}
+
 		$data['style-2'] = esc_html__( 'Style 2', 'classified-listing-toolkits' );
 
 		return $data;
@@ -358,6 +375,7 @@ class ELFilterHooks {
 	 */
 	public static function el_listing_filter_path( $data ) {
 		$style = isset( $data['style'] ) ? $data['style'] : 'style-1';
+
 		if ( 'style-1' !== $style ) {
 			$data['default_template_path'] = Helper::get_plugin_template_path();
 		}
@@ -373,6 +391,10 @@ class ELFilterHooks {
 	 * @return array
 	 */
 	public static function el_listings_style( $data = [] ) {
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $data;
+		}
+
 		$data['style-2'] = [
 			'title' => esc_html__( 'Style 2', 'classified-listing-toolkits' ),
 			'url'   => CLASSIFIED_LISTING_TOOLKITS_ASSETS . "/images/el-layout/list-style-02.png",
@@ -401,6 +423,10 @@ class ELFilterHooks {
 	 * @return array
 	 */
 	public static function el_listings_style_grid( $data = [] ) {
+		if ( ! Helper::is_pro_with_old_dependency() ) {
+			return $data;
+		}
+
 		$data['style-2'] = [
 			'title' => esc_html__( 'Style 2', 'classified-listing-toolkits' ),
 			'url'   => CLASSIFIED_LISTING_TOOLKITS_ASSETS . "/images/el-layout/grid-style-02.png",
@@ -419,6 +445,15 @@ class ELFilterHooks {
 		];
 
 		return $data;
+	}
+
+	public static function divi_listing_grid_styles( $styles ) {
+
+		if ( Helper::is_pro_with_old_dependency() ) {
+			$styles['style-2'] = esc_html__( 'Style 2', 'classified-listing-toolkits' );
+		}
+
+		return $styles;
 	}
 
 }

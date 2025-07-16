@@ -8,10 +8,10 @@
  * @since 1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
 use Elementor\Controls_Manager;
 use Rtcl\Helpers\Functions;
 use \Elementor\Icons_Manager;

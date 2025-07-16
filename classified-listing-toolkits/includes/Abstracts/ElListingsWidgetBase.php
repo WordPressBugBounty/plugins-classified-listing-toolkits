@@ -6,9 +6,9 @@
  * @subpackage Classifid-listing/Abstracts
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Abstracts;
+namespace RadiusTheme\ClassifiedListingToolkits\Abstracts;
 
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits\{
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits\{
 	ListingMetaTrait,
 	ListingDescTrait,
 	ListingPriceTrait,

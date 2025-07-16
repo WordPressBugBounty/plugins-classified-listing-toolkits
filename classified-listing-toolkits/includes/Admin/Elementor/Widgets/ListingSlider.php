@@ -8,15 +8,15 @@
  * @since    2.0.10
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Controllers\Hooks\AppliedBothEndHooks;
 use Rtcl\Controllers\Hooks\TemplateHooks;
 use Rtcl\Helpers\Functions;
 use Rtcl\Helpers\Pagination;
 use Rtcl\Resources\Options;
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\ListingSliderSettings;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\ListingSliderSettings;
 use RtclPro\Controllers\Hooks\TemplateHooks as TemplateHooksPro;
 use WP_Query;
 

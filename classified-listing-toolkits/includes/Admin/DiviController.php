@@ -1,10 +1,10 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin;
 
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\DiviHooks;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\DiviHooks;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 
 Class DiviController {
 

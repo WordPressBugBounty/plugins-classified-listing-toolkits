@@ -1,5 +1,8 @@
 <?php
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+} // Exit if accessed directly
+
 /**
  * @author        RadiusTheme
  * @version       1.0.0
@@ -12,7 +15,7 @@ use Rtcl\Helpers\Functions;
 <div class="rtcl rtcl-categories-elementor rtcl-categories rtcl-categories-grid rt-el-listing-cat-box-1 <?php echo esc_attr( $settings['rtcl_cat_box_alignment']
 	? 'cat-box-' . $settings['rtcl_cat_box_alignment'] . '-alignment' : '' ); ?>  <?php echo esc_attr( $settings['rtcl_equal_height'] ? 'rtcl-equal-height'
 	: '' ); ?>">
-	<div class="rtcl-row rtcl-no-margin">
+    <div class="rtcl-row rtcl-no-margin">
 		<?php
 		$classes = 'rtcl-col-xl-' . $settings['rtcl_col_xl'];
 		$classes .= ' rtcl-col-lg-' . $settings['rtcl_col_lg'];
@@ -60,17 +63,17 @@ use Rtcl\Helpers\Functions;
 					if ( '' !== $image ) {
 						echo "<div class='image'>";
 						$icon_image_html .= '<a href="' . esc_url( get_term_link( $trm ) ) . '" class="rtcl-responsive-container" title="'
-											. esc_attr( $view_post ) . '">';
+						                    . esc_attr( $view_post ) . '">';
 						$icon_image_html .= '<img src="' . esc_url( $image ) . '" class="rtcl-responsive-img" />';
 						$icon_image_html .= '</a>';
-                        echo wp_kses_post($icon_image_html); //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+						echo wp_kses_post( $icon_image_html ); //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 						echo '</div>';
 					}
 				}
 
 				if ( 'icon' === $settings['rtcl_icon_type'] ) {
 					$icon_id = get_term_meta( $trm->term_id, '_rtcl_icon', true );
-					if ( $icon_id ) {
+					if ( $icon_id && ! is_array( $icon_id ) ) {
 						if ( ! str_contains( $icon_id, 'fa-' ) ) {
 							$icon_id = 'rtcl-icon-' . $icon_id;
 						}
@@ -113,5 +116,5 @@ use Rtcl\Helpers\Functions;
 			echo '</div>';
 		}
 		?>
-	</div>
+    </div>
 </div>

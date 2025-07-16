@@ -1,22 +1,23 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsGrid;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsGrid;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 use Rtcl\Helpers\Pagination;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
 
 class ListingsGrid extends \ET_Builder_Module {
 	public $slug = 'rtcl_listings_grid';
 	public $vb_support = 'on';
 	public $icon_path;
-    public $bind_wrapper = '';
+	public $bind_wrapper = '';
+
 	public function init() {
-		$this->name      = esc_html__( 'Listings Grid', 'classified-listing-toolkits' );
-		$this->icon_path = plugin_dir_path( __FILE__ ) . 'icon.svg';
-        $this->bind_wrapper = Helper::is_divi_plugin_active() ? '' : '.et-db .et-l ' ;
-		$this->folder_name = 'et_pb_classified_general_module';
+		$this->name         = esc_html__( 'Listings Grid', 'classified-listing-toolkits' );
+		$this->icon_path    = plugin_dir_path( __FILE__ ) . 'icon.svg';
+		$this->bind_wrapper = Helper::is_divi_plugin_active() ? '' : '.et-db .et-l ';
+		$this->folder_name  = 'et_pb_classified_general_module';
 
 		$this->settings_modal_toggles = [
 			'general'  => [
@@ -45,10 +46,9 @@ class ListingsGrid extends \ET_Builder_Module {
 			'rtcl_grid_style'          => [
 				'label'       => esc_html__( 'Style', 'classified-listing-toolkits' ),
 				'type'        => 'select',
-				'options'     => [
-					'style-1' => __( 'Style 1', 'classified-listing-toolkits' ),
-					'style-2' => __( 'Style 2', 'classified-listing-toolkits' ),
-				],
+				'options'     => apply_filters( 'rtcl_divi_listing_grid_styles', [
+					'style-1' => __( 'Style 1', 'classified-listing-toolkits' )
+				] ),
 				'default'     => 'style-1',
 				'tab_slug'    => 'general',
 				'toggle_slug' => 'layout',
@@ -418,7 +418,7 @@ class ListingsGrid extends \ET_Builder_Module {
 		$advanced_fields['fonts'] = [
 			'title' => [
 				'css'              => array(
-					'main' => $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper .rtcl-listing-title a',
+					'main' => $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper .rtcl-listing-title a',
 				),
 				'important'        => 'all',
 				'hide_text_color'  => true,
@@ -443,7 +443,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			],
 			'meta'  => [
 				'css'              => array(
-					'main' => $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper .rtcl-listing-meta-data li',
+					'main' => $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper .rtcl-listing-meta-data li',
 				),
 				'important'        => 'all',
 				'hide_text_color'  => true,
@@ -468,7 +468,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			],
 			'price' => [
 				'css'              => array(
-					'main' => $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper .rtcl-listings .listing-price .rtcl-price .rtcl-price-amount',
+					'main' => $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper .rtcl-listings .listing-price .rtcl-price .rtcl-price-amount',
 				),
 				'important'        => 'all',
 				'hide_text_color'  => true,
@@ -511,12 +511,12 @@ class ListingsGrid extends \ET_Builder_Module {
 		$category_includes = ! empty( $settings['rtcl_listing_categories'] ) ? $settings['rtcl_listing_categories'] : '';
 		$category_includes = explode( '|', $category_includes );
 
-		$categories_list = \RadisuTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $category_includes );
+		$categories_list = \RadiusTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $category_includes );
 
 		$location_includes = ! empty( $settings['rtcl_listing_location'] ) ? $settings['rtcl_listing_location'] : '';
 		$location_includes = explode( '|', $location_includes );
 
-		$location_list = \RadisuTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $location_includes, rtcl()->location );
+		$location_list = \RadiusTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $location_includes, rtcl()->location );
 
 		$orderby           = isset( $settings['rtcl_orderby'] ) && ! empty( $settings['rtcl_orderby'] ) ? $settings['rtcl_orderby'] : 'date';
 		$order             = isset( $settings['rtcl_sortby'] ) && ! empty( $settings['rtcl_sortby'] ) ? $settings['rtcl_sortby'] : 'desc';
@@ -645,7 +645,7 @@ class ListingsGrid extends \ET_Builder_Module {
 	}
 
 	protected function render_css( $render_slug ) {
-		$wrapper              = $this->bind_wrapper.'%%order_class%% .rtcl-listings-wrapper';
+		$wrapper              = $this->bind_wrapper . '%%order_class%% .rtcl-listings-wrapper';
 		$title_color          = $this->props['rtcl_title_color'];
 		$title_hover_color    = $this->get_hover_value( 'rtcl_title_color' );
 		$title_font_weight    = explode( '|', $this->props['title_font'] )[1];
@@ -660,7 +660,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .rtcl-listing-title a',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .rtcl-listing-title a',
 					'declaration' => sprintf( 'color: %1$s;', $title_color ),
 				]
 			);
@@ -669,7 +669,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .rtcl-listing-title a:hover',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .rtcl-listing-title a:hover',
 					'declaration' => sprintf( 'color: %1$s;', $title_hover_color ),
 				]
 			);
@@ -678,7 +678,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				array(
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .rtcl-listing-title',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .rtcl-listing-title',
 					'declaration' => sprintf( 'font-weight: %1$s;', $title_font_weight ),
 				)
 			);
@@ -688,7 +688,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .rtcl-listing-meta-data',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .rtcl-listing-meta-data',
 					'declaration' => sprintf( 'color: %1$s;', $meta_color ),
 				]
 			);
@@ -697,7 +697,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .rtcl-listing-meta-data i',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .rtcl-listing-meta-data i',
 					'declaration' => sprintf( 'color: %1$s;', $meta_icon_color ),
 				]
 			);
@@ -706,7 +706,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .listing-cat',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .listing-cat',
 					'declaration' => sprintf( 'color: %1$s;', $category_color ),
 				]
 			);
@@ -715,7 +715,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .listing-cat a:hover',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .listing-cat a:hover',
 					'declaration' => sprintf( 'color: %1$s;', $category_hover_color ),
 				]
 			);
@@ -725,7 +725,7 @@ class ListingsGrid extends \ET_Builder_Module {
 			\ET_Builder_Element::set_style(
 				$render_slug,
 				[
-					'selector'    => $wrapper.'.rtcl-listings-wrapper .listing-price .rtcl-price',
+					'selector'    => $wrapper . '.rtcl-listings-wrapper .listing-price .rtcl-price',
 					'declaration' => sprintf( 'color: %1$s;', $price_color ),
 				]
 			);

@@ -5,10 +5,10 @@
  * The main class that initiates and runs the plugin.
  *
  * @package  Classifid-listing
- * @since 1.0.0
+ * @since    1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
@@ -16,14 +16,16 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Image_Size;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
 use Rtcl\Helpers\Functions;
+
 /**
  * ListingCategoryBox Class
  */
 class ListingCategoryBox extends ElementorWidgetBase {
 	public $rtcl_translate = array();
+
 	/**
 	 * Undocumented function
 	 *
@@ -48,6 +50,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 		);
 		parent::__construct( $data, $args );
 	}
+
 	/**
 	 * Undocumented function
 	 *
@@ -56,26 +59,33 @@ class ListingCategoryBox extends ElementorWidgetBase {
 	public function get_script_depends() {
 		return array( 'rtcl-public' );
 	}
+
 	/**
 	 * Set Query controlls
 	 *
 	 * @return array
 	 */
-	public function widget_general_fields() : array {
+	public function widget_general_fields(): array {
 
 		$category_dropdown = $this->taxonomy_list( 'parent' );
-		$fields            = array(
+
+		$pro_link          = 'https://www.radiustheme.com/downloads/classified-listing-pro-wordpress/';
+		$style_description = sprintf( __( '<a href="%s" target="_blank" style="color: #d004d4">Upgrade to pro</a> to unlock more styles.',
+			"classified-listing-toolkits" ), $pro_link );
+
+		$fields = array(
 			array(
 				'mode'  => 'section_start',
 				'id'    => 'rtcl_sec_general',
 				'label' => __( 'General', 'classified-listing-toolkits' ),
 			),
 			array(
-				'type'    => Controls_Manager::SELECT,
-				'id'      => 'rtcl_cats_style',
-				'label'   => __( 'Style', 'classified-listing-toolkits' ),
-				'options' => $this->cat_box_style(),
-				'default' => 'style-1',
+				'type'        => Controls_Manager::SELECT,
+				'id'          => 'rtcl_cats_style',
+				'label'       => __( 'Style', 'classified-listing-toolkits' ),
+				'options'     => $this->cat_box_style(),
+				'default'     => 'style-1',
+				'description' => ! Helper::is_pro_with_old_dependency() ? wp_kses_post( $style_description ) : ''
 			),
 			array(
 				'type'        => Controls_Manager::SELECT2,
@@ -293,6 +303,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return apply_filters( 'rtcl_el_listing_category_widget_general_field', $fields, $this );
 	}
 
@@ -311,12 +322,13 @@ class ListingCategoryBox extends ElementorWidgetBase {
 
 		return $style;
 	}
+
 	/**
 	 * Set style controlls
 	 *
 	 * @return array
 	 */
-	public function widget_style_fields() : array {
+	public function widget_style_fields(): array {
 		$fields = array(
 			// Style Tab.
 			array(
@@ -441,9 +453,9 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			),
 
 			array(
-				'type'     => Group_Control_Border::get_type(),
-				'mode'     => 'group',
-				'id'       => 'rtcl_border',
+				'type'           => Group_Control_Border::get_type(),
+				'mode'           => 'group',
+				'id'             => 'rtcl_border',
 				'fields_options' => array(
 					'border' => array(
 						'default' => 'solid',
@@ -461,7 +473,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 						'default' => 'rgba(0, 0, 0, 0.05)',
 					),
 				),
-				'selector' => '{{WRAPPER}}  .cat-item-wrap .cat-details',
+				'selector'       => '{{WRAPPER}}  .cat-item-wrap .cat-details',
 			),
 			array(
 				'label'    => __( 'Box Shadow', 'classified-listing-toolkits' ),
@@ -559,34 +571,34 @@ class ListingCategoryBox extends ElementorWidgetBase {
 				),
 			),
 			array(
-				'label'     => __( 'Icon Area', 'classified-listing-toolkits' ),
-				'type'      => Controls_Manager::SLIDER,
-				'id'        => 'rtcl_icon_image_area_size',
-				'range'     => array(
+				'label' => __( 'Icon Area', 'classified-listing-toolkits' ),
+				'type'  => Controls_Manager::SLIDER,
+				'id'    => 'rtcl_icon_image_area_size',
+				'range' => array(
 					'px' => array(
 						'min' => 6,
 						'max' => 300,
 					),
 				),
-				
+
 				'selectors' => array(
 					'{{WRAPPER}} .cat-item-wrap .cat-details .icon a' => 'width: {{SIZE}}{{UNIT}}; height:{{SIZE}}{{UNIT}};',
 				),
 			),
 			array(
-				'label'     => __( 'Icon Size', 'classified-listing-toolkits' ),
-				'type'      => Controls_Manager::SLIDER,
-				'id'        => 'rtcl_icon_font_size',
-				'range'     => array(
+				'label' => __( 'Icon Size', 'classified-listing-toolkits' ),
+				'type'  => Controls_Manager::SLIDER,
+				'id'    => 'rtcl_icon_font_size',
+				'range' => array(
 					'px' => array(
 						'min' => 6,
 						'max' => 300,
 					),
 				),
-				
+
 				'selectors' => array(
 					'{{WRAPPER}} .cat-item-wrap .cat-details .icon a .rtcl-icon' => 'font-size: {{SIZE}}{{UNIT}};',
-					'{{WRAPPER}} .cat-item-wrap .cat-details img' => 'width: {{SIZE}}{{UNIT}};height: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .cat-item-wrap .cat-details img'                => 'width: {{SIZE}}{{UNIT}};height: {{SIZE}}{{UNIT}};',
 				),
 			),
 			array(
@@ -637,8 +649,8 @@ class ListingCategoryBox extends ElementorWidgetBase {
 				'label'     => __( 'Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
 					'{{WRAPPER}} .cat-item-wrap  .cat-details .icon a .rtcl-icon' => 'color: {{VALUE}}',
-					'{{WRAPPER}} .cat-item-wrap  .rtin-sub-cats li i' => 'color: {{VALUE}}',
-					'{{WRAPPER}} .cat-item-wrap  .rtin-sub-cats li a:hover' => 'color: {{VALUE}}',
+					'{{WRAPPER}} .cat-item-wrap  .rtin-sub-cats li i'             => 'color: {{VALUE}}',
+					'{{WRAPPER}} .cat-item-wrap  .rtin-sub-cats li a:hover'       => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -896,19 +908,22 @@ class ListingCategoryBox extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return apply_filters( 'rtcl_el_listing_category_widget_style_field', $fields, $this );
 	}
+
 	/**
 	 * Marge all controlls.
 	 *
 	 * @return array
 	 */
-	public function widget_fields() : array {
+	public function widget_fields(): array {
 		$fields = array_merge(
 			$this->widget_general_fields(),
 			$this->pro_notice_fields(),
 			$this->widget_style_fields()
 		);
+
 		return $fields;
 	}
 
@@ -916,10 +931,11 @@ class ListingCategoryBox extends ElementorWidgetBase {
 	 * Widget result.
 	 *
 	 * @param [array] $data array of query.
+	 *
 	 * @return array
 	 */
 	public function widget_results( $data ) {
-		
+
 		$args = array(
 			'taxonomy'     => rtcl()->category,
 			'parent'       => 0,
@@ -938,9 +954,9 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			$number = $data['rtcl_category_limit'];
 			$terms  = array_slice( $terms, 0, $number );
 		}
+
 		return $terms;
 	}
-
 
 
 	/**
@@ -950,9 +966,10 @@ class ListingCategoryBox extends ElementorWidgetBase {
 	 */
 	public function edit_mode_script() {
 		if ( \Elementor\Plugin::$instance->editor->is_edit_mode() ) {
-            wp_enqueue_script( 'rtcl-equal-height', CLASSIFIED_LISTING_TOOLKITS_ASSETS. '/js/rtcl-equal-height.js', array( 'jquery' ), '1.0.0', true );
+			wp_enqueue_script( 'rtcl-equal-height', CLASSIFIED_LISTING_TOOLKITS_ASSETS . '/js/rtcl-equal-height.js', array( 'jquery' ), '1.0.0', true );
 		}
 	}
+
 	/**
 	 * Display Output.
 	 *
@@ -960,7 +977,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 	 */
 	protected function render() {
 		wp_enqueue_style( 'rtcl-public' );
-		
+
 		$settings = $this->get_settings();
 		$terms    = $this->widget_results( $settings );
 

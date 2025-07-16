@@ -7,7 +7,7 @@
  * @since    2.0.10
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits;
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Image_Size;

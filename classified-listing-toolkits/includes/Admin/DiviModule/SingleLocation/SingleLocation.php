@@ -1,11 +1,11 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\SingleLocation;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\SingleLocation;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
 
 class SingleLocation extends DiviModule {
 

@@ -5,7 +5,7 @@
  * @package RadiusTheme\SB
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Abstracts;
+namespace RadiusTheme\ClassifiedListingToolkits\Abstracts;
 
 
 use Elementor\Repeater;
@@ -54,7 +54,7 @@ abstract class ElementorWidgetBaseV2 extends ElementorWidgetBase {
 			'rtcl_get_pro_version' => [
 				'type' => 'html',
 				'raw'  => '<div class="elementor-nerd-box">
-						<div class="elementor-nerd-box-title" style="margin-top: 0; margin-bottom: 20px;">Unlock more possibilities</div>
+						<div class="elementor-nerd-box-title" style="margin-top: 0; margin-bottom: 20px;">Unlock more layouts</div>
 						<div class="elementor-nerd-box-message"><span class="pro-feature" style="font-size: 13px;"> Get the  <a href="https://www.radiustheme.com/downloads/classified-listing-pro-wordpress/" target="_blank" style="color: #f54">Pro version</a> for more stunning layouts and customization options.</span></div>
 						<a class="elementor-nerd-box-link elementor-button elementor-button-default elementor-button-go-pro"
 							href="https://www.radiustheme.com/downloads/classified-listing-pro-wordpress/"

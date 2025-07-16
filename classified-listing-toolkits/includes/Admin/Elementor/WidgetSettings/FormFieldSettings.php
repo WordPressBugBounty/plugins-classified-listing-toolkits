@@ -5,7 +5,7 @@
  * @package RadiusTheme\SB
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
 
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {

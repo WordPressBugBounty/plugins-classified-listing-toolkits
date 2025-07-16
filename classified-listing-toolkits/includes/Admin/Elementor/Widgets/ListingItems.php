@@ -8,9 +8,9 @@
  * @since 1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use WP_Query;
 use Rtcl\Helpers\Functions;
 use Rtcl\Helpers\Pagination;
@@ -19,7 +19,7 @@ use Rtcl\Controllers\Hooks\AppliedBothEndHooks;
 use Rtcl\Controllers\Hooks\TemplateHooks;
 use RtclPro\Controllers\Hooks\TemplateHooks as TemplateHooksPro;
 
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\ListingItemsSettings;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\ListingItemsSettings;
 
 /**
  * ListingCategoryBox Class

@@ -8,9 +8,9 @@
  * @since 1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
 
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
 use Elementor\Group_Control_Border;
 use Elementor\Controls_Manager;
 

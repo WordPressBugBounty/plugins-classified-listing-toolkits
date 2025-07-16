@@ -10,12 +10,12 @@
  * @version 1.2
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
 use Rtcl\Helpers\Functions;
 use \Elementor\Icons_Manager;
 use Elementor\Group_Control_Border;

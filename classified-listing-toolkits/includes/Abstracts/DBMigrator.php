@@ -1,6 +1,6 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Abstracts;
+namespace RadiusTheme\ClassifiedListingToolkits\Abstracts;
 
 /**
  * Database migration class.

@@ -46,7 +46,7 @@ $fieldNameLabel = ucwords( str_replace( [ '-', '_' ], ' ', $cfField ) ); // Repl
 
 if ( empty( $customField ) ) {
 //	echo '<p class="notice" style="background-color: red; color: #fff; padding: 5px; margin: 0; height: 35px;">' . esc_html__( "Please select form & field.",
-//			'classified-listing-pro' ) . '</p>';
+//			'classified-listing-toolkits' ) . '</p>';
 
 	return;
 }
@@ -54,7 +54,7 @@ if ( empty( $customField ) ) {
 if ( ! empty( $placeholder ) ) {
 	$typeText = $placeholder;
 } else {
-	$typeText = esc_html__( 'Select' . ' ' . $fieldNameLabel, 'classified-listing-pro' );
+	$typeText = esc_html__( 'Select' . ' ' . $fieldNameLabel, 'classified-listing-toolkits' );
 }
 
 if ( isset( $customField['element'] ) && in_array( $customField['element'], [ 'select', 'radio', 'checkbox' ] ) ) {

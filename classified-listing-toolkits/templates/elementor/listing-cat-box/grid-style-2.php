@@ -1,7 +1,10 @@
 <?php
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+} // Exit if accessed directly
+
 /**
- * @author    RadiusTheme
+ * @author        RadiusTheme
  *
  * @version       1.0.0
  */
@@ -10,7 +13,8 @@ use Rtcl\Helpers\Functions;
 
 ?>
 
-<div class="rtcl rtcl-categories-elementor rtcl-categories rtcl-categories-grid rt-el-listing-cat-box-2 <?php echo esc_attr( $settings['rtcl_equal_height'] ? 'rtcl-equal-height' : '' ); ?>">
+<div class="rtcl rtcl-categories-elementor rtcl-categories rtcl-categories-grid rt-el-listing-cat-box-2 <?php echo esc_attr( $settings['rtcl_equal_height']
+	? 'rtcl-equal-height' : '' ); ?>">
     <div class="rtcl-row rtcl-no-margin">
 		<?php
 		$classes = 'rtcl-col-xl-' . $settings['rtcl_col_xl'];
@@ -52,24 +56,26 @@ use Rtcl\Helpers\Functions;
 					// $size_name = rtcl_icon_image_size;
 					$image_size = isset( $settings['rtcl_icon_image_size_size'] ) ? $settings['rtcl_icon_image_size_size'] : 'medium';
 					if ( 'custom' === $image_size ) {
-						$image_size = isset( $settings['rtcl_icon_image_size_custom_dimension'] ) ? $settings['rtcl_icon_image_size_custom_dimension'] : 'medium';
+						$image_size = isset( $settings['rtcl_icon_image_size_custom_dimension'] ) ? $settings['rtcl_icon_image_size_custom_dimension']
+							: 'medium';
 					}
 					$image_id         = get_term_meta( $trm->term_id, '_rtcl_image', true );
 					$image_attributes = wp_get_attachment_image_src( (int) $image_id, $image_size );
 					$image            = isset( $image_attributes[0] ) && ! empty( $image_attributes[0] ) ? $image_attributes[0] : '';
 					if ( '' !== $image ) {
 						echo "<div class='image icon'>";
-						$icon_image_html .= '<a href="' . esc_url( get_term_link( $trm ) ) . '" class="rtcl-responsive-container" title="' . esc_attr( $view_post ) . '">';
+						$icon_image_html .= '<a href="' . esc_url( get_term_link( $trm ) ) . '" class="rtcl-responsive-container" title="'
+						                    . esc_attr( $view_post ) . '">';
 						$icon_image_html .= '<img src="' . esc_url( $image ) . '" class="rtcl-responsive-img" />';
 						$icon_image_html .= '</a>';
-                        echo wp_kses_post($icon_image_html);
+						echo wp_kses_post( $icon_image_html );
 						echo '</div>';
 					}
 				}
 
 				if ( 'icon' === $settings['rtcl_icon_type'] ) {
 					$icon_id = get_term_meta( $trm->term_id, '_rtcl_icon', true );
-					if ( $icon_id ) {
+					if ( $icon_id && ! is_array( $icon_id ) ) {
 						if ( ! str_contains( $icon_id, 'fa-' ) ) {
 							$icon_id = 'rtcl-icon rtcl-icon-' . $icon_id;
 						}

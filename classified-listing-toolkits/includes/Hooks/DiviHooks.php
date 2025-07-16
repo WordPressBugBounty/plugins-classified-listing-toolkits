@@ -1,17 +1,16 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Hooks;
+namespace RadiusTheme\ClassifiedListingToolkits\Hooks;
 
 
-
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\AllLocation\AllLocation;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingCategories\ListingCategories;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsGrid\ListingsGrid;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsList\ListingsList;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsSlider\ListingsSlider;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingStore\ListingStore;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\SearchForm\SearchForm;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\SingleLocation\SingleLocation;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\AllLocation\AllLocation;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingCategories\ListingCategories;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsGrid\ListingsGrid;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsList\ListingsList;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsSlider\ListingsSlider;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingStore\ListingStore;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\SearchForm\SearchForm;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\SingleLocation\SingleLocation;
 
 class DiviHooks {
 
@@ -29,13 +28,16 @@ class DiviHooks {
 
 		new ListingsGrid();
 		new ListingsList();
-		new ListingsSlider();
 		new ListingCategories();
 		new SingleLocation();
 		new AllLocation();
 		new SearchForm();
 
-		if( defined( 'RTCL_PRO_VERSION' ) && defined('RTCL_STORE_VERSION')) {
+		if ( Helper::is_pro_with_old_dependency() ) {
+			new ListingsSlider();
+		}
+
+		if ( defined( 'RTCL_PRO_VERSION' ) && defined( 'RTCL_STORE_VERSION' ) ) {
 			new ListingStore();
 		}
 

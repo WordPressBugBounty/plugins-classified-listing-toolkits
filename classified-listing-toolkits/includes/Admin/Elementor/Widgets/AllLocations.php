@@ -8,10 +8,10 @@
  * @since 1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\AllLocationsSettings;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings\AllLocationsSettings;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 
 /**

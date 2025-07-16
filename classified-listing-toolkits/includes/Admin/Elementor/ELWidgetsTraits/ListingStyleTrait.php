@@ -8,7 +8,7 @@
  * @since    2.0.10
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits;
 
 trait ListingStyleTrait {
 

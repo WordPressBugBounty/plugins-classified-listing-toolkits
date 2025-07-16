@@ -1,6 +1,6 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin;
 
 class Menu {
 

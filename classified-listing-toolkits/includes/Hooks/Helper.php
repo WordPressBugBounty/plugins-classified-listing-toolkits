@@ -1,8 +1,9 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Hooks;
+namespace RadiusTheme\ClassifiedListingToolkits\Hooks;
 
 
+use RadiusTheme\ClassifiedListingToolkits\Common\Keys;
 use Rtcl\Helpers\Functions;
 
 class Helper {
@@ -136,5 +137,9 @@ class Helper {
 
 	public static function is_divi_builder_preview(): bool {
 		return ( ( isset( $_GET['et_fb'] ) && $_GET['et_fb'] == '1' ) || ( is_admin() && isset( $_GET['page'] ) && $_GET['page'] === 'et_theme_builder' ) );
+	}
+
+	public static function is_pro_with_old_dependency() {
+		return rtcl()->has_pro() || version_compare( get_option( 'rtcl_installed_from' ), '5.0.1', '<' );
 	}
 }

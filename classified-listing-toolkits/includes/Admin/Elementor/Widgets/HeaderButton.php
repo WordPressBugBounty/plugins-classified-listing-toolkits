@@ -5,13 +5,13 @@
  * The main class that initiates and runs the plugin.
  *
  * @package  Classifid-listing
- * @since 2.1.0
+ * @since    2.1.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
 use Elementor\Controls_Manager;
 use Rtcl\Helpers\Functions;
 use Elementor\Group_Control_Border;
@@ -52,13 +52,15 @@ class HeaderButton extends ElementorWidgetBase {
 			$this->chat_option_button_fields(),
 			$this->add_listing_button_fields(),
 		);
+
 		return $fields;
 	}
-		/**
-		 * Set field controlls
-		 *
-		 * @return array
-		 */
+
+	/**
+	 * Set field controlls
+	 *
+	 * @return array
+	 */
 	public function content_visibility_fields() {
 		$fields = array(
 			array(
@@ -127,6 +129,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return apply_filters( 'el_header_button_visibility_fields', $fields, $this );
 	}
 
@@ -208,8 +211,10 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
+
 	/**
 	 * Button fieldcontrolls
 	 *
@@ -238,6 +243,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
 
@@ -269,6 +275,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
 
@@ -300,6 +307,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
 
@@ -331,6 +339,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
 
@@ -392,11 +401,12 @@ class HeaderButton extends ElementorWidgetBase {
 					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li.rtcl-el-add-listing-btn a' => 'height: {{SIZE}}{{UNIT}};',
 				),
 			),
-			
+
 			array(
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
 
@@ -410,8 +420,10 @@ class HeaderButton extends ElementorWidgetBase {
 			$this->widget_icon_style_fields(),
 			$this->widget_button_style_fields()
 		);
+
 		return $fields;
 	}
+
 	/**
 	 * Set Style controlls
 	 *
@@ -441,7 +453,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_bg_color',
 				'label'     => __( 'Icon Background', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a'   => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a' => 'background-color: {{VALUE}}',
 				),
 			),
 			array(
@@ -449,7 +461,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_color',
 				'label'     => __( 'Icon Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -480,7 +492,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_count_bg_color',
 				'label'     => __( 'Icon Count Background Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn .count'   => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn .count' => 'background-color: {{VALUE}}',
 				),
 			),
 			array(
@@ -488,7 +500,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_count_color',
 				'label'     => __( 'Icon Count Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn .count'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn .count' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -505,7 +517,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_bg_color_hover',
 				'label'     => __( 'Icon Background', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a:hover'   => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a:hover' => 'background-color: {{VALUE}}',
 				),
 			),
 			array(
@@ -513,7 +525,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_color_hover',
 				'label'     => __( 'Icon Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a:hover'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn li:not(.rtcl-el-add-listing-btn) a:hover' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -527,7 +539,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_count_bg_color_hover',
 				'label'     => __( 'Icon Count Background Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn a:hover .count'   => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn a:hover .count' => 'background-color: {{VALUE}}',
 				),
 			),
 			array(
@@ -535,7 +547,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_count_color_hover',
 				'label'     => __( 'Icon Count Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn a:hover .count'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn a:hover .count' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -549,8 +561,10 @@ class HeaderButton extends ElementorWidgetBase {
 			),
 
 		);
+
 		return $fields;
 	}
+
 	/**
 	 * Set Style controlls
 	 *
@@ -580,7 +594,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_add_listing_bg_color',
 				'label'     => __( 'Background Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn .rtcl-el-add-listing-btn a.rtcl-el-item-btn'   => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-header-btn .rtcl-el-add-listing-btn a.rtcl-el-item-btn' => 'background-color: {{VALUE}}',
 				),
 			),
 			array(
@@ -588,7 +602,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_listing_text_color',
 				'label'     => __( 'Text Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-item-btn'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-item-btn' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -596,7 +610,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_listing_icon_color',
 				'label'     => __( 'Icon Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-add-listing-btn .rtcl-el-item-btn span'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-add-listing-btn .rtcl-el-item-btn span' => 'color: {{VALUE}}',
 				),
 			),
 
@@ -615,7 +629,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_add_listing_bg_color_hover',
 				'label'     => __( 'Background Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-add-listing-btn a.rtcl-el-item-btn:hover'   => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-add-listing-btn a.rtcl-el-item-btn:hover' => 'background-color: {{VALUE}}',
 				),
 			),
 			array(
@@ -623,7 +637,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_listing_text_color_hover',
 				'label'     => __( 'Text Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-item-btn:hover'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-item-btn:hover' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -631,7 +645,7 @@ class HeaderButton extends ElementorWidgetBase {
 				'id'        => 'icon_listing_icon_color_hover',
 				'label'     => __( 'Icon Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-add-listing-btn:hover span'   => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-el-listing-header-action .rtcl-el-add-listing-btn:hover span' => 'color: {{VALUE}}',
 				),
 			),
 			array(
@@ -644,8 +658,10 @@ class HeaderButton extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
+
 		return $fields;
 	}
+
 	/**
 	 * Undocumented function
 	 *
@@ -654,26 +670,27 @@ class HeaderButton extends ElementorWidgetBase {
 	public function get_style_depends() {
 		return array( 'elementor-icons-fa-regular', 'elementor-icons-shared-0', 'elementor-icons-fa-solid' );
 	}
+
 	/**
 	 * Render oEmbed widget output on the frontend.
 	 *
 	 * Written in PHP and used to generate the final HTML.
 	 *
-	 * @since 1.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 */
 	protected function render() { ?>
 		<?php
-			$settings         = $this->get_settings();
-			$data             = array(
-				'template'              => 'elementor/header-button/header-button',
-				'default_template_path' => Helper::get_plugin_template_path(),
-				'settings'              => $settings,
-			);
-			$data['settings'] = $settings;
-			$data             = apply_filters( 'rtcl_el_header_button_data', $data );
-			Functions::get_template( $data['template'], $data, '', $data['default_template_path'] );
-			?>
+		$settings         = $this->get_settings();
+		$data             = array(
+			'template'              => 'elementor/header-button/header-button',
+			'default_template_path' => Helper::get_plugin_template_path(),
+			'settings'              => $settings,
+		);
+		$data['settings'] = $settings;
+		$data             = apply_filters( 'rtcl_el_header_button_data', $data );
+		Functions::get_template( $data['template'], $data, '', $data['default_template_path'] );
+		?>
 		<?php
 	}
 

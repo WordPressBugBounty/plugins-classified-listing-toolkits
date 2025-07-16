@@ -5,7 +5,7 @@
  * @package RadiusTheme\SB
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
 
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {
@@ -33,7 +33,7 @@ class ButtonSettings {
                 'mode'     => 'group',
                 'type'     => 'typography',
                 'label'    => esc_html__( 'Typography', 'classified-listing-toolkits' ),
-                'selector' => '{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )',
+                'selector' => '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )',
             ],
             'button_height'             => [
                 'label'     => esc_html__( 'Height', 'classified-listing-toolkits' ),
@@ -45,7 +45,7 @@ class ButtonSettings {
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'height: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'height: {{SIZE}}{{UNIT}};',
                 ],
             ],
 			'button_width'             => [
@@ -63,7 +63,7 @@ class ButtonSettings {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'width: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'width: {{SIZE}}{{UNIT}};',
 				],
 			],
             'button_tabs_start'         => [
@@ -79,7 +79,7 @@ class ButtonSettings {
 
                 'separator' => 'default',
                 'selectors' => [
-                    '{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'color: {{VALUE}} !important;',
                 ],
             ],
             'button_bg_color_normal'    => [
@@ -87,14 +87,14 @@ class ButtonSettings {
                 'type'      => 'color',
 
                 'selectors' => [
-                    '{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'background-color: {{VALUE}};',
+                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'background-color: {{VALUE}} !important;',
                 ],
             ],
 
             'button_border'             => [
                 'mode'       => 'group',
                 'type'       => 'border',
-                'selector'   => '{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )',
+                'selector'   => '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )',
                 'size_units' => [ 'px' ],
             ],
             'button_normal_end'         => [
@@ -110,7 +110,7 @@ class ButtonSettings {
 
                 'separator' => 'default',
                 'selectors' => [
-                    '{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] ):hover' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover' => 'color: {{VALUE}} !important;',
                 ],
             ],
             'button_bg_color_hover'     => [
@@ -118,7 +118,7 @@ class ButtonSettings {
                 'type'      => 'color',
 
                 'selectors' => [
-					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] ):hover'  => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover'  => 'background-color: {{VALUE}} !important;',
                 ],
             ],
             'button_border_hover_color' => [
@@ -126,7 +126,7 @@ class ButtonSettings {
                 'type'      => 'color',
 
                 'selectors' => [
-					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] ):hover'  => 'border-color: {{VALUE}};',
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover'  => 'border-color: {{VALUE}} !important;',
                 ],
             ],
             'button_hover_end'          => [

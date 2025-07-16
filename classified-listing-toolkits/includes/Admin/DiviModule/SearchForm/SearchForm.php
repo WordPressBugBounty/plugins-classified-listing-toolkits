@@ -1,10 +1,10 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\SearchForm;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\SearchForm;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
 
 class SearchForm extends DiviModule {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\REST;
+namespace RadiusTheme\ClassifiedListingToolkits\REST;
 
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\RESTController;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\RESTController;
 use WP_REST_Request;
 use WP_REST_Response;
 use WP_REST_Server;

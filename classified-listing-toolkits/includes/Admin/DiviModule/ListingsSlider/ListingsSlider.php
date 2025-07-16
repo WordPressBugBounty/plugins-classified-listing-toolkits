@@ -1,8 +1,8 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsSlider;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingsSlider;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 
 class ListingsSlider extends Settings {
@@ -24,12 +24,12 @@ class ListingsSlider extends Settings {
 		$category_includes = ! empty( $settings['rtcl_listing_categories'] ) ? $settings['rtcl_listing_categories'] : '';
 		$category_includes = explode( '|', $category_includes );
 
-		$categories_list = \RadisuTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $category_includes );
+		$categories_list = \RadiusTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $category_includes );
 
 		$location_includes = ! empty( $settings['rtcl_listing_location'] ) ? $settings['rtcl_listing_location'] : '';
 		$location_includes = explode( '|', $location_includes );
 
-		$location_list = \RadisuTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $location_includes, rtcl()->location );
+		$location_list = \RadiusTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $location_includes, rtcl()->location );
 
 		$orderby           = isset( $settings['rtcl_orderby'] ) && ! empty( $settings['rtcl_orderby'] ) ? $settings['rtcl_orderby'] : 'date';
 		$order             = isset( $settings['rtcl_sortby'] ) && ! empty( $settings['rtcl_sortby'] ) ? $settings['rtcl_sortby'] : 'desc';

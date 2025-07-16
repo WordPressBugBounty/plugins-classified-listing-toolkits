@@ -1,6 +1,6 @@
 <?php
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 use Rtcl\Helpers\Pagination;
 

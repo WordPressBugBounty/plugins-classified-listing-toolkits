@@ -1,8 +1,8 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingCategories;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\ListingCategories;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 
 class ListingCategories extends Settings {

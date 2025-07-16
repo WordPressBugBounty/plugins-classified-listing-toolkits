@@ -8,9 +8,9 @@
  * @since    1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin;
 
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets\ListingStore;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets\ListingStore;
 
 /**
  * Main Elementor ELStoreController Class

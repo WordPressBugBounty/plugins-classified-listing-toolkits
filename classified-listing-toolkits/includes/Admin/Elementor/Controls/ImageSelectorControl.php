@@ -8,7 +8,7 @@
  * @since    1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Controls;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Controls;
 
 use Elementor\Base_Data_Control;
 /**

@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'RadisuTheme\\ClassifiedListingToolkits\\' => array($baseDir . '/includes'),
+    'RadiusTheme\\ClassifiedListingToolkits\\' => array($baseDir . '/includes'),
 );

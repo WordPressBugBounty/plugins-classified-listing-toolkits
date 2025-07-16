@@ -8,11 +8,11 @@
  * @since    1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
 use Elementor\Controls_Manager;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBase;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Helpers\Functions;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Typography;
@@ -296,7 +296,7 @@ class ListingSearch extends ElementorWidgetBase {
 					),
 				),
 				'selectors'  => array(
-					'{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-form-control, {{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]' => 'height: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-form-control, {{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]' => 'height: {{SIZE}}{{UNIT}};',
 				),
 			),
 
@@ -344,7 +344,7 @@ class ListingSearch extends ElementorWidgetBase {
 				'id'         => 'search_button_margin',
 				'size_units' => array( 'px', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			),
 			array(
@@ -353,7 +353,7 @@ class ListingSearch extends ElementorWidgetBase {
 				'id'         => 'search_button_pading',
 				'size_units' => array( 'px', 'em' ),
 				'selectors'  => array(
-					'{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			),
 			array(
@@ -397,7 +397,7 @@ class ListingSearch extends ElementorWidgetBase {
 					'search_oriantation' => 'vertical',
 				),
 				'selectors'  => array(
-					'{{WRAPPER}} .rtcl-elementor-widget-search.rtcl-widget-search-vertical .btn[type=submit]' => 'max-width: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .rtcl-elementor-widget-search.rtcl-widget-search-vertical .rtcl-btn[type=submit]' => 'max-width: {{SIZE}}{{UNIT}};',
 				),
 			),
 			array(
@@ -405,7 +405,7 @@ class ListingSearch extends ElementorWidgetBase {
 				'type'     => Group_Control_Typography::get_type(),
 				'id'       => 'rtcl_button_typo',
 				'label'    => __( 'Typography', 'classified-listing-toolkits' ),
-				'selector' => '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]',
+				'selector' => '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]',
 			),
 			array(
 				'type'      => Controls_Manager::CHOOSE,
@@ -430,19 +430,19 @@ class ListingSearch extends ElementorWidgetBase {
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_from_button_bg_color',
 				'label'     => __( 'Button Background', 'classified-listing-toolkits' ),
-				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]' => 'background-color: {{VALUE}};' ),
+				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]' => 'background-color: {{VALUE}} !important;' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_from_button_text_color',
 				'label'     => __( 'Button Text Color', 'classified-listing-toolkits' ),
-				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]' => 'color: {{VALUE}};' ),
+				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]' => 'color: {{VALUE}} !important;' ),
 			),
 			array(
 				'type'     => Group_Control_Border::get_type(),
 				'mode'     => 'group',
 				'id'       => 'rtcl_button_border',
-				'selector' => '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]',
+				'selector' => '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]',
 			),
 			array(
 				'mode' => 'tab_end',
@@ -456,19 +456,19 @@ class ListingSearch extends ElementorWidgetBase {
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_from_button_hover_bg_color',
 				'label'     => __( 'Button Background', 'classified-listing-toolkits' ),
-				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]:hover' => 'background-color: {{VALUE}};' ),
+				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]:hover' => 'background-color: {{VALUE}} !important;' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_from_button_hover_text_color',
 				'label'     => __( 'Button Text Color', 'classified-listing-toolkits' ),
-				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]:hover' => 'color: {{VALUE}};' ),
+				'selectors' => array( '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]:hover' => 'color: {{VALUE}} !important;' ),
 			),
 			array(
 				'type'     => Group_Control_Border::get_type(),
 				'mode'     => 'group',
 				'id'       => 'rtcl_button_hover_border',
-				'selector' => '{{WRAPPER}} .rtcl-elementor-widget-search .btn[type=submit]:hover',
+				'selector' => '{{WRAPPER}} .rtcl-elementor-widget-search .rtcl-btn[type=submit]:hover',
 			),
 			array(
 				'mode' => 'tab_end',

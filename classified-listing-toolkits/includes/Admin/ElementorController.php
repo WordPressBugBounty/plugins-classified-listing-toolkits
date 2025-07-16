@@ -7,12 +7,13 @@
  * @since    1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin;
 
 use Elementor\Plugin;
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Controls\ImageSelectorControl;
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Hooks\ELFilterHooks;
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Controls\ImageSelectorControl;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Hooks\ELFilterHooks;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Controllers\BusinessHoursController;
 use Rtcl\Controllers\Hooks\TemplateHooks;
 use Rtcl\Controllers\Hooks\TemplateLoader;
@@ -112,25 +113,30 @@ class ElementorController {
 	 */
 	public static function init_widgets() {
 		$class_list = [
-			Widgets\ListingCategoryBox::class,
 			Widgets\ListingItems::class,
-			Widgets\SingleLocation::class,
+			Widgets\ListingCategoryBox::class,
 			Widgets\AllLocations::class,
-			Widgets\HeaderButton::class,
+			Widgets\SingleLocation::class,
 			Widgets\ListingSearch::class,
-			Widgets\ListingCategorySlider::class,
-			Widgets\ListingSlider::class,
-			Widgets\PricingTable::class
+			Widgets\HeaderButton::class
 		];
 
-		if ( rtcl()->has_pro() && class_exists( 'RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBaseV2' ) ) {
+		if ( Helper::is_pro_with_old_dependency() ) {
+			$class_list[] = Widgets\ListingSlider::class;
+			$class_list[] = Widgets\ListingCategorySlider::class;
+			$class_list[] = Widgets\PricingTable::class;
+		}
+
+		if ( rtcl()->has_pro() && class_exists( 'RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBaseV2' ) ) {
 			$class_list[] = Widgets\ListingSearchSortableForm::class;
 		}
+
 		if ( defined( 'RTCL_STORE_VERSION' ) && version_compare( RTCL_STORE_VERSION, '2.1.0', '>=' ) ) {
 			$class_list = array_filter( apply_filters( 'rtcl_el_widget_for_classified_listing', $class_list ) );
 		} else if ( defined( 'RTCL_ELB_VERSION' ) && version_compare( RTCL_ELB_VERSION, '3.0.0', '>=' ) ) {
 			$class_list = array_filter( apply_filters( 'rtcl_el_widget_for_classified_listing', $class_list ) );
 		}
+
 		// Register widget.
 		if ( ! empty( $class_list ) ) {
 			foreach ( $class_list as $widget ) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Hooks;
+namespace RadiusTheme\ClassifiedListingToolkits\Hooks;
 
 
 Class TemplateHooks {

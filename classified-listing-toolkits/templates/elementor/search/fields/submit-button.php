@@ -25,6 +25,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 		<label for="rtcl-search-button"><?php esc_html_e( 'Submit button', 'classified-listing-toolkits' ); ?></label>
 	<?php } ?>
 	<div class="rtcl-action-buttons button-<?php echo ! empty( $settings['button_alignment'] ) ? esc_attr( $settings['button_alignment'] ) : 'left'; ?>">
-		<button type="submit" class="btn btn-primary"><?php esc_html_e( 'Search', 'classified-listing-toolkits' ); ?></button>
+		<button type="submit" class="rtcl-btn"><?php esc_html_e( 'Search', 'classified-listing-toolkits' ); ?></button>
 	</div>
 </div>

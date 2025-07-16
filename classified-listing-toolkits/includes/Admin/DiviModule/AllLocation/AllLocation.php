@@ -1,12 +1,12 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\AllLocation;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\AllLocation;
 
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 use Rtcl\Controllers\Blocks\AdminAjaxController;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
+use RadiusTheme\ClassifiedListingToolkits\Admin\DiviModule\Base\DiviModule;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper as DiviFunctions;
 
 class AllLocation extends DiviModule {
 
@@ -374,7 +374,7 @@ class AllLocation extends DiviModule {
 		$location_includes = ! empty( $data['rtcl_location'] ) ? $data['rtcl_location'] : '';
 		$location_includes = explode( '|', $location_includes );
 
-		$location_terms = \RadisuTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $location_includes, rtcl()->location );
+		$location_terms = \RadiusTheme\ClassifiedListingToolkits\Hooks\Helper::divi_get_user_selected_terms( $location_includes, rtcl()->location );
 
 		$args = array(
 			'taxonomy'     => rtcl()->location,

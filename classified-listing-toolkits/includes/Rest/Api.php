@@ -1,6 +1,6 @@
 <?php
 
-namespace RadisuTheme\ClassifiedListingToolkits\Rest;
+namespace RadiusTheme\ClassifiedListingToolkits\Rest;
 
 /**
  * API Manager class.
@@ -31,7 +31,7 @@ class Api {
         $this->class_map = apply_filters(
             'classified-listing-toolkits_rest_api_class_map ',
             [
-                \RadisuTheme\ClassifiedListingToolkits\REST\PluginController::class,
+                \RadiusTheme\ClassifiedListingToolkits\REST\PluginController::class,
             ]
         );
 

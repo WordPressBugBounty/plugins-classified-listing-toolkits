@@ -8,13 +8,13 @@
  * @since 1.0.0
  */
 
-namespace RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
+namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
 
 use Elementor\Controls_Manager;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
-use RadisuTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBaseV2;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Abstracts\ElementorWidgetBaseV2;
 use Rtcl\Helpers\Functions;
-use RadisuTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
+use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
 use Rtcl\Models\Form\Form;
 use Rtcl\Services\FormBuilder\FBField;
 use Rtcl\Services\FormBuilder\FBHelper;
@@ -36,7 +36,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 	 * @param mixed $args default arg.
 	 */
 	public function __construct( $data = [], $args = null ) {
-		$this->rtcl_name = __( 'Search Form - Sortable', 'classified-listing-pro' );
+		$this->rtcl_name = __( 'Search Form - Sortable', 'classified-listing-toolkits' );
 		$this->rtcl_base = 'rtcl-listing-search-sortable-form';
 		parent::__construct( $data, $args );
 	}
@@ -50,7 +50,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		$style = apply_filters(
 			'rtcl_el_search_style',
 			[
-				'dependency' => esc_html__( 'Dependency Selection', 'classified-listing-pro' ),
+				'dependency' => esc_html__( 'Dependency Selection', 'classified-listing-toolkits' ),
 			]
 		);
 		return $style;
@@ -97,7 +97,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		$rawForms = self::get_all_fb_form();
 		$list     = [];
 		if ( ! empty( $rawForms ) && is_array( $rawForms ) ) {
-			$list['0'] = esc_html__( 'Select Form', 'classified-listing-pro' );
+			$list['0'] = esc_html__( 'Select Form', 'classified-listing-toolkits' );
 			foreach ( $rawForms as $raw_form ) {
 				$list[ esc_attr( $raw_form['id'] ) ] = $raw_form['title'];
 			}
@@ -115,7 +115,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		$cFields = FBHelper::getDirectoryCustomFields( $form_id );
 		if ( ! empty( $cFields ) ) {
 			if ( count( $cFields ) ) {
-				$data[''] = esc_html__( 'Select Field', 'classified-listing-pro' );
+				$data[''] = esc_html__( 'Select Field', 'classified-listing-toolkits' );
 				foreach ( $cFields as $index => $field ) {
 					$field = new FBField( $field );
 					if ( $field->isFilterable() ) {
@@ -136,8 +136,8 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		$style = apply_filters(
 			'rtcl_el_search_oriantation',
 			[
-				'inline'   => __( 'Inline', 'classified-listing-pro' ),
-				'vertical' => __( 'Vertical', 'classified-listing-pro' ),
+				'inline'   => __( 'Inline', 'classified-listing-toolkits' ),
+				'vertical' => __( 'Vertical', 'classified-listing-toolkits' ),
 			]
 		);
 		return $style;
@@ -151,12 +151,12 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 	public function widget_general_fields(): array {
 
 		$form_fields         = [
-			'keyword_field'  => esc_html__( 'Keywords', 'classified-listing-pro' ),
-			'location_field' => esc_html__( 'Location', 'classified-listing-pro' ),
-			'category_field' => esc_html__( 'Category', 'classified-listing-pro' ),
-			'types_field'    => esc_html__( 'Types', 'classified-listing-pro' ),
-			'price_field'    => esc_html__( 'Price', 'classified-listing-pro' ),
-			'custom_field'   => esc_html__( 'Custom Fields', 'classified-listing-pro' ),
+			'keyword_field'  => esc_html__( 'Keywords', 'classified-listing-toolkits' ),
+			'location_field' => esc_html__( 'Location', 'classified-listing-toolkits' ),
+			'category_field' => esc_html__( 'Category', 'classified-listing-toolkits' ),
+			'types_field'    => esc_html__( 'Types', 'classified-listing-toolkits' ),
+			'price_field'    => esc_html__( 'Price', 'classified-listing-toolkits' ),
+			'custom_field'   => esc_html__( 'Custom Fields', 'classified-listing-toolkits' ),
 		];
 		$form_fields         = apply_filters( 'rtcl_elementor_sortable_search_field_list', $form_fields );
 		$form_fields_default = [];
@@ -169,19 +169,19 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 
 		$sortable_form = [
 			'sortable_form_fields'            => [
-				'label'     => esc_html__( 'Field\'s', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Field\'s', 'classified-listing-toolkits' ),
 				'type'      => 'select',
 				'separator' => 'default',
 				'default'   => 'keyword_field',
 				'options'   => $form_fields,
 			],
 			'sortable_form_field_Label'       => [
-				'label'     => esc_html__( 'Label', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Label', 'classified-listing-toolkits' ),
 				'type'      => 'text',
 				'separator' => 'default',
 			],
 			'sortable_form_field_placeholder' => [
-				'label'     => esc_html__( 'Placeholder', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Placeholder', 'classified-listing-toolkits' ),
 				'type'      => 'text',
 				'separator' => 'default',
 				'condition' => [
@@ -189,7 +189,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 				],
 			],
 			'sortable_form_field_from_fields' => [
-				'label'     => esc_html__( 'Select Form', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Select Form', 'classified-listing-toolkits' ),
 				'type'      => 'select',
 				'options'   => $this->get_all_fb_form_as_list(),
 				'default'   => array_key_first( $this->get_all_fb_form_as_list() ),
@@ -202,7 +202,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 
 		foreach ( $this->get_all_fb_form_as_list() as $id => $value ) {
 			$sortable_form [ 'sortable_form_field_custom_fields_' . $id ] = [
-				'label'     => esc_html__( 'Select Field', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Select Field', 'classified-listing-toolkits' ),
 				'type'      => 'select',
 				'options'   => $this->custom_fields_list( $id ),
 				'default'   => array_key_first( $this->custom_fields_list( $id ) ),
@@ -213,7 +213,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 
 		$sortable_form = $sortable_form + [
 				'sortable_field_width'               => [
-					'label'      => esc_html__( 'Width', 'classified-listing-pro' ),
+					'label'      => esc_html__( 'Width', 'classified-listing-toolkits' ),
 					'type'       => 'slider',
 					'size_units' => [ 'px', '%' ],
 					'range'      => [
@@ -235,7 +235,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 					],
 				],
 				'sortable_min_max_price_field_width' => [
-					'label'      => esc_html__( 'Min & Max Field Width', 'classified-listing-pro' ),
+					'label'      => esc_html__( 'Min & Max Field Width', 'classified-listing-toolkits' ),
 					'type'       => 'slider',
 					'size_units' => [ 'px', '%' ],
 					'range'      => [
@@ -261,9 +261,9 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		if ( 'geo' === Functions::location_type() ) {
 			$sortable_form['geo_location_range'] = [
 				'type'      => 'switch',
-				'label'     => __( 'Radius Search', 'classified-listing-pro' ),
-				'label_on'  => __( 'On', 'classified-listing-pro' ),
-				'label_off' => __( 'Off', 'classified-listing-pro' ),
+				'label'     => __( 'Radius Search', 'classified-listing-toolkits' ),
+				'label_on'  => __( 'On', 'classified-listing-toolkits' ),
+				'label_off' => __( 'Off', 'classified-listing-toolkits' ),
 				'default'   => '',
 				'condition' => [
 					'sortable_form_fields' => 'location_field',
@@ -274,62 +274,62 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		$fields = [
 			'rtcl_sec_general'      => [
 				'mode'  => 'section_start',
-				'label' => __( 'General', 'classified-listing-pro' ),
+				'label' => __( 'General', 'classified-listing-toolkits' ),
 			],
 			'search_style'          => [
 				'type'    => 'select',
-				'label'   => __( 'Style', 'classified-listing-pro' ),
+				'label'   => __( 'Style', 'classified-listing-toolkits' ),
 				'options' => $this->search_style(),
 				'default' => 'dependency',
 			],
 			'search_oriantation'    => [
 				'type'    => 'select',
-				'label'   => __( 'Oriantation', 'classified-listing-pro' ),
+				'label'   => __( 'Oriantation', 'classified-listing-toolkits' ),
 				'options' => $this->search_oriantation(),
 				'default' => 'inline',
 			],
 			'fields_label'          => [
 				'type'      => 'switch',
-				'label'     => __( 'Show fields Label', 'classified-listing-pro' ),
-				'label_on'  => __( 'On', 'classified-listing-pro' ),
-				'label_off' => __( 'Off', 'classified-listing-pro' ),
+				'label'     => __( 'Show fields Label', 'classified-listing-toolkits' ),
+				'label_on'  => __( 'On', 'classified-listing-toolkits' ),
+				'label_off' => __( 'Off', 'classified-listing-toolkits' ),
 				'default'   => 'yes',
 			],
 
 			'sortable_form'         => [
 				'type'        => 'repeater',
 				'mode'        => 'repeater',
-				'label'       => esc_html__( 'Field Types', 'classified-listing-pro' ),
+				'label'       => esc_html__( 'Field Types', 'classified-listing-toolkits' ),
 				'fields'      => $sortable_form,
 				'default'     => $form_fields_default ,
 				'title_field' => '{{{ sortable_form_field_Label }}}',
 			],
 
 			'button_icon_alignment' => [
-				'label'   => esc_html__( 'Icon Alignment', 'classified-listing-pro' ),
+				'label'   => esc_html__( 'Icon Alignment', 'classified-listing-toolkits' ),
 				'type'    => 'choose',
 				'options' => [
 					'left'  => [
-						'title' => esc_html__( 'Left', 'classified-listing-pro' ),
+						'title' => esc_html__( 'Left', 'classified-listing-toolkits' ),
 						'icon'  => 'fas fa-angle-left',
 					],
 					'right' => [
-						'title' => esc_html__( 'Right', 'classified-listing-pro' ),
+						'title' => esc_html__( 'Right', 'classified-listing-toolkits' ),
 						'icon'  => 'fas fa-angle-right',
 					],
 				],
 				'default' => 'right',
 			],
 			'button_icon'           => [
-				'label'     => esc_html__( 'Button Icon', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Button Icon', 'classified-listing-toolkits' ),
 				'type'      => 'icons',
 				'separator' => 'default',
 			],
 			'button_text'           => [
-				'label'     => esc_html__( 'Button Text', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Button Text', 'classified-listing-toolkits' ),
 				'type'      => 'text',
 				'separator' => 'default',
-				'default'   => esc_html__( 'Search', 'classified-listing-pro' ),
+				'default'   => esc_html__( 'Search', 'classified-listing-toolkits' ),
 			],
 			'rtcl_sec_general_end'  => [
 				'mode' => 'section_end',
@@ -350,7 +350,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 
 		$new_fields = [
 			'sortable_field_gap' => [
-				'label'     => esc_html__( 'Field\'s Gap', 'classified-listing-pro' ),
+				'label'     => esc_html__( 'Field\'s Gap', 'classified-listing-toolkits' ),
 				'type'      => 'slider',
 				'range'     => [
 					'px' => [

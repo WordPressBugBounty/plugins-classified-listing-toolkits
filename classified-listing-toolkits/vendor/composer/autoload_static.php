@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1f533d21220588991b50c63e1b5644ce
+class ComposerStaticInit2e7c41ff57659db63684de0378e2662a
 {
     public static $prefixLengthsPsr4 = array (
         'R' => 
         array (
-            'RadisuTheme\\ClassifiedListingToolkits\\' => 38,
+            'RadiusTheme\\ClassifiedListingToolkits\\' => 38,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'RadisuTheme\\ClassifiedListingToolkits\\' => 
+        'RadiusTheme\\ClassifiedListingToolkits\\' => 
         array (
             0 => __DIR__ . '/../..' . '/includes',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit1f533d21220588991b50c63e1b5644ce
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1f533d21220588991b50c63e1b5644ce::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1f533d21220588991b50c63e1b5644ce::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1f533d21220588991b50c63e1b5644ce::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2e7c41ff57659db63684de0378e2662a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2e7c41ff57659db63684de0378e2662a::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit2e7c41ff57659db63684de0378e2662a::$classMap;
 
         }, null, ClassLoader::class);
     }

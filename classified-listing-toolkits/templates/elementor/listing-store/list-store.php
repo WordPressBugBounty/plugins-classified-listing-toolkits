@@ -2,7 +2,7 @@
 
 use Rtcl\Helpers\Functions;
 use Rtcl\Helpers\Pagination;
-use RadisuTheme\ClassifiedListingToolkits\Hooks\Helper;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 $the_loops = $instance['stores'];
 ?>
 <div class="rtcl rtcl-elementor-widget rtcl-el-store-widget-wrapper">

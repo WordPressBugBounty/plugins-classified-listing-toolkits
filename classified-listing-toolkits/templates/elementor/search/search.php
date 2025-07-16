@@ -36,7 +36,7 @@ $data = array(
 	'selected_location'     => $selected_location,
 	'orderby'     => $orderby,
 	'order'     => $order,
-	'default_template_path' => \RadisuTheme\ClassifiedListingToolkits\Hooks\Helper::get_plugin_template_path(),
+	'default_template_path' => \RadiusTheme\ClassifiedListingToolkits\Hooks\Helper::get_plugin_template_path(),
 );
 $data = apply_filters( 'rtcl/elementor/search/data/' . $widget_base, $data );
 
