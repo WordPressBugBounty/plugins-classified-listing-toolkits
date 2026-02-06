@@ -47,7 +47,7 @@ trait ListingTitleTrait {
 				'label'      => __( 'Title Spacing', 'classified-listing-toolkits' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'mode'       => 'responsive',
-				'id'         => 'rtcl_title_spacing',
+				'id'         => 'rtcl_title_spacing1', //rtcl_title_spacing use twice so rename here by 1
 				'size_units' => array( 'px', 'em', '%' ),
 				'selectors'  => array(
 					'{{WRAPPER}} .listing-item .item-content .listing-title' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',

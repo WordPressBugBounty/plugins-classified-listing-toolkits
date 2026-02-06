@@ -3,7 +3,7 @@
 use RtclStore\Models\Store;
 
 $store      = new Store( get_the_ID() );
-$count_text = $store->get_ad_count() > 1 ? sprintf( __( '%s Ads', 'classified-listing-store' ), $store->get_ad_count() ) : sprintf( __( '%s Ad', 'classified-listing-store' ), $store->get_ad_count() );
+$count_text = $store->get_ad_count() > 1 ? sprintf( __( '%s Ads', 'classified-listing-toolkits' ), $store->get_ad_count() ) : sprintf( __( '%s Ad', 'classified-listing-toolkits' ), $store->get_ad_count() );
 ?>
 <div class="store-item">
 	<?php if ( ! empty( $instance['rtcl_show_image'] ) ) { ?>
@@ -18,7 +18,7 @@ $count_text = $store->get_ad_count() > 1 ? sprintf( __( '%s Ads', 'classified-li
             </h3>
 		<?php } ?>
 		<?php if ( ! empty( $instance['rtcl_show_time'] ) ) { ?>
-            <div class="store-time"><?php echo sprintf( esc_html__( 'Since %s', 'classified-listing-store' ), get_the_time( 'Y', get_the_ID() ) ); ?></div>
+            <div class="store-time"><?php echo sprintf( esc_html__( 'Since %s', 'classified-listing-toolkits' ), get_the_time( 'Y', get_the_ID() ) ); ?></div>
 		<?php } ?>
 		<?php if ( ! empty( $instance['rtcl_show_count'] ) ) { ?>
             <div class="store-count"><?php echo esc_html( $count_text ); ?></div>

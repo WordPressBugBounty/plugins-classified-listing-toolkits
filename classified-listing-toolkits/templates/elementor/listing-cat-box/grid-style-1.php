@@ -64,7 +64,7 @@ use Rtcl\Helpers\Functions;
 						echo "<div class='image'>";
 						$icon_image_html .= '<a href="' . esc_url( get_term_link( $trm ) ) . '" class="rtcl-responsive-container" title="'
 						                    . esc_attr( $view_post ) . '">';
-						$icon_image_html .= '<img src="' . esc_url( $image ) . '" class="rtcl-responsive-img" />';
+						$icon_image_html .= '<img src="' . esc_url( $image ) . '" class="rtcl-responsive-img" alt="Category Image" />';
 						$icon_image_html .= '</a>';
 						echo wp_kses_post( $icon_image_html ); //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 						echo '</div>';

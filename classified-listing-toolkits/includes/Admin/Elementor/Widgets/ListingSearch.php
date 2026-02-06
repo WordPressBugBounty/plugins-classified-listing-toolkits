@@ -518,7 +518,7 @@ class ListingSearch extends ElementorWidgetBase {
 	 * @return void
 	 */
 	protected function render() {
-
+		wp_enqueue_style( 'fontawesome' );
 		$settings = $this->get_settings();
 
 		$search_style       = isset( $settings['search_style'] ) ? $settings['search_style'] : 'dependency';

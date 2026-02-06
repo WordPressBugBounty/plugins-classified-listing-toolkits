@@ -60,7 +60,7 @@ trait ListingContentVisibilityTrait {
 				'label'       => __( 'Short Description Word Limit', 'classified-listing-toolkits' ),
 				'default'     => '20',
 				'description' => __( 'Number of Words to display', 'classified-listing-toolkits' ),
-				'condition'   => array( 'rtcl_show_description' => array( 'yes' ) ),
+				'condition'   => array( 'rtcl_show_description' =>  'yes'  ),
 			),
 			array(
 				'type'        => Controls_Manager::SWITCHER,

@@ -208,7 +208,7 @@ class ListingCategorySlider extends ElementorWidgetBase {
 				'description' => __( 'Number of Words to display', 'classified-listing-toolkits' ),
 				'condition'   => array( 'rtcl_show_count' => array( 'yes' ) ),
 			),
-			
+
 			array(
 				'type'        => Controls_Manager::SWITCHER,
 				'id'          => 'rtcl_description',
@@ -411,7 +411,8 @@ class ListingCategorySlider extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_slider_category_widget_general_field', $fields,$this);
+
+		return apply_filters( 'rtcl_el_slider_category_widget_general_field', $fields, $this );
 	}
 
 	/**
@@ -665,7 +666,7 @@ class ListingCategorySlider extends ElementorWidgetBase {
 				),
 				'selectors' => array(
 					'{{WRAPPER}} .cat-item-wrap .cat-details .icon a .rtcl-icon' => 'font-size: {{SIZE}}{{UNIT}};',
-					'{{WRAPPER}} .cat-item-wrap .cat-details img'                => 'width: {{SIZE}}{{UNIT}};height: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .cat-item-wrap .cat-details img'                => 'height: {{SIZE}}{{UNIT}};width: auto;',
 				),
 			),
 			array(
@@ -1119,7 +1120,8 @@ class ListingCategorySlider extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_slider_category_widget_style_field', $fields,$this);
+
+		return apply_filters( 'rtcl_el_slider_category_widget_style_field', $fields, $this );
 	}
 
 	/**
@@ -1148,6 +1150,7 @@ class ListingCategorySlider extends ElementorWidgetBase {
 			$number = $data['rtcl_category_limit'];
 			$terms  = array_slice( $terms, 0, $number );
 		}
+
 		return $terms;
 	}
 
@@ -1158,7 +1161,7 @@ class ListingCategorySlider extends ElementorWidgetBase {
 	 * @return void
 	 */
 	protected function render() {
-
+		wp_enqueue_style( 'fontawesome' );
 		$settings = $this->get_settings();
 		$terms    = $this->widget_results( $settings );
 

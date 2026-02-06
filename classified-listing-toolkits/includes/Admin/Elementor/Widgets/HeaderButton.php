@@ -679,8 +679,8 @@ class HeaderButton extends ElementorWidgetBase {
 	 * @since  1.0.0
 	 * @access protected
 	 */
-	protected function render() { ?>
-		<?php
+	protected function render() {
+		wp_enqueue_style( 'fontawesome' );
 		$settings         = $this->get_settings();
 		$data             = array(
 			'template'              => 'elementor/header-button/header-button',
@@ -690,8 +690,6 @@ class HeaderButton extends ElementorWidgetBase {
 		$data['settings'] = $settings;
 		$data             = apply_filters( 'rtcl_el_header_button_data', $data );
 		Functions::get_template( $data['template'], $data, '', $data['default_template_path'] );
-		?>
-		<?php
 	}
 
 }

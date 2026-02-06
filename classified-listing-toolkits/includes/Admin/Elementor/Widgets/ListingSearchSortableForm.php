@@ -5,7 +5,7 @@
  * The main class that initiates and runs the plugin.
  *
  * @package  Classifid-listing
- * @since 1.0.0
+ * @since    1.0.0
  */
 
 namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
@@ -53,6 +53,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 				'dependency' => esc_html__( 'Dependency Selection', 'classified-listing-toolkits' ),
 			]
 		);
+
 		return $style;
 	}
 
@@ -71,7 +72,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		                ->where( 'status', 'publish' )
 		                ->order_by( 'created_at', 'ASC' )
 		                ->get();
-		$forms = [];
+		$forms    = [];
 		if ( ! empty( $rawForms ) ) {
 			foreach ( $rawForms as $raw_form ) {
 				$_form = apply_filters( 'rtcl_fb_form', $raw_form );
@@ -82,6 +83,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		}
 		$forms                     = apply_filters( 'rtcl_get_all_fb_form', $forms );
 		self::$cache[ $cache_key ] = $forms;
+
 		return $forms;
 	}
 
@@ -102,6 +104,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 				$list[ esc_attr( $raw_form['id'] ) ] = $raw_form['title'];
 			}
 		}
+
 		return $list;
 	}
 
@@ -124,6 +127,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 				}
 			}
 		}
+
 		return $data;
 	}
 
@@ -140,6 +144,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 				'vertical' => __( 'Vertical', 'classified-listing-toolkits' ),
 			]
 		);
+
 		return $style;
 	}
 
@@ -227,7 +232,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 						],
 					],
 					'selectors'  => [
-						'{{WRAPPER}} .rtcl-widget-search-sortable-inline .rtcl-form-group{{CURRENT_ITEM}}' => 'width:{{SIZE}}{{UNIT}}; flex: 0 0 {{SIZE}}{{UNIT}};',
+						'{{WRAPPER}} .rtcl-widget-search-sortable-inline .rtcl-form-group{{CURRENT_ITEM}}'   => 'width:{{SIZE}}{{UNIT}}; flex: 0 0 {{SIZE}}{{UNIT}};',
 						'{{WRAPPER}} .rtcl-widget-search-sortable-vertical .rtcl-form-group{{CURRENT_ITEM}}' => 'width:{{SIZE}}{{UNIT}};',
 					],
 					'condition'  => [
@@ -272,23 +277,23 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		}
 
 		$fields = [
-			'rtcl_sec_general'      => [
+			'rtcl_sec_general'   => [
 				'mode'  => 'section_start',
 				'label' => __( 'General', 'classified-listing-toolkits' ),
 			],
-			'search_style'          => [
+			'search_style'       => [
 				'type'    => 'select',
 				'label'   => __( 'Style', 'classified-listing-toolkits' ),
 				'options' => $this->search_style(),
 				'default' => 'dependency',
 			],
-			'search_oriantation'    => [
+			'search_oriantation' => [
 				'type'    => 'select',
 				'label'   => __( 'Oriantation', 'classified-listing-toolkits' ),
 				'options' => $this->search_oriantation(),
 				'default' => 'inline',
 			],
-			'fields_label'          => [
+			'fields_label'       => [
 				'type'      => 'switch',
 				'label'     => __( 'Show fields Label', 'classified-listing-toolkits' ),
 				'label_on'  => __( 'On', 'classified-listing-toolkits' ),
@@ -296,12 +301,12 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 				'default'   => 'yes',
 			],
 
-			'sortable_form'         => [
+			'sortable_form' => [
 				'type'        => 'repeater',
 				'mode'        => 'repeater',
 				'label'       => esc_html__( 'Field Types', 'classified-listing-toolkits' ),
 				'fields'      => $sortable_form,
-				'default'     => $form_fields_default ,
+				'default'     => $form_fields_default,
 				'title_field' => '{{{ sortable_form_field_Label }}}',
 			],
 
@@ -336,8 +341,10 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 			],
 
 		];
+
 		return apply_filters( 'rtcl/elementor/widgets/controls/general/' . $this->rtcl_base, $fields, $this );
 	}
+
 	/**
 	 * Set Query controlls
 	 *
@@ -378,6 +385,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 			$button,
 			$icons_settings
 		);
+
 		return apply_filters( 'rtcl/elementor/widgets/controls/style/' . $this->rtcl_base, $fields, $this );
 	}
 
@@ -387,6 +395,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 	 * @return void
 	 */
 	protected function render() {
+		wp_enqueue_style( 'fontawesome' );
 		$controllers        = $this->get_settings();
 		$search_style       = $controllers['search_style'] ?? 'dependency';
 		$search_oriantation = $controllers['search_oriantation'] ?? 'inline';

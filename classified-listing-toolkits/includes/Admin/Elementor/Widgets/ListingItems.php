@@ -5,7 +5,7 @@
  * The main class that initiates and runs the plugin.
  *
  * @package  Classifid-listing
- * @since 1.0.0
+ * @since    1.0.0
  */
 
 namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\Widgets;
@@ -29,8 +29,8 @@ class ListingItems extends ListingItemsSettings {
 	/**
 	 * Undocumented function
 	 *
-	 * @param array $data default array.
-	 * @param mixed $args default arg.
+	 * @param  array  $data  default array.
+	 * @param  mixed  $args  default arg.
 	 */
 	public function __construct( $data = [], $args = null ) {
 		$this->rtcl_name = __( 'Listing Showcase', 'classified-listing-toolkits' );
@@ -41,7 +41,7 @@ class ListingItems extends ListingItemsSettings {
 	/**
 	 * Widget excerpt_limit.
 	 *
-	 * @param array $length default limit.
+	 * @param  array  $length  default limit.
 	 *
 	 * @return init
 	 */
@@ -69,17 +69,26 @@ class ListingItems extends ListingItemsSettings {
 	public function widget_query_args() {
 		$settings = $this->get_settings();
 
-		$categories_list   = isset( $settings['rtcl_listings_by_categories'] ) && ! empty( $settings['rtcl_listings_by_categories'] ) ? $settings['rtcl_listings_by_categories'] : [];
+		$categories_list   = isset( $settings['rtcl_listings_by_categories'] ) && ! empty( $settings['rtcl_listings_by_categories'] )
+			? $settings['rtcl_listings_by_categories'] : [];
 		$location_list     = isset( $settings['rtcl_locations'] ) && ! empty( $settings['rtcl_locations'] ) ? $settings['rtcl_locations'] : [];
+		$tag_list          = isset( $settings['rtcl_tags'] ) && ! empty( $settings['rtcl_tags'] ) ? $settings['rtcl_tags'] : [];
 		$orderby           = isset( $settings['rtcl_orderby'] ) && ! empty( $settings['rtcl_orderby'] ) ? $settings['rtcl_orderby'] : 'date';
 		$order             = isset( $settings['rtcl_order'] ) && ! empty( $settings['rtcl_order'] ) ? $settings['rtcl_order'] : 'desc';
-		$listings_per_page = isset( $settings['rtcl_listing_per_page'] ) && ! empty( $settings['rtcl_listing_per_page'] ) ? $settings['rtcl_listing_per_page'] : '5';
-		$promotion_in      = isset( $settings['rtcl_listings_promotions'] ) && ! empty( $settings['rtcl_listings_promotions'] ) ? $settings['rtcl_listings_promotions'] : [];
-		$promotion_not_in  = isset( $settings['rtcl_listings_promotions_not_in'] ) && ! empty( $settings['rtcl_listings_promotions_not_in'] ) ? $settings['rtcl_listings_promotions_not_in'] : [];
+		$listings_per_page = isset( $settings['rtcl_listing_per_page'] ) && ! empty( $settings['rtcl_listing_per_page'] ) ? $settings['rtcl_listing_per_page']
+			: '5';
+		$promotion_in      = isset( $settings['rtcl_listings_promotions'] ) && ! empty( $settings['rtcl_listings_promotions'] )
+			? $settings['rtcl_listings_promotions'] : [];
+		$promotion_not_in  = isset( $settings['rtcl_listings_promotions_not_in'] ) && ! empty( $settings['rtcl_listings_promotions_not_in'] )
+			? $settings['rtcl_listings_promotions_not_in'] : [];
 
-		$categories_children = isset( $settings['rtcl_listings_categories_include_children'] ) && ! empty( $settings['rtcl_listings_categories_include_children'] ) ? true : false;
-		$location_children   = isset( $settings['rtcl_listings_location_include_children'] ) && ! empty( $settings['rtcl_listings_location_include_children'] ) ? true : false;
+		$categories_children = isset( $settings['rtcl_listings_categories_include_children'] )
+		                       && ! empty( $settings['rtcl_listings_categories_include_children'] ) ? true : false;
+		$location_children   = isset( $settings['rtcl_listings_location_include_children'] ) && ! empty( $settings['rtcl_listings_location_include_children'] )
+			? true : false;
 		$listing_type        = isset( $settings['rtcl_listing_types'] ) && ! empty( $settings['rtcl_listing_types'] ) ? $settings['rtcl_listing_types'] : 'all';
+		$directory           = isset( $settings['rtcl_listing_directory'] ) && ! empty( $settings['rtcl_listing_directory'] )
+			? absint( $settings['rtcl_listing_directory'] ) : '';
 
 		$meta_queries      = [];
 		$the_args          = [
@@ -87,13 +96,12 @@ class ListingItems extends ListingItemsSettings {
 			'posts_per_page' => $listings_per_page,
 			'post_status'    => 'publish',
 			'tax_query'      => [ // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_tax_query
-				'relation' => 'AND',
+			                      'relation' => 'AND',
 			],
 		];
 		$the_args['paged'] = Pagination::get_page_number();
 
 		if ( ! empty( $order ) && ! empty( $orderby ) ) {
-
 			switch ( $orderby ) {
 				case 'price':
 					$the_args['meta_key'] = $orderby; // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key	
@@ -132,25 +140,33 @@ class ListingItems extends ListingItemsSettings {
 				'include_children' => $location_children,
 			];
 		}
+		if ( ! empty( $tag_list ) ) {
+			$the_args['tax_query'][] = [
+				'taxonomy' => rtcl()->tag,
+				'terms'    => $tag_list,
+				'field'    => 'term_id',
+				'operator' => 'IN',
+			];
+		}
 
 		// Promotions filter
 
 		$promotion_common = array_intersect( $promotion_in, $promotion_not_in );
 		$promotion_in     = array_diff( $promotion_in, $promotion_common ); // Unic array
 
-		
+
 		if ( ! empty( $promotion_in ) && is_array( $promotion_in ) ) {
-			$promotions = array_keys( Options::get_listing_promotions() );
+			$promotions        = array_keys( Options::get_listing_promotions() );
 			$popular_threshold = (int) Functions::get_option_item( 'rtcl_general_listing_label_settings', 'popular_listing_threshold', 0, 'number' );
 			foreach ( $promotion_in as $promotion ) {
-				if(  '_views' === $promotion ){
+				if ( '_views' === $promotion ) {
 					$meta_queries[] = [
 						'key'     => '_views',
 						'compare' => '>=',
-						'value' => $popular_threshold,
-						'type' => 'NUMERIC',
+						'value'   => $popular_threshold,
+						'type'    => 'NUMERIC',
 					];
-				} else if ( is_string( $promotion ) && in_array( $promotion, $promotions ) ) {
+				} elseif ( is_string( $promotion ) && in_array( $promotion, $promotions ) ) {
 					$meta_queries[] = [
 						'key'     => $promotion,
 						'compare' => '=',
@@ -161,17 +177,17 @@ class ListingItems extends ListingItemsSettings {
 		}
 
 		if ( ! empty( $promotion_not_in ) && is_array( $promotion_not_in ) ) {
-			$promotions = array_keys( Options::get_listing_promotions() );
+			$promotions        = array_keys( Options::get_listing_promotions() );
 			$popular_threshold = (int) Functions::get_option_item( 'rtcl_general_listing_label_settings', 'popular_listing_threshold', 0, 'number' );
 			foreach ( $promotion_not_in as $promotion ) {
-				if(  '_views' === $promotion ){
+				if ( '_views' === $promotion ) {
 					$meta_queries[] = [
 						'key'     => '_views',
 						'compare' => '<',
-						'value' => $popular_threshold,
-						'type' => 'NUMERIC',
+						'value'   => $popular_threshold,
+						'type'    => 'NUMERIC',
 					];
-				} else if ( is_string( $promotion ) && in_array( $promotion, $promotions ) ) {
+				} elseif ( is_string( $promotion ) && in_array( $promotion, $promotions ) ) {
 					$meta_queries[] = [
 						'relation' => 'OR',
 						[
@@ -198,6 +214,14 @@ class ListingItems extends ListingItemsSettings {
 			];
 		}
 
+		if ( ! empty( $directory ) ) {
+			$meta_queries[] = [
+				'key'     => '_rtcl_form_id',
+				'value'   => $directory,
+				'compare' => '=',
+			];
+		}
+
 		$count_meta_queries = count( $meta_queries );
 		if ( $count_meta_queries ) {
 			// phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
@@ -214,6 +238,8 @@ class ListingItems extends ListingItemsSettings {
 	 */
 	public function widget_results() {
 		$args = $this->widget_query_args();
+
+		$args = apply_filters( 'rtcl_el_listing_showcase_widget_filter_args', $args );
 
 		add_filter( 'excerpt_length', [ $this, 'excerpt_limit' ] );
 		add_filter( 'excerpt_more', '__return_empty_string' );
@@ -241,6 +267,7 @@ class ListingItems extends ListingItemsSettings {
 	 * @return mixed
 	 */
 	protected function render() {
+		wp_enqueue_style( 'fontawesome' );
 		$settings = $this->get_settings();
 
 		if ( ! $settings['rtcl_show_price_unit'] ) {
@@ -286,7 +313,7 @@ class ListingItems extends ListingItemsSettings {
 		$data                              = apply_filters( 'rtcl_el_listing_filter_data', $data );
 		if ( $the_loops->found_posts ) {
 			Functions::get_template( $data['template'], $data, '', $data['default_template_path'] );
-		} else if ( ! empty( $settings['rtcl_no_listing_text'] ) ) {
+		} elseif ( ! empty( $settings['rtcl_no_listing_text'] ) ) {
 			echo '<h3>' . esc_html( $settings['rtcl_no_listing_text'] ) . '</h3>';
 		}
 		wp_reset_postdata();

@@ -25,7 +25,7 @@ class ListingStore extends ListingStoreSettings {
 	 * @param [type] $args Others args
 	 */
 	public function __construct( $data = [], $args = null ) {
-		$this->rtcl_name = __( 'Listing Store', 'classified-listing-store' );
+		$this->rtcl_name = __( 'Listing Store', 'classified-listing-toolkits' );
 		$this->rtcl_base = 'rtcl-listing-store';
 		parent::__construct( $data, $args );
 	}
@@ -67,7 +67,7 @@ class ListingStore extends ListingStoreSettings {
 	}
 
 	protected function render() {
-
+		wp_enqueue_style( 'fontawesome' );
 		wp_enqueue_style( 'rtcl-store-public' );
 		wp_enqueue_script( 'rtcl-store-public' );
 

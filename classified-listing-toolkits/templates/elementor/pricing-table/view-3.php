@@ -20,6 +20,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 		<?php if ( $settings['title'] ) : ?>
 			<h3 class="rtcl-el-pricing-title"><?php echo esc_html( $settings['title'] ); ?></h3>
 		<?php endif; ?>
+		<?php if ( $settings['sub_title'] ) : ?>
+            <div class="rtcl-el-pricing-sub-title"><?php echo esc_html( $settings['sub_title'] ); ?></div>
+		<?php endif; ?>
 	</div>
 	<div class="pricing-body">
 		<div class="rtcl-el-pricing-features">

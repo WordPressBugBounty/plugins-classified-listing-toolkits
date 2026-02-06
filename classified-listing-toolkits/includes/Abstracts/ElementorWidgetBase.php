@@ -111,7 +111,7 @@ abstract class ElementorWidgetBase extends Widget_Base {
 			[
 				'mode'  => 'section_start',
 				'id'    => 'rtcl_pro_sec',
-				'label' => '<span style="color: #f54">' . esc_html__( 'Go Premium for More Features', 'classified-listing' ) . '</span>',
+				'label' => '<span style="color: #f54">' . esc_html__( 'Go Premium for More Features', 'classified-listing-toolkits' ) . '</span>',
 			],
 			[
 				'id'   => 'rtcl_get_pro_version',
@@ -294,15 +294,15 @@ abstract class ElementorWidgetBase extends Widget_Base {
 	public function alignment_options() {
 		return [
 			'left'   => [
-				'title' => esc_html__( 'Left', 'classified-listing' ),
+				'title' => esc_html__( 'Left', 'classified-listing-toolkits' ),
 				'icon'  => 'eicon-text-align-left',
 			],
 			'center' => [
-				'title' => esc_html__( 'Center', 'classified-listing' ),
+				'title' => esc_html__( 'Center', 'classified-listing-toolkits' ),
 				'icon'  => 'eicon-text-align-center',
 			],
 			'right'  => [
-				'title' => esc_html__( 'Right', 'classified-listing' ),
+				'title' => esc_html__( 'Right', 'classified-listing-toolkits' ),
 				'icon'  => 'eicon-text-align-right',
 			],
 		];
@@ -397,14 +397,14 @@ abstract class ElementorWidgetBase extends Widget_Base {
 	 */
 	public function column_number() {
 		return [
-			'8' => __( 'Column 8', 'classified-listing' ),
-			'7' => __( 'Column 7', 'classified-listing' ),
-			'6' => __( 'Column 6', 'classified-listing' ),
-			'5' => __( 'Column 5', 'classified-listing' ),
-			'4' => __( 'Column 4', 'classified-listing' ),
-			'3' => __( 'Column 3', 'classified-listing' ),
-			'2' => __( 'Column 2', 'classified-listing' ),
-			'1' => __( 'Column 1', 'classified-listing' ),
+			'8' => __( 'Column 8', 'classified-listing-toolkits' ),
+			'7' => __( 'Column 7', 'classified-listing-toolkits' ),
+			'6' => __( 'Column 6', 'classified-listing-toolkits' ),
+			'5' => __( 'Column 5', 'classified-listing-toolkits' ),
+			'4' => __( 'Column 4', 'classified-listing-toolkits' ),
+			'3' => __( 'Column 3', 'classified-listing-toolkits' ),
+			'2' => __( 'Column 2', 'classified-listing-toolkits' ),
+			'1' => __( 'Column 1', 'classified-listing-toolkits' ),
 		];
 	}
 

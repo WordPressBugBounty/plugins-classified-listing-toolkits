@@ -49,7 +49,7 @@ abstract class ElementorWidgetBaseV2 extends ElementorWidgetBase {
 		$fields = [
 			'rtcl_pro_sec' => [
 				'mode'  => 'section_start',
-				'label' => '<span style="color: #f54">' . esc_html__( 'Go Premium for More Features', 'classified-listing' ) . '</span>',
+				'label' => '<span style="color: #f54">' . esc_html__( 'Go Premium for More Features', 'classified-listing-toolkits' ) . '</span>',
 			],
 			'rtcl_get_pro_version' => [
 				'type' => 'html',

@@ -44,7 +44,7 @@ $data = apply_filters( 'rtcl/elementor/search/data/' . $widget_base, $data );
 ?>
 
 <div class="<?php echo esc_attr( implode( ' ', $classes ) ); ?>">
-    <form action="<?php echo esc_url( Functions::get_filter_form_url() ); ?>" class=" rtcl-widget-search-form">
+    <form action="<?php echo esc_url( Functions::get_filter_form_url() ); ?>" class=" rtcl-widget-search-form rtcl">
         <div class="rtcl-widget-search-sortable-wrapper rtcl-flex <?php echo 'inline' !== $orientation ? 'rtcl-flex-column' : ''; ?>">
 			<?php
 			if( ! empty( $controllers['sortable_form'] ) ){

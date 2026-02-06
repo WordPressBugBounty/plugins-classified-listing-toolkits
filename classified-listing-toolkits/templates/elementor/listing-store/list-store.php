@@ -39,7 +39,7 @@ $the_loops = $instance['stores'];
              data-posts-per-page="<?php echo esc_attr( $instance['posts_per_page'] ); ?>">
             <button id="rtcl_store_load_more" class="btn load-more-btn">
                 <i class="fas fa-sync-alt"></i>
-				<?php esc_html_e( 'Load More', 'classified-listing-store' ); ?>
+				<?php esc_html_e( 'Load More', 'classified-listing-toolkits' ); ?>
             </button>
         </div>
 	<?php endif; ?>

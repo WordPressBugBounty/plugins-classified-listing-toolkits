@@ -25,10 +25,8 @@ $class        .= ' location-box-' . $location_box;
 ?>
 <div class="rtcl-el-listing-location-box location-box-pro <?php echo esc_attr( $class ); ?>">
     <div class="rtcl-image-wrapper">
-        <?php
-        echo wp_kses_post( $link_start );
-        $image = '';
-        if ( ! empty( $settings['rtcl_bg_image_style'] ) && 'featured_image' === $settings['rtcl_bg_image_style'] ):
+        <?php echo wp_kses_post( $link_start ); ?>
+        <?php if ( ! empty( $settings['rtcl_bg_image_style'] ) && 'featured_image' === $settings['rtcl_bg_image_style'] ):
             $term_id          = ! empty( $term_id ) ? $term_id : 0;
             $image_id         = get_term_meta( $term_id, '_rtcl_image', true );
             $image_attributes = wp_get_attachment_image_src( (int) $image_id, 'full' );

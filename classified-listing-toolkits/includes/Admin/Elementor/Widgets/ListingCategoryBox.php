@@ -447,9 +447,6 @@ class ListingCategoryBox extends ElementorWidgetBase {
 				'id'        => 'rtcl_background',
 				'type'      => Group_Control_Background::get_type(),
 				'selector'  => '{{WRAPPER}} .cat-item-wrap .cat-details',
-				'condition' => array(
-					'rtcl_cats_style' => 'style-1',
-				),
 			),
 
 			array(
@@ -520,15 +517,12 @@ class ListingCategoryBox extends ElementorWidgetBase {
 				'id'        => 'rtcl_background_hover',
 				'type'      => Group_Control_Background::get_type(),
 				'selector'  => '{{WRAPPER}} .cat-item-wrap:hover .cat-details',
-				'condition' => array(
-					'rtcl_cats_style' => 'style-1',
-				),
 			),
 			array(
 				'type'     => Group_Control_Border::get_type(),
 				'mode'     => 'group',
 				'id'       => 'rtcl_border_hover',
-				'selector' => '{{WRAPPER}}  .cat-item-wrap .cat-details',
+				'selector' => '{{WRAPPER}}  .cat-item-wrap:hover .cat-details',
 			),
 			array(
 				'label'    => __( 'Box Shadow', 'classified-listing-toolkits' ),
@@ -598,7 +592,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 
 				'selectors' => array(
 					'{{WRAPPER}} .cat-item-wrap .cat-details .icon a .rtcl-icon' => 'font-size: {{SIZE}}{{UNIT}};',
-					'{{WRAPPER}} .cat-item-wrap .cat-details img'                => 'width: {{SIZE}}{{UNIT}};height: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .cat-item-wrap .cat-details img'                => 'height: {{SIZE}}{{UNIT}};width: auto;',
 				),
 			),
 			array(
@@ -977,6 +971,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 	 */
 	protected function render() {
 		wp_enqueue_style( 'rtcl-public' );
+		wp_enqueue_style( 'fontawesome' );
 
 		$settings = $this->get_settings();
 		$terms    = $this->widget_results( $settings );

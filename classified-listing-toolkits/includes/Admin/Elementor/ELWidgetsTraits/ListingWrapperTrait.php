@@ -38,6 +38,14 @@ trait ListingWrapperTrait {
 				],
 			],
 			[
+				'type'      => Controls_Manager::COLOR,
+				'id'        => 'rtcl_wrapper_bg_color_hover',
+				'label'     => __( 'Background Color hover', 'classified-listing-toolkits' ),
+				'selectors' => [
+					'{{WRAPPER}} .rtcl.rtcl-elementor-widget .listing-item:hover' => 'background-color: {{VALUE}};',
+				],
+			],
+			[
 				'label'    => __( 'Box Shadow', 'classified-listing-toolkits' ),
 				'type'     => Group_Control_Box_Shadow::get_type(),
 				'mode'     => 'group',

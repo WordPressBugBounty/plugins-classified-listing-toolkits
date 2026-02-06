@@ -60,16 +60,23 @@ class ListingSlider extends ListingSliderSettings {
 	public function widget_query_args() {
 		$settings = $this->get_settings();
 
-		$categories_list   = isset( $settings['rtcl_listings_by_categories'] ) && ! empty( $settings['rtcl_listings_by_categories'] ) ? $settings['rtcl_listings_by_categories'] : [];
+		$categories_list   = isset( $settings['rtcl_listings_by_categories'] ) && ! empty( $settings['rtcl_listings_by_categories'] )
+			? $settings['rtcl_listings_by_categories'] : [];
 		$location_list     = isset( $settings['rtcl_locations'] ) && ! empty( $settings['rtcl_locations'] ) ? $settings['rtcl_locations'] : [];
+		$tag_list          = isset( $settings['rtcl_tags'] ) && ! empty( $settings['rtcl_tags'] ) ? $settings['rtcl_tags'] : [];
 		$orderby           = isset( $settings['rtcl_orderby'] ) && ! empty( $settings['rtcl_orderby'] ) ? $settings['rtcl_orderby'] : 'date';
 		$order             = isset( $settings['rtcl_order'] ) && ! empty( $settings['rtcl_order'] ) ? $settings['rtcl_order'] : 'desc';
-		$listings_per_page = isset( $settings['rtcl_listing_per_page'] ) && ! empty( $settings['rtcl_listing_per_page'] ) ? $settings['rtcl_listing_per_page'] : '5';
-		$promotion_in      = isset( $settings['rtcl_listings_promotions'] ) && ! empty( $settings['rtcl_listings_promotions'] ) ? $settings['rtcl_listings_promotions'] : [];
-		$promotion_not_in  = isset( $settings['rtcl_listings_promotions_not_in'] ) && ! empty( $settings['rtcl_listings_promotions_not_in'] ) ? $settings['rtcl_listings_promotions_not_in'] : [];
+		$listings_per_page = isset( $settings['rtcl_listing_per_page'] ) && ! empty( $settings['rtcl_listing_per_page'] ) ? $settings['rtcl_listing_per_page']
+			: '5';
+		$promotion_in      = isset( $settings['rtcl_listings_promotions'] ) && ! empty( $settings['rtcl_listings_promotions'] )
+			? $settings['rtcl_listings_promotions'] : [];
+		$promotion_not_in  = isset( $settings['rtcl_listings_promotions_not_in'] ) && ! empty( $settings['rtcl_listings_promotions_not_in'] )
+			? $settings['rtcl_listings_promotions_not_in'] : [];
 
-		$categories_children = isset( $settings['rtcl_listings_categories_include_children'] ) && ! empty( $settings['rtcl_listings_categories_include_children'] ) ? true : false;
-		$location_children   = isset( $settings['rtcl_listings_location_include_children'] ) && ! empty( $settings['rtcl_listings_location_include_children'] ) ? true : false;
+		$categories_children = isset( $settings['rtcl_listings_categories_include_children'] )
+		                       && ! empty( $settings['rtcl_listings_categories_include_children'] ) ? true : false;
+		$location_children   = isset( $settings['rtcl_listings_location_include_children'] ) && ! empty( $settings['rtcl_listings_location_include_children'] )
+			? true : false;
 		$listing_type        = isset( $settings['rtcl_listing_types'] ) && ! empty( $settings['rtcl_listing_types'] ) ? $settings['rtcl_listing_types'] : 'all';
 
 		$meta_queries = [];
@@ -122,6 +129,14 @@ class ListingSlider extends ListingSliderSettings {
 				'field'            => 'term_id',
 				'operator'         => 'IN',
 				'include_children' => $location_children,
+			];
+		}
+		if ( ! empty( $tag_list ) ) {
+			$the_args['tax_query'][] = [
+				'taxonomy' => rtcl()->tag,
+				'terms'    => $tag_list,
+				'field'    => 'term_id',
+				'operator' => 'IN',
 			];
 		}
 
@@ -203,6 +218,7 @@ class ListingSlider extends ListingSliderSettings {
 	 * @return mixed
 	 */
 	protected function render() {
+		wp_enqueue_style( 'fontawesome' );
 		$settings = $this->get_settings();
 		if ( ! $settings['rtcl_show_price_unit'] ) {
 			remove_filter( 'rtcl_price_meta_html', [ AppliedBothEndHooks::class, 'add_price_unit_to_price' ], 10, 3 );
@@ -212,9 +228,9 @@ class ListingSlider extends ListingSliderSettings {
 		}
 
 		add_action( 'rtcl_listing_badges', [ TemplateHooks::class, 'listing_featured_badge' ], 20 );
-        if ( rtcl()->has_pro() ) {
-            add_action('rtcl_listing_badges', [TemplateHooksPro::class, 'listing_popular_badge'], 30);
-        }
+		if ( rtcl()->has_pro() ) {
+			add_action( 'rtcl_listing_badges', [ TemplateHooksPro::class, 'listing_popular_badge' ], 30 );
+		}
 		$the_loops = $this->widget_results();
 		$view      = 'grid';
 		// rtcl_el_listings_list_style.

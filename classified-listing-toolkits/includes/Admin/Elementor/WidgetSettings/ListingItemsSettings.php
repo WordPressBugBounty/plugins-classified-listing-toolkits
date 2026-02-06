@@ -25,6 +25,7 @@ use RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\ELWidgetsTraits\{
 	ListingResponsiveControlTrait,
 	ListingContentVisibilityTrait
 };
+use Rtcl\Services\FormBuilder\FBHelper;
 
 /**
  * ListingCategoryBox Class
@@ -97,6 +98,19 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'id'       => 'rtcl_title_typo',
 				'label'    => __( 'Typography', 'classified-listing-toolkits' ),
 				'selector' => '{{WRAPPER}} .listing-item  .item-content  .rtcl-listing-title',
+			],
+			[
+				'type'         => Controls_Manager::SELECT,
+				'id'           => 'title_show_on',
+				'label'        => __( 'Title Show on', 'classified-listing-toolkits' ),
+				'options'      => [
+					'full'   => __( 'Full Title', 'classified-listing-toolkits' ),
+					'1-line' => __( 'One line', 'classified-listing-toolkits' ),
+					'2-line' => __( 'Two line', 'classified-listing-toolkits' ),
+					'3-line' => __( 'Three line', 'classified-listing-toolkits' ),
+				],
+				'default'      => 'full',
+				'prefix_class' => 'title-show-',
 			],
 			[
 				'label'      => __( 'Title Spacing', 'classified-listing-toolkits' ),
@@ -634,7 +648,9 @@ class ListingItemsSettings extends ElementorWidgetBase {
 	public function widget_general_fields(): array {
 		$category_dropdown = $this->taxonomy_list();
 		$location_dropdown = $this->taxonomy_list( 'all', 'rtcl_location' );
-		$listing_order_by  = [
+		$tag_dropdown      = $this->taxonomy_list( 'all', 'rtcl_tag' );
+
+		$listing_order_by = [
 			'title' => __( 'Title', 'classified-listing-toolkits' ),
 			'date'  => __( 'Date', 'classified-listing-toolkits' ),
 			'ID'    => __( 'ID', 'classified-listing-toolkits' ),
@@ -642,9 +658,11 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			'views' => __( 'Views', 'classified-listing-toolkits' ),
 			'none'  => __( 'None', 'classified-listing-toolkits' ),
 		];
-		$listing_order_by  = apply_filters( 'rtcl_el_listing_order_by', $listing_order_by );
+		$listing_order_by = apply_filters( 'rtcl_el_listing_order_by', $listing_order_by );
 
-		$promotions = Options::get_listing_promotions();
+		$promotions   = Options::get_listing_promotions();
+		$form_list    = method_exists( FBHelper::class, 'getFormList' ) ? FBHelper::getFormList() : [];
+		$form_list[0] = esc_html__( 'All', 'classified-listing-toolkits' );
 
 		if ( rtcl()->has_pro() ) {
 			$promotions['_views'] = esc_html__( "Popular", "classified-listing-toolkits" );
@@ -742,6 +760,14 @@ class ListingItemsSettings extends ElementorWidgetBase {
 
 			[
 				'type'    => Controls_Manager::SELECT,
+				'id'      => 'rtcl_listing_directory',
+				'label'   => __( 'Select Directory', 'classified-listing-toolkits' ),
+				'options' => $form_list,
+				'default' => '',
+			],
+
+			[
+				'type'    => Controls_Manager::SELECT,
 				'id'      => 'rtcl_listing_types',
 				'label'   => __( 'Listing Types', 'classified-listing-toolkits' ),
 				'options' => array_merge(
@@ -811,6 +837,15 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				],
 			],
 			[
+				'type'        => Controls_Manager::SELECT2,
+				'id'          => 'rtcl_tags',
+				'label'       => __( 'Tags', 'classified-listing-toolkits' ),
+				'options'     => $tag_dropdown,
+				'multiple'    => true,
+				'label_block' => true,
+				'description' => __( 'Select tag to filter listings.', 'classified-listing-toolkits' ),
+			],
+			[
 				'type'        => Controls_Manager::NUMBER,
 				'id'          => 'rtcl_listing_per_page',
 				'label'       => __( 'Listing Per Page', 'classified-listing-toolkits' ),
@@ -859,6 +894,15 @@ class ListingItemsSettings extends ElementorWidgetBase {
 				'rows'        => 10,
 				'default'     => esc_html__( 'No Listing Found', 'classified-listing-toolkits' ),
 				'placeholder' => esc_html__( 'Type your description here', 'classified-listing-toolkits' ),
+			],
+
+			[
+				'id'        => 'rtcl_details_btn_label',
+				'label'     => esc_html__( 'Details Button Label', 'classified-listing-toolkits' ),
+				'type'      => Controls_Manager::TEXT,
+				'condition' => [
+					'rtcl_listings_style' => 'style-7',
+				],
 			],
 			[
 				'mode' => 'section_end',

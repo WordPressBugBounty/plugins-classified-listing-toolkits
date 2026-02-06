@@ -36,10 +36,12 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	 * Slider related functionality
 	 */
 	use ElSliderTrait;
+
 	/**
 	 * Listing style or view related trait
 	 */
 	use ListingStyleTrait;
+
 	/**
 	 * Content visiblity.
 	 */
@@ -51,7 +53,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	 * @return array
 	 */
 	public function widget_style_fields(): array {
-		
+
 		$fields = array_merge(
 			$this->widget_style_item_wrapper_fields(),
 			$this->widget_style_image_wrapper_fields(),
@@ -60,10 +62,12 @@ class ListingSliderSettings extends ElementorWidgetBase {
 			$this->widget_style_price_fields(),
 			$this->widget_style_badge_fields(),
 			$this->widget_style_button_fields(),
-//			$this->widget_style_slider_pagination_fields()
+			$this->widget_style_slider_pagination_fields()
 		);
+
 		return apply_filters( 'rtcl_el_listing_slider_widget_style_field', $fields, $this );
 	}
+
 	/**
 	 * Set style controlls
 	 *
@@ -93,9 +97,9 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_button_bg_color',
 				'label'     => __( 'Background Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtin-el-button a' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-elementor-widget .rtin-details-button' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a'                                          => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-elementor-widget .rtin-details-button'                => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button a'                  => 'background-color: {{VALUE}};',
 					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn' => 'background-color: {{VALUE}};',
 				),
 			),
@@ -113,10 +117,10 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				),
 			),
 			[
-				'type'     => Group_Control_Border::get_type(),
-				'mode'     => 'group',
-				'id'         => 'rtcl_button_border_color',
-				'label'      => __( 'Border', 'classified-listing-toolkits' ),
+				'type'           => Group_Control_Border::get_type(),
+				'mode'           => 'group',
+				'id'             => 'rtcl_button_border_color',
+				'label'          => __( 'Border', 'classified-listing-toolkits' ),
 				'fields_options' => [
 					'border' => [
 						'default' => 'solid',
@@ -134,10 +138,10 @@ class ListingSliderSettings extends ElementorWidgetBase {
 						'default' => '#e1e1e1',
 					],
 				],
-				'selector'  => '{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a',
-				'condition' => array( 'rtcl_listings_grid_style' => array( 'style-5' ) ),
+				'selector'       => '{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn a',
+				'condition'      => array( 'rtcl_listings_grid_style' => array( 'style-5' ) ),
 			],
-			
+
 			array(
 				'mode' => 'tab_end',
 			),
@@ -152,9 +156,9 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_button_bg_hover_color',
 				'label'     => __( 'Background Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtin-el-button a:hover' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-elementor-widget .rtin-details-button:hover' => 'background-color: {{VALUE}};',
-					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button:hover' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtin-el-button a:hover'                                          => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-elementor-widget .rtin-details-button:hover'                => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-meta-buttons-wrap .rtcl-el-button:hover'                    => 'background-color: {{VALUE}};',
 					'{{WRAPPER}} .rtcl-grid-view.rtcl-style-5-view .rtin-bottom .action-btn:hover' => 'background-color: {{VALUE}};',
 				),
 			),
@@ -191,7 +195,8 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_button_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_button_style_field', $fields, $this );
 	}
 
 	/**
@@ -199,7 +204,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	 *
 	 * @return array
 	 */
-	public function widget_style_slider_pagination_fields():array {
+	public function widget_style_slider_pagination_fields(): array {
 		$fields = array(
 			array(
 				'mode'      => 'section_start',
@@ -234,7 +239,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'{{WRAPPER}} .page-item.active .page-link, {{WRAPPER}} .page-item .page-link:hover' => 'background-color: {{VALUE}};border-color: {{VALUE}};',
 				),
 			),
-	
+
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_pagination_text_color',
@@ -281,7 +286,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					),
 				),
 			),
-	
+
 			array(
 				'label'      => __( 'Arrow Navigation Border Radius', 'classified-listing-toolkits' ),
 				'type'       => Controls_Manager::DIMENSIONS,
@@ -295,7 +300,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'slider_nav' => 'yes',
 				),
 			),
-	
+
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_navigation_bg_color',
@@ -314,7 +319,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'slider_nav' => 'yes',
 				),
 			),
-	
+
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_navigation_icon_color',
@@ -333,7 +338,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'slider_nav' => 'yes',
 				),
 			),
-	
+
 			array(
 				'label'     => esc_html__( 'Dot Navigation Settings', 'classified-listing-toolkits' ),
 				'id'        => 'navigation_control_heading',
@@ -343,7 +348,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'slider_dots' => 'yes',
 				),
 			),
-	
+
 			array(
 				'type'       => Controls_Manager::SLIDER,
 				'separator'  => 'before',
@@ -367,7 +372,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'slider_dots' => 'yes',
 				),
 			),
-	
+
 			array(
 				'type'      => Controls_Manager::COLOR,
 				'id'        => 'rtcl_dot_navigation_bg_color',
@@ -395,12 +400,13 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					'slider_dots' => 'yes',
 				),
 			),
-	
+
 			array(
 				'mode' => 'section_end',
 			)
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_pagination_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_pagination_style_field', $fields, $this );
 	}
 
 	/**
@@ -408,7 +414,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	 *
 	 * @return array
 	 */
-	public function widget_style_badge_fields():array {
+	public function widget_style_badge_fields(): array {
 		$fields = array(
 			array(
 				'mode'  => 'section_start',
@@ -559,7 +565,8 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_badge_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_badge_style_field', $fields, $this );
 	}
 
 	/**
@@ -567,7 +574,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	 *
 	 * @return array
 	 */
-	public function widget_style_price_fields():array {
+	public function widget_style_price_fields(): array {
 		$fields = array(
 			array(
 				'mode'      => 'section_start',
@@ -587,11 +594,11 @@ class ListingSliderSettings extends ElementorWidgetBase {
 			),
 
 			array(
-				'mode'     => 'group',
-				'type'     => Group_Control_Typography::get_type(),
-				'id'       => 'rtcl_price_unit_label_typo',
-				'label'    => __( 'Unit Label Typography', 'classified-listing-toolkits' ),
-				'selector' => '{{WRAPPER}} .listing-item .item-price .rtcl-price-unit-label',
+				'mode'      => 'group',
+				'type'      => Group_Control_Typography::get_type(),
+				'id'        => 'rtcl_price_unit_label_typo',
+				'label'     => __( 'Unit Label Typography', 'classified-listing-toolkits' ),
+				'selector'  => '{{WRAPPER}} .listing-item .item-price .rtcl-price-unit-label',
 				'condition' => array( 'rtcl_show_price_unit' => array( 'yes' ) ),
 			),
 
@@ -613,7 +620,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'selectors'  => array(
 					'{{WRAPPER}} .rtcl.rtcl-elementor-widget .listing-item .item-price' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
-				'condition' => array(
+				'condition'  => array(
 					'rtcl_listings_grid_style' => array( 'style-5' ),
 				),
 			),
@@ -644,7 +651,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_amount_text_color',
 				'label'     => __( 'Text Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-listings .listing-item .rtcl-price'       => 'color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-listings .listing-item .rtcl-price' => 'color: {{VALUE}};',
 				),
 			),
 
@@ -652,7 +659,8 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_price_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_price_style_field', $fields, $this );
 	}
 
 	/**
@@ -660,7 +668,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	 *
 	 * @return array
 	 */
-	public function widget_style_meta_fields():array {
+	public function widget_style_meta_fields(): array {
 		$fields = array(
 			array(
 				'mode'  => 'section_start',
@@ -701,7 +709,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_meta_color',
 				'label'     => __( 'Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-elementor-widget' => '--meta-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-elementor-widget'     => '--meta-color: {{VALUE}}',
 					'{{WRAPPER}} .rtcl-listing-meta-data li' => 'color: {{VALUE}}',
 				),
 			),
@@ -731,7 +739,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_meta_hover_color',
 				'label'     => __( 'Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-elementor-widget' => '--meta-hover-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-elementor-widget'                         => '--meta-hover-color: {{VALUE}}',
 					'{{WRAPPER}} .listing-item:hover .rtcl-listing-meta-data li' => 'color: {{VALUE}}',
 				),
 			),
@@ -740,7 +748,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'id'        => 'rtcl_meta_hover_icon_color',
 				'label'     => __( 'Meta Icon Color', 'classified-listing-toolkits' ),
 				'selectors' => array(
-					'{{WRAPPER}} .rtcl-elementor-widget' => '--meta-icon-hove-color: {{VALUE}}',
+					'{{WRAPPER}} .rtcl-elementor-widget'                           => '--meta-icon-hove-color: {{VALUE}}',
 					'{{WRAPPER}} .listing-item:hover .rtcl-listing-meta-data li i' => 'color: {{VALUE}}',
 				),
 			),
@@ -804,14 +812,16 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_meta_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_meta_style_field', $fields, $this );
 	}
+
 	/**
 	 * Set style controlls
 	 *
 	 * @return array
 	 */
-	public function widget_style_title_fields():array {
+	public function widget_style_title_fields(): array {
 		$fields = array(
 			array(
 				'mode'      => 'section_start',
@@ -829,6 +839,19 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'label'    => __( 'Typography', 'classified-listing-toolkits' ),
 				'selector' => '{{WRAPPER}} .listing-item  .item-content  .rtcl-listing-title',
 			),
+			[
+				'type'    => Controls_Manager::SELECT,
+				'id'      => 'title_show_on_slider',
+				'label'   => __( 'Title Show on', 'classified-listing-toolkits' ),
+				'options' => [
+					'full'   => __( 'Full Title', 'classified-listing-toolkits' ),
+					'1-line' => __( 'One line', 'classified-listing-toolkits' ),
+					'2-line' => __( 'Two line', 'classified-listing-toolkits' ),
+					'3-line' => __( 'Three line', 'classified-listing-toolkits' ),
+				],
+				'default' => 'full',
+				'prefix_class' => 'title-show-',
+			],
 			array(
 				'label'      => __( 'Title Spacing', 'classified-listing-toolkits' ),
 				'type'       => Controls_Manager::DIMENSIONS,
@@ -883,14 +906,16 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_title_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_title_style_field', $fields, $this );
 	}
+
 	/**
 	 * Set style controlls
 	 *
 	 * @return array
 	 */
-	public function widget_style_image_wrapper_fields():array {
+	public function widget_style_image_wrapper_fields(): array {
 		$fields = array(
 			array(
 				'mode'  => 'section_start',
@@ -900,7 +925,6 @@ class ListingSliderSettings extends ElementorWidgetBase {
 			),
 
 			array(
-				'mode'       => 'responsive',
 				'label'      => __( 'Image Spacing', 'classified-listing-toolkits' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'mode'       => 'responsive',
@@ -912,17 +936,30 @@ class ListingSliderSettings extends ElementorWidgetBase {
 			),
 
 			array(
+				'label'      => __( 'Image Radius', 'classified-listing-toolkits' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'mode'       => 'responsive',
+				'id'         => 'rtcl_listing_image_radius',
+				'size_units' => array( 'px', 'em', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .rtcl-elementor-widget .listing-thumb' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}} !important;',
+				),
+			),
+
+			array(
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_image_wrapper_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_image_wrapper_style_field', $fields, $this );
 	}
+
 	/**
 	 * Set style controlls
 	 *
 	 * @return array
 	 */
-	public function widget_style_item_wrapper_fields():array {
+	public function widget_style_item_wrapper_fields(): array {
 		$fields = array(
 			array(
 				'mode'  => 'section_start',
@@ -959,10 +996,30 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'label'      => __( 'Wrapper Spacing', 'classified-listing-toolkits' ),
 				'type'       => Controls_Manager::DIMENSIONS,
 				'mode'       => 'responsive',
+				'id'         => 'rtcl_wrapper_parent_spacing',
+				'size_units' => array( 'px', 'em' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .rtcl-elementor-widget' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			),
+			array(
+				'label'      => __( 'Item Spacing', 'classified-listing-toolkits' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'mode'       => 'responsive',
 				'id'         => 'rtcl_wrapper_spacing',
 				'size_units' => array( 'px', 'em', '%' ),
 				'selectors'  => array(
 					'{{WRAPPER}} .rtcl-elementor-widget .listing-item' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				),
+			),
+			array(
+				'label'      => __( 'Item Radius', 'classified-listing-toolkits' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'mode'       => 'responsive',
+				'id'         => 'rtcl_listing_item_radius',
+				'size_units' => array( 'px', 'em', '%' ),
+				'selectors'  => array(
+					'{{WRAPPER}} .rtcl-elementor-widget .listing-item' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				),
 			),
 
@@ -1004,8 +1061,10 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'mode' => 'section_end',
 			),
 		);
-		return apply_filters( 'rtcl_el_listing_slider_widget_item_wrapper_style_field', $fields, $this);
+
+		return apply_filters( 'rtcl_el_listing_slider_widget_item_wrapper_style_field', $fields, $this );
 	}
+
 	/**
 	 * Set Query controlls
 	 *
@@ -1014,6 +1073,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 	public function widget_general_fields(): array {
 		$category_dropdown = $this->taxonomy_list();
 		$location_dropdown = $this->taxonomy_list( 'all', 'rtcl_location' );
+		$tag_dropdown      = $this->taxonomy_list( 'all', 'rtcl_tag' );
 		$listing_order_by  = array(
 			'title' => __( 'Title', 'classified-listing-toolkits' ),
 			'date'  => __( 'Date', 'classified-listing-toolkits' ),
@@ -1129,6 +1189,15 @@ class ListingSliderSettings extends ElementorWidgetBase {
 					),
 				),
 			),
+			[
+				'type'        => Controls_Manager::SELECT2,
+				'id'          => 'rtcl_tags',
+				'label'       => __( 'Tags', 'classified-listing-toolkits' ),
+				'options'     => $tag_dropdown,
+				'multiple'    => true,
+				'label_block' => true,
+				'description' => __( 'Select tag to filter listings.', 'classified-listing-toolkits' ),
+			],
 			array(
 				'type'        => Controls_Manager::NUMBER,
 				'id'          => 'rtcl_listing_per_page',
@@ -1136,7 +1205,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'default'     => '10',
 				'description' => __( 'Number of listing to display', 'classified-listing-toolkits' ),
 			),
-			
+
 			array(
 				'type'    => Controls_Manager::SELECT2,
 				'id'      => 'rtcl_orderby',
@@ -1159,7 +1228,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 				'label'     => __( 'Image Size', 'classified-listing-toolkits' ),
 				'type'      => Group_Control_Image_Size::get_type(),
 				'id'        => 'rtcl_thumb_image',
-				'exclude' => [ 'custom' ],
+				'exclude'   => [ 'custom' ],
 				'mode'      => 'group',
 				'default'   => 'rtcl-thumbnail',
 				'separator' => 'none',
@@ -1174,6 +1243,7 @@ class ListingSliderSettings extends ElementorWidgetBase {
 			$this->slider_options(),
 			$this->slider_responsive()
 		);
+
 		return apply_filters( 'rtcl_el_listing_slider_widget_general_field', $fields, $this );
 	}
 

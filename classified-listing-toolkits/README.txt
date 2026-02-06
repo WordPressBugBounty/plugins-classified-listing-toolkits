@@ -2,9 +2,9 @@
 Contributors: techlabpro1
 Tags: classified listing, Elementor, Divi, listing plugin, WordPress builder support
 Requires at least: 5.6
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,20 @@ Yes! The plugin is designed to be compatible with most WordPress themes.
 You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/classified-listing-toolkits)
 
 == Changelog ==
+
+= 1.2.3 =
+* Fixed: Accessibility issues
+* Added: Location image compatibility
+
+= 1.2.2 =
+* Added: AI Semantic Search compatibility
+* Added: Directory filter in listings showcases widget
+
+= 1.2.1 =
+* Fixed: Elementor widgets functionality improved and extended
+* Fixed: Some RTL issue fixed for Elementor widgets
+* Compatibility: Classified Listing From builder compatibility
+* Fixed: Wrong text-domain fixed
 
 = 1.2.0 =
 * Fixed: Search form button style issue
