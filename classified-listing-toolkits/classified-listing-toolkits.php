@@ -4,7 +4,7 @@
  * Plugin Name:         Classified Listing Toolkits
  * Plugin URI:          https://wordpress.org/plugins/classified-listing-toolkits/
  * Description:         Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts.
- * Version:             1.2.3
+ * Version:             1.2.4
  * Requires at least:   6
  * Requires PHP:        7.4
  * Author:              RadiusTheme
@@ -23,7 +23,7 @@ use RadiusTheme\ClassifiedListingToolkits\Admin\ElementorController;
 use RadiusTheme\ClassifiedListingToolkits\Admin\ELStoreController;
 
 defined( 'ABSPATH' ) || exit;
-const CLASSIFIED_LISTING_TOOLKITS_VERSION = '1.2.3';
+const CLASSIFIED_LISTING_TOOLKITS_VERSION = '1.2.4';
 const CLASSIFIED_LISTING_MIN_VERSION      = '5.3.0';
 
 final class ClassifiedListingToolkits {
