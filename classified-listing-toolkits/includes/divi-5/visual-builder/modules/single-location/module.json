@@ -1,0 +1,251 @@
+{
+  "name": "rtcl-toolkits/single-location",
+  "d4Shortcode": "rtcl_single_location",
+  "title": "Single Location",
+  "titles": "Single Locations",
+  "moduleIcon": "divi/map-pin",
+  "category": "module",
+  "keywords": ["classified", "listing", "location"],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "meta": {
+          "adminLabel": {
+            "desktop": {
+              "value": ""
+            }
+          }
+        }
+      },
+      "defaultPrintedStyle": {},
+      "styleProps": {
+        "spacing": {
+          "important": true
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "style-1"
+          }
+        }
+      }
+    },
+    "locationId": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "showChildLocations": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "childLocationLimit": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "showCount": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showDescription": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "contentAlignment": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "center"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-location-name",
+      "tagName": "h3",
+      "elementType": "heading",
+      "default": {
+        "decoration": {
+          "font": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "headingLevel": "h3"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "count": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-location-listing-count",
+      "tagName": "div",
+      "elementType": "text",
+      "default": {}
+    },
+    "description": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-location-description",
+      "tagName": "p",
+      "elementType": "text",
+      "default": {}
+    },
+    "wrapperBgColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperBorderRadius": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingTop": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingRight": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingBottom": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingLeft": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "titleColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-location-name",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "titleHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-inner a:hover .rtcl-location-name",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "descriptionColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-location-description",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "countColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-location-listing-count",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "contentBackground": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-single-location-inner",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "css": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "customCssFields": {
+    "locationWrapper": {
+      "subName": "locationWrapper",
+      "selectorSuffix": " .rtcl-single-location"
+    },
+    "locationInner": {
+      "subName": "locationInner",
+      "selectorSuffix": " .rtcl-single-location-inner"
+    },
+    "locationTitle": {
+      "subName": "locationTitle",
+      "selectorSuffix": " .rtcl-location-name"
+    },
+    "locationCount": {
+      "subName": "locationCount",
+      "selectorSuffix": " .rtcl-location-listing-count"
+    },
+    "locationContent": {
+      "subName": "locationContent",
+      "selectorSuffix": " .rtcl-location-content"
+    }
+  }
+}

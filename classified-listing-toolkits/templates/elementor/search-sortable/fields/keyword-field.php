@@ -1,7 +1,7 @@
 <?php
 
 if ( ! defined( 'ABSPATH' ) ) {
-    exit;
+	exit;
 } // Exit if accessed directly
 
 /**
@@ -32,19 +32,21 @@ $keyword_id = 'rtcl-search-keyword-' . $id;
 ?>
 <div class="rtcl-form-group rt-autocomplete-wrapper rtcl-flex rtcl-flex-column elementor-repeater-item-<?php
 echo esc_attr( $repeater_id ); ?>">
-    <?php
-    $keywords = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( ( $_GET['q'] ) ) ) : '';    //phpcs:ignore?>
-    <?php if ( $controllers['fields_label'] ) { ?>
+	<?php
+	$keywords = isset( $_GET['q'] ) ? sanitize_text_field( wp_unslash( ( $_GET['q'] ) ) ) : '';    //phpcs:ignore?>
+	<?php if ( $controllers['fields_label'] ) { ?>
         <label for="<?php echo esc_attr( $keyword_id ); ?>" class="rtcl-from-label"><?php echo esc_html( $field_Label ); ?></label>
-    <?php } ?>
-    <?php
-    $search_class = 'keywords-field-wrapper';
-    if ( Functions::is_semantic_search_enabled() ) {
-        $search_class .= ' rtcl-ai-search-field';
-    }
-    ?>
-    <div class="<?php echo esc_attr( $search_class ); ?>">
-        <input type="text" id="<?php echo esc_attr( $keyword_id ); ?>" name="q" data-type="listing" class="rtcl-autocomplete rtcl-form-control" placeholder="<?php
-        echo esc_html( $placeholder ); ?>" value="<?php echo esc_html( $keywords ); ?>" aria-label="<?php echo esc_attr( $field_Label ); ?>">
+	<?php } ?>
+    <div class="rtcl-form-group-field">
+		<?php
+		$search_class = 'keywords-field-wrapper';
+		if ( Functions::is_semantic_search_enabled() ) {
+			$search_class .= ' rtcl-ai-search-field';
+		}
+		?>
+        <div class="<?php echo esc_attr( $search_class ); ?>">
+            <input type="text" id="<?php echo esc_attr( $keyword_id ); ?>" name="q" data-type="listing" class="rtcl-autocomplete rtcl-form-control" placeholder="<?php
+			echo esc_html( $placeholder ); ?>" value="<?php echo esc_html( $keywords ); ?>" aria-label="<?php echo esc_attr( $field_Label ); ?>">
+        </div>
     </div>
 </div>

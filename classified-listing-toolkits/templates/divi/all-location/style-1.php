@@ -2,7 +2,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /**
  * @author        RadiusTheme
- * @version       1.0.0
+ * @version       1.1.0
  */
 
 use Rtcl\Helpers\Functions;
@@ -11,11 +11,13 @@ use Rtcl\Helpers\Functions;
 
 <div class="rtcl rtcl-location-wrapper rtcl-divi-module">
 	<?php
-	$i = 0;
 	if ( ! empty( $terms ) ) {
-		$class = ! empty( $settings['rtcl_grid_column'] ) ? ' columns-' . $settings['rtcl_grid_column'] : ' columns-3';
-		$class .= ! empty( $settings['rtcl_grid_column_tablet'] ) ? ' tab-columns-' . $settings['rtcl_grid_column_tablet'] : ' tab-columns-2';
-		$class .= ! empty( $settings['rtcl_grid_column_phone'] ) ? ' mobile-columns-' . $settings['rtcl_grid_column_phone'] : ' mobile-columns-1';
+		$class = ! empty( $settings['rtcl_grid_column'] ) ? ' columns-' . absint( $settings['rtcl_grid_column'] ) : ' columns-3';
+		$class .= ! empty( $settings['rtcl_grid_column_tablet'] ) ? ' tab-columns-' . absint( $settings['rtcl_grid_column_tablet'] ) : ' tab-columns-2';
+		$class .= ! empty( $settings['rtcl_grid_column_phone'] ) ? ' mobile-columns-' . absint( $settings['rtcl_grid_column_phone'] ) : ' mobile-columns-1';
+
+		$show_child      = ! empty( $settings['rtcl_show_child_locations'] ) && $settings['rtcl_show_child_locations'] === 'on';
+		$child_limit     = ! empty( $settings['rtcl_child_location_limit'] ) ? intval( $settings['rtcl_child_location_limit'] ) : 5;
 		?>
         <div class="rtcl-location-items-wrapper rtcl-grid-view <?php echo esc_attr( $class ); ?>">
 			<?php
@@ -49,10 +51,44 @@ use Rtcl\Helpers\Functions;
 				}
 				if ( 'on' === $settings['rtcl_description'] && $trm->description ) {
 					$word_limit = wp_trim_words( $trm->description, $settings['rtcl_content_limit'] );
-					printf( '<p>%s</p>', esc_html( $word_limit ) );
+					printf( '<p class="rtcl-location-description">%s</p>', esc_html( $word_limit ) );
 				}
+
 				echo '</div>';
 				echo '</div>';
+
+				// Child locations.
+				if ( $show_child ) {
+					$child_locations = get_terms( [
+						'taxonomy'   => rtcl()->location,
+						'hide_empty' => false,
+						'parent'     => $trm->term_id,
+						'number'     => $child_limit,
+						'orderby'    => 'name',
+						'order'      => 'ASC',
+					] );
+
+					if ( ! is_wp_error( $child_locations ) && ! empty( $child_locations ) ) {
+						echo '<ul class="rtcl-child-locations">';
+						foreach ( $child_locations as $child ) {
+							$child_count = Functions::get_listings_count_by_taxonomy( $child->term_id, rtcl()->location );
+							$child_link  = get_term_link( $child );
+							if ( is_wp_error( $child_link ) ) {
+								$child_link = '#';
+							}
+							echo '<li class="rtcl-child-location-item">';
+							echo '<a href="' . esc_url( $child_link ) . '">';
+							echo esc_html( $child->name );
+							if ( 'on' === $settings['rtcl_show_count'] ) {
+								echo '<span class="rtcl-child-location-count">(' . esc_html( $child_count > 0 ? str_pad( $child_count, 2, '0', STR_PAD_LEFT ) : '0' ) . ')</span>';
+							}
+							echo '</a>';
+							echo '</li>';
+						}
+						echo '</ul>';
+					}
+				}
+
 				echo '</div>';
 			}
 			?>

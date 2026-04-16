@@ -9,7 +9,7 @@ namespace RadiusTheme\ClassifiedListingToolkits\Admin\Elementor\WidgetSettings;
 
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {
-    exit( 'This script cannot be accessed directly.' );
+	exit( 'This script cannot be accessed directly.' );
 }
 
 /**
@@ -17,40 +17,42 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class ButtonSettings {
 
-    /**
-     * Widget Field
-     *
-     * @return array
-     */
-    public static function style_settings() {
-        $fields = [
-            'button_section_start'      => [
-                'mode'  => 'section_start',
-                'label' => esc_html__( 'Button', 'classified-listing-toolkits' ),
-                'tab'   => 'style',
-            ],
-            'button_typography'         => [
-                'mode'     => 'group',
-                'type'     => 'typography',
-                'label'    => esc_html__( 'Typography', 'classified-listing-toolkits' ),
-                'selector' => '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )',
-            ],
-            'button_height'             => [
-                'label'     => esc_html__( 'Height', 'classified-listing-toolkits' ),
-                'type'      => 'slider',
-                'range'     => [
-                    'px' => [
-                        'min' => 10,
-                        'max' => 500,
-                    ],
-                ],
-                'selectors' => [
-                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'height: {{SIZE}}{{UNIT}};',
-                ],
-            ],
+	/**
+	 * Widget Field
+	 *
+	 * @return array
+	 */
+	public static function style_settings() {
+		$fields = [
+			'button_section_start'      => [
+				'mode'  => 'section_start',
+				'label' => esc_html__( 'Button', 'classified-listing-toolkits' ),
+				'tab'   => 'style',
+			],
+			'button_typography'         => [
+				'mode'     => 'group',
+				'type'     => 'typography',
+				'label'    => esc_html__( 'Typography', 'classified-listing-toolkits' ),
+				'selector' => '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )',
+			],
+			'button_height'             => [
+				'label'     => esc_html__( 'Height', 'classified-listing-toolkits' ),
+				'type'      => 'slider',
+				'mode'       => 'responsive',
+				'range'     => [
+					'px' => [
+						'min' => 10,
+						'max' => 500,
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'height: {{SIZE}}{{UNIT}};',
+				],
+			],
 			'button_width'             => [
 				'label'     => esc_html__( 'Width', 'classified-listing-toolkits' ),
 				'type'      => 'slider',
+				'mode'       => 'responsive',
 				'size_units' => [ 'px', '%' ],
 				'range'     => [
 					'px' => [
@@ -63,118 +65,121 @@ class ButtonSettings {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'width: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group.ws-button' => 'width: {{SIZE}}{{UNIT}} !important; max-width: {{SIZE}}{{UNIT}} !important; flex: 0 0 {{SIZE}}{{UNIT}} !important;',
 				],
 			],
-            'button_tabs_start'         => [
-                'mode' => 'tabs_start',
-            ],
-            'button_normal'             => [
-                'mode'  => 'tab_start',
-                'label' => esc_html__( 'Normal', 'classified-listing-toolkits' ),
-            ],
-            'button_text_color_normal'  => [
-                'label'     => esc_html__( 'Color', 'classified-listing-toolkits' ),
-                'type'      => 'color',
+			'button_tabs_start'         => [
+				'mode' => 'tabs_start',
+			],
+			'button_normal'             => [
+				'mode'  => 'tab_start',
+				'label' => esc_html__( 'Normal', 'classified-listing-toolkits' ),
+			],
+			'button_text_color_normal'  => [
+				'label'     => esc_html__( 'Color', 'classified-listing-toolkits' ),
+				'type'      => 'color',
 
-                'separator' => 'default',
-                'selectors' => [
-                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'color: {{VALUE}} !important;',
-                ],
-            ],
-            'button_bg_color_normal'    => [
-                'label'     => esc_html__( 'Background Color', 'classified-listing-toolkits' ),
-                'type'      => 'color',
+				'separator' => 'default',
+				'selectors' => [
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'color: {{VALUE}} !important;',
+				],
+			],
+			'button_bg_color_normal'    => [
+				'label'     => esc_html__( 'Background Color', 'classified-listing-toolkits' ),
+				'type'      => 'color',
 
-                'selectors' => [
-                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'background-color: {{VALUE}} !important;',
-                ],
-            ],
+				'selectors' => [
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )' => 'background-color: {{VALUE}} !important;',
+				],
+			],
 
-            'button_border'             => [
-                'mode'       => 'group',
-                'type'       => 'border',
-                'selector'   => '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )',
-                'size_units' => [ 'px' ],
-            ],
-            'button_normal_end'         => [
-                'mode' => 'tab_end',
-            ],
-            'button_hover'              => [
-                'mode'  => 'tab_start',
-                'label' => esc_html__( 'Hover', 'classified-listing-toolkits' ),
-            ],
-            'button_text_color_hover'   => [
-                'label'     => esc_html__( 'Color', 'classified-listing-toolkits' ),
-                'type'      => 'color',
+			'button_border'             => [
+				'mode'       => 'group',
+				'type'       => 'border',
+				'selector'   => '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] )',
+				'size_units' => [ 'px' ],
+			],
+			'button_normal_end'         => [
+				'mode' => 'tab_end',
+			],
+			'button_hover'              => [
+				'mode'  => 'tab_start',
+				'label' => esc_html__( 'Hover', 'classified-listing-toolkits' ),
+			],
+			'button_text_color_hover'   => [
+				'label'     => esc_html__( 'Color', 'classified-listing-toolkits' ),
+				'type'      => 'color',
 
-                'separator' => 'default',
-                'selectors' => [
-                    '{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover' => 'color: {{VALUE}} !important;',
-                ],
-            ],
-            'button_bg_color_hover'     => [
-                'label'     => esc_html__( 'Background Color', 'classified-listing-toolkits' ),
-                'type'      => 'color',
+				'separator' => 'default',
+				'selectors' => [
+					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover' => 'color: {{VALUE}} !important;',
+				],
+			],
+			'button_bg_color_hover'     => [
+				'label'     => esc_html__( 'Background Color', 'classified-listing-toolkits' ),
+				'type'      => 'color',
 
-                'selectors' => [
+				'selectors' => [
 					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover'  => 'background-color: {{VALUE}} !important;',
-                ],
-            ],
-            'button_border_hover_color' => [
-                'label'     => esc_html__( 'Border Color', 'classified-listing-toolkits' ),
-                'type'      => 'color',
+				],
+			],
+			'button_border_hover_color' => [
+				'label'     => esc_html__( 'Border Color', 'classified-listing-toolkits' ),
+				'type'      => 'color',
 
-                'selectors' => [
+				'selectors' => [
 					'{{WRAPPER}} :is( .rtcl-btn, button, [type=button], [type=reset], [type=submit] ):hover'  => 'border-color: {{VALUE}} !important;',
-                ],
-            ],
-            'button_hover_end'          => [
-                'mode' => 'tab_end',
-            ],
-            'button_tabs_end'           => [
-                'mode' => 'tabs_end',
-            ],
-            'button_border_radius'      => [
-                'label'      => esc_html__( 'Border Radius (px)', 'classified-listing-toolkits' ),
-                'type'       => 'dimensions',
-                'default'    => [
-                    'top'      => '5',
-                    'right'    => '5',
-                    'bottom'   => '5',
-                    'left'     => '5',
-                    'unit'     => 'px',
-                    'isLinked' => true,
-                ],
-                'size_units' => [ 'px' ],
-                'separator'  => 'before',
-                'selectors'  => [
+				],
+			],
+			'button_hover_end'          => [
+				'mode' => 'tab_end',
+			],
+			'button_tabs_end'           => [
+				'mode' => 'tabs_end',
+			],
+			'button_border_radius'      => [
+				'label'      => esc_html__( 'Border Radius (px)', 'classified-listing-toolkits' ),
+				'type'       => 'dimensions',
+				'mode'       => 'responsive',
+				'default'    => [
+					'top'      => '5',
+					'right'    => '5',
+					'bottom'   => '5',
+					'left'     => '5',
+					'unit'     => 'px',
+					'isLinked' => true,
+				],
+				'size_units' => [ 'px' ],
+				'separator'  => 'before',
+				'selectors'  => [
 					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-            ],
-            'button_padding'            => [
-                'label'      => esc_html__( 'Padding (px)', 'classified-listing-toolkits' ),
-                'type'       => 'dimensions',
-                'size_units' => [ 'px' ],
-                'selectors'  => [
+				],
+			],
+			'button_padding'            => [
+				'label'      => esc_html__( 'Padding (px)', 'classified-listing-toolkits' ),
+				'type'       => 'dimensions',
+				'mode'       => 'responsive',
+				'size_units' => [ 'px' ],
+				'selectors'  => [
 					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-                'separator'  => 'before',
-            ],
-            'button_margin'             => [
-                'label'      => esc_html__( 'Margin (px)', 'classified-listing-toolkits' ),
-                'type'       => 'dimensions',
-                'size_units' => [ 'px' ],
-                'selectors'  => [
+				],
+				'separator'  => 'before',
+			],
+			'button_margin'             => [
+				'label'      => esc_html__( 'Margin (px)', 'classified-listing-toolkits' ),
+				'type'       => 'dimensions',
+				'mode'       => 'responsive',
+				'size_units' => [ 'px' ],
+				'selectors'  => [
 					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] )' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
-                ],
-            ],
-			
-            'button_section_end'        => [
-                'mode' => 'section_end',
-            ],
-        ];
-        return $fields;
-    }
+				],
+			],
+
+			'button_section_end'        => [
+				'mode' => 'section_end',
+			],
+		];
+		return $fields;
+	}
 
 }

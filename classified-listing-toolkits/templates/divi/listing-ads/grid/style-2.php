@@ -246,7 +246,7 @@ use RtclPro\Controllers\Hooks\TemplateHooks;
 					$listing_description
 				);
 				$final_contents = sprintf( '%s%s', $img, $item_content );
-				echo wp_kses_post( $final_contents );
+				echo $final_contents; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				?>
 
             </div>

@@ -234,7 +234,7 @@ use RtclPro\Controllers\Hooks\TemplateHooks;
 
 				$final_contents = sprintf( '%s <div class="rtin-content-area">%s</div>', $img, $item_content );
 
-				echo wp_kses_post( $final_contents );
+				echo $final_contents; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				?>
             </div>
 

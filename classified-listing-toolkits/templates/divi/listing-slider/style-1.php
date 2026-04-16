@@ -13,7 +13,7 @@ $data = [
 	'instance' => $instance,
 ];
 
-echo wp_kses_post(Functions::get_template_html( 'divi/listing-slider/slider-header', $data, '', Helper::get_plugin_template_path() ));
+echo Functions::get_template_html( 'divi/listing-slider/slider-header', $data, '', Helper::get_plugin_template_path() ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 
 
 while ( $the_loops->have_posts() ) :
@@ -227,7 +227,7 @@ while ( $the_loops->have_posts() ) :
 
 		$final_contents = sprintf( '%s <div class="rtin-content-area">%s</div>', $img, $item_content );
 
-		echo wp_kses_post( $final_contents );
+		echo $final_contents; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		?>
     </div>
 
@@ -235,4 +235,4 @@ while ( $the_loops->have_posts() ) :
 <?php wp_reset_postdata(); ?>
 
 <?php
-echo wp_kses_post(Functions::get_template_html( 'divi/listing-slider/slider-footer', $data, '', Helper::get_plugin_template_path() ));
+echo Functions::get_template_html( 'divi/listing-slider/slider-footer', $data, '', Helper::get_plugin_template_path() ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped

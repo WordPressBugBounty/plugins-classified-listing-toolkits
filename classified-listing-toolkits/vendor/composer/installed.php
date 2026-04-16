@@ -3,7 +3,7 @@
         'name' => 'radiustheme/classified-listing-toolkits',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e3a027cfb7c18156c594f1558dbc60b1ff1c4692',
+        'reference' => 'cb52c3395037e6f3c331361deb17ca7f75b0c490',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'radiustheme/classified-listing-toolkits' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e3a027cfb7c18156c594f1558dbc60b1ff1c4692',
+            'reference' => 'cb52c3395037e6f3c331361deb17ca7f75b0c490',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

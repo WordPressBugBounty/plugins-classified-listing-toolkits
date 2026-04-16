@@ -359,6 +359,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 			'sortable_field_gap' => [
 				'label'     => esc_html__( 'Field\'s Gap', 'classified-listing-toolkits' ),
 				'type'      => 'slider',
+				'mode'      => 'responsive',
 				'range'     => [
 					'px' => [
 						'min' => 0,
@@ -375,7 +376,7 @@ class ListingSearchSortableForm extends ElementorWidgetBaseV2 {
 		];
 
 		$button['button_width']['selectors'] = [
-			'{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group.ws-button' => 'width: {{SIZE}}{{UNIT}};max-width:{{SIZE}}{{UNIT}};',
+			'{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group.ws-button' => 'width: {{SIZE}}{{UNIT}} !important; max-width: {{SIZE}}{{UNIT}} !important; flex: 0 0 {{SIZE}}{{UNIT}} !important;',
 		];
 
 		$form_fields = $this->insert_controls( 'fields_text_typo', $form_fields, $new_fields, true );

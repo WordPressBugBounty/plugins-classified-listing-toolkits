@@ -4,7 +4,7 @@
  * Plugin Name:         Classified Listing Toolkits
  * Plugin URI:          https://wordpress.org/plugins/classified-listing-toolkits/
  * Description:         Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts.
- * Version:             1.2.4
+ * Version:             1.3.0
  * Requires at least:   6
  * Requires PHP:        7.4
  * Author:              RadiusTheme
@@ -21,9 +21,10 @@
 use RadiusTheme\ClassifiedListingToolkits\Admin\DiviController;
 use RadiusTheme\ClassifiedListingToolkits\Admin\ElementorController;
 use RadiusTheme\ClassifiedListingToolkits\Admin\ELStoreController;
+use RadiusTheme\ClassifiedListingToolkits\Hooks\Helper;
 
 defined( 'ABSPATH' ) || exit;
-const CLASSIFIED_LISTING_TOOLKITS_VERSION = '1.2.4';
+const CLASSIFIED_LISTING_TOOLKITS_VERSION = '1.3.0';
 const CLASSIFIED_LISTING_MIN_VERSION      = '5.3.0';
 
 final class ClassifiedListingToolkits {
@@ -232,6 +233,9 @@ final class ClassifiedListingToolkits {
 		// Init classes
 		add_action( 'init', [ $this, 'init_classes' ] );
 
+		// Initialize Divi 5 modules early (before visual builder assets are enqueued).
+		add_action( 'after_setup_theme', [ $this, 'init_divi5_modules' ], 20 );
+
 		// Localize our plugin
 
 		// Add the plugin page links
@@ -248,8 +252,9 @@ final class ClassifiedListingToolkits {
 	 */
 	public function init_classes() {
 
-		if ( class_exists( \ET_Builder_Element::class ) ) {
-			new DiviController;
+		// Load Divi 4 modules (Divi 5 is loaded earlier on after_setup_theme).
+		if ( class_exists( \ET_Builder_Element::class ) && ! $this->is_divi_5_active() ) {
+			new DiviController();
 		}
 
 		// Only init Elementor if it's loaded
@@ -310,6 +315,40 @@ final class ClassifiedListingToolkits {
 //        $links[] = '<a href="#" target="_blank">' . __( 'Documentation', 'classified-listing-toolkits' ) . '</a>';
 
 		return $links;
+	}
+
+	/**
+	 * Initialize Divi 5 modules.
+	 *
+	 * This runs on after_setup_theme at priority 20 to ensure modules
+	 * are registered before the visual builder assets are enqueued.
+	 *
+	 * @since 1.2.5
+	 * @return void
+	 */
+	public function init_divi5_modules(): void {
+		// Check if Divi 5 is active using the official function.
+		if ( ! $this->is_divi_5_active() ) {
+			return;
+		}
+
+		// Load Divi 5 modules.
+		$divi5_init_file = CLASSIFIED_LISTING_TOOLKITS_PATH . '/includes/divi-5/divi-5.php';
+		if ( file_exists( $divi5_init_file ) ) {
+			require_once $divi5_init_file;
+		}
+	}
+
+	/**
+	 * Check if Divi 5 is active.
+	 *
+	 * Uses the official et_builder_d5_enabled() function provided by Divi.
+	 *
+	 * @since 1.2.5
+	 * @return bool
+	 */
+	private function is_divi_5_active(): bool {
+		return function_exists( 'et_builder_d5_enabled' ) && et_builder_d5_enabled();
 	}
 }
 

@@ -45,6 +45,7 @@ class FormFieldSettings {
 			'fields_label_margin'     => [
 				'label'      => esc_html__( 'Label Margin', 'classified-listing-toolkits' ),
 				'type'       => 'dimensions',
+				'mode'      => 'responsive',
 				'size_units' => [ 'px' ],
 				'selectors'  => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is( label )' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
@@ -67,15 +68,42 @@ class FormFieldSettings {
 			'fields_height'           => [
 				'label'     => esc_html__( 'Field\'s Height', 'classified-listing-toolkits' ),
 				'type'      => 'slider',
+				'mode'      => 'responsive',
 				'separator' => 'default',
 				'range'     => [
+					'%' => [
+						'min' => 0,
+						'max' => 100,
+					],
 					'px' => [
 						'min' => 10,
 						'max' => 200,
 					],
 				],
 				'selectors' => [
+					'{{WRAPPER}} .rtcl-widget-search-sortable .select2-container .select2-selection--single' => 'height: {{SIZE}}{{UNIT}} !important;',
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input, .rtcl-search-input-button )' => 'height: {{SIZE}}{{UNIT}} !important;',
+					'{{WRAPPER}} .rtcl-widget-search-sortable .select2-container--classic .select2-selection--single' => 'height: {{SIZE}}{{UNIT}} !important;',
+				],
+			],
+			'fields_width'           => [
+				'label'     => esc_html__( 'Field\'s Width', 'classified-listing-toolkits' ),
+				'type'      => 'slider',
+				'mode'      => 'responsive',
+				'separator' => 'default',
+				'size_units' => [ 'px', '%' ],
+				'range'     => [
+					'%' => [
+						'min' => 0,
+						'max' => 100,
+					],
+					'px' => [
+						'min' => 10,
+						'max' => 500,
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} .rtcl-widget-search-sortable-inline .rtcl-form-group' => 'width: {{SIZE}}{{UNIT}} !important; max-width: {{SIZE}}{{UNIT}} !important; flex: 0 0 {{SIZE}}{{UNIT}} !important;',
 				],
 			],
 
@@ -90,7 +118,9 @@ class FormFieldSettings {
 			'fields_border'           => [
 				'mode'       => 'group',
 				'type'       => 'border',
-				'selector'   => '{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input, .rtcl-search-input-button )',
+				'selector'   => '
+					{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group-field:not(.ws-button-inner)
+				',
 				'size_units' => [ 'px' ],
 			],
 			'fields_text_color'       => [
@@ -107,6 +137,7 @@ class FormFieldSettings {
 				'alpha'     => true,
 				'selectors' => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input, .rtcl-search-input-button )' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group-field:not(.ws-button-inner)' => 'background-color: {{VALUE}};',
 				],
 			],
 			'fields_normal_end'       => [
@@ -120,7 +151,9 @@ class FormFieldSettings {
 			'fields_hover_border'     => [
 				'mode'       => 'group',
 				'type'       => 'border',
-				'selector'   => '{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input):hover',
+				'selector'   => '
+					{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group-field:hover
+				',
 				'size_units' => [ 'px' ],
 			],
 			'fields_hover_text_color' => [
@@ -136,6 +169,7 @@ class FormFieldSettings {
 				'alpha'     => true,
 				'selectors' => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input):hover' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group-field:hover' => 'background-color: {{VALUE}};',
 				],
 			],
 
@@ -145,27 +179,29 @@ class FormFieldSettings {
 			'fields_tabs_end'         => [
 				'mode' => 'tabs_end',
 			],
-			'fields_border_radius'           => [
+			'fields_border_radius'    => [
 				'label'      => esc_html__( 'Border Radius', 'classified-listing-toolkits' ),
 				'size_units' => [ 'px' ],
 				'type'       => 'dimensions',
+				'mode'       => 'responsive',
 				'selectors'  => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input)' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
+					'{{WRAPPER}} .rtcl-widget-search-sortable .rtcl-form-group-field:not(.ws-button-inner)' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
 				],
 			],
 			'fields_padding'          => [
 				'label'      => esc_html__( 'Fields Padding (px)', 'classified-listing-toolkits' ),
 				'type'       => 'dimensions',
+				'mode'       => 'responsive',
 				'size_units' => [ 'px' ],
 				'selectors'  => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input, .rtcl-search-input-button )' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .rtcl-widget-search-sortable .select2-container .select2-selection--single' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				],
 			],
 			'fields_style_end'        => [
 				'mode' => 'section_end',
 			],
 		];
-
 	}
-
 }

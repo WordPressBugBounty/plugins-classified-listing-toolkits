@@ -37,6 +37,8 @@ class Helper {
 
 		$terms = get_terms( $args );
 
+		error_log(print_r($terms, true));
+
 		$category_dropdown = [];
 
 		foreach ( $terms as $id => $name ) {
@@ -141,5 +143,45 @@ class Helper {
 
 	public static function is_pro_with_old_dependency() {
 		return rtcl()->has_pro() || version_compare( get_option( 'rtcl_installed_from' ), '5.0.1', '<' );
+	}
+
+	/**
+	 * Check if Divi 5 is active.
+	 *
+	 * @since 1.2.5
+	 * @return bool
+	 */
+	public static function is_divi_5(): bool {
+		// Divi 5 introduces the new module library and dependency tree system.
+		return class_exists( 'ET\Builder\Framework\DependencyManagement\Interfaces\DependencyInterface' )
+			|| class_exists( 'ET\Builder\Packages\ModuleLibrary\ModuleRegistration' );
+	}
+
+	/**
+	 * Check if Divi 4 is active (and not Divi 5).
+	 *
+	 * @since 1.2.5
+	 * @return bool
+	 */
+	public static function is_divi_4(): bool {
+		return class_exists( \ET_Builder_Element::class ) && ! self::is_divi_5();
+	}
+
+	/**
+	 * Get the current Divi version.
+	 *
+	 * @since 1.2.5
+	 * @return string|null
+	 */
+	public static function get_divi_version(): ?string {
+		if ( defined( 'ET_BUILDER_VERSION' ) ) {
+			return ET_BUILDER_VERSION;
+		}
+
+		if ( defined( 'ET_BUILDER_PLUGIN_VERSION' ) ) {
+			return ET_BUILDER_PLUGIN_VERSION;
+		}
+
+		return null;
 	}
 }

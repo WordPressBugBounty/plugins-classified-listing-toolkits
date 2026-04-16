@@ -32,6 +32,7 @@ class IconSettings {
 			'icon_wrapper_size'             => [
 				'label'     => esc_html__( 'Icon Wrapper Size', 'classified-listing-toolkits' ),
 				'type'      => 'slider',
+				'mode'      => 'responsive',
 				'size_units' => [ 'px' ],
 				'range'     => [
 					'px' => [
@@ -49,6 +50,7 @@ class IconSettings {
 			'icon_size'           => [
 				'label'      => esc_html__( 'Font Size', 'classified-listing-toolkits' ),
 				'type'      => 'slider',
+				'mode'      => 'responsive',
 				'size_units' => [ 'px' ],
 				'range'     => [
 					'px' => [
@@ -67,6 +69,7 @@ class IconSettings {
 				'label'      => esc_html__( 'Border Radius', 'classified-listing-toolkits' ),
 				'size_units' => [ 'px' ],
 				'type'       => 'dimensions',
+				'mode'      => 'responsive',
 				'selectors'  => [
 					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] ) .icon-wrapper' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
 				],
@@ -157,6 +160,7 @@ class IconSettings {
 			'icon_margin'            => [
 				'label'      => esc_html__( 'Icon Margin (px)', 'classified-listing-toolkits' ),
 				'type'       => 'dimensions',
+				'mode'      => 'responsive',
 				'size_units' => [ 'px' ],
 				'selectors'  => [
 					'{{WRAPPER}} :is( .btn, button, [type=button], [type=reset], [type=submit] ) .icon-wrapper' => 'margin: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',

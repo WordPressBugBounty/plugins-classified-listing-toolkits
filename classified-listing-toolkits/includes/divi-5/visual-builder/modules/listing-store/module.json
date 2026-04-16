@@ -1,0 +1,395 @@
+{
+  "name": "rtcl-toolkits/listing-store",
+  "d4Shortcode": "rtcl_listing_store",
+  "title": "Listing Store",
+  "titles": "Listing Stores",
+  "moduleIcon": "divi/shop",
+  "category": "module",
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "meta": {
+          "adminLabel": {
+            "desktop": {
+              "value": ""
+            }
+          }
+        }
+      },
+      "defaultPrintedStyle": {
+        "decoration": {
+          "background": {
+            "desktop": {
+              "value": {
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "important": true
+        }
+      }
+    },
+    "storeStyle": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "style-1"
+          }
+        }
+      }
+    },
+    "gridColumn": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "4"
+          }
+        }
+      }
+    },
+    "perPage": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "6"
+          }
+        }
+      }
+    },
+    "orderby": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "name"
+          }
+        }
+      }
+    },
+    "order": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "asc"
+          }
+        }
+      }
+    },
+    "showImage": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showName": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showDescription": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showListingsCount": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showContact": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "showSocialLinks": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "noStoreText": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "No Store Found"
+          }
+        }
+      }
+    },
+    "layoutType": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "grid"
+          }
+        }
+      }
+    },
+    "storeCategories": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "paginationEnabled": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "storeName": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-name a",
+      "tagName": "h3",
+      "elementType": "heading",
+      "default": {
+        "decoration": {
+          "font": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "headingLevel": "h3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "storeDescription": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-description",
+      "tagName": "p",
+      "elementType": "text",
+      "default": {},
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "storeButton": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-button",
+      "tagName": "a",
+      "elementType": "text",
+      "default": {},
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "nameColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-name a",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "nameHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-name a:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "descriptionColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-description",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-button",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-button:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonBgColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-button",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonBgHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-store-button:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "css": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "customCssFields": {
+    "storeWrapper": {
+      "subName": "storeWrapper",
+      "selectorSuffix": " .rtcl-stores-wrapper"
+    },
+    "storeItem": {
+      "subName": "storeItem",
+      "selectorSuffix": " .rtcl-store-item"
+    },
+    "storeImage": {
+      "subName": "storeImage",
+      "selectorSuffix": " .rtcl-store-image"
+    },
+    "storeName": {
+      "subName": "storeName",
+      "selectorSuffix": " .rtcl-store-name a"
+    },
+    "storeDescription": {
+      "subName": "storeDescription",
+      "selectorSuffix": " .rtcl-store-description"
+    },
+    "storeListings": {
+      "subName": "storeListings",
+      "selectorSuffix": " .rtcl-store-listings-count"
+    },
+    "storeContact": {
+      "subName": "storeContact",
+      "selectorSuffix": " .rtcl-store-contact"
+    },
+    "storeSocial": {
+      "subName": "storeSocial",
+      "selectorSuffix": " .rtcl-store-social-links"
+    },
+    "storeButton": {
+      "subName": "storeButton",
+      "selectorSuffix": " .rtcl-store-button"
+    }
+  }
+}

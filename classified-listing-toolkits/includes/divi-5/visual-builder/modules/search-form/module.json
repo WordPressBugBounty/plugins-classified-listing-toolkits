@@ -1,0 +1,357 @@
+{
+  "name": "rtcl-toolkits/search-form",
+  "d4Shortcode": "rtcl_search_form",
+  "title": "Listing Search Form",
+  "titles": "Listing Search Forms",
+  "moduleIcon": "divi/search",
+  "category": "module",
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "meta": {
+          "adminLabel": {
+            "desktop": {
+              "value": ""
+            }
+          }
+        }
+      },
+      "defaultPrintedStyle": {
+        "decoration": {
+          "background": {
+            "desktop": {
+              "value": {
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "important": true
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "standard"
+          }
+        }
+      }
+    },
+    "orientation": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "horizontal"
+          }
+        }
+      }
+    },
+    "showFieldLabel": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showKeyword": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showCategory": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showLocation": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showAdType": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "showPriceRange": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "buttonText": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "keywordPlaceholder": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "What are you looking for?"
+          }
+        }
+      }
+    },
+    "categoryPlaceholder": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "Select Category"
+          }
+        }
+      }
+    },
+    "locationPlaceholder": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "Select Location"
+          }
+        }
+      }
+    },
+    "minPricePlaceholder": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "Min Price"
+          }
+        }
+      }
+    },
+    "maxPricePlaceholder": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "Max Price"
+          }
+        }
+      }
+    },
+    "inputBgColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-input, {{selector}} .rtcl-search-select, {{selector}} select",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "inputTextColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-input, {{selector}} .rtcl-search-select, {{selector}} select",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "inputBorderColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-input, {{selector}} .rtcl-search-select, {{selector}} select",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonBgColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-submit",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonBgHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-submit:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonTextColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-submit",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "buttonTextHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-submit:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "wrapperBgColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-form-wrapper",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "wrapperPaddingTop": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-form-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingRight": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-form-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingBottom": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-form-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperPaddingLeft": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-form-wrapper",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "wrapperBorderRadius": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-search-form-wrapper",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "labelColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-field-label",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "css": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "customCssFields": {
+    "searchFormWrapper": {
+      "subName": "searchFormWrapper",
+      "selectorSuffix": " .rtcl-search-form-wrapper"
+    },
+    "formFields": {
+      "subName": "formFields",
+      "selectorSuffix": " .rtcl-search-fields"
+    },
+    "inputField": {
+      "subName": "inputField",
+      "selectorSuffix": " .rtcl-search-input"
+    },
+    "selectField": {
+      "subName": "selectField",
+      "selectorSuffix": " .rtcl-search-select"
+    },
+    "fieldLabel": {
+      "subName": "fieldLabel",
+      "selectorSuffix": " .rtcl-field-label"
+    },
+    "submitButton": {
+      "subName": "submitButton",
+      "selectorSuffix": " .rtcl-search-submit"
+    },
+    "priceRange": {
+      "subName": "priceRange",
+      "selectorSuffix": " .rtcl-price-range"
+    }
+  }
+}

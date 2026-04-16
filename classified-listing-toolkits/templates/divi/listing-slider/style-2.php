@@ -13,7 +13,7 @@ $data = [
 	'instance' => $instance,
 ];
 
-echo wp_kses_post( Functions::get_template_html( 'divi/listing-slider/slider-header', $data, '', Helper::get_plugin_template_path() ) );
+echo Functions::get_template_html( 'divi/listing-slider/slider-header', $data, '', Helper::get_plugin_template_path() ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 
 while ( $the_loops->have_posts() ) :
 	$the_loops->the_post();
@@ -99,9 +99,9 @@ while ( $the_loops->have_posts() ) :
 		$button = sprintf( '<div class="rtcl-meta-buttons-wrap meta-button-count-%s">%s %s %s</div>',
 			$button_icon, $dispaly_favourites, $dispaly_quick_view, $dispaly_compare );
 
-		if ( $instance['rtcl_show_image'] ) {
+		if ( 'on' === $instance['rtcl_show_image'] ) {
 
-			$image_size    = $instance['rtcl_show_ad_types'];
+			$image_size    = ! empty( $instance['rtcl_image_size'] ) ? $instance['rtcl_image_size'] : 'rtcl-thumbnail';
 			$the_thumbnail = $listing->get_the_thumbnail( $image_size );
 
 			if ( $the_thumbnail ) {
@@ -238,7 +238,7 @@ while ( $the_loops->have_posts() ) :
 			$listing_description
 		);
 		$final_contents = sprintf( '%s%s', $img, $item_content );
-		echo wp_kses_post( $final_contents );
+		echo $final_contents; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		?>
 
     </div>
@@ -247,7 +247,7 @@ while ( $the_loops->have_posts() ) :
 <?php wp_reset_postdata(); ?>
 
 <?php
-echo  wp_kses_post (Functions::get_template_html( 'divi/listing-slider/slider-footer', $data, '', Helper::get_plugin_template_path() ));
+echo Functions::get_template_html( 'divi/listing-slider/slider-footer', $data, '', Helper::get_plugin_template_path() ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 
 
 

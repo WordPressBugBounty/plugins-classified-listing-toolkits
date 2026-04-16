@@ -41,14 +41,14 @@ CSS;
     }
     public static function front_end_script() {
 
+        // CSS is needed on both frontend and builder preview.
+        wp_enqueue_style( "rtcl-divi-addons", CLASSIFIED_LISTING_TOOLKITS_BUILD . "/divi-frontend-element.css", [ 'rtcl-public' ], CLASSIFIED_LISTING_TOOLKITS_VERSION );
+
 		if(!Helper::is_divi_builder_preview()){
 			return;
 		}
 
-        wp_register_style( "rtcl-divi-addons", CLASSIFIED_LISTING_TOOLKITS_BUILD . "/divi-frontend-element.css", [ 'rtcl-public' ], CLASSIFIED_LISTING_TOOLKITS_VERSION );
         wp_register_script( "rtcl-divi-addons", CLASSIFIED_LISTING_TOOLKITS_BUILD . "/divi-frontend-element.js", [ 'jquery' ], CLASSIFIED_LISTING_TOOLKITS_VERSION, true );
-
-        wp_enqueue_style( "rtcl-divi-addons" );
 
         wp_enqueue_script( 'rtcl-divi-modules', CLASSIFIED_LISTING_TOOLKITS_BUILD . "/divi-element.js",
             [ 'jquery', 'react-dom', 'react', 'et_pb_media_library', 'wp-element', 'wp-i18n' ],

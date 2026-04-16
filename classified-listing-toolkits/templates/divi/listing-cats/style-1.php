@@ -13,9 +13,9 @@ use Rtcl\Helpers\Functions;
 	<?php
 	$i = 0;
 	if ( ! empty( $terms ) ) {
-		$class = ! empty( $settings['rtcl_grid_column'] ) ? ' columns-' . $settings['rtcl_grid_column'] : ' columns-3';
-		$class .= ! empty( $settings['rtcl_grid_column_tablet'] ) ? ' tab-columns-' . $settings['rtcl_grid_column_tablet'] : ' tab-columns-2';
-		$class .= ! empty( $settings['rtcl_grid_column_phone'] ) ? ' mobile-columns-' . $settings['rtcl_grid_column_phone'] : ' mobile-columns-1';
+		$class = ! empty( $settings['rtcl_grid_column'] ) ? ' columns-' . absint( $settings['rtcl_grid_column'] ) : ' columns-3';
+		$class .= ! empty( $settings['rtcl_grid_column_tablet'] ) ? ' tab-columns-' . absint( $settings['rtcl_grid_column_tablet'] ) : ' tab-columns-2';
+		$class .= ! empty( $settings['rtcl_grid_column_phone'] ) ? ' mobile-columns-' . absint( $settings['rtcl_grid_column_phone'] ) : ' mobile-columns-1';
 		?>
         <div class="rtcl-cat-items-wrapper rtcl-grid-view <?php echo esc_attr( $class ); ?>">
 			<?php
@@ -86,10 +86,40 @@ use Rtcl\Helpers\Functions;
 				}
 				if ( 'on' === $settings['rtcl_description'] && $trm->description ) {
 					$word_limit = wp_trim_words( $trm->description, $settings['rtcl_content_limit'] );
-					printf( '<p>%s</p>', esc_html( $word_limit ) );
+					printf( '<p class="rtcl-category-description">%s</p>', esc_html( $word_limit ) );
 				}
 				echo '</div>';
 				echo '</div>';
+
+				// Child categories.
+				if ( ! empty( $settings['rtcl_show_child_categories'] ) && 'on' === $settings['rtcl_show_child_categories'] ) {
+					$child_limit = ! empty( $settings['rtcl_child_category_limit'] ) ? intval( $settings['rtcl_child_category_limit'] ) : 5;
+					$child_cats  = get_terms( [
+						'taxonomy'   => rtcl()->category,
+						'hide_empty' => false,
+						'parent'     => $trm->term_id,
+						'number'     => $child_limit,
+						'orderby'    => 'name',
+						'order'      => 'ASC',
+					] );
+					if ( ! is_wp_error( $child_cats ) && ! empty( $child_cats ) ) {
+						echo '<ul class="rtcl-child-categories">';
+						foreach ( $child_cats as $child ) {
+							$child_count = Functions::get_listings_count_by_taxonomy( $child->term_id, rtcl()->category );
+							$child_link  = get_term_link( $child );
+							if ( is_wp_error( $child_link ) ) { $child_link = '#'; }
+							echo '<li class="rtcl-child-category-item">';
+							echo '<a href="' . esc_url( $child_link ) . '">';
+							echo esc_html( $child->name );
+							if ( 'on' === $settings['rtcl_show_count'] ) {
+								echo '<span class="rtcl-child-category-count">(' . esc_html( $child_count > 0 ? str_pad( $child_count, 2, '0', STR_PAD_LEFT ) : '0' ) . ')</span>';
+							}
+							echo '</a></li>';
+						}
+						echo '</ul>';
+					}
+				}
+
 				echo '</div>';
 			}
 			?>

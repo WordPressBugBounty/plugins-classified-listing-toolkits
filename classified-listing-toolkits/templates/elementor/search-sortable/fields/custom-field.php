@@ -57,62 +57,64 @@ if ( empty( $customField ) ) {
 
 if ( isset( $customField['element'] ) && in_array( $customField['element'], [ 'select', 'radio', 'checkbox' ] ) ) {
 	$options = $customField['options'];
-    if ( ! empty( $placeholder ) ) {
-        $typeText = $placeholder;
-    } else {
-        $firstChar = $fieldNameLabel ? explode( ' ', $fieldNameLabel )[0]:'';
-        if($customField['element'] === 'select'){
-            $typeText = esc_html__( $firstChar, 'classified-listing-toolkits' );
-        }else{
-            $typeText = esc_html__( 'Select' . ' ' . $firstChar, 'classified-listing-toolkits' );
-        }
+	if ( ! empty( $placeholder ) ) {
+		$typeText = $placeholder;
+	} else {
+		$firstChar = $fieldNameLabel ? explode( ' ', $fieldNameLabel )[0]:'';
+		if($customField['element'] === 'select'){
+			$typeText = esc_html__( $firstChar, 'classified-listing-toolkits' );
+		}else{
+			$typeText = esc_html__( 'Select' . ' ' . $firstChar, 'classified-listing-toolkits' );
+		}
 
-    }
+	}
 	foreach ( $options as $option ) {
 		$items[ $option['value'] ] = esc_html( $option['label'] );
 	}
 	?>
-	<div class="rtcl-form-group ws-item ws-type rtcl-flex rtcl-flex-column elementor-repeater-item-<?php echo esc_attr( $repeater_id ); ?>">
+    <div class="rtcl-form-group ws-item ws-type rtcl-flex rtcl-flex-column elementor-repeater-item-<?php echo esc_attr( $repeater_id ); ?>">
 		<?php if ( $controllers['fields_label'] ) { ?>
-			<label class="rtcl-from-label" for="rtcl-search-type-<?php echo esc_attr( $id ); ?>"><?php echo esc_html( $field_Label ); ?></label>
+            <label class="rtcl-from-label" for="rtcl-search-type-<?php echo esc_attr( $id ); ?>"><?php echo esc_html( $field_Label ); ?></label>
 		<?php } ?>
-		<div class="rtcl-search-type">
-			<select class="rtcl-form-control" id="rtcl-search-type-<?php echo esc_attr( $id ); ?>" name="cf_<?php echo esc_attr( $cfField ); ?>">
-				<option value=""><?php echo esc_html( $typeText ); ?></option>
-				<?php
-				if ( ! empty( $items ) ) {
-					foreach ( $items as $key => $value ) {
-						?>
-						<option value="<?php echo esc_attr( $key ); ?>" <?php echo isset( $_GET[ 'cf_' . $cfField ] )
-																				   && trim( $_GET[ 'cf_' . $cfField ] ) == $key ? ' selected'
-							: null; ?>><?php echo esc_html( $value ); ?></option>
-					<?php }
-				}
-				?>
-			</select>
-		</div>
-	</div>
+        <div class="rtcl-form-group-field">
+            <div class="rtcl-search-type">
+                <select class="rtcl-form-control" id="rtcl-search-type-<?php echo esc_attr( $id ); ?>" name="cf_<?php echo esc_attr( $cfField ); ?>">
+                    <option value=""><?php echo esc_html( $typeText ); ?></option>
+					<?php
+					if ( ! empty( $items ) ) {
+						foreach ( $items as $key => $value ) {
+							?>
+                            <option value="<?php echo esc_attr( $key ); ?>" <?php echo isset( $_GET[ 'cf_' . $cfField ] )
+							                                                           && trim( $_GET[ 'cf_' . $cfField ] ) == $key ? ' selected'
+								: null; ?>><?php echo esc_html( $value ); ?></option>
+						<?php }
+					}
+					?>
+                </select>
+            </div>
+        </div>
+    </div>
 <?php }
-   elseif ( isset( $customField['element'] ) && in_array( $customField['element'], [ 'text','textarea' ] ) ) {
+elseif ( isset( $customField['element'] ) && in_array( $customField['element'], [ 'text','textarea' ] ) ) {
 
-    $inputType = $customField['element'] === 'textarea' ? 'textarea' : 'text';
+	$inputType = $customField['element'] === 'textarea' ? 'textarea' : 'text';
 
-    // Get current value from GET parameters
-    $currentValue = isset( $_GET[ 'cf_' . $cfField ] ) ? sanitize_text_field( $_GET[ 'cf_' . $cfField ] ) : '';
+	// Get current value from GET parameters
+	$currentValue = isset( $_GET[ 'cf_' . $cfField ] ) ? sanitize_text_field( $_GET[ 'cf_' . $cfField ] ) : '';
 
-    if ( ! empty( $placeholder ) ) {
-        $placeholderText = $placeholder;
-    }elseif (! empty( $customField['placeholder'] )){
-           $placeholderText = $customField['placeholder'];
-    } else {
-        $firstChar = $fieldNameLabel ? explode( ' ', $fieldNameLabel )[0]:'';
-        $placeholderText = esc_html__( 'Enter ' . $firstChar, 'classified-listing-toolkits' );
-    }
-    ?>
+	if ( ! empty( $placeholder ) ) {
+		$placeholderText = $placeholder;
+	}elseif (! empty( $customField['placeholder'] )){
+		$placeholderText = $customField['placeholder'];
+	} else {
+		$firstChar = $fieldNameLabel ? explode( ' ', $fieldNameLabel )[0]:'';
+		$placeholderText = esc_html__( 'Enter ' . $firstChar, 'classified-listing-toolkits' );
+	}
+	?>
     <div class="rtcl-form-group ws-item ws-input rtcl-flex rtcl-flex-column elementor-repeater-item-<?php echo esc_attr( $repeater_id ); ?>">
-        <?php if ( $controllers['fields_label'] ) { ?>
+		<?php if ( $controllers['fields_label'] ) { ?>
             <label class="rtcl-from-label" for="rtcl-search-input-<?php echo esc_attr( $id ); ?>"><?php echo esc_html( $field_Label ); ?></label>
-        <?php } ?>
+		<?php } ?>
         <div class="rtcl-search-input">
             <input
                     type="<?php echo esc_attr( $inputType ); ?>"
@@ -124,17 +126,17 @@ if ( isset( $customField['element'] ) && in_array( $customField['element'], [ 's
             />
         </div>
     </div>
-    <?php
+	<?php
 } elseif ( isset( $customField['element'] ) && $customField['element'] === 'number' ) {
 
-    $fMinValue = !empty( $_GET['filters'][$cfField]['min'] ) ? esc_attr( $_GET['filters'][$cfField]['min'] ) : '';
-    $fMaxValue = !empty( $_GET['filters'][$cfField]['max'] ) ? esc_attr( $_GET['filters'][$cfField]['max'] ) : '';
+	$fMinValue = !empty( $_GET['filters'][$cfField]['min'] ) ? esc_attr( $_GET['filters'][$cfField]['min'] ) : '';
+	$fMaxValue = !empty( $_GET['filters'][$cfField]['max'] ) ? esc_attr( $_GET['filters'][$cfField]['max'] ) : '';
 
-    ?>
+	?>
     <div class="rtcl-form-group ws-item ws-number-range rtcl-flex rtcl-flex-column elementor-repeater-item-<?php echo esc_attr( $repeater_id ); ?>">
-        <?php if ( $controllers['fields_label'] ) { ?>
+		<?php if ( $controllers['fields_label'] ) { ?>
             <label class="rtcl-from-label"><?php echo esc_html( $field_Label ); ?></label>
-        <?php } ?>
+		<?php } ?>
         <div class="rtcl-search-number-range">
             <div class="rtcl-flex">
                 <div class="rtcl-flex rtcl-flex-column rtcl-form-group ws-item">
@@ -166,58 +168,58 @@ if ( isset( $customField['element'] ) && in_array( $customField['element'], [ 's
             </div>
         </div>
     </div>
-    <?php
+	<?php
 } elseif (isset( $customField['element'] ) && $customField['element'] === 'date'){
 
-    $value = !empty( $_GET['filters'][$cfField] ) ? esc_attr( $_GET['filters'][$cfField] ) : '';
+	$value = !empty( $_GET['filters'][$cfField] ) ? esc_attr( $_GET['filters'][$cfField] ) : '';
 
-    if ( ! empty( $placeholder ) ) {
-        $placeholderText = $placeholder;
-    }elseif ( ! empty( $customField['placeholder'] ) ) {
-        $placeholderText = $customField['placeholder'];
-    } else {
-        $placeholderText = esc_html__( 'Date / Time', 'classified-listing-toolkits' );
-    }
+	if ( ! empty( $placeholder ) ) {
+		$placeholderText = $placeholder;
+	}elseif ( ! empty( $customField['placeholder'] ) ) {
+		$placeholderText = $customField['placeholder'];
+	} else {
+		$placeholderText = esc_html__( 'Date / Time', 'classified-listing-toolkits' );
+	}
 
-    $dateType = isset( $customField['date_type'] ) ? $customField['date_type'] : 'single';
-    $dateFormat = isset( $customField['date_format'] ) ? $customField['date_format'] : 'Y-m-d H:i';
+	$dateType = isset( $customField['date_type'] ) ? $customField['date_type'] : 'single';
+	$dateFormat = isset( $customField['date_format'] ) ? $customField['date_format'] : 'Y-m-d H:i';
 
-    $js_options = [
-        'Y-m-d'  => 'YYYY-MM-DD',
-        'm/d/Y'  => 'MM/DD/YYYY',
-        'd/m/Y'  => 'DD/MM/YYYY',
-        'F j, Y' => 'MMMM D, YYYY',
-        'j F, Y' => 'D MMMM, YYYY',
-        'j F Y'  => 'D MMMM YYYY',
-        'h:i:s'  => 'hh:mm:ss',
-        'g:i a'  => 'h:mm a',
-        'g:i A'  => 'h:mm A',
-        'H:i'    => 'HH:mm'
-    ];
+	$js_options = [
+		'Y-m-d'  => 'YYYY-MM-DD',
+		'm/d/Y'  => 'MM/DD/YYYY',
+		'd/m/Y'  => 'DD/MM/YYYY',
+		'F j, Y' => 'MMMM D, YYYY',
+		'j F, Y' => 'D MMMM, YYYY',
+		'j F Y'  => 'D MMMM YYYY',
+		'h:i:s'  => 'hh:mm:ss',
+		'g:i a'  => 'h:mm a',
+		'g:i A'  => 'h:mm A',
+		'H:i'    => 'HH:mm'
+	];
 
-    $find = array_keys( $js_options );
-    $replace = array_values( $js_options );
-    $jsFormat = str_replace( $find, $replace, $dateFormat );
+	$find = array_keys( $js_options );
+	$replace = array_values( $js_options );
+	$jsFormat = str_replace( $find, $replace, $dateFormat );
 
-    $filterableDateType = isset( $customField['filterable_date_type'] ) ? $customField['filterable_date_type'] : $dateType;
+	$filterableDateType = isset( $customField['filterable_date_type'] ) ? $customField['filterable_date_type'] : $dateType;
 
-    $dateOptions = [
-        'singleDatePicker' => $filterableDateType === 'single',
-        'showDropdowns'    => true,
-        'timePicker'       =>  false !== strpos( $dateFormat, 'h:i A' ) || false !== strpos( $dateFormat, 'H:i' ),
-        'timePicker24Hour' => false !== strpos( $dateFormat, 'H:i' ),
-        'autoUpdateInput'  => false,
-        'locale'           => [
-            'format' => $jsFormat
-        ]
-    ];
+	$dateOptions = [
+		'singleDatePicker' => $filterableDateType === 'single',
+		'showDropdowns'    => true,
+		'timePicker'       =>  false !== strpos( $dateFormat, 'h:i A' ) || false !== strpos( $dateFormat, 'H:i' ),
+		'timePicker24Hour' => false !== strpos( $dateFormat, 'H:i' ),
+		'autoUpdateInput'  => false,
+		'locale'           => [
+			'format' => $jsFormat
+		]
+	];
 
-    $dateOptions = apply_filters( 'rtcl_custom_field_date_options', $dateOptions, $customField );
-    ?>
+	$dateOptions = apply_filters( 'rtcl_custom_field_date_options', $dateOptions, $customField );
+	?>
     <div class="rtcl-form-group ws-item ws-date rtcl-flex rtcl-flex-column elementor-repeater-item-<?php echo esc_attr( $repeater_id ); ?>">
-        <?php if ( $controllers['fields_label'] ) { ?>
+		<?php if ( $controllers['fields_label'] ) { ?>
             <label class="rtcl-from-label" for="filters_<?php echo esc_attr( $cfField ); ?>"><?php echo esc_html( $field_Label ); ?></label>
-        <?php } ?>
+		<?php } ?>
         <div class="rtcl-search-date">
             <div class="form-group">
                 <div class="ui-field">
@@ -236,5 +238,5 @@ if ( isset( $customField['element'] ) && in_array( $customField['element'], [ 's
             </div>
         </div>
     </div>
-    <?php }
+<?php }
 ?>

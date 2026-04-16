@@ -1,0 +1,536 @@
+{
+  "name": "rtcl-toolkits/listings-list",
+  "d4Shortcode": "rtcl_listings_list",
+  "title": "Listings List",
+  "titles": "Listings Lists",
+  "moduleIcon": "divi/gallery",
+  "category": "module",
+  "keywords": ["classified", "listing", "list"],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "meta": {
+          "adminLabel": {
+            "desktop": {
+              "value": ""
+            }
+          }
+        }
+      },
+      "defaultPrintedStyle": {
+        "decoration": {
+          "background": {
+            "desktop": {
+              "value": {
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "spacing": {
+          "important": true
+        }
+      }
+    },
+    "listStyle": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "style-1"
+          }
+        }
+      }
+    },
+    "listingTypes": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "all"
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "locations": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "perPage": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "10"
+          }
+        }
+      }
+    },
+    "pagination": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "orderby": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "date"
+          }
+        }
+      }
+    },
+    "order": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "desc"
+          }
+        }
+      }
+    },
+    "imageSize": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "rtcl-thumbnail"
+          }
+        }
+      }
+    },
+    "noListingText": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "No Listing Found"
+          }
+        }
+      }
+    },
+    "showImage": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showDescription": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "contentLimit": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "20"
+          }
+        }
+      }
+    },
+    "showBadge": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showDate": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showViews": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showAdType": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showLocation": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showCategory": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showPrice": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showAuthor": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "showCustomFields": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "showFavourites": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "showQuickView": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "showCompare": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-listing-title a",
+      "tagName": "h3",
+      "elementType": "heading",
+      "default": {
+        "decoration": {
+          "font": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "headingLevel": "h3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "price": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-price",
+      "tagName": "span",
+      "elementType": "text",
+      "default": {},
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-listing-meta-data",
+      "tagName": "ul",
+      "elementType": "text",
+      "default": {},
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "titleColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-listing-title a",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "titleHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-listing-title a:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "metaColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-listing-meta-data",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "metaIconColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-listing-meta-data i",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "categoryColor": {
+      "type": "object",
+      "selector": "{{selector}} .listing-cat",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "categoryHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .listing-cat a:hover",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "priceColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-price",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "actionBtnBgColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-el-button a, {{selector}} .rtcl-fav a",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "actionBtnBgHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-el-button a:hover, {{selector}} .rtcl-fav a:hover",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "actionBtnIconColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-el-button a, {{selector}} .rtcl-fav a",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "actionBtnIconHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-el-button a:hover, {{selector}} .rtcl-fav a:hover",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "actionBtnTextColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-el-button a, {{selector}} .rtcl-fav a",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "actionBtnTextHoverColor": {
+      "type": "object",
+      "selector": "{{selector}} .rtcl-el-button a:hover, {{selector}} .rtcl-fav a:hover",
+      "default": { "innerContent": { "desktop": { "value": "" } } }
+    },
+    "css": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "customCssFields": {
+    "listingsWrapper": {
+      "subName": "listingsWrapper",
+      "selectorSuffix": " .rtcl-listings-wrapper"
+    },
+    "listingItem": {
+      "subName": "listingItem",
+      "selectorSuffix": " .rtcl-listing-item"
+    },
+    "listingImage": {
+      "subName": "listingImage",
+      "selectorSuffix": " .rtcl-listing-image"
+    },
+    "listingTitle": {
+      "subName": "listingTitle",
+      "selectorSuffix": " .rtcl-listing-title a"
+    },
+    "listingPrice": {
+      "subName": "listingPrice",
+      "selectorSuffix": " .rtcl-price"
+    },
+    "listingMeta": {
+      "subName": "listingMeta",
+      "selectorSuffix": " .rtcl-listing-meta-data"
+    },
+    "listingCategory": {
+      "subName": "listingCategory",
+      "selectorSuffix": " .listing-cat"
+    },
+    "listingBadge": {
+      "subName": "listingBadge",
+      "selectorSuffix": " .rtcl-badge"
+    },
+    "pagination": {
+      "subName": "pagination",
+      "selectorSuffix": " .rtcl-pagination"
+    }
+  }
+}
