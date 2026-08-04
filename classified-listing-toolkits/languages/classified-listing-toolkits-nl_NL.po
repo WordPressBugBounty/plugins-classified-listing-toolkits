@@ -1,0 +1,1888 @@
+# Translation of Classified Listing Toolkits in Dutch
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " Mijn account"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " Inloggen"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s weergave"
+msgstr[1] "%s weergaven"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(%s advertentie)"
+msgstr[1] "(%s advertenties)"
+
+msgid "--Select--"
+msgstr "--Selecteer--"
+
+msgid "1 Col"
+msgstr "1 kolom"
+
+msgid "1 Second"
+msgstr "1 seconde"
+
+msgid "2 Col"
+msgstr "2 kolommen"
+
+msgid "2 Seconds"
+msgstr "2 seconden"
+
+msgid "3 Col"
+msgstr "3 kolommen"
+
+msgid "3 Seconds"
+msgstr "3 seconden"
+
+msgid "4 Col"
+msgstr "4 kolommen"
+
+msgid "4 Seconds"
+msgstr "4 seconden"
+
+msgid "5 Col"
+msgstr "5 kolommen"
+
+msgid "5 Seconds"
+msgstr "5 seconden"
+
+msgid "6 Col"
+msgstr "6 kolommen"
+
+msgid "6 Seconds"
+msgstr "6 seconden"
+
+msgid "7 Seconds"
+msgstr "7 seconden"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgraden naar pro</a> om meer stijlen te ontgrendelen."
+
+msgid "Action Button Hover Text Color"
+msgstr "Tekstkleur actieknop bij hover"
+
+msgid "Action Button Layout"
+msgstr "Actieknop lay-out"
+
+msgid "Action Button Text Color"
+msgstr "Tekstkleur actieknop"
+
+msgid "Active Background Color"
+msgstr "Actieve achtergrondkleur"
+
+msgid "Active Color"
+msgstr "Actieve kleur"
+
+msgid "Active Text Color"
+msgstr "Actieve tekstkleur"
+
+msgid "Ad Type"
+msgstr "Advertentietype"
+
+msgid "Ad Types Field"
+msgstr "Advertentietypes veld"
+
+msgid "Add / Remove listing location link."
+msgstr "Locatielink advertentie toevoegen / verwijderen."
+
+msgid "Add listing button"
+msgstr "Advertentie toevoegen knop"
+
+msgid "Add listing button order"
+msgstr "Volgorde advertentie toevoegen knop"
+
+msgid "Add Listing Icon"
+msgstr "Advertentie toevoegen icoon"
+
+msgid "Add listing icon order"
+msgstr "Volgorde advertentie toevoegen icoon"
+
+msgid "Adjust Box Height"
+msgstr "Boxhoogte aanpassen"
+
+msgid "ads"
+msgstr "advertenties"
+
+msgid "All Location"
+msgstr "Alle locaties"
+
+msgid "All Locations"
+msgstr "Alle locaties"
+
+msgid "Arrow Navigation"
+msgstr "Pijlnavigatie"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "Randradius pijlnavigatie"
+
+msgid "Arrow Position"
+msgstr "Pijlpositie"
+
+msgid "Ascending"
+msgstr "Oplopend"
+
+msgid "Auto Height"
+msgstr "Automatische hoogte"
+
+msgid "Auto Height. Default: On"
+msgstr "Automatische hoogte. Standaard: Aan"
+
+msgid "Auto Suggestion"
+msgstr "Automatische suggestie"
+
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+msgid "Autoplay Delay"
+msgstr "Vertraging automatisch afspelen"
+
+msgid "Autoplay Slide Speed"
+msgstr "Snelheid automatisch afspelen dia"
+
+msgid "Background"
+msgstr "Achtergrond"
+
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+msgid "Background Hover"
+msgstr "Achtergrond bij hover"
+
+msgid "Badge"
+msgstr "Badge"
+
+msgid "Badge "
+msgstr "Badge "
+
+msgid "Badge Background Color"
+msgstr "Badge achtergrondkleur"
+
+msgid "Badge Default Background"
+msgstr "Standaard badge achtergrond"
+
+msgid "Badge Default Text Color"
+msgstr "Standaard badge tekstkleur"
+
+msgid "Badge Default Typography"
+msgstr "Standaard badge typografie"
+
+msgid "Badge Spacing"
+msgstr "Badge tussenruimte"
+
+msgid "Badge Text Color"
+msgstr "Badge tekstkleur"
+
+msgid "Badge Visibility "
+msgstr "Badge zichtbaarheid "
+
+msgid "Body"
+msgstr "Inhoud"
+
+msgid "Body background"
+msgstr "Inhoud achtergrond"
+
+msgid "Body pading"
+msgstr "Inhoud opvulling"
+
+msgid "Body Section Padding"
+msgstr "Inhoudssectie opvulling"
+
+msgid "Body Section Pading"
+msgstr "Inhoudssectie opvulling"
+
+msgid "Body Spacing"
+msgstr "Inhoud tussenruimte"
+
+msgid "Border"
+msgstr "Rand"
+
+msgid "Border Color"
+msgstr "Randkleur"
+
+msgid "Border Radius"
+msgstr "Randradius"
+
+msgid "Border Radius (px)"
+msgstr "Randradius (px)"
+
+msgid "Box"
+msgstr "Box"
+
+msgid "Box Border Radius"
+msgstr "Box randradius"
+
+msgid "Box Height"
+msgstr "Boxhoogte"
+
+msgid "Box padding"
+msgstr "Box opvulling"
+
+msgid "Box pading"
+msgstr "Box opvulling"
+
+msgid "Box Shadow"
+msgstr "Box schaduw"
+
+msgid "Box style"
+msgstr "Box stijl"
+
+msgid "Bump Up"
+msgstr "Omhoog plaatsen"
+
+msgid "Bump Up Background Color"
+msgstr "Omhoog plaatsen achtergrondkleur"
+
+msgid "Bump Up Text Color"
+msgstr "Omhoog plaatsen tekstkleur"
+
+msgid "Button"
+msgstr "Knop"
+
+msgid "Button alignment"
+msgstr "Knop uitlijning"
+
+msgid "Button Background"
+msgstr "Knop achtergrond"
+
+msgid "Button Height"
+msgstr "Knophoogte"
+
+msgid "Button Icon"
+msgstr "Knop icoon"
+
+msgid "Button Link Type"
+msgstr "Knop linktype"
+
+msgid "Button Padding"
+msgstr "Knop opvulling"
+
+msgid "Button Section"
+msgstr "Knopsectie"
+
+msgid "Button Spacing"
+msgstr "Knop tussenruimte"
+
+msgid "Button style"
+msgstr "Knopstijl"
+
+msgid "Button Text"
+msgstr "Knoptekst"
+
+msgid "Button text"
+msgstr "Knoptekst"
+
+msgid "Button Text Color"
+msgstr "Knop tekstkleur"
+
+msgid "Button Typography"
+msgstr "Knop typografie"
+
+msgid "Button URL"
+msgstr "Knop URL"
+
+msgid "Button width"
+msgstr "Knopbreedte"
+
+msgid "Card"
+msgstr "Kaart"
+
+msgid "Cart Icon"
+msgstr "Winkelwagen icoon"
+
+msgid "Catalog Ordering"
+msgstr "Catalogus sortering"
+
+msgid "Categories"
+msgstr "Categorieën"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Category Color"
+msgstr "Categoriekleur"
+
+msgid "Category Description"
+msgstr "Categoriebeschrijving"
+
+msgid "Category Field"
+msgstr "Categorieveld"
+
+msgid "Category field"
+msgstr "Categorieveld"
+
+msgid "Category Limit"
+msgstr "Categorielimiet"
+
+msgid "Category Slider"
+msgstr "Categorie slider"
+
+msgid "Center"
+msgstr "Midden"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Chat Icon"
+msgstr "Chat icoon"
+
+msgid "Chat icon order"
+msgstr "Volgorde chat icoon"
+
+msgid "Chat Option"
+msgstr "Chat optie"
+
+msgid "Child Category Limit"
+msgstr "Limiet subcategorieën"
+
+msgid "Child List Color"
+msgstr "Kleur onderliggende lijst"
+
+msgid "Child List Hover Color"
+msgstr "Kleur onderliggende lijst bij hover"
+
+msgid "Child List Icon Color"
+msgstr "Icoonkleur onderliggende lijst"
+
+msgid "Child List Icon Hover Color"
+msgstr "Icoonkleur onderliggende lijst bij hover"
+
+msgid "Child Location"
+msgstr "Onderliggende locatie"
+
+msgid "Classified Listing"
+msgstr "Rubrieksadvertenties"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "Classified Listing Toolkit vereist dat Classified Listing is geïnstalleerd en geactiveerd."
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "Classified Listing Toolkit vereist Classified Listing minimaal versie 5.0.1"
+
+msgid "Classified Listing Toolkits"
+msgstr "Classified Listing Toolkits"
+
+msgid "classified Listing Toolkits"
+msgstr "Classified Listing Toolkits"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "Classified Listing Toolkits met verschillende Elementor widgets en Divi modules om advertenties elegant weer te geven in diverse lay-outs."
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Column"
+msgstr "Kolom"
+
+msgid "Column 1"
+msgstr "Kolom 1"
+
+msgid "Column 2"
+msgstr "Kolom 2"
+
+msgid "Column 3"
+msgstr "Kolom 3"
+
+msgid "Column 4"
+msgstr "Kolom 4"
+
+msgid "Compare"
+msgstr "Vergelijken"
+
+msgid "Compare icon order"
+msgstr "Volgorde vergelijk icoon"
+
+msgid "Content"
+msgstr "Inhoud"
+
+msgid "Content Alignment"
+msgstr "Inhoud uitlijning"
+
+msgid "Content alignment"
+msgstr "Inhoud uitlijning"
+
+msgid "Content Background Color"
+msgstr "Inhoud achtergrondkleur"
+
+msgid "Content Spacing"
+msgstr "Inhoud tussenruimte"
+
+msgid "Content spacing"
+msgstr "Inhoud tussenruimte"
+
+msgid "Content Vertical Alignment"
+msgstr "Verticale uitlijning inhoud"
+
+msgid "Content Visibility "
+msgstr "Inhoud zichtbaarheid "
+
+msgid "Count"
+msgstr "Aantal"
+
+msgid "Count Color"
+msgstr "Aantal kleur"
+
+msgid "Count Font Size"
+msgstr "Aantal lettergrootte"
+
+msgid "Count position"
+msgstr "Aantal positie"
+
+msgid "Count Text"
+msgstr "Aantal tekst"
+
+msgid "Count Text For Plural Number"
+msgstr "Aantal tekst voor meervoud"
+
+msgid "Counter"
+msgstr "Teller"
+
+msgid "Counter Spacing"
+msgstr "Teller tussenruimte"
+
+msgid "Counts Include Children"
+msgstr "Telling inclusief subcategorieën"
+
+msgid "Currency Position"
+msgstr "Valutapositie"
+
+msgid "Currency sign eg. $"
+msgstr "Valutasymbool bijv. €"
+
+msgid "Currency Symbol"
+msgstr "Valutasymbool"
+
+msgid "Currency Typography"
+msgstr "Valuta typografie"
+
+msgid "Custom"
+msgstr "Aangepast"
+
+msgid "Custom Field's"
+msgstr "Aangepaste velden"
+
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+msgid "Custom Link"
+msgstr "Aangepaste link"
+
+msgid "Custom Order"
+msgstr "Aangepaste volgorde"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Default Badge"
+msgstr "Standaard badge"
+
+msgid "Default Color"
+msgstr "Standaardkleur"
+
+msgid "Dependency Selection"
+msgstr "Afhankelijkheidsselectie"
+
+msgid "Descending"
+msgstr "Aflopend"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Description Color"
+msgstr "Beschrijvingskleur"
+
+msgid "Description Limit"
+msgstr "Beschrijvingslimiet"
+
+msgid "Description Word Limit"
+msgstr "Woordlimiet beschrijving"
+
+msgid "Desktops: >1199px"
+msgstr "Desktops: >1199px"
+
+msgid "Desktops: >991px"
+msgstr "Desktops: >991px"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Details Button Background Color"
+msgstr "Achtergrondkleur detailknop"
+
+msgid "Details Button Text Color"
+msgstr "Tekstkleur detailknop"
+
+msgid "Display Child category"
+msgstr "Subcategorie weergeven"
+
+msgid "Display Sub Category"
+msgstr "Subcategorie weergeven"
+
+msgid "Dot Navigation"
+msgstr "Puntnavigatie"
+
+msgid "Dot Navigation Settings"
+msgstr "Puntnavigatie instellingen"
+
+msgid "Dot Navigation Spacing"
+msgstr "Puntnavigatie tussenruimte"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "bijv. maand of jaar. Laat leeg als je geen eenheid wilt tonen"
+
+msgid "Enable Link"
+msgstr "Link inschakelen"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "Automatisch afspelen in- of uitschakelen. Standaard: Aan"
+
+msgid "Enter Keyword here ..."
+msgstr "Voer hier trefwoord in ..."
+
+msgid "Enter your keyword here ..."
+msgstr "Voer hier je trefwoord in ..."
+
+msgid "Equal Height"
+msgstr "Gelijke hoogte"
+
+msgid "Favourites"
+msgstr "Favorieten"
+
+msgid "Favourites icon order"
+msgstr "Volgorde favorieten icoon"
+
+msgid "Feature"
+msgstr "Kenmerk"
+
+msgid "Featured"
+msgstr "Uitgelicht"
+
+msgid "Featured Background Color"
+msgstr "Uitgelicht achtergrondkleur"
+
+msgid "Featured Border Color"
+msgstr "Uitgelicht randkleur"
+
+msgid "Featured Text Color"
+msgstr "Uitgelicht tekstkleur"
+
+msgid "Features"
+msgstr "Kenmerken"
+
+msgid "Features Margin"
+msgstr "Kenmerken marge"
+
+msgid "Features Text As"
+msgstr "Kenmerken tekst als"
+
+msgid "Field background"
+msgstr "Veld achtergrond"
+
+msgid "Field Gutter Spacing"
+msgstr "Veld tussenruimte"
+
+msgid "Field Height"
+msgstr "Veldhoogte"
+
+msgid "Field text color"
+msgstr "Veld tekstkleur"
+
+msgid "Field Types"
+msgstr "Veldtypes"
+
+msgid "Field's"
+msgstr "Velden"
+
+msgid "Field's Gap"
+msgstr "Ruimte tussen velden"
+
+msgid "Field's Height"
+msgstr "Veldhoogte"
+
+msgid "Fields"
+msgstr "Velden"
+
+msgid "Fields Gap"
+msgstr "Ruimte tussen velden"
+
+msgid "Fields Padding (px)"
+msgstr "Velden opvulling (px)"
+
+msgid "Font Size"
+msgstr "Lettergrootte"
+
+msgid "Footer"
+msgstr "Voettekst"
+
+msgid "Form"
+msgstr "Formulier"
+
+msgid "Form Background Color"
+msgstr "Formulier achtergrondkleur"
+
+msgid "Form Field's"
+msgstr "Formuliervelden"
+
+msgid "Form Label"
+msgstr "Formulierlabel"
+
+msgid "Full Size"
+msgstr "Volledige grootte"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "General Style"
+msgstr "Algemene stijl"
+
+msgid "Grid"
+msgstr "Raster"
+
+msgid "Grid Column"
+msgstr "Rasterkolom"
+
+msgid "Grid View"
+msgstr "Rasterweergave"
+
+msgid "Gutter padding"
+msgstr "Tussenruimte opvulling"
+
+msgid "Gutter pading"
+msgstr "Tussenruimte opvulling"
+
+msgid "Gutter Space"
+msgstr "Tussenruimte"
+
+msgid "Gutter Spacing"
+msgstr "Tussenruimte"
+
+msgid "Head background"
+msgstr "Kop achtergrond"
+
+msgid "Head Section Padding"
+msgstr "Kopsectie opvulling"
+
+msgid "Head Section Pading"
+msgstr "Kopsectie opvulling"
+
+msgid "Header"
+msgstr "Koptekst"
+
+msgid "Header Border Color"
+msgstr "Koptekst randkleur"
+
+msgid "Header Button"
+msgstr "Header knop"
+
+msgid "Header Icon"
+msgstr "Header icoon"
+
+msgid "Header pading"
+msgstr "Header opvulling"
+
+msgid "Header Spacing"
+msgstr "Header tussenruimte"
+
+msgid "Height"
+msgstr "Hoogte"
+
+msgid "Here you can define a custom color for category description."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de categoriebeschrijving."
+
+msgid "Here you can define a custom color for category name."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de categorienaam."
+
+msgid "Here you can define a custom color for content background."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de inhoud achtergrond."
+
+msgid "Here you can define a custom color for field background."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de veld achtergrond."
+
+msgid "Here you can define a custom color for form background."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de formulier achtergrond."
+
+msgid "Here you can define a custom color for form label."
+msgstr "Hier kun je een aangepaste kleur definiëren voor het formulierlabel."
+
+msgid "Here you can define a custom color for input text."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de invoertekst."
+
+msgid "Here you can define a custom color for listing count."
+msgstr "Hier kun je een aangepaste kleur definiëren voor het advertentie-aantal."
+
+msgid "Here you can define a custom color for listing price."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de advertentieprijs."
+
+msgid "Here you can define a custom color for listing title."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de advertentietitel."
+
+msgid "Here you can define a custom color for location description."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de locatiebeschrijving."
+
+msgid "Here you can define a custom color for location name."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de locatienaam."
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "Hier kun je een aangepaste kleur definiëren voor de verzendknop achtergrond."
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "Hier kun je een aangepaste tekstkleur definiëren voor de verzendknop."
+
+msgid "Here you can define font size for listing count."
+msgstr "Hier kun je de lettergrootte definiëren voor het advertentie-aantal."
+
+msgid "Here you can define gutter for the box."
+msgstr "Hier kun je de tussenruimte definiëren voor de box."
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "Hier kun je de tussenruimte definiëren voor de ruimte tussen velden."
+
+msgid "Here you can define height for the box."
+msgstr "Hier kun je de hoogte definiëren voor de box."
+
+msgid "Hide"
+msgstr "Verbergen"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "Categorieën zonder advertenties verbergen. Standaard: Aan"
+
+msgid "Hide Empty"
+msgstr "Lege verbergen"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Horizontal View"
+msgstr "Horizontale weergave"
+
+msgid "Hover"
+msgstr "Hover"
+
+msgid "Hover & Focus"
+msgstr "Hover & Focus"
+
+msgid "Hover Background Color"
+msgstr "Achtergrondkleur bij hover"
+
+msgid "Hover Box Shadow"
+msgstr "Box schaduw bij hover"
+
+msgid "How Many Category will Display ?"
+msgstr "Hoeveel categorieën worden weergegeven?"
+
+msgid "How Many Child Category will Display ?"
+msgstr "Hoeveel subcategorieën worden weergegeven?"
+
+msgid "How Many Child Location will Display ?"
+msgstr "Hoeveel onderliggende locaties worden weergegeven?"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "Hoeveel locaties worden weergegeven? Laat leeg voor alle."
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "Icoon"
+
+msgid "Icon Alignment"
+msgstr "Icoon uitlijning"
+
+msgid "Icon And Image"
+msgstr "Icoon en afbeelding"
+
+msgid "Icon Area"
+msgstr "Icoongebied"
+
+msgid "Icon Background"
+msgstr "Icoon achtergrond"
+
+msgid "Icon Background Color"
+msgstr "Icoon achtergrondkleur"
+
+msgid "Icon Before List"
+msgstr "Icoon voor lijst"
+
+msgid "Icon Before Title"
+msgstr "Icoon voor titel"
+
+msgid "Icon Bg Color"
+msgstr "Icoon achtergrondkleur"
+
+msgid "Icon Bg Hover Color"
+msgstr "Icoon achtergrondkleur bij hover"
+
+msgid "Icon Border Radius"
+msgstr "Icoon randradius"
+
+msgid "Icon Color"
+msgstr "Icoonkleur"
+
+msgid "Icon Count Background Color"
+msgstr "Icoon aantal achtergrondkleur"
+
+msgid "Icon Count Color"
+msgstr "Icoon aantal kleur"
+
+msgid "Icon Font Size"
+msgstr "Icoon lettergrootte"
+
+msgid "Icon Gap"
+msgstr "Icoon tussenruimte"
+
+msgid "Icon Hover Color"
+msgstr "Icoonkleur bij hover"
+
+msgid "Icon Margin (px)"
+msgstr "Icoon marge (px)"
+
+msgid "Icon order"
+msgstr "Icoon volgorde"
+
+msgid "Icon Rotate"
+msgstr "Icoon rotatie"
+
+msgid "Icon Size"
+msgstr "Icoongrootte"
+
+msgid "Icon style"
+msgstr "Icoonstijl"
+
+msgid "Icon Type"
+msgstr "Icoontype"
+
+msgid "Icon Wrapper Size"
+msgstr "Icoon wrapper grootte"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Afbeelding"
+
+msgid "Image Size"
+msgstr "Afbeeldingsgrootte"
+
+msgid "Image Spacing"
+msgstr "Afbeelding tussenruimte"
+
+msgid "Image Wrapper"
+msgstr "Afbeelding wrapper"
+
+msgid "Include Children Categories"
+msgstr "Subcategorieën opnemen"
+
+msgid "Include Inner Location"
+msgstr "Binnenlocatie opnemen"
+
+msgid "Inline"
+msgstr "In-lijn"
+
+msgid "Input Background Color"
+msgstr "Invoer achtergrondkleur"
+
+msgid "Input Text Color"
+msgstr "Invoer tekstkleur"
+
+msgid "Item Wrapper"
+msgstr "Item wrapper"
+
+msgid "Keyword"
+msgstr "Trefwoord"
+
+msgid "Keywords"
+msgstr "Trefwoorden"
+
+msgid "Keywords Field"
+msgstr "Trefwoordenveld"
+
+msgid "Keywords field"
+msgstr "Trefwoordenveld"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Label Color"
+msgstr "Labelkleur"
+
+msgid "Label Margin"
+msgstr "Label marge"
+
+msgid "Label Text Color"
+msgstr "Label tekstkleur"
+
+msgid "Label Typography"
+msgstr "Label typografie"
+
+msgid "Layout"
+msgstr "Lay-out"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "Laat selectievakjes ongemarkeerd om alles te selecteren"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Left Top"
+msgstr "Linksboven"
+
+msgid "Limit"
+msgstr "Limiet"
+
+msgid "List"
+msgstr "Lijst"
+
+msgid "List Style"
+msgstr "Lijststijl"
+
+msgid "List Title"
+msgstr "Lijsttitel"
+
+msgid "List View"
+msgstr "Lijstweergave"
+
+msgid "Listing Categories"
+msgstr "Advertentiecategorieën"
+
+msgid "Listing Category"
+msgstr "Advertentiecategorie"
+
+msgid "Listing Counts"
+msgstr "Advertentie-aantallen"
+
+msgid "Listing Limit"
+msgstr "Advertentielimiet"
+
+msgid "Listing Location"
+msgstr "Advertentielocatie"
+
+msgid "Listing Pagination"
+msgstr "Advertentie paginering"
+
+msgid "Listing Per Page"
+msgstr "Advertenties per pagina"
+
+msgid "Listing Search Form"
+msgstr "Advertentie zoekformulier"
+
+msgid "Listing Showcase"
+msgstr "Advertentie showcase"
+
+msgid "Listing Single Location"
+msgstr "Advertentie enkele locatie"
+
+msgid "Listing Slider"
+msgstr "Advertentie slider"
+
+msgid "Listing Store"
+msgstr "Advertentie winkel"
+
+msgid "Listing Types"
+msgstr "Advertentietypes"
+
+msgid "Listings Grid"
+msgstr "Advertenties raster"
+
+msgid "Listings List"
+msgstr "Advertenties lijst"
+
+msgid "Listings Slider"
+msgstr "Advertenties slider"
+
+msgid "Load More Button"
+msgstr "Meer laden knop"
+
+msgid "Location"
+msgstr "Locatie"
+
+msgid "Location Display Type"
+msgstr "Locatie weergavetype"
+
+msgid "Location Field"
+msgstr "Locatieveld"
+
+msgid "Location field"
+msgstr "Locatieveld"
+
+msgid "Location Limit"
+msgstr "Locatielimiet"
+
+msgid "Locations"
+msgstr "Locaties"
+
+msgid "Loop"
+msgstr "Herhalen"
+
+msgid "Loop to first item. Default: On"
+msgstr "Terug naar eerste item. Standaard: Aan"
+
+msgid "Margin"
+msgstr "Marge"
+
+msgid "Margin (px)"
+msgstr "Marge (px)"
+
+msgid "Max"
+msgstr "Max"
+
+msgid "max"
+msgstr "max"
+
+msgid "Max Price"
+msgstr "Maximumprijs"
+
+msgid "Max Width"
+msgstr "Maximale breedte"
+
+msgid "Meta"
+msgstr "Meta"
+
+msgid "Meta Color"
+msgstr "Metakleur"
+
+msgid "Meta Icon Color"
+msgstr "Meta icoonkleur"
+
+msgid "Meta Item Spacing"
+msgstr "Meta-item tussenruimte"
+
+msgid "Meta Spacing"
+msgstr "Meta tussenruimte"
+
+msgid "Meta Wrpper Spacing"
+msgstr "Meta wrapper tussenruimte"
+
+msgid "Middle"
+msgstr "Midden"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "min"
+msgstr "min"
+
+msgid "Min & Max Field Width"
+msgstr "Min & Max veldbreedte"
+
+msgid "Min Price"
+msgstr "Minimumprijs"
+
+msgid "Min Width"
+msgstr "Minimale breedte"
+
+msgid "Min width"
+msgstr "Minimale breedte"
+
+msgid "Mobile Column"
+msgstr "Mobiele kolom"
+
+msgid "Name Color"
+msgstr "Naamkleur"
+
+msgid "New"
+msgstr "Nieuw"
+
+msgid "New Background Color"
+msgstr "Nieuw achtergrondkleur"
+
+msgid "New Line"
+msgstr "Nieuwe regel"
+
+msgid "New Text Color"
+msgstr "Nieuw tekstkleur"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "No Listing Found"
+msgstr "Geen advertenties gevonden"
+
+msgid "No Listing Text"
+msgstr "Geen advertenties tekst"
+
+msgid "None"
+msgstr "Geen"
+
+msgid "Normal"
+msgstr "Normaal"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s advertentie"
+msgstr[1] "%s advertenties"
+
+msgid "Number of category to display"
+msgstr "Aantal categorieën om weer te geven"
+
+msgid "Number of Columns"
+msgstr "Aantal kolommen"
+
+msgid "Number of listing to display"
+msgstr "Aantal advertenties om weer te geven"
+
+msgid "Number of location to display"
+msgstr "Aantal locaties om weer te geven"
+
+msgid "Number of Responsive Columns"
+msgstr "Aantal responsieve kolommen"
+
+msgid "Number of Words to display"
+msgstr "Aantal woorden om weer te geven"
+
+msgid "Number of words to display."
+msgstr "Aantal woorden om weer te geven."
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "On"
+msgstr "Aan"
+
+msgid "On Items Hover Description color"
+msgstr "Beschrijvingskleur bij hover over items"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "Eén regel per kenmerk bijv. 10 Advertenties per maand Uitgelicht in eerste week"
+
+msgid "Only Location that has listings"
+msgstr "Alleen locaties met advertenties"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "Werkt alleen voor Pro. Standaard: Uit"
+
+msgid "Order"
+msgstr "Volgorde"
+
+msgid "Order By"
+msgstr "Sorteren op"
+
+msgid "Oriantation"
+msgstr "Oriëntatie"
+
+msgid "Orientation"
+msgstr "Oriëntatie"
+
+msgid "Overlay Background"
+msgstr "Overlay achtergrond"
+
+msgid "Overlay Settings"
+msgstr "Overlay instellingen"
+
+msgid "Padding"
+msgstr "Opvulling"
+
+msgid "padding"
+msgstr "opvulling"
+
+msgid "Padding (px)"
+msgstr "Opvulling (px)"
+
+msgid "Pagination"
+msgstr "Paginering"
+
+msgid "Pagination spacing"
+msgstr "Paginering tussenruimte"
+
+msgid "Pagination Typography"
+msgstr "Paginering typografie"
+
+msgid "Phones: >575px"
+msgstr "Telefoons: >575px"
+
+msgid "Placeholder"
+msgstr "Placeholder"
+
+msgid "Please Select a Location and Background"
+msgstr "Selecteer een locatie en achtergrond"
+
+msgid "Popular"
+msgstr "Populair"
+
+msgid "Popular Background Color"
+msgstr "Populair achtergrondkleur"
+
+msgid "Popular Text Color"
+msgstr "Populair tekstkleur"
+
+msgid "Popup"
+msgstr "Pop-up"
+
+msgid "Post Per Page"
+msgstr "Berichten per pagina"
+
+msgid "Price"
+msgstr "Prijs"
+
+msgid "Price Color"
+msgstr "Prijskleur"
+
+msgid "Price Field"
+msgstr "Prijsveld"
+
+msgid "Price field"
+msgstr "Prijsveld"
+
+msgid "Price Label Color"
+msgstr "Prijslabel kleur"
+
+msgid "Price Label Typography"
+msgstr "Prijslabel typografie"
+
+msgid "Price Margin"
+msgstr "Prijs marge"
+
+msgid "Price padding"
+msgstr "Prijs opvulling"
+
+msgid "Pricing Footer Spacing"
+msgstr "Prijzen voettekst tussenruimte"
+
+msgid "Pricing Page Link"
+msgstr "Prijzenpagina link"
+
+msgid "Pricing Table"
+msgstr "Prijzentabel"
+
+msgid "Profile"
+msgstr "Profiel"
+
+msgid "Profile icon order"
+msgstr "Volgorde profiel icoon"
+
+msgid "Promotional Post"
+msgstr "Promotioneel bericht"
+
+msgid "Promotions"
+msgstr "Promoties"
+
+msgid "Promotions Exclude"
+msgstr "Promoties uitsluiten"
+
+msgid "Query"
+msgstr "Query"
+
+msgid "Quick View"
+msgstr "Snelle weergave"
+
+msgid "Radius"
+msgstr "Straal"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "Straal (%1$s)"
+
+msgid "Radius Field"
+msgstr "Straalveld"
+
+msgid "Radius Search"
+msgstr "Straal zoeken"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "Willekeurig"
+
+msgid "Responsive Columns"
+msgstr "Responsieve kolommen"
+
+msgid "Result count"
+msgstr "Aantal resultaten"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Right Top"
+msgstr "Rechtsboven"
+
+msgid "Search"
+msgstr "Zoeken"
+
+msgid "Search Button"
+msgstr "Zoekknop"
+
+msgid "Search Form"
+msgstr "Zoekformulier"
+
+msgid "Search Form - Sortable"
+msgstr "Zoekformulier - Sorteerbaar"
+
+msgid "Select a location"
+msgstr "Selecteer een locatie"
+
+msgid "Select a location to display."
+msgstr "Selecteer een locatie om weer te geven."
+
+msgid "Select Category"
+msgstr "Selecteer categorie"
+
+msgid "Select column number to display categories."
+msgstr "Selecteer kolomnummer om categorieën weer te geven."
+
+msgid "Select column number to display listings."
+msgstr "Selecteer kolomnummer om advertenties weer te geven."
+
+msgid "Select column number to display location."
+msgstr "Selecteer kolomnummer om locatie weer te geven."
+
+msgid "Select Field"
+msgstr "Selecteer veld"
+
+msgid "Select Form"
+msgstr "Selecteer formulier"
+
+msgid "Select Image Size"
+msgstr "Selecteer afbeeldingsgrootte"
+
+msgid "Select Location"
+msgstr "Selecteer locatie"
+
+msgid "Select Pricing"
+msgstr "Selecteer prijzen"
+
+msgid "Select Type"
+msgstr "Selecteer type"
+
+msgid "Select type"
+msgstr "Selecteer type"
+
+msgid "Selected Location"
+msgstr "Geselecteerde locatie"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "Stel een waarde in, bijvoorbeeld 5 seconden om het elke 5 seconden af te spelen. Standaard: 5 seconden"
+
+msgid "Short Description"
+msgstr "Korte beschrijving"
+
+msgid "Short Description Color"
+msgstr "Korte beschrijving kleur"
+
+msgid "Short Description Word Limit"
+msgstr "Korte beschrijving woordlimiet"
+
+msgid "Show"
+msgstr "Weergeven"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "Categorieën zonder advertenties weergeven / verbergen."
+
+msgid "Show / Hide category description."
+msgstr "Categoriebeschrijving weergeven / verbergen."
+
+msgid "Show / Hide compare button."
+msgstr "Vergelijkknop weergeven / verbergen."
+
+msgid "Show / Hide keyword field."
+msgstr "Trefwoordenveld weergeven / verbergen."
+
+msgid "Show / Hide listing ad type."
+msgstr "Advertentietype weergeven / verbergen."
+
+msgid "Show / Hide listing author name."
+msgstr "Advertentie auteursnaam weergeven / verbergen."
+
+msgid "Show / Hide listing badge."
+msgstr "Advertentie badge weergeven / verbergen."
+
+msgid "Show / Hide listing categories."
+msgstr "Advertentiecategorieën weergeven / verbergen."
+
+msgid "Show / Hide listing counts."
+msgstr "Advertentie-aantallen weergeven / verbergen."
+
+msgid "Show / Hide listing custom fields."
+msgstr "Advertentie aangepaste velden weergeven / verbergen."
+
+msgid "Show / Hide listing date."
+msgstr "Advertentiedatum weergeven / verbergen."
+
+msgid "Show / Hide listing description."
+msgstr "Advertentiebeschrijving weergeven / verbergen."
+
+msgid "Show / Hide listing details button."
+msgstr "Advertentie detailknop weergeven / verbergen."
+
+msgid "Show / Hide listing favourite button."
+msgstr "Advertentie favorietenknop weergeven / verbergen."
+
+msgid "Show / Hide listing image or icon."
+msgstr "Advertentie afbeelding of icoon weergeven / verbergen."
+
+msgid "Show / Hide listing image."
+msgstr "Advertentie afbeelding weergeven / verbergen."
+
+msgid "Show / Hide listing location."
+msgstr "Advertentielocatie weergeven / verbergen."
+
+msgid "Show / Hide listing price."
+msgstr "Advertentieprijs weergeven / verbergen."
+
+msgid "Show / Hide listing views."
+msgstr "Advertentie weergaven weergeven / verbergen."
+
+msgid "Show / Hide location description."
+msgstr "Locatiebeschrijving weergeven / verbergen."
+
+msgid "Show / Hide location that has no listings."
+msgstr "Locaties zonder advertenties weergeven / verbergen."
+
+msgid "Show / Hide quick view button."
+msgstr "Snelle weergave knop weergeven / verbergen."
+
+msgid "Show Ad Type"
+msgstr "Advertentietype weergeven"
+
+msgid "Show add listing button"
+msgstr "Advertentie toevoegen knop weergeven"
+
+msgid "Show Author Name"
+msgstr "Auteursnaam weergeven"
+
+msgid "Show Badge"
+msgstr "Badge weergeven"
+
+msgid "Show Bump Up?"
+msgstr "Omhoog plaatsen weergeven?"
+
+msgid "Show Category"
+msgstr "Categorie weergeven"
+
+msgid "Show chat icon"
+msgstr "Chat icoon weergeven"
+
+msgid "Show Child location"
+msgstr "Onderliggende locatie weergeven"
+
+msgid "Show Compare"
+msgstr "Vergelijken weergeven"
+
+msgid "Show compare icon"
+msgstr "Vergelijk icoon weergeven"
+
+msgid "Show Count"
+msgstr "Aantal weergeven"
+
+msgid "Show Counts"
+msgstr "Aantallen weergeven"
+
+msgid "Show Custom Fields"
+msgstr "Aangepaste velden weergeven"
+
+msgid "Show Custom fields"
+msgstr "Aangepaste velden weergeven"
+
+msgid "Show Date"
+msgstr "Datum weergeven"
+
+msgid "Show Description"
+msgstr "Beschrijving weergeven"
+
+msgid "Show Details Button"
+msgstr "Detailknop weergeven"
+
+msgid "Show Favourites"
+msgstr "Favorieten weergeven"
+
+msgid "Show favourites icon"
+msgstr "Favorieten icoon weergeven"
+
+msgid "Show Featured?"
+msgstr "Uitgelicht weergeven?"
+
+msgid "Show Fields Label"
+msgstr "Veldlabels weergeven"
+
+msgid "Show fields Label"
+msgstr "Veldlabels weergeven"
+
+msgid "Show Icon/Image"
+msgstr "Icoon/Afbeelding weergeven"
+
+msgid "Show Image"
+msgstr "Afbeelding weergeven"
+
+msgid "Show Image / Icon"
+msgstr "Afbeelding / Icoon weergeven"
+
+msgid "Show Listing Counts"
+msgstr "Advertentie-aantallen weergeven"
+
+msgid "Show Location"
+msgstr "Locatie weergeven"
+
+msgid "Show New?"
+msgstr "Nieuw weergeven?"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "Categorietitel weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "Categorie weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide date. Default: On"
+msgstr "Datum weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "Detailknop weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "Icoon weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "Labels weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "Advertentie-aantallen weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "Advertentiebeschrijving weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "Advertentie icoon/afbeelding weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "Advertentietitel weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "Locatie weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "Per teken weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "Prijs weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "Types weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "Gebruiker/Auteursnaam weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "Gebruiker/Auteur geverifieerd basis weergeven of verbergen. Standaard: Aan"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "Weergave-aantallen weergeven of verbergen. Standaard: Aan"
+
+msgid "Show Per Sign"
+msgstr "Per teken weergeven"
+
+msgid "Show Phone"
+msgstr "Telefoon weergeven"
+
+msgid "Show Phone No"
+msgstr "Telefoonnummer weergeven"
+
+msgid "Show Popular?"
+msgstr "Populair weergeven?"
+
+msgid "Show Price"
+msgstr "Prijs weergeven"
+
+msgid "Show Price Type"
+msgstr "Prijstype weergeven"
+
+msgid "Show Price Unit"
+msgstr "Prijseenheid weergeven"
+
+msgid "Show profile"
+msgstr "Profiel weergeven"
+
+msgid "Show Quick View"
+msgstr "Snelle weergave tonen"
+
+msgid "Show Time"
+msgstr "Tijd weergeven"
+
+msgid "Show Title"
+msgstr "Titel weergeven"
+
+msgid "Show Top?"
+msgstr "Top weergeven?"
+
+msgid "Show Types"
+msgstr "Types weergeven"
+
+msgid "Show User"
+msgstr "Gebruiker weergeven"
+
+msgid "Show Verified User Base"
+msgstr "Geverifieerde gebruiker basis weergeven"
+
+msgid "Show View Count"
+msgstr "Weergave-aantal tonen"
+
+msgid "Show Views"
+msgstr "Weergaven tonen"
+
+msgid "Sign in Icon"
+msgstr "Inloggen icoon"
+
+msgid "Single Location"
+msgstr "Enkele locatie"
+
+msgid "Slide Speed"
+msgstr "Dia snelheid"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "Dia snelheid in milliseconden. Standaard: 200"
+
+msgid "Slider Navigation"
+msgstr "Slider navigatie"
+
+msgid "Slider Options"
+msgstr "Slider opties"
+
+msgid "Small Phones: <576px"
+msgstr "Kleine telefoons: <576px"
+
+msgid "Sold Out"
+msgstr "Uitverkocht"
+
+msgid "Sold Out Background Color"
+msgstr "Uitverkocht achtergrondkleur"
+
+msgid "Sold Out Text Color"
+msgstr "Uitverkocht tekstkleur"
+
+msgid "Sort By"
+msgstr "Sorteren op"
+
+msgid "Space Between"
+msgstr "Ruimte tussen"
+
+msgid "Space Between List"
+msgstr "Ruimte tussen lijst"
+
+msgid "Space Between. Default: 20"
+msgstr "Ruimte tussen. Standaard: 20"
+
+msgid "Spacing"
+msgstr "Tussenruimte"
+
+msgid "Special Style Body Settings"
+msgstr "Speciale stijl inhoudsinstellingen"
+
+msgid "Special style Settings"
+msgstr "Speciale stijl instellingen"
+
+msgid "Standard"
+msgstr "Standaard"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "Begin met het typen van categorienamen. Indien leeg worden alle advertenties weergegeven."
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "Begin met het typen van categorienamen. Indien leeg worden alle hoofdcategorieën weergegeven"
+
+msgid "Start typing locations names."
+msgstr "Begin met het typen van locatienamen."
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "Automatisch afspelen stoppen bij muisaanwijzer. Standaard: Aan"
+
+msgid "Stop on Hover"
+msgstr "Stoppen bij hover"
+
+msgid "Store Pagination"
+msgstr "Winkel paginering"
+
+msgid "Style"
+msgstr "Stijl"
+
+msgid "Style 1"
+msgstr "Stijl 1"
+
+msgid "Style 2"
+msgstr "Stijl 2"
+
+msgid "Style 3"
+msgstr "Stijl 3"
+
+msgid "Style 4"
+msgstr "Stijl 4"
+
+msgid "Style 5"
+msgstr "Stijl 5"
+
+msgid "Sub Category Limit"
+msgstr "Subcategorielimiet"
+
+msgid "Sub Location Limit"
+msgstr "Sublocatielimiet"
+
+msgid "Submit"
+msgstr "Verzenden"
+
+msgid "Submit button"
+msgstr "Verzendknop"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "Schakel om badge omhoog plaatsen te tonen "
+
+msgid "Switch to Show Badge Featured "
+msgstr "Schakel om badge uitgelicht te tonen "
+
+msgid "Switch to Show Badge New "
+msgstr "Schakel om badge nieuw te tonen "
+
+msgid "Switch to Show Badge Popular "
+msgstr "Schakel om badge populair te tonen "
+
+msgid "Switch to Show Badge Top "
+msgstr "Schakel om badge top te tonen "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "Schakel om catalogus sortering te tonen"
+
+msgid "Switch to Show Pagination"
+msgstr "Schakel om paginering te tonen"
+
+msgid "Switch to Show Result Count"
+msgstr "Schakel om aantal resultaten te tonen"
+
+msgid "Switch to Show View Switcher"
+msgstr "Schakel om weergave wisselaar te tonen"
+
+msgid "Tab Column"
+msgstr "Tab kolom"
+
+msgid "Tablets: >767px"
+msgstr "Tablets: >767px"
+
+msgid "Text After Count "
+msgstr "Tekst na aantal "
+
+msgid "Text Alignment"
+msgstr "Tekstuitlijning"
+
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+msgid "Text Color In hover"
+msgstr "Tekstkleur bij hover"
+
+msgid "Time"
+msgstr "Tijd"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Title Color"
+msgstr "Titelkleur"
+
+msgid "Title Hover"
+msgstr "Titel hover"
+
+msgid "Title Spacing"
+msgstr "Titel tussenruimte"
+
+msgid "Top"
+msgstr "Top"
+
+msgid "Top Background Color"
+msgstr "Top achtergrondkleur"
+
+msgid "Top Border Color"
+msgstr "Top randkleur"
+
+msgid "Top Text Color"
+msgstr "Top tekstkleur"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Type your description here"
+msgstr "Typ hier je beschrijving"
+
+msgid "Types"
+msgstr "Types"
+
+msgid "Types field"
+msgstr "Types veld"
+
+msgid "Typography"
+msgstr "Typografie"
+
+msgid "Unit Color"
+msgstr "Eenheidskleur"
+
+msgid "Unit Label Text Color"
+msgstr "Eenheidslabel tekstkleur"
+
+msgid "Unit Label Typography"
+msgstr "Eenheidslabel typografie"
+
+msgid "Unit Name"
+msgstr "Eenheidsnaam"
+
+msgid "Unit Typography"
+msgstr "Eenheid typografie"
+
+msgid "Vertical"
+msgstr "Verticaal"
+
+msgid "Vertical View"
+msgstr "Verticale weergave"
+
+msgid "View"
+msgstr "Weergave"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "Bekijk alle berichten in %s"
+
+msgid "View Switcher"
+msgstr "Weergave wisselaar"
+
+msgid "Views"
+msgstr "Weergaven"
+
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+msgid "Width"
+msgstr "Breedte"
+
+msgid "Wrapper"
+msgstr "Wrapper"
+
+msgid "Wrapper Padding"
+msgstr "Wrapper opvulling"
+
+msgid "Wrapper Spacing"
+msgstr "Wrapper tussenruimte"
+
+msgid "Yes"
+msgstr "Ja"

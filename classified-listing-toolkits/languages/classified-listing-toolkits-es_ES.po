@@ -1,0 +1,1888 @@
+# Translation of Classified Listing Toolkits in Spanish
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " Mi cuenta"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " Iniciar sesión"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s vista"
+msgstr[1] "%s vistas"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(%s anuncio)"
+msgstr[1] "(%s anuncios)"
+
+msgid "--Select--"
+msgstr "--Seleccionar--"
+
+msgid "1 Col"
+msgstr "1 columna"
+
+msgid "1 Second"
+msgstr "1 segundo"
+
+msgid "2 Col"
+msgstr "2 columnas"
+
+msgid "2 Seconds"
+msgstr "2 segundos"
+
+msgid "3 Col"
+msgstr "3 columnas"
+
+msgid "3 Seconds"
+msgstr "3 segundos"
+
+msgid "4 Col"
+msgstr "4 columnas"
+
+msgid "4 Seconds"
+msgstr "4 segundos"
+
+msgid "5 Col"
+msgstr "5 columnas"
+
+msgid "5 Seconds"
+msgstr "5 segundos"
+
+msgid "6 Col"
+msgstr "6 columnas"
+
+msgid "6 Seconds"
+msgstr "6 segundos"
+
+msgid "7 Seconds"
+msgstr "7 segundos"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Actualiza a pro</a> para desbloquear más estilos."
+
+msgid "Action Button Hover Text Color"
+msgstr "Color de texto del botón de acción al pasar el cursor"
+
+msgid "Action Button Layout"
+msgstr "Diseño del botón de acción"
+
+msgid "Action Button Text Color"
+msgstr "Color de texto del botón de acción"
+
+msgid "Active Background Color"
+msgstr "Color de fondo activo"
+
+msgid "Active Color"
+msgstr "Color activo"
+
+msgid "Active Text Color"
+msgstr "Color de texto activo"
+
+msgid "Ad Type"
+msgstr "Tipo de anuncio"
+
+msgid "Ad Types Field"
+msgstr "Campo de tipos de anuncio"
+
+msgid "Add / Remove listing location link."
+msgstr "Agregar / Eliminar enlace de ubicación del anuncio."
+
+msgid "Add listing button"
+msgstr "Botón de agregar anuncio"
+
+msgid "Add listing button order"
+msgstr "Orden del botón de agregar anuncio"
+
+msgid "Add Listing Icon"
+msgstr "Icono de agregar anuncio"
+
+msgid "Add listing icon order"
+msgstr "Orden del icono de agregar anuncio"
+
+msgid "Adjust Box Height"
+msgstr "Ajustar altura de la caja"
+
+msgid "ads"
+msgstr "anuncios"
+
+msgid "All Location"
+msgstr "Todas las ubicaciones"
+
+msgid "All Locations"
+msgstr "Todas las ubicaciones"
+
+msgid "Arrow Navigation"
+msgstr "Navegación con flechas"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "Radio del borde de navegación con flechas"
+
+msgid "Arrow Position"
+msgstr "Posición de la flecha"
+
+msgid "Ascending"
+msgstr "Ascendente"
+
+msgid "Auto Height"
+msgstr "Altura automática"
+
+msgid "Auto Height. Default: On"
+msgstr "Altura automática. Por defecto: Activado"
+
+msgid "Auto Suggestion"
+msgstr "Sugerencia automática"
+
+msgid "Autoplay"
+msgstr "Reproducción automática"
+
+msgid "Autoplay Delay"
+msgstr "Retardo de reproducción automática"
+
+msgid "Autoplay Slide Speed"
+msgstr "Velocidad de diapositiva de reproducción automática"
+
+msgid "Background"
+msgstr "Fondo"
+
+msgid "Background Color"
+msgstr "Color de fondo"
+
+msgid "Background Hover"
+msgstr "Fondo al pasar el cursor"
+
+msgid "Badge"
+msgstr "Insignia"
+
+msgid "Badge "
+msgstr "Insignia "
+
+msgid "Badge Background Color"
+msgstr "Color de fondo de la insignia"
+
+msgid "Badge Default Background"
+msgstr "Fondo predeterminado de la insignia"
+
+msgid "Badge Default Text Color"
+msgstr "Color de texto predeterminado de la insignia"
+
+msgid "Badge Default Typography"
+msgstr "Tipografía predeterminada de la insignia"
+
+msgid "Badge Spacing"
+msgstr "Espaciado de la insignia"
+
+msgid "Badge Text Color"
+msgstr "Color de texto de la insignia"
+
+msgid "Badge Visibility "
+msgstr "Visibilidad de la insignia "
+
+msgid "Body"
+msgstr "Cuerpo"
+
+msgid "Body background"
+msgstr "Fondo del cuerpo"
+
+msgid "Body pading"
+msgstr "Relleno del cuerpo"
+
+msgid "Body Section Padding"
+msgstr "Relleno de la sección del cuerpo"
+
+msgid "Body Section Pading"
+msgstr "Relleno de la sección del cuerpo"
+
+msgid "Body Spacing"
+msgstr "Espaciado del cuerpo"
+
+msgid "Border"
+msgstr "Borde"
+
+msgid "Border Color"
+msgstr "Color del borde"
+
+msgid "Border Radius"
+msgstr "Radio del borde"
+
+msgid "Border Radius (px)"
+msgstr "Radio del borde (px)"
+
+msgid "Box"
+msgstr "Caja"
+
+msgid "Box Border Radius"
+msgstr "Radio del borde de la caja"
+
+msgid "Box Height"
+msgstr "Altura de la caja"
+
+msgid "Box padding"
+msgstr "Relleno de la caja"
+
+msgid "Box pading"
+msgstr "Relleno de la caja"
+
+msgid "Box Shadow"
+msgstr "Sombra de la caja"
+
+msgid "Box style"
+msgstr "Estilo de la caja"
+
+msgid "Bump Up"
+msgstr "Destacar"
+
+msgid "Bump Up Background Color"
+msgstr "Color de fondo de destacar"
+
+msgid "Bump Up Text Color"
+msgstr "Color de texto de destacar"
+
+msgid "Button"
+msgstr "Botón"
+
+msgid "Button alignment"
+msgstr "Alineación del botón"
+
+msgid "Button Background"
+msgstr "Fondo del botón"
+
+msgid "Button Height"
+msgstr "Altura del botón"
+
+msgid "Button Icon"
+msgstr "Icono del botón"
+
+msgid "Button Link Type"
+msgstr "Tipo de enlace del botón"
+
+msgid "Button Padding"
+msgstr "Relleno del botón"
+
+msgid "Button Section"
+msgstr "Sección del botón"
+
+msgid "Button Spacing"
+msgstr "Espaciado del botón"
+
+msgid "Button style"
+msgstr "Estilo del botón"
+
+msgid "Button Text"
+msgstr "Texto del botón"
+
+msgid "Button text"
+msgstr "Texto del botón"
+
+msgid "Button Text Color"
+msgstr "Color de texto del botón"
+
+msgid "Button Typography"
+msgstr "Tipografía del botón"
+
+msgid "Button URL"
+msgstr "URL del botón"
+
+msgid "Button width"
+msgstr "Ancho del botón"
+
+msgid "Card"
+msgstr "Tarjeta"
+
+msgid "Cart Icon"
+msgstr "Icono del carrito"
+
+msgid "Catalog Ordering"
+msgstr "Ordenación del catálogo"
+
+msgid "Categories"
+msgstr "Categorías"
+
+msgid "Category"
+msgstr "Categoría"
+
+msgid "Category Color"
+msgstr "Color de categoría"
+
+msgid "Category Description"
+msgstr "Descripción de la categoría"
+
+msgid "Category Field"
+msgstr "Campo de categoría"
+
+msgid "Category field"
+msgstr "Campo de categoría"
+
+msgid "Category Limit"
+msgstr "Límite de categorías"
+
+msgid "Category Slider"
+msgstr "Deslizador de categorías"
+
+msgid "Center"
+msgstr "Centro"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Chat Icon"
+msgstr "Icono de chat"
+
+msgid "Chat icon order"
+msgstr "Orden del icono de chat"
+
+msgid "Chat Option"
+msgstr "Opción de chat"
+
+msgid "Child Category Limit"
+msgstr "Límite de subcategorías"
+
+msgid "Child List Color"
+msgstr "Color de lista secundaria"
+
+msgid "Child List Hover Color"
+msgstr "Color de lista secundaria al pasar el cursor"
+
+msgid "Child List Icon Color"
+msgstr "Color del icono de lista secundaria"
+
+msgid "Child List Icon Hover Color"
+msgstr "Color del icono de lista secundaria al pasar el cursor"
+
+msgid "Child Location"
+msgstr "Ubicación secundaria"
+
+msgid "Classified Listing"
+msgstr "Anuncios clasificados"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "Classified Listing Toolkit requiere que Classified Listing esté instalado y activo."
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "Classified Listing Toolkit requiere que Classified Listing sea versión mínima 5.0.1"
+
+msgid "Classified Listing Toolkits"
+msgstr "Herramientas de anuncios clasificados"
+
+msgid "classified Listing Toolkits"
+msgstr "Herramientas de anuncios clasificados"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "Herramientas de anuncios clasificados que incluyen varios widgets de Elementor y módulos de Divi para ayudarte a mostrar anuncios de manera elegante en diversos diseños."
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Column"
+msgstr "Columna"
+
+msgid "Column 1"
+msgstr "Columna 1"
+
+msgid "Column 2"
+msgstr "Columna 2"
+
+msgid "Column 3"
+msgstr "Columna 3"
+
+msgid "Column 4"
+msgstr "Columna 4"
+
+msgid "Compare"
+msgstr "Comparar"
+
+msgid "Compare icon order"
+msgstr "Orden del icono de comparar"
+
+msgid "Content"
+msgstr "Contenido"
+
+msgid "Content Alignment"
+msgstr "Alineación del contenido"
+
+msgid "Content alignment"
+msgstr "Alineación del contenido"
+
+msgid "Content Background Color"
+msgstr "Color de fondo del contenido"
+
+msgid "Content Spacing"
+msgstr "Espaciado del contenido"
+
+msgid "Content spacing"
+msgstr "Espaciado del contenido"
+
+msgid "Content Vertical Alignment"
+msgstr "Alineación vertical del contenido"
+
+msgid "Content Visibility "
+msgstr "Visibilidad del contenido "
+
+msgid "Count"
+msgstr "Contador"
+
+msgid "Count Color"
+msgstr "Color del contador"
+
+msgid "Count Font Size"
+msgstr "Tamaño de fuente del contador"
+
+msgid "Count position"
+msgstr "Posición del contador"
+
+msgid "Count Text"
+msgstr "Texto del contador"
+
+msgid "Count Text For Plural Number"
+msgstr "Texto del contador para número plural"
+
+msgid "Counter"
+msgstr "Contador"
+
+msgid "Counter Spacing"
+msgstr "Espaciado del contador"
+
+msgid "Counts Include Children"
+msgstr "El conteo incluye hijos"
+
+msgid "Currency Position"
+msgstr "Posición de la moneda"
+
+msgid "Currency sign eg. $"
+msgstr "Símbolo de moneda ej. $"
+
+msgid "Currency Symbol"
+msgstr "Símbolo de moneda"
+
+msgid "Currency Typography"
+msgstr "Tipografía de la moneda"
+
+msgid "Custom"
+msgstr "Personalizado"
+
+msgid "Custom Field's"
+msgstr "Campos personalizados"
+
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+msgid "Custom Link"
+msgstr "Enlace personalizado"
+
+msgid "Custom Order"
+msgstr "Orden personalizado"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Default Badge"
+msgstr "Insignia predeterminada"
+
+msgid "Default Color"
+msgstr "Color predeterminado"
+
+msgid "Dependency Selection"
+msgstr "Selección de dependencias"
+
+msgid "Descending"
+msgstr "Descendente"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Description Color"
+msgstr "Color de la descripción"
+
+msgid "Description Limit"
+msgstr "Límite de descripción"
+
+msgid "Description Word Limit"
+msgstr "Límite de palabras de la descripción"
+
+msgid "Desktops: >1199px"
+msgstr "Escritorios: >1199px"
+
+msgid "Desktops: >991px"
+msgstr "Escritorios: >991px"
+
+msgid "Details"
+msgstr "Detalles"
+
+msgid "Details Button Background Color"
+msgstr "Color de fondo del botón de detalles"
+
+msgid "Details Button Text Color"
+msgstr "Color de texto del botón de detalles"
+
+msgid "Display Child category"
+msgstr "Mostrar subcategoría"
+
+msgid "Display Sub Category"
+msgstr "Mostrar subcategoría"
+
+msgid "Dot Navigation"
+msgstr "Navegación por puntos"
+
+msgid "Dot Navigation Settings"
+msgstr "Configuración de navegación por puntos"
+
+msgid "Dot Navigation Spacing"
+msgstr "Espaciado de navegación por puntos"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "ej. mes o año. Dejar vacío si no deseas mostrar la unidad"
+
+msgid "Enable Link"
+msgstr "Habilitar enlace"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "Habilitar o deshabilitar reproducción automática. Por defecto: Activado"
+
+msgid "Enter Keyword here ..."
+msgstr "Ingrese palabra clave aquí ..."
+
+msgid "Enter your keyword here ..."
+msgstr "Ingrese su palabra clave aquí ..."
+
+msgid "Equal Height"
+msgstr "Altura igual"
+
+msgid "Favourites"
+msgstr "Favoritos"
+
+msgid "Favourites icon order"
+msgstr "Orden del icono de favoritos"
+
+msgid "Feature"
+msgstr "Característica"
+
+msgid "Featured"
+msgstr "Destacado"
+
+msgid "Featured Background Color"
+msgstr "Color de fondo destacado"
+
+msgid "Featured Border Color"
+msgstr "Color del borde destacado"
+
+msgid "Featured Text Color"
+msgstr "Color de texto destacado"
+
+msgid "Features"
+msgstr "Características"
+
+msgid "Features Margin"
+msgstr "Margen de características"
+
+msgid "Features Text As"
+msgstr "Texto de características como"
+
+msgid "Field background"
+msgstr "Fondo del campo"
+
+msgid "Field Gutter Spacing"
+msgstr "Espaciado entre campos"
+
+msgid "Field Height"
+msgstr "Altura del campo"
+
+msgid "Field text color"
+msgstr "Color de texto del campo"
+
+msgid "Field Types"
+msgstr "Tipos de campo"
+
+msgid "Field's"
+msgstr "Campos"
+
+msgid "Field's Gap"
+msgstr "Espacio entre campos"
+
+msgid "Field's Height"
+msgstr "Altura de los campos"
+
+msgid "Fields"
+msgstr "Campos"
+
+msgid "Fields Gap"
+msgstr "Espacio entre campos"
+
+msgid "Fields Padding (px)"
+msgstr "Relleno de campos (px)"
+
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+msgid "Footer"
+msgstr "Pie de página"
+
+msgid "Form"
+msgstr "Formulario"
+
+msgid "Form Background Color"
+msgstr "Color de fondo del formulario"
+
+msgid "Form Field's"
+msgstr "Campos del formulario"
+
+msgid "Form Label"
+msgstr "Etiqueta del formulario"
+
+msgid "Full Size"
+msgstr "Tamaño completo"
+
+msgid "General"
+msgstr "General"
+
+msgid "General Style"
+msgstr "Estilo general"
+
+msgid "Grid"
+msgstr "Cuadrícula"
+
+msgid "Grid Column"
+msgstr "Columna de cuadrícula"
+
+msgid "Grid View"
+msgstr "Vista de cuadrícula"
+
+msgid "Gutter padding"
+msgstr "Relleno de separación"
+
+msgid "Gutter pading"
+msgstr "Relleno de separación"
+
+msgid "Gutter Space"
+msgstr "Espacio de separación"
+
+msgid "Gutter Spacing"
+msgstr "Espaciado de separación"
+
+msgid "Head background"
+msgstr "Fondo del encabezado"
+
+msgid "Head Section Padding"
+msgstr "Relleno de la sección del encabezado"
+
+msgid "Head Section Pading"
+msgstr "Relleno de la sección del encabezado"
+
+msgid "Header"
+msgstr "Encabezado"
+
+msgid "Header Border Color"
+msgstr "Color del borde del encabezado"
+
+msgid "Header Button"
+msgstr "Botón del encabezado"
+
+msgid "Header Icon"
+msgstr "Icono del encabezado"
+
+msgid "Header pading"
+msgstr "Relleno del encabezado"
+
+msgid "Header Spacing"
+msgstr "Espaciado del encabezado"
+
+msgid "Height"
+msgstr "Altura"
+
+msgid "Here you can define a custom color for category description."
+msgstr "Aquí puedes definir un color personalizado para la descripción de la categoría."
+
+msgid "Here you can define a custom color for category name."
+msgstr "Aquí puedes definir un color personalizado para el nombre de la categoría."
+
+msgid "Here you can define a custom color for content background."
+msgstr "Aquí puedes definir un color personalizado para el fondo del contenido."
+
+msgid "Here you can define a custom color for field background."
+msgstr "Aquí puedes definir un color personalizado para el fondo del campo."
+
+msgid "Here you can define a custom color for form background."
+msgstr "Aquí puedes definir un color personalizado para el fondo del formulario."
+
+msgid "Here you can define a custom color for form label."
+msgstr "Aquí puedes definir un color personalizado para la etiqueta del formulario."
+
+msgid "Here you can define a custom color for input text."
+msgstr "Aquí puedes definir un color personalizado para el texto de entrada."
+
+msgid "Here you can define a custom color for listing count."
+msgstr "Aquí puedes definir un color personalizado para el contador de anuncios."
+
+msgid "Here you can define a custom color for listing price."
+msgstr "Aquí puedes definir un color personalizado para el precio del anuncio."
+
+msgid "Here you can define a custom color for listing title."
+msgstr "Aquí puedes definir un color personalizado para el título del anuncio."
+
+msgid "Here you can define a custom color for location description."
+msgstr "Aquí puedes definir un color personalizado para la descripción de la ubicación."
+
+msgid "Here you can define a custom color for location name."
+msgstr "Aquí puedes definir un color personalizado para el nombre de la ubicación."
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "Aquí puedes definir un color personalizado para el fondo del botón de enviar."
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "Aquí puedes definir un color de texto personalizado para el botón de enviar."
+
+msgid "Here you can define font size for listing count."
+msgstr "Aquí puedes definir el tamaño de fuente para el contador de anuncios."
+
+msgid "Here you can define gutter for the box."
+msgstr "Aquí puedes definir la separación para la caja."
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "Aquí puedes definir la separación para el espacio entre campos."
+
+msgid "Here you can define height for the box."
+msgstr "Aquí puedes definir la altura de la caja."
+
+msgid "Hide"
+msgstr "Ocultar"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "Ocultar categorías que no tienen anuncios. Por defecto: Activado"
+
+msgid "Hide Empty"
+msgstr "Ocultar vacíos"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "Horizontal View"
+msgstr "Vista horizontal"
+
+msgid "Hover"
+msgstr "Al pasar el cursor"
+
+msgid "Hover & Focus"
+msgstr "Al pasar el cursor y enfocar"
+
+msgid "Hover Background Color"
+msgstr "Color de fondo al pasar el cursor"
+
+msgid "Hover Box Shadow"
+msgstr "Sombra de caja al pasar el cursor"
+
+msgid "How Many Category will Display ?"
+msgstr "¿Cuántas categorías se mostrarán?"
+
+msgid "How Many Child Category will Display ?"
+msgstr "¿Cuántas subcategorías se mostrarán?"
+
+msgid "How Many Child Location will Display ?"
+msgstr "¿Cuántas ubicaciones secundarias se mostrarán?"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "¿Cuántas ubicaciones se mostrarán? Dejar vacío para todas."
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "Icono"
+
+msgid "Icon Alignment"
+msgstr "Alineación del icono"
+
+msgid "Icon And Image"
+msgstr "Icono e imagen"
+
+msgid "Icon Area"
+msgstr "Área del icono"
+
+msgid "Icon Background"
+msgstr "Fondo del icono"
+
+msgid "Icon Background Color"
+msgstr "Color de fondo del icono"
+
+msgid "Icon Before List"
+msgstr "Icono antes de la lista"
+
+msgid "Icon Before Title"
+msgstr "Icono antes del título"
+
+msgid "Icon Bg Color"
+msgstr "Color de fondo del icono"
+
+msgid "Icon Bg Hover Color"
+msgstr "Color de fondo del icono al pasar el cursor"
+
+msgid "Icon Border Radius"
+msgstr "Radio del borde del icono"
+
+msgid "Icon Color"
+msgstr "Color del icono"
+
+msgid "Icon Count Background Color"
+msgstr "Color de fondo del contador del icono"
+
+msgid "Icon Count Color"
+msgstr "Color del contador del icono"
+
+msgid "Icon Font Size"
+msgstr "Tamaño de fuente del icono"
+
+msgid "Icon Gap"
+msgstr "Espacio del icono"
+
+msgid "Icon Hover Color"
+msgstr "Color del icono al pasar el cursor"
+
+msgid "Icon Margin (px)"
+msgstr "Margen del icono (px)"
+
+msgid "Icon order"
+msgstr "Orden del icono"
+
+msgid "Icon Rotate"
+msgstr "Rotación del icono"
+
+msgid "Icon Size"
+msgstr "Tamaño del icono"
+
+msgid "Icon style"
+msgstr "Estilo del icono"
+
+msgid "Icon Type"
+msgstr "Tipo de icono"
+
+msgid "Icon Wrapper Size"
+msgstr "Tamaño del contenedor del icono"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Image Size"
+msgstr "Tamaño de imagen"
+
+msgid "Image Spacing"
+msgstr "Espaciado de imagen"
+
+msgid "Image Wrapper"
+msgstr "Contenedor de imagen"
+
+msgid "Include Children Categories"
+msgstr "Incluir subcategorías"
+
+msgid "Include Inner Location"
+msgstr "Incluir ubicación interna"
+
+msgid "Inline"
+msgstr "En línea"
+
+msgid "Input Background Color"
+msgstr "Color de fondo de entrada"
+
+msgid "Input Text Color"
+msgstr "Color de texto de entrada"
+
+msgid "Item Wrapper"
+msgstr "Contenedor de elemento"
+
+msgid "Keyword"
+msgstr "Palabra clave"
+
+msgid "Keywords"
+msgstr "Palabras clave"
+
+msgid "Keywords Field"
+msgstr "Campo de palabras clave"
+
+msgid "Keywords field"
+msgstr "Campo de palabras clave"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Label Color"
+msgstr "Color de la etiqueta"
+
+msgid "Label Margin"
+msgstr "Margen de la etiqueta"
+
+msgid "Label Text Color"
+msgstr "Color de texto de la etiqueta"
+
+msgid "Label Typography"
+msgstr "Tipografía de la etiqueta"
+
+msgid "Layout"
+msgstr "Diseño"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "Dejar casillas sin marcar para seleccionar todo"
+
+msgid "Left"
+msgstr "Izquierda"
+
+msgid "Left Top"
+msgstr "Superior izquierda"
+
+msgid "Limit"
+msgstr "Límite"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "List Style"
+msgstr "Estilo de lista"
+
+msgid "List Title"
+msgstr "Título de la lista"
+
+msgid "List View"
+msgstr "Vista de lista"
+
+msgid "Listing Categories"
+msgstr "Categorías de anuncios"
+
+msgid "Listing Category"
+msgstr "Categoría de anuncio"
+
+msgid "Listing Counts"
+msgstr "Conteo de anuncios"
+
+msgid "Listing Limit"
+msgstr "Límite de anuncios"
+
+msgid "Listing Location"
+msgstr "Ubicación del anuncio"
+
+msgid "Listing Pagination"
+msgstr "Paginación de anuncios"
+
+msgid "Listing Per Page"
+msgstr "Anuncios por página"
+
+msgid "Listing Search Form"
+msgstr "Formulario de búsqueda de anuncios"
+
+msgid "Listing Showcase"
+msgstr "Vitrina de anuncios"
+
+msgid "Listing Single Location"
+msgstr "Ubicación única del anuncio"
+
+msgid "Listing Slider"
+msgstr "Deslizador de anuncios"
+
+msgid "Listing Store"
+msgstr "Tienda de anuncios"
+
+msgid "Listing Types"
+msgstr "Tipos de anuncios"
+
+msgid "Listings Grid"
+msgstr "Cuadrícula de anuncios"
+
+msgid "Listings List"
+msgstr "Lista de anuncios"
+
+msgid "Listings Slider"
+msgstr "Deslizador de anuncios"
+
+msgid "Load More Button"
+msgstr "Botón cargar más"
+
+msgid "Location"
+msgstr "Ubicación"
+
+msgid "Location Display Type"
+msgstr "Tipo de visualización de ubicación"
+
+msgid "Location Field"
+msgstr "Campo de ubicación"
+
+msgid "Location field"
+msgstr "Campo de ubicación"
+
+msgid "Location Limit"
+msgstr "Límite de ubicaciones"
+
+msgid "Locations"
+msgstr "Ubicaciones"
+
+msgid "Loop"
+msgstr "Bucle"
+
+msgid "Loop to first item. Default: On"
+msgstr "Volver al primer elemento. Por defecto: Activado"
+
+msgid "Margin"
+msgstr "Margen"
+
+msgid "Margin (px)"
+msgstr "Margen (px)"
+
+msgid "Max"
+msgstr "Máx"
+
+msgid "max"
+msgstr "máx"
+
+msgid "Max Price"
+msgstr "Precio máximo"
+
+msgid "Max Width"
+msgstr "Ancho máximo"
+
+msgid "Meta"
+msgstr "Meta"
+
+msgid "Meta Color"
+msgstr "Color de meta"
+
+msgid "Meta Icon Color"
+msgstr "Color del icono meta"
+
+msgid "Meta Item Spacing"
+msgstr "Espaciado del elemento meta"
+
+msgid "Meta Spacing"
+msgstr "Espaciado meta"
+
+msgid "Meta Wrpper Spacing"
+msgstr "Espaciado del contenedor meta"
+
+msgid "Middle"
+msgstr "Medio"
+
+msgid "Min"
+msgstr "Mín"
+
+msgid "min"
+msgstr "mín"
+
+msgid "Min & Max Field Width"
+msgstr "Ancho mínimo y máximo del campo"
+
+msgid "Min Price"
+msgstr "Precio mínimo"
+
+msgid "Min Width"
+msgstr "Ancho mínimo"
+
+msgid "Min width"
+msgstr "Ancho mínimo"
+
+msgid "Mobile Column"
+msgstr "Columna móvil"
+
+msgid "Name Color"
+msgstr "Color del nombre"
+
+msgid "New"
+msgstr "Nuevo"
+
+msgid "New Background Color"
+msgstr "Nuevo color de fondo"
+
+msgid "New Line"
+msgstr "Nueva línea"
+
+msgid "New Text Color"
+msgstr "Nuevo color de texto"
+
+msgid "No"
+msgstr "No"
+
+msgid "No Listing Found"
+msgstr "No se encontraron anuncios"
+
+msgid "No Listing Text"
+msgstr "Texto sin anuncios"
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Normal"
+msgstr "Normal"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s anuncio"
+msgstr[1] "%s anuncios"
+
+msgid "Number of category to display"
+msgstr "Número de categorías a mostrar"
+
+msgid "Number of Columns"
+msgstr "Número de columnas"
+
+msgid "Number of listing to display"
+msgstr "Número de anuncios a mostrar"
+
+msgid "Number of location to display"
+msgstr "Número de ubicaciones a mostrar"
+
+msgid "Number of Responsive Columns"
+msgstr "Número de columnas responsivas"
+
+msgid "Number of Words to display"
+msgstr "Número de palabras a mostrar"
+
+msgid "Number of words to display."
+msgstr "Número de palabras a mostrar."
+
+msgid "Off"
+msgstr "Desactivado"
+
+msgid "On"
+msgstr "Activado"
+
+msgid "On Items Hover Description color"
+msgstr "Color de descripción al pasar el cursor sobre elementos"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "Una línea por característica ej. 10 Anuncios por mes Destacado en la primera semana"
+
+msgid "Only Location that has listings"
+msgstr "Solo ubicaciones que tienen anuncios"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "Solo funciona para Pro. Por defecto: Desactivado"
+
+msgid "Order"
+msgstr "Orden"
+
+msgid "Order By"
+msgstr "Ordenar por"
+
+msgid "Oriantation"
+msgstr "Orientación"
+
+msgid "Orientation"
+msgstr "Orientación"
+
+msgid "Overlay Background"
+msgstr "Fondo de superposición"
+
+msgid "Overlay Settings"
+msgstr "Configuración de superposición"
+
+msgid "Padding"
+msgstr "Relleno"
+
+msgid "padding"
+msgstr "relleno"
+
+msgid "Padding (px)"
+msgstr "Relleno (px)"
+
+msgid "Pagination"
+msgstr "Paginación"
+
+msgid "Pagination spacing"
+msgstr "Espaciado de paginación"
+
+msgid "Pagination Typography"
+msgstr "Tipografía de paginación"
+
+msgid "Phones: >575px"
+msgstr "Teléfonos: >575px"
+
+msgid "Placeholder"
+msgstr "Marcador de posición"
+
+msgid "Please Select a Location and Background"
+msgstr "Por favor seleccione una ubicación y un fondo"
+
+msgid "Popular"
+msgstr "Popular"
+
+msgid "Popular Background Color"
+msgstr "Color de fondo popular"
+
+msgid "Popular Text Color"
+msgstr "Color de texto popular"
+
+msgid "Popup"
+msgstr "Ventana emergente"
+
+msgid "Post Per Page"
+msgstr "Publicaciones por página"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Price Color"
+msgstr "Color del precio"
+
+msgid "Price Field"
+msgstr "Campo de precio"
+
+msgid "Price field"
+msgstr "Campo de precio"
+
+msgid "Price Label Color"
+msgstr "Color de etiqueta de precio"
+
+msgid "Price Label Typography"
+msgstr "Tipografía de etiqueta de precio"
+
+msgid "Price Margin"
+msgstr "Margen de precio"
+
+msgid "Price padding"
+msgstr "Relleno de precio"
+
+msgid "Pricing Footer Spacing"
+msgstr "Espaciado del pie de precios"
+
+msgid "Pricing Page Link"
+msgstr "Enlace de página de precios"
+
+msgid "Pricing Table"
+msgstr "Tabla de precios"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Profile icon order"
+msgstr "Orden del icono de perfil"
+
+msgid "Promotional Post"
+msgstr "Publicación promocional"
+
+msgid "Promotions"
+msgstr "Promociones"
+
+msgid "Promotions Exclude"
+msgstr "Excluir promociones"
+
+msgid "Query"
+msgstr "Consulta"
+
+msgid "Quick View"
+msgstr "Vista rápida"
+
+msgid "Radius"
+msgstr "Radio"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "Radio (%1$s)"
+
+msgid "Radius Field"
+msgstr "Campo de radio"
+
+msgid "Radius Search"
+msgstr "Búsqueda por radio"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "Aleatorio"
+
+msgid "Responsive Columns"
+msgstr "Columnas responsivas"
+
+msgid "Result count"
+msgstr "Conteo de resultados"
+
+msgid "Right"
+msgstr "Derecha"
+
+msgid "Right Top"
+msgstr "Superior derecha"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Search Button"
+msgstr "Botón de búsqueda"
+
+msgid "Search Form"
+msgstr "Formulario de búsqueda"
+
+msgid "Search Form - Sortable"
+msgstr "Formulario de búsqueda - Ordenable"
+
+msgid "Select a location"
+msgstr "Seleccionar una ubicación"
+
+msgid "Select a location to display."
+msgstr "Seleccionar una ubicación para mostrar."
+
+msgid "Select Category"
+msgstr "Seleccionar categoría"
+
+msgid "Select column number to display categories."
+msgstr "Seleccionar número de columnas para mostrar categorías."
+
+msgid "Select column number to display listings."
+msgstr "Seleccionar número de columnas para mostrar anuncios."
+
+msgid "Select column number to display location."
+msgstr "Seleccionar número de columnas para mostrar ubicación."
+
+msgid "Select Field"
+msgstr "Seleccionar campo"
+
+msgid "Select Form"
+msgstr "Seleccionar formulario"
+
+msgid "Select Image Size"
+msgstr "Seleccionar tamaño de imagen"
+
+msgid "Select Location"
+msgstr "Seleccionar ubicación"
+
+msgid "Select Pricing"
+msgstr "Seleccionar precio"
+
+msgid "Select Type"
+msgstr "Seleccionar tipo"
+
+msgid "Select type"
+msgstr "Seleccionar tipo"
+
+msgid "Selected Location"
+msgstr "Ubicación seleccionada"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "Establecer cualquier valor, por ejemplo 5 segundos para reproducirlo cada 5 segundos. Por defecto: 5 segundos"
+
+msgid "Short Description"
+msgstr "Descripción corta"
+
+msgid "Short Description Color"
+msgstr "Color de descripción corta"
+
+msgid "Short Description Word Limit"
+msgstr "Límite de palabras de descripción corta"
+
+msgid "Show"
+msgstr "Mostrar"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "Mostrar / Ocultar categorías que no tienen anuncios."
+
+msgid "Show / Hide category description."
+msgstr "Mostrar / Ocultar descripción de categoría."
+
+msgid "Show / Hide compare button."
+msgstr "Mostrar / Ocultar botón de comparar."
+
+msgid "Show / Hide keyword field."
+msgstr "Mostrar / Ocultar campo de palabra clave."
+
+msgid "Show / Hide listing ad type."
+msgstr "Mostrar / Ocultar tipo de anuncio."
+
+msgid "Show / Hide listing author name."
+msgstr "Mostrar / Ocultar nombre del autor del anuncio."
+
+msgid "Show / Hide listing badge."
+msgstr "Mostrar / Ocultar insignia del anuncio."
+
+msgid "Show / Hide listing categories."
+msgstr "Mostrar / Ocultar categorías del anuncio."
+
+msgid "Show / Hide listing counts."
+msgstr "Mostrar / Ocultar conteo de anuncios."
+
+msgid "Show / Hide listing custom fields."
+msgstr "Mostrar / Ocultar campos personalizados del anuncio."
+
+msgid "Show / Hide listing date."
+msgstr "Mostrar / Ocultar fecha del anuncio."
+
+msgid "Show / Hide listing description."
+msgstr "Mostrar / Ocultar descripción del anuncio."
+
+msgid "Show / Hide listing details button."
+msgstr "Mostrar / Ocultar botón de detalles del anuncio."
+
+msgid "Show / Hide listing favourite button."
+msgstr "Mostrar / Ocultar botón de favoritos del anuncio."
+
+msgid "Show / Hide listing image or icon."
+msgstr "Mostrar / Ocultar imagen o icono del anuncio."
+
+msgid "Show / Hide listing image."
+msgstr "Mostrar / Ocultar imagen del anuncio."
+
+msgid "Show / Hide listing location."
+msgstr "Mostrar / Ocultar ubicación del anuncio."
+
+msgid "Show / Hide listing price."
+msgstr "Mostrar / Ocultar precio del anuncio."
+
+msgid "Show / Hide listing views."
+msgstr "Mostrar / Ocultar vistas del anuncio."
+
+msgid "Show / Hide location description."
+msgstr "Mostrar / Ocultar descripción de ubicación."
+
+msgid "Show / Hide location that has no listings."
+msgstr "Mostrar / Ocultar ubicación que no tiene anuncios."
+
+msgid "Show / Hide quick view button."
+msgstr "Mostrar / Ocultar botón de vista rápida."
+
+msgid "Show Ad Type"
+msgstr "Mostrar tipo de anuncio"
+
+msgid "Show add listing button"
+msgstr "Mostrar botón de agregar anuncio"
+
+msgid "Show Author Name"
+msgstr "Mostrar nombre del autor"
+
+msgid "Show Badge"
+msgstr "Mostrar insignia"
+
+msgid "Show Bump Up?"
+msgstr "¿Mostrar destacar?"
+
+msgid "Show Category"
+msgstr "Mostrar categoría"
+
+msgid "Show chat icon"
+msgstr "Mostrar icono de chat"
+
+msgid "Show Child location"
+msgstr "Mostrar ubicación secundaria"
+
+msgid "Show Compare"
+msgstr "Mostrar comparar"
+
+msgid "Show compare icon"
+msgstr "Mostrar icono de comparar"
+
+msgid "Show Count"
+msgstr "Mostrar conteo"
+
+msgid "Show Counts"
+msgstr "Mostrar conteos"
+
+msgid "Show Custom Fields"
+msgstr "Mostrar campos personalizados"
+
+msgid "Show Custom fields"
+msgstr "Mostrar campos personalizados"
+
+msgid "Show Date"
+msgstr "Mostrar fecha"
+
+msgid "Show Description"
+msgstr "Mostrar descripción"
+
+msgid "Show Details Button"
+msgstr "Mostrar botón de detalles"
+
+msgid "Show Favourites"
+msgstr "Mostrar favoritos"
+
+msgid "Show favourites icon"
+msgstr "Mostrar icono de favoritos"
+
+msgid "Show Featured?"
+msgstr "¿Mostrar destacado?"
+
+msgid "Show Fields Label"
+msgstr "Mostrar etiqueta de campos"
+
+msgid "Show fields Label"
+msgstr "Mostrar etiqueta de campos"
+
+msgid "Show Icon/Image"
+msgstr "Mostrar icono/imagen"
+
+msgid "Show Image"
+msgstr "Mostrar imagen"
+
+msgid "Show Image / Icon"
+msgstr "Mostrar imagen / icono"
+
+msgid "Show Listing Counts"
+msgstr "Mostrar conteo de anuncios"
+
+msgid "Show Location"
+msgstr "Mostrar ubicación"
+
+msgid "Show New?"
+msgstr "¿Mostrar nuevo?"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "Mostrar u ocultar título de categoría. Por defecto: Activado"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "Mostrar u ocultar categoría. Por defecto: Activado"
+
+msgid "Show or Hide date. Default: On"
+msgstr "Mostrar u ocultar fecha. Por defecto: Activado"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "Mostrar u ocultar botón de detalles. Por defecto: Activado"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "Mostrar u ocultar icono. Por defecto: Activado"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "Mostrar u ocultar etiquetas. Por defecto: Activado"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "Mostrar u ocultar conteo de anuncios. Por defecto: Activado"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "Mostrar u ocultar descripción del anuncio. Por defecto: Activado"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "Mostrar u ocultar icono/imagen del anuncio. Por defecto: Activado"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "Mostrar u ocultar título del anuncio. Por defecto: Activado"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "Mostrar u ocultar ubicación. Por defecto: Activado"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "Mostrar u ocultar signo Por. Por defecto: Activado"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "Mostrar u ocultar precio. Por defecto: Activado"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "Mostrar u ocultar tipos. Por defecto: Activado"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "Mostrar u ocultar nombre de usuario/autor. Por defecto: Activado"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "Mostrar u ocultar base de usuario/autor verificado. Por defecto: Activado"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "Mostrar u ocultar conteo de vistas. Por defecto: Activado"
+
+msgid "Show Per Sign"
+msgstr "Mostrar signo Por"
+
+msgid "Show Phone"
+msgstr "Mostrar teléfono"
+
+msgid "Show Phone No"
+msgstr "Mostrar número de teléfono"
+
+msgid "Show Popular?"
+msgstr "¿Mostrar popular?"
+
+msgid "Show Price"
+msgstr "Mostrar precio"
+
+msgid "Show Price Type"
+msgstr "Mostrar tipo de precio"
+
+msgid "Show Price Unit"
+msgstr "Mostrar unidad de precio"
+
+msgid "Show profile"
+msgstr "Mostrar perfil"
+
+msgid "Show Quick View"
+msgstr "Mostrar vista rápida"
+
+msgid "Show Time"
+msgstr "Mostrar hora"
+
+msgid "Show Title"
+msgstr "Mostrar título"
+
+msgid "Show Top?"
+msgstr "¿Mostrar superior?"
+
+msgid "Show Types"
+msgstr "Mostrar tipos"
+
+msgid "Show User"
+msgstr "Mostrar usuario"
+
+msgid "Show Verified User Base"
+msgstr "Mostrar base de usuario verificado"
+
+msgid "Show View Count"
+msgstr "Mostrar conteo de vistas"
+
+msgid "Show Views"
+msgstr "Mostrar vistas"
+
+msgid "Sign in Icon"
+msgstr "Icono de iniciar sesión"
+
+msgid "Single Location"
+msgstr "Ubicación única"
+
+msgid "Slide Speed"
+msgstr "Velocidad de diapositiva"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "Velocidad de diapositiva en milisegundos. Por defecto: 200"
+
+msgid "Slider Navigation"
+msgstr "Navegación del deslizador"
+
+msgid "Slider Options"
+msgstr "Opciones del deslizador"
+
+msgid "Small Phones: <576px"
+msgstr "Teléfonos pequeños: <576px"
+
+msgid "Sold Out"
+msgstr "Agotado"
+
+msgid "Sold Out Background Color"
+msgstr "Color de fondo de agotado"
+
+msgid "Sold Out Text Color"
+msgstr "Color de texto de agotado"
+
+msgid "Sort By"
+msgstr "Ordenar por"
+
+msgid "Space Between"
+msgstr "Espacio entre"
+
+msgid "Space Between List"
+msgstr "Espacio entre lista"
+
+msgid "Space Between. Default: 20"
+msgstr "Espacio entre. Por defecto: 20"
+
+msgid "Spacing"
+msgstr "Espaciado"
+
+msgid "Special Style Body Settings"
+msgstr "Configuración del cuerpo de estilo especial"
+
+msgid "Special style Settings"
+msgstr "Configuración de estilo especial"
+
+msgid "Standard"
+msgstr "Estándar"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "Comience a escribir nombres de categorías. Si está vacío, se mostrarán todos los anuncios."
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "Comience a escribir nombres de categorías. Si está vacío, se mostrarán todas las categorías principales"
+
+msgid "Start typing locations names."
+msgstr "Comience a escribir nombres de ubicaciones."
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "Detener reproducción automática al pasar el cursor. Por defecto: Activado"
+
+msgid "Stop on Hover"
+msgstr "Detener al pasar el cursor"
+
+msgid "Store Pagination"
+msgstr "Paginación de la tienda"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Style 1"
+msgstr "Estilo 1"
+
+msgid "Style 2"
+msgstr "Estilo 2"
+
+msgid "Style 3"
+msgstr "Estilo 3"
+
+msgid "Style 4"
+msgstr "Estilo 4"
+
+msgid "Style 5"
+msgstr "Estilo 5"
+
+msgid "Sub Category Limit"
+msgstr "Límite de subcategorías"
+
+msgid "Sub Location Limit"
+msgstr "Límite de sububicaciones"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Submit button"
+msgstr "Botón de enviar"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "Cambiar para mostrar insignia de destacar "
+
+msgid "Switch to Show Badge Featured "
+msgstr "Cambiar para mostrar insignia de destacado "
+
+msgid "Switch to Show Badge New "
+msgstr "Cambiar para mostrar insignia de nuevo "
+
+msgid "Switch to Show Badge Popular "
+msgstr "Cambiar para mostrar insignia de popular "
+
+msgid "Switch to Show Badge Top "
+msgstr "Cambiar para mostrar insignia de superior "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "Cambiar para mostrar ordenación del catálogo"
+
+msgid "Switch to Show Pagination"
+msgstr "Cambiar para mostrar paginación"
+
+msgid "Switch to Show Result Count"
+msgstr "Cambiar para mostrar conteo de resultados"
+
+msgid "Switch to Show View Switcher"
+msgstr "Cambiar para mostrar selector de vista"
+
+msgid "Tab Column"
+msgstr "Columna de pestaña"
+
+msgid "Tablets: >767px"
+msgstr "Tabletas: >767px"
+
+msgid "Text After Count "
+msgstr "Texto después del conteo "
+
+msgid "Text Alignment"
+msgstr "Alineación del texto"
+
+msgid "Text Color"
+msgstr "Color del texto"
+
+msgid "Text Color In hover"
+msgstr "Color del texto al pasar el cursor"
+
+msgid "Time"
+msgstr "Hora"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Title Color"
+msgstr "Color del título"
+
+msgid "Title Hover"
+msgstr "Título al pasar el cursor"
+
+msgid "Title Spacing"
+msgstr "Espaciado del título"
+
+msgid "Top"
+msgstr "Superior"
+
+msgid "Top Background Color"
+msgstr "Color de fondo superior"
+
+msgid "Top Border Color"
+msgstr "Color del borde superior"
+
+msgid "Top Text Color"
+msgstr "Color de texto superior"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Type your description here"
+msgstr "Escriba su descripción aquí"
+
+msgid "Types"
+msgstr "Tipos"
+
+msgid "Types field"
+msgstr "Campo de tipos"
+
+msgid "Typography"
+msgstr "Tipografía"
+
+msgid "Unit Color"
+msgstr "Color de unidad"
+
+msgid "Unit Label Text Color"
+msgstr "Color de texto de etiqueta de unidad"
+
+msgid "Unit Label Typography"
+msgstr "Tipografía de etiqueta de unidad"
+
+msgid "Unit Name"
+msgstr "Nombre de unidad"
+
+msgid "Unit Typography"
+msgstr "Tipografía de unidad"
+
+msgid "Vertical"
+msgstr "Vertical"
+
+msgid "Vertical View"
+msgstr "Vista vertical"
+
+msgid "View"
+msgstr "Ver"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "Ver todas las publicaciones en %s"
+
+msgid "View Switcher"
+msgstr "Selector de vista"
+
+msgid "Views"
+msgstr "Vistas"
+
+msgid "Visibility"
+msgstr "Visibilidad"
+
+msgid "Width"
+msgstr "Ancho"
+
+msgid "Wrapper"
+msgstr "Contenedor"
+
+msgid "Wrapper Padding"
+msgstr "Relleno del contenedor"
+
+msgid "Wrapper Spacing"
+msgstr "Espaciado del contenedor"
+
+msgid "Yes"
+msgstr "Sí"

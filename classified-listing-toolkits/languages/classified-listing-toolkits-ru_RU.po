@@ -1,0 +1,1891 @@
+# Translation of Classified Listing Toolkits in Russian
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " Мой аккаунт"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " Войти"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s просмотр"
+msgstr[1] "%s просмотра"
+msgstr[2] "%s просмотров"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(%s объявление)"
+msgstr[1] "(%s объявления)"
+msgstr[2] "(%s объявлений)"
+
+msgid "--Select--"
+msgstr "--Выбрать--"
+
+msgid "1 Col"
+msgstr "1 колонка"
+
+msgid "1 Second"
+msgstr "1 секунда"
+
+msgid "2 Col"
+msgstr "2 колонки"
+
+msgid "2 Seconds"
+msgstr "2 секунды"
+
+msgid "3 Col"
+msgstr "3 колонки"
+
+msgid "3 Seconds"
+msgstr "3 секунды"
+
+msgid "4 Col"
+msgstr "4 колонки"
+
+msgid "4 Seconds"
+msgstr "4 секунды"
+
+msgid "5 Col"
+msgstr "5 колонок"
+
+msgid "5 Seconds"
+msgstr "5 секунд"
+
+msgid "6 Col"
+msgstr "6 колонок"
+
+msgid "6 Seconds"
+msgstr "6 секунд"
+
+msgid "7 Seconds"
+msgstr "7 секунд"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Перейти на Pro</a>, чтобы разблокировать больше стилей."
+
+msgid "Action Button Hover Text Color"
+msgstr "Цвет текста кнопки действия при наведении"
+
+msgid "Action Button Layout"
+msgstr "Расположение кнопки действия"
+
+msgid "Action Button Text Color"
+msgstr "Цвет текста кнопки действия"
+
+msgid "Active Background Color"
+msgstr "Цвет фона активного элемента"
+
+msgid "Active Color"
+msgstr "Активный цвет"
+
+msgid "Active Text Color"
+msgstr "Цвет текста активного элемента"
+
+msgid "Ad Type"
+msgstr "Тип объявления"
+
+msgid "Ad Types Field"
+msgstr "Поле типов объявлений"
+
+msgid "Add / Remove listing location link."
+msgstr "Добавить / Удалить ссылку на местоположение объявления."
+
+msgid "Add listing button"
+msgstr "Кнопка добавления объявления"
+
+msgid "Add listing button order"
+msgstr "Порядок кнопки добавления объявления"
+
+msgid "Add Listing Icon"
+msgstr "Иконка добавления объявления"
+
+msgid "Add listing icon order"
+msgstr "Порядок иконки добавления объявления"
+
+msgid "Adjust Box Height"
+msgstr "Настройка высоты блока"
+
+msgid "ads"
+msgstr "объявления"
+
+msgid "All Location"
+msgstr "Все местоположения"
+
+msgid "All Locations"
+msgstr "Все местоположения"
+
+msgid "Arrow Navigation"
+msgstr "Навигация стрелками"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "Радиус границы навигационных стрелок"
+
+msgid "Arrow Position"
+msgstr "Позиция стрелки"
+
+msgid "Ascending"
+msgstr "По возрастанию"
+
+msgid "Auto Height"
+msgstr "Автоматическая высота"
+
+msgid "Auto Height. Default: On"
+msgstr "Автоматическая высота. По умолчанию: Включено"
+
+msgid "Auto Suggestion"
+msgstr "Автоподсказка"
+
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+msgid "Autoplay Delay"
+msgstr "Задержка автовоспроизведения"
+
+msgid "Autoplay Slide Speed"
+msgstr "Скорость слайдов при автовоспроизведении"
+
+msgid "Background"
+msgstr "Фон"
+
+msgid "Background Color"
+msgstr "Цвет фона"
+
+msgid "Background Hover"
+msgstr "Фон при наведении"
+
+msgid "Badge"
+msgstr "Значок"
+
+msgid "Badge "
+msgstr "Значок "
+
+msgid "Badge Background Color"
+msgstr "Цвет фона значка"
+
+msgid "Badge Default Background"
+msgstr "Фон значка по умолчанию"
+
+msgid "Badge Default Text Color"
+msgstr "Цвет текста значка по умолчанию"
+
+msgid "Badge Default Typography"
+msgstr "Типографика значка по умолчанию"
+
+msgid "Badge Spacing"
+msgstr "Отступ значка"
+
+msgid "Badge Text Color"
+msgstr "Цвет текста значка"
+
+msgid "Badge Visibility "
+msgstr "Видимость значка "
+
+msgid "Body"
+msgstr "Тело"
+
+msgid "Body background"
+msgstr "Фон тела"
+
+msgid "Body pading"
+msgstr "Отступ тела"
+
+msgid "Body Section Padding"
+msgstr "Отступ секции тела"
+
+msgid "Body Section Pading"
+msgstr "Отступ секции тела"
+
+msgid "Body Spacing"
+msgstr "Интервал тела"
+
+msgid "Border"
+msgstr "Граница"
+
+msgid "Border Color"
+msgstr "Цвет границы"
+
+msgid "Border Radius"
+msgstr "Радиус границы"
+
+msgid "Border Radius (px)"
+msgstr "Радиус границы (px)"
+
+msgid "Box"
+msgstr "Блок"
+
+msgid "Box Border Radius"
+msgstr "Радиус границы блока"
+
+msgid "Box Height"
+msgstr "Высота блока"
+
+msgid "Box padding"
+msgstr "Отступ блока"
+
+msgid "Box pading"
+msgstr "Отступ блока"
+
+msgid "Box Shadow"
+msgstr "Тень блока"
+
+msgid "Box style"
+msgstr "Стиль блока"
+
+msgid "Bump Up"
+msgstr "Поднять"
+
+msgid "Bump Up Background Color"
+msgstr "Цвет фона поднятия"
+
+msgid "Bump Up Text Color"
+msgstr "Цвет текста поднятия"
+
+msgid "Button"
+msgstr "Кнопка"
+
+msgid "Button alignment"
+msgstr "Выравнивание кнопки"
+
+msgid "Button Background"
+msgstr "Фон кнопки"
+
+msgid "Button Height"
+msgstr "Высота кнопки"
+
+msgid "Button Icon"
+msgstr "Иконка кнопки"
+
+msgid "Button Link Type"
+msgstr "Тип ссылки кнопки"
+
+msgid "Button Padding"
+msgstr "Отступ кнопки"
+
+msgid "Button Section"
+msgstr "Секция кнопки"
+
+msgid "Button Spacing"
+msgstr "Интервал кнопки"
+
+msgid "Button style"
+msgstr "Стиль кнопки"
+
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+msgid "Button text"
+msgstr "Текст кнопки"
+
+msgid "Button Text Color"
+msgstr "Цвет текста кнопки"
+
+msgid "Button Typography"
+msgstr "Типографика кнопки"
+
+msgid "Button URL"
+msgstr "URL кнопки"
+
+msgid "Button width"
+msgstr "Ширина кнопки"
+
+msgid "Card"
+msgstr "Карточка"
+
+msgid "Cart Icon"
+msgstr "Иконка корзины"
+
+msgid "Catalog Ordering"
+msgstr "Сортировка каталога"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Category Color"
+msgstr "Цвет категории"
+
+msgid "Category Description"
+msgstr "Описание категории"
+
+msgid "Category Field"
+msgstr "Поле категории"
+
+msgid "Category field"
+msgstr "Поле категории"
+
+msgid "Category Limit"
+msgstr "Лимит категорий"
+
+msgid "Category Slider"
+msgstr "Слайдер категорий"
+
+msgid "Center"
+msgstr "По центру"
+
+msgid "Chat"
+msgstr "Чат"
+
+msgid "Chat Icon"
+msgstr "Иконка чата"
+
+msgid "Chat icon order"
+msgstr "Порядок иконки чата"
+
+msgid "Chat Option"
+msgstr "Опция чата"
+
+msgid "Child Category Limit"
+msgstr "Лимит подкатегорий"
+
+msgid "Child List Color"
+msgstr "Цвет дочернего списка"
+
+msgid "Child List Hover Color"
+msgstr "Цвет дочернего списка при наведении"
+
+msgid "Child List Icon Color"
+msgstr "Цвет иконки дочернего списка"
+
+msgid "Child List Icon Hover Color"
+msgstr "Цвет иконки дочернего списка при наведении"
+
+msgid "Child Location"
+msgstr "Дочернее местоположение"
+
+msgid "Classified Listing"
+msgstr "Доска объявлений"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "Classified Listing Toolkit требует установки и активации Classified Listing."
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "Classified Listing Toolkit требует минимальную версию Classified Listing 5.0.1"
+
+msgid "Classified Listing Toolkits"
+msgstr "Инструменты Classified Listing"
+
+msgid "classified Listing Toolkits"
+msgstr "Инструменты Classified Listing"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "Инструменты Classified Listing, включающие несколько виджетов Elementor и модулей Divi для элегантного отображения объявлений в различных макетах."
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Column"
+msgstr "Колонка"
+
+msgid "Column 1"
+msgstr "Колонка 1"
+
+msgid "Column 2"
+msgstr "Колонка 2"
+
+msgid "Column 3"
+msgstr "Колонка 3"
+
+msgid "Column 4"
+msgstr "Колонка 4"
+
+msgid "Compare"
+msgstr "Сравнить"
+
+msgid "Compare icon order"
+msgstr "Порядок иконки сравнения"
+
+msgid "Content"
+msgstr "Содержимое"
+
+msgid "Content Alignment"
+msgstr "Выравнивание содержимого"
+
+msgid "Content alignment"
+msgstr "Выравнивание содержимого"
+
+msgid "Content Background Color"
+msgstr "Цвет фона содержимого"
+
+msgid "Content Spacing"
+msgstr "Интервал содержимого"
+
+msgid "Content spacing"
+msgstr "Интервал содержимого"
+
+msgid "Content Vertical Alignment"
+msgstr "Вертикальное выравнивание содержимого"
+
+msgid "Content Visibility "
+msgstr "Видимость содержимого "
+
+msgid "Count"
+msgstr "Счётчик"
+
+msgid "Count Color"
+msgstr "Цвет счётчика"
+
+msgid "Count Font Size"
+msgstr "Размер шрифта счётчика"
+
+msgid "Count position"
+msgstr "Позиция счётчика"
+
+msgid "Count Text"
+msgstr "Текст счётчика"
+
+msgid "Count Text For Plural Number"
+msgstr "Текст счётчика для множественного числа"
+
+msgid "Counter"
+msgstr "Счётчик"
+
+msgid "Counter Spacing"
+msgstr "Интервал счётчика"
+
+msgid "Counts Include Children"
+msgstr "Счёт включает дочерние элементы"
+
+msgid "Currency Position"
+msgstr "Позиция валюты"
+
+msgid "Currency sign eg. $"
+msgstr "Знак валюты, например $"
+
+msgid "Currency Symbol"
+msgstr "Символ валюты"
+
+msgid "Currency Typography"
+msgstr "Типографика валюты"
+
+msgid "Custom"
+msgstr "Пользовательское"
+
+msgid "Custom Field's"
+msgstr "Пользовательские поля"
+
+msgid "Custom Fields"
+msgstr "Пользовательские поля"
+
+msgid "Custom Link"
+msgstr "Пользовательская ссылка"
+
+msgid "Custom Order"
+msgstr "Пользовательский порядок"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Default Badge"
+msgstr "Значок по умолчанию"
+
+msgid "Default Color"
+msgstr "Цвет по умолчанию"
+
+msgid "Dependency Selection"
+msgstr "Выбор зависимостей"
+
+msgid "Descending"
+msgstr "По убыванию"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Description Color"
+msgstr "Цвет описания"
+
+msgid "Description Limit"
+msgstr "Лимит описания"
+
+msgid "Description Word Limit"
+msgstr "Лимит слов описания"
+
+msgid "Desktops: >1199px"
+msgstr "Настольные ПК: >1199px"
+
+msgid "Desktops: >991px"
+msgstr "Настольные ПК: >991px"
+
+msgid "Details"
+msgstr "Подробности"
+
+msgid "Details Button Background Color"
+msgstr "Цвет фона кнопки подробностей"
+
+msgid "Details Button Text Color"
+msgstr "Цвет текста кнопки подробностей"
+
+msgid "Display Child category"
+msgstr "Показать подкатегорию"
+
+msgid "Display Sub Category"
+msgstr "Показать подкатегорию"
+
+msgid "Dot Navigation"
+msgstr "Точечная навигация"
+
+msgid "Dot Navigation Settings"
+msgstr "Настройки точечной навигации"
+
+msgid "Dot Navigation Spacing"
+msgstr "Интервал точечной навигации"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "например, месяц или год. Оставьте пустым, если не хотите показывать единицу"
+
+msgid "Enable Link"
+msgstr "Включить ссылку"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "Включить или отключить автовоспроизведение. По умолчанию: Включено"
+
+msgid "Enter Keyword here ..."
+msgstr "Введите ключевое слово здесь ..."
+
+msgid "Enter your keyword here ..."
+msgstr "Введите ваше ключевое слово здесь ..."
+
+msgid "Equal Height"
+msgstr "Одинаковая высота"
+
+msgid "Favourites"
+msgstr "Избранное"
+
+msgid "Favourites icon order"
+msgstr "Порядок иконки избранного"
+
+msgid "Feature"
+msgstr "Функция"
+
+msgid "Featured"
+msgstr "Рекомендуемое"
+
+msgid "Featured Background Color"
+msgstr "Цвет фона рекомендуемого"
+
+msgid "Featured Border Color"
+msgstr "Цвет границы рекомендуемого"
+
+msgid "Featured Text Color"
+msgstr "Цвет текста рекомендуемого"
+
+msgid "Features"
+msgstr "Функции"
+
+msgid "Features Margin"
+msgstr "Отступ функций"
+
+msgid "Features Text As"
+msgstr "Текст функций как"
+
+msgid "Field background"
+msgstr "Фон поля"
+
+msgid "Field Gutter Spacing"
+msgstr "Интервал между полями"
+
+msgid "Field Height"
+msgstr "Высота поля"
+
+msgid "Field text color"
+msgstr "Цвет текста поля"
+
+msgid "Field Types"
+msgstr "Типы полей"
+
+msgid "Field's"
+msgstr "Поля"
+
+msgid "Field's Gap"
+msgstr "Зазор между полями"
+
+msgid "Field's Height"
+msgstr "Высота полей"
+
+msgid "Fields"
+msgstr "Поля"
+
+msgid "Fields Gap"
+msgstr "Зазор между полями"
+
+msgid "Fields Padding (px)"
+msgstr "Отступ полей (px)"
+
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+msgid "Footer"
+msgstr "Подвал"
+
+msgid "Form"
+msgstr "Форма"
+
+msgid "Form Background Color"
+msgstr "Цвет фона формы"
+
+msgid "Form Field's"
+msgstr "Поля формы"
+
+msgid "Form Label"
+msgstr "Метка формы"
+
+msgid "Full Size"
+msgstr "Полный размер"
+
+msgid "General"
+msgstr "Общее"
+
+msgid "General Style"
+msgstr "Общий стиль"
+
+msgid "Grid"
+msgstr "Сетка"
+
+msgid "Grid Column"
+msgstr "Колонка сетки"
+
+msgid "Grid View"
+msgstr "Вид сетки"
+
+msgid "Gutter padding"
+msgstr "Отступ желоба"
+
+msgid "Gutter pading"
+msgstr "Отступ желоба"
+
+msgid "Gutter Space"
+msgstr "Пространство желоба"
+
+msgid "Gutter Spacing"
+msgstr "Интервал желоба"
+
+msgid "Head background"
+msgstr "Фон заголовка"
+
+msgid "Head Section Padding"
+msgstr "Отступ секции заголовка"
+
+msgid "Head Section Pading"
+msgstr "Отступ секции заголовка"
+
+msgid "Header"
+msgstr "Заголовок"
+
+msgid "Header Border Color"
+msgstr "Цвет границы заголовка"
+
+msgid "Header Button"
+msgstr "Кнопка заголовка"
+
+msgid "Header Icon"
+msgstr "Иконка заголовка"
+
+msgid "Header pading"
+msgstr "Отступ заголовка"
+
+msgid "Header Spacing"
+msgstr "Интервал заголовка"
+
+msgid "Height"
+msgstr "Высота"
+
+msgid "Here you can define a custom color for category description."
+msgstr "Здесь вы можете задать собственный цвет для описания категории."
+
+msgid "Here you can define a custom color for category name."
+msgstr "Здесь вы можете задать собственный цвет для названия категории."
+
+msgid "Here you can define a custom color for content background."
+msgstr "Здесь вы можете задать собственный цвет для фона содержимого."
+
+msgid "Here you can define a custom color for field background."
+msgstr "Здесь вы можете задать собственный цвет для фона поля."
+
+msgid "Here you can define a custom color for form background."
+msgstr "Здесь вы можете задать собственный цвет для фона формы."
+
+msgid "Here you can define a custom color for form label."
+msgstr "Здесь вы можете задать собственный цвет для метки формы."
+
+msgid "Here you can define a custom color for input text."
+msgstr "Здесь вы можете задать собственный цвет для текста ввода."
+
+msgid "Here you can define a custom color for listing count."
+msgstr "Здесь вы можете задать собственный цвет для счётчика объявлений."
+
+msgid "Here you can define a custom color for listing price."
+msgstr "Здесь вы можете задать собственный цвет для цены объявления."
+
+msgid "Here you can define a custom color for listing title."
+msgstr "Здесь вы можете задать собственный цвет для заголовка объявления."
+
+msgid "Here you can define a custom color for location description."
+msgstr "Здесь вы можете задать собственный цвет для описания местоположения."
+
+msgid "Here you can define a custom color for location name."
+msgstr "Здесь вы можете задать собственный цвет для названия местоположения."
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "Здесь вы можете задать собственный цвет для фона кнопки отправки."
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "Здесь вы можете задать собственный цвет текста для кнопки отправки."
+
+msgid "Here you can define font size for listing count."
+msgstr "Здесь вы можете задать размер шрифта для счётчика объявлений."
+
+msgid "Here you can define gutter for the box."
+msgstr "Здесь вы можете задать отступ для блока."
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "Здесь вы можете задать отступ для зазора между полями."
+
+msgid "Here you can define height for the box."
+msgstr "Здесь вы можете задать высоту блока."
+
+msgid "Hide"
+msgstr "Скрыть"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "Скрыть категории без объявлений. По умолчанию: Включено"
+
+msgid "Hide Empty"
+msgstr "Скрыть пустые"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Horizontal View"
+msgstr "Горизонтальный вид"
+
+msgid "Hover"
+msgstr "При наведении"
+
+msgid "Hover & Focus"
+msgstr "При наведении и фокусе"
+
+msgid "Hover Background Color"
+msgstr "Цвет фона при наведении"
+
+msgid "Hover Box Shadow"
+msgstr "Тень блока при наведении"
+
+msgid "How Many Category will Display ?"
+msgstr "Сколько категорий отображать?"
+
+msgid "How Many Child Category will Display ?"
+msgstr "Сколько подкатегорий отображать?"
+
+msgid "How Many Child Location will Display ?"
+msgstr "Сколько дочерних местоположений отображать?"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "Сколько местоположений отображать? Оставьте пустым для всех."
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "Иконка"
+
+msgid "Icon Alignment"
+msgstr "Выравнивание иконки"
+
+msgid "Icon And Image"
+msgstr "Иконка и изображение"
+
+msgid "Icon Area"
+msgstr "Область иконки"
+
+msgid "Icon Background"
+msgstr "Фон иконки"
+
+msgid "Icon Background Color"
+msgstr "Цвет фона иконки"
+
+msgid "Icon Before List"
+msgstr "Иконка перед списком"
+
+msgid "Icon Before Title"
+msgstr "Иконка перед заголовком"
+
+msgid "Icon Bg Color"
+msgstr "Цвет фона иконки"
+
+msgid "Icon Bg Hover Color"
+msgstr "Цвет фона иконки при наведении"
+
+msgid "Icon Border Radius"
+msgstr "Радиус границы иконки"
+
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+msgid "Icon Count Background Color"
+msgstr "Цвет фона счётчика иконки"
+
+msgid "Icon Count Color"
+msgstr "Цвет счётчика иконки"
+
+msgid "Icon Font Size"
+msgstr "Размер шрифта иконки"
+
+msgid "Icon Gap"
+msgstr "Зазор иконки"
+
+msgid "Icon Hover Color"
+msgstr "Цвет иконки при наведении"
+
+msgid "Icon Margin (px)"
+msgstr "Отступ иконки (px)"
+
+msgid "Icon order"
+msgstr "Порядок иконки"
+
+msgid "Icon Rotate"
+msgstr "Поворот иконки"
+
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+msgid "Icon style"
+msgstr "Стиль иконки"
+
+msgid "Icon Type"
+msgstr "Тип иконки"
+
+msgid "Icon Wrapper Size"
+msgstr "Размер обёртки иконки"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Image Size"
+msgstr "Размер изображения"
+
+msgid "Image Spacing"
+msgstr "Интервал изображения"
+
+msgid "Image Wrapper"
+msgstr "Обёртка изображения"
+
+msgid "Include Children Categories"
+msgstr "Включить дочерние категории"
+
+msgid "Include Inner Location"
+msgstr "Включить внутреннее местоположение"
+
+msgid "Inline"
+msgstr "В строку"
+
+msgid "Input Background Color"
+msgstr "Цвет фона ввода"
+
+msgid "Input Text Color"
+msgstr "Цвет текста ввода"
+
+msgid "Item Wrapper"
+msgstr "Обёртка элемента"
+
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+msgid "Keywords Field"
+msgstr "Поле ключевых слов"
+
+msgid "Keywords field"
+msgstr "Поле ключевых слов"
+
+msgid "Label"
+msgstr "Метка"
+
+msgid "Label Color"
+msgstr "Цвет метки"
+
+msgid "Label Margin"
+msgstr "Отступ метки"
+
+msgid "Label Text Color"
+msgstr "Цвет текста метки"
+
+msgid "Label Typography"
+msgstr "Типографика метки"
+
+msgid "Layout"
+msgstr "Макет"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "Оставьте флажки снятыми, чтобы выбрать все"
+
+msgid "Left"
+msgstr "Слева"
+
+msgid "Left Top"
+msgstr "Слева сверху"
+
+msgid "Limit"
+msgstr "Лимит"
+
+msgid "List"
+msgstr "Список"
+
+msgid "List Style"
+msgstr "Стиль списка"
+
+msgid "List Title"
+msgstr "Заголовок списка"
+
+msgid "List View"
+msgstr "Вид списка"
+
+msgid "Listing Categories"
+msgstr "Категории объявлений"
+
+msgid "Listing Category"
+msgstr "Категория объявления"
+
+msgid "Listing Counts"
+msgstr "Количество объявлений"
+
+msgid "Listing Limit"
+msgstr "Лимит объявлений"
+
+msgid "Listing Location"
+msgstr "Местоположение объявления"
+
+msgid "Listing Pagination"
+msgstr "Пагинация объявлений"
+
+msgid "Listing Per Page"
+msgstr "Объявлений на страницу"
+
+msgid "Listing Search Form"
+msgstr "Форма поиска объявлений"
+
+msgid "Listing Showcase"
+msgstr "Витрина объявлений"
+
+msgid "Listing Single Location"
+msgstr "Одно местоположение объявления"
+
+msgid "Listing Slider"
+msgstr "Слайдер объявлений"
+
+msgid "Listing Store"
+msgstr "Магазин объявлений"
+
+msgid "Listing Types"
+msgstr "Типы объявлений"
+
+msgid "Listings Grid"
+msgstr "Сетка объявлений"
+
+msgid "Listings List"
+msgstr "Список объявлений"
+
+msgid "Listings Slider"
+msgstr "Слайдер объявлений"
+
+msgid "Load More Button"
+msgstr "Кнопка загрузки ещё"
+
+msgid "Location"
+msgstr "Местоположение"
+
+msgid "Location Display Type"
+msgstr "Тип отображения местоположения"
+
+msgid "Location Field"
+msgstr "Поле местоположения"
+
+msgid "Location field"
+msgstr "Поле местоположения"
+
+msgid "Location Limit"
+msgstr "Лимит местоположений"
+
+msgid "Locations"
+msgstr "Местоположения"
+
+msgid "Loop"
+msgstr "Цикл"
+
+msgid "Loop to first item. Default: On"
+msgstr "Вернуться к первому элементу. По умолчанию: Включено"
+
+msgid "Margin"
+msgstr "Отступ"
+
+msgid "Margin (px)"
+msgstr "Отступ (px)"
+
+msgid "Max"
+msgstr "Макс"
+
+msgid "max"
+msgstr "макс"
+
+msgid "Max Price"
+msgstr "Максимальная цена"
+
+msgid "Max Width"
+msgstr "Максимальная ширина"
+
+msgid "Meta"
+msgstr "Мета"
+
+msgid "Meta Color"
+msgstr "Цвет мета"
+
+msgid "Meta Icon Color"
+msgstr "Цвет иконки мета"
+
+msgid "Meta Item Spacing"
+msgstr "Интервал мета-элементов"
+
+msgid "Meta Spacing"
+msgstr "Интервал мета"
+
+msgid "Meta Wrpper Spacing"
+msgstr "Интервал обёртки мета"
+
+msgid "Middle"
+msgstr "Посередине"
+
+msgid "Min"
+msgstr "Мин"
+
+msgid "min"
+msgstr "мин"
+
+msgid "Min & Max Field Width"
+msgstr "Минимальная и максимальная ширина поля"
+
+msgid "Min Price"
+msgstr "Минимальная цена"
+
+msgid "Min Width"
+msgstr "Минимальная ширина"
+
+msgid "Min width"
+msgstr "Минимальная ширина"
+
+msgid "Mobile Column"
+msgstr "Мобильная колонка"
+
+msgid "Name Color"
+msgstr "Цвет названия"
+
+msgid "New"
+msgstr "Новое"
+
+msgid "New Background Color"
+msgstr "Цвет фона нового"
+
+msgid "New Line"
+msgstr "Новая строка"
+
+msgid "New Text Color"
+msgstr "Цвет текста нового"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No Listing Found"
+msgstr "Объявления не найдены"
+
+msgid "No Listing Text"
+msgstr "Текст отсутствия объявлений"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "Normal"
+msgstr "Обычный"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s объявление"
+msgstr[1] "%s объявления"
+msgstr[2] "%s объявлений"
+
+msgid "Number of category to display"
+msgstr "Количество категорий для отображения"
+
+msgid "Number of Columns"
+msgstr "Количество колонок"
+
+msgid "Number of listing to display"
+msgstr "Количество объявлений для отображения"
+
+msgid "Number of location to display"
+msgstr "Количество местоположений для отображения"
+
+msgid "Number of Responsive Columns"
+msgstr "Количество адаптивных колонок"
+
+msgid "Number of Words to display"
+msgstr "Количество слов для отображения"
+
+msgid "Number of words to display."
+msgstr "Количество слов для отображения."
+
+msgid "Off"
+msgstr "Выключено"
+
+msgid "On"
+msgstr "Включено"
+
+msgid "On Items Hover Description color"
+msgstr "Цвет описания при наведении на элементы"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "Одна строка на функцию, например: 10 объявлений в месяц, Рекомендуемое в первую неделю"
+
+msgid "Only Location that has listings"
+msgstr "Только местоположения с объявлениями"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "Работает только в Pro. По умолчанию: Выключено"
+
+msgid "Order"
+msgstr "Порядок"
+
+msgid "Order By"
+msgstr "Сортировать по"
+
+msgid "Oriantation"
+msgstr "Ориентация"
+
+msgid "Orientation"
+msgstr "Ориентация"
+
+msgid "Overlay Background"
+msgstr "Фон наложения"
+
+msgid "Overlay Settings"
+msgstr "Настройки наложения"
+
+msgid "Padding"
+msgstr "Отступ"
+
+msgid "padding"
+msgstr "отступ"
+
+msgid "Padding (px)"
+msgstr "Отступ (px)"
+
+msgid "Pagination"
+msgstr "Пагинация"
+
+msgid "Pagination spacing"
+msgstr "Интервал пагинации"
+
+msgid "Pagination Typography"
+msgstr "Типографика пагинации"
+
+msgid "Phones: >575px"
+msgstr "Телефоны: >575px"
+
+msgid "Placeholder"
+msgstr "Заполнитель"
+
+msgid "Please Select a Location and Background"
+msgstr "Пожалуйста, выберите местоположение и фон"
+
+msgid "Popular"
+msgstr "Популярное"
+
+msgid "Popular Background Color"
+msgstr "Цвет фона популярного"
+
+msgid "Popular Text Color"
+msgstr "Цвет текста популярного"
+
+msgid "Popup"
+msgstr "Всплывающее окно"
+
+msgid "Post Per Page"
+msgstr "Записей на страницу"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price Color"
+msgstr "Цвет цены"
+
+msgid "Price Field"
+msgstr "Поле цены"
+
+msgid "Price field"
+msgstr "Поле цены"
+
+msgid "Price Label Color"
+msgstr "Цвет метки цены"
+
+msgid "Price Label Typography"
+msgstr "Типографика метки цены"
+
+msgid "Price Margin"
+msgstr "Отступ цены"
+
+msgid "Price padding"
+msgstr "Отступ цены"
+
+msgid "Pricing Footer Spacing"
+msgstr "Интервал подвала цен"
+
+msgid "Pricing Page Link"
+msgstr "Ссылка на страницу цен"
+
+msgid "Pricing Table"
+msgstr "Таблица цен"
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Profile icon order"
+msgstr "Порядок иконки профиля"
+
+msgid "Promotional Post"
+msgstr "Рекламная публикация"
+
+msgid "Promotions"
+msgstr "Акции"
+
+msgid "Promotions Exclude"
+msgstr "Исключить акции"
+
+msgid "Query"
+msgstr "Запрос"
+
+msgid "Quick View"
+msgstr "Быстрый просмотр"
+
+msgid "Radius"
+msgstr "Радиус"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "Радиус (%1$s)"
+
+msgid "Radius Field"
+msgstr "Поле радиуса"
+
+msgid "Radius Search"
+msgstr "Поиск по радиусу"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "Случайно"
+
+msgid "Responsive Columns"
+msgstr "Адаптивные колонки"
+
+msgid "Result count"
+msgstr "Количество результатов"
+
+msgid "Right"
+msgstr "Справа"
+
+msgid "Right Top"
+msgstr "Справа сверху"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Search Button"
+msgstr "Кнопка поиска"
+
+msgid "Search Form"
+msgstr "Форма поиска"
+
+msgid "Search Form - Sortable"
+msgstr "Форма поиска - сортируемая"
+
+msgid "Select a location"
+msgstr "Выберите местоположение"
+
+msgid "Select a location to display."
+msgstr "Выберите местоположение для отображения."
+
+msgid "Select Category"
+msgstr "Выберите категорию"
+
+msgid "Select column number to display categories."
+msgstr "Выберите количество колонок для отображения категорий."
+
+msgid "Select column number to display listings."
+msgstr "Выберите количество колонок для отображения объявлений."
+
+msgid "Select column number to display location."
+msgstr "Выберите количество колонок для отображения местоположения."
+
+msgid "Select Field"
+msgstr "Выберите поле"
+
+msgid "Select Form"
+msgstr "Выберите форму"
+
+msgid "Select Image Size"
+msgstr "Выберите размер изображения"
+
+msgid "Select Location"
+msgstr "Выберите местоположение"
+
+msgid "Select Pricing"
+msgstr "Выберите тариф"
+
+msgid "Select Type"
+msgstr "Выберите тип"
+
+msgid "Select type"
+msgstr "Выберите тип"
+
+msgid "Selected Location"
+msgstr "Выбранное местоположение"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "Установите любое значение, например 5 секунд, для воспроизведения каждые 5 секунд. По умолчанию: 5 секунд"
+
+msgid "Short Description"
+msgstr "Краткое описание"
+
+msgid "Short Description Color"
+msgstr "Цвет краткого описания"
+
+msgid "Short Description Word Limit"
+msgstr "Лимит слов краткого описания"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "Показать / Скрыть категории без объявлений."
+
+msgid "Show / Hide category description."
+msgstr "Показать / Скрыть описание категории."
+
+msgid "Show / Hide compare button."
+msgstr "Показать / Скрыть кнопку сравнения."
+
+msgid "Show / Hide keyword field."
+msgstr "Показать / Скрыть поле ключевого слова."
+
+msgid "Show / Hide listing ad type."
+msgstr "Показать / Скрыть тип объявления."
+
+msgid "Show / Hide listing author name."
+msgstr "Показать / Скрыть имя автора объявления."
+
+msgid "Show / Hide listing badge."
+msgstr "Показать / Скрыть значок объявления."
+
+msgid "Show / Hide listing categories."
+msgstr "Показать / Скрыть категории объявления."
+
+msgid "Show / Hide listing counts."
+msgstr "Показать / Скрыть количество объявлений."
+
+msgid "Show / Hide listing custom fields."
+msgstr "Показать / Скрыть пользовательские поля объявления."
+
+msgid "Show / Hide listing date."
+msgstr "Показать / Скрыть дату объявления."
+
+msgid "Show / Hide listing description."
+msgstr "Показать / Скрыть описание объявления."
+
+msgid "Show / Hide listing details button."
+msgstr "Показать / Скрыть кнопку подробностей объявления."
+
+msgid "Show / Hide listing favourite button."
+msgstr "Показать / Скрыть кнопку избранного объявления."
+
+msgid "Show / Hide listing image or icon."
+msgstr "Показать / Скрыть изображение или иконку объявления."
+
+msgid "Show / Hide listing image."
+msgstr "Показать / Скрыть изображение объявления."
+
+msgid "Show / Hide listing location."
+msgstr "Показать / Скрыть местоположение объявления."
+
+msgid "Show / Hide listing price."
+msgstr "Показать / Скрыть цену объявления."
+
+msgid "Show / Hide listing views."
+msgstr "Показать / Скрыть просмотры объявления."
+
+msgid "Show / Hide location description."
+msgstr "Показать / Скрыть описание местоположения."
+
+msgid "Show / Hide location that has no listings."
+msgstr "Показать / Скрыть местоположения без объявлений."
+
+msgid "Show / Hide quick view button."
+msgstr "Показать / Скрыть кнопку быстрого просмотра."
+
+msgid "Show Ad Type"
+msgstr "Показать тип объявления"
+
+msgid "Show add listing button"
+msgstr "Показать кнопку добавления объявления"
+
+msgid "Show Author Name"
+msgstr "Показать имя автора"
+
+msgid "Show Badge"
+msgstr "Показать значок"
+
+msgid "Show Bump Up?"
+msgstr "Показать поднятие?"
+
+msgid "Show Category"
+msgstr "Показать категорию"
+
+msgid "Show chat icon"
+msgstr "Показать иконку чата"
+
+msgid "Show Child location"
+msgstr "Показать дочернее местоположение"
+
+msgid "Show Compare"
+msgstr "Показать сравнение"
+
+msgid "Show compare icon"
+msgstr "Показать иконку сравнения"
+
+msgid "Show Count"
+msgstr "Показать счётчик"
+
+msgid "Show Counts"
+msgstr "Показать счётчики"
+
+msgid "Show Custom Fields"
+msgstr "Показать пользовательские поля"
+
+msgid "Show Custom fields"
+msgstr "Показать пользовательские поля"
+
+msgid "Show Date"
+msgstr "Показать дату"
+
+msgid "Show Description"
+msgstr "Показать описание"
+
+msgid "Show Details Button"
+msgstr "Показать кнопку подробностей"
+
+msgid "Show Favourites"
+msgstr "Показать избранное"
+
+msgid "Show favourites icon"
+msgstr "Показать иконку избранного"
+
+msgid "Show Featured?"
+msgstr "Показать рекомендуемое?"
+
+msgid "Show Fields Label"
+msgstr "Показать метку полей"
+
+msgid "Show fields Label"
+msgstr "Показать метку полей"
+
+msgid "Show Icon/Image"
+msgstr "Показать иконку/изображение"
+
+msgid "Show Image"
+msgstr "Показать изображение"
+
+msgid "Show Image / Icon"
+msgstr "Показать изображение / иконку"
+
+msgid "Show Listing Counts"
+msgstr "Показать количество объявлений"
+
+msgid "Show Location"
+msgstr "Показать местоположение"
+
+msgid "Show New?"
+msgstr "Показать новое?"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "Показать или скрыть заголовок категории. По умолчанию: Включено"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "Показать или скрыть категорию. По умолчанию: Включено"
+
+msgid "Show or Hide date. Default: On"
+msgstr "Показать или скрыть дату. По умолчанию: Включено"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "Показать или скрыть кнопку подробностей. По умолчанию: Включено"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "Показать или скрыть иконку. По умолчанию: Включено"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "Показать или скрыть метки. По умолчанию: Включено"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "Показать или скрыть количество объявлений. По умолчанию: Включено"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "Показать или скрыть описание объявления. По умолчанию: Включено"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "Показать или скрыть иконку/изображение объявления. По умолчанию: Включено"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "Показать или скрыть заголовок объявления. По умолчанию: Включено"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "Показать или скрыть местоположение. По умолчанию: Включено"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "Показать или скрыть знак «за». По умолчанию: Включено"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "Показать или скрыть цену. По умолчанию: Включено"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "Показать или скрыть типы. По умолчанию: Включено"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "Показать или скрыть имя пользователя/автора. По умолчанию: Включено"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "Показать или скрыть статус верификации пользователя/автора. По умолчанию: Включено"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "Показать или скрыть счётчик просмотров. По умолчанию: Включено"
+
+msgid "Show Per Sign"
+msgstr "Показать знак «за»"
+
+msgid "Show Phone"
+msgstr "Показать телефон"
+
+msgid "Show Phone No"
+msgstr "Показать номер телефона"
+
+msgid "Show Popular?"
+msgstr "Показать популярное?"
+
+msgid "Show Price"
+msgstr "Показать цену"
+
+msgid "Show Price Type"
+msgstr "Показать тип цены"
+
+msgid "Show Price Unit"
+msgstr "Показать единицу цены"
+
+msgid "Show profile"
+msgstr "Показать профиль"
+
+msgid "Show Quick View"
+msgstr "Показать быстрый просмотр"
+
+msgid "Show Time"
+msgstr "Показать время"
+
+msgid "Show Title"
+msgstr "Показать заголовок"
+
+msgid "Show Top?"
+msgstr "Показать топ?"
+
+msgid "Show Types"
+msgstr "Показать типы"
+
+msgid "Show User"
+msgstr "Показать пользователя"
+
+msgid "Show Verified User Base"
+msgstr "Показать статус верификации пользователя"
+
+msgid "Show View Count"
+msgstr "Показать счётчик просмотров"
+
+msgid "Show Views"
+msgstr "Показать просмотры"
+
+msgid "Sign in Icon"
+msgstr "Иконка входа"
+
+msgid "Single Location"
+msgstr "Одно местоположение"
+
+msgid "Slide Speed"
+msgstr "Скорость слайда"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "Скорость слайда в миллисекундах. По умолчанию: 200"
+
+msgid "Slider Navigation"
+msgstr "Навигация слайдера"
+
+msgid "Slider Options"
+msgstr "Параметры слайдера"
+
+msgid "Small Phones: <576px"
+msgstr "Маленькие телефоны: <576px"
+
+msgid "Sold Out"
+msgstr "Продано"
+
+msgid "Sold Out Background Color"
+msgstr "Цвет фона проданного"
+
+msgid "Sold Out Text Color"
+msgstr "Цвет текста проданного"
+
+msgid "Sort By"
+msgstr "Сортировать по"
+
+msgid "Space Between"
+msgstr "Пространство между"
+
+msgid "Space Between List"
+msgstr "Пространство между списком"
+
+msgid "Space Between. Default: 20"
+msgstr "Пространство между. По умолчанию: 20"
+
+msgid "Spacing"
+msgstr "Интервал"
+
+msgid "Special Style Body Settings"
+msgstr "Настройки тела специального стиля"
+
+msgid "Special style Settings"
+msgstr "Настройки специального стиля"
+
+msgid "Standard"
+msgstr "Стандартный"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "Начните вводить названия категорий. Если пусто, будут показаны все объявления."
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "Начните вводить названия категорий. Если пусто, будут показаны все родительские категории"
+
+msgid "Start typing locations names."
+msgstr "Начните вводить названия местоположений."
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "Остановить автовоспроизведение при наведении мыши. По умолчанию: Включено"
+
+msgid "Stop on Hover"
+msgstr "Остановить при наведении"
+
+msgid "Store Pagination"
+msgstr "Пагинация магазина"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Style 1"
+msgstr "Стиль 1"
+
+msgid "Style 2"
+msgstr "Стиль 2"
+
+msgid "Style 3"
+msgstr "Стиль 3"
+
+msgid "Style 4"
+msgstr "Стиль 4"
+
+msgid "Style 5"
+msgstr "Стиль 5"
+
+msgid "Sub Category Limit"
+msgstr "Лимит подкатегорий"
+
+msgid "Sub Location Limit"
+msgstr "Лимит под-местоположений"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Submit button"
+msgstr "Кнопка отправки"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "Переключить для показа значка поднятия "
+
+msgid "Switch to Show Badge Featured "
+msgstr "Переключить для показа значка рекомендуемого "
+
+msgid "Switch to Show Badge New "
+msgstr "Переключить для показа значка нового "
+
+msgid "Switch to Show Badge Popular "
+msgstr "Переключить для показа значка популярного "
+
+msgid "Switch to Show Badge Top "
+msgstr "Переключить для показа значка топ "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "Переключить для показа сортировки каталога"
+
+msgid "Switch to Show Pagination"
+msgstr "Переключить для показа пагинации"
+
+msgid "Switch to Show Result Count"
+msgstr "Переключить для показа количества результатов"
+
+msgid "Switch to Show View Switcher"
+msgstr "Переключить для показа переключателя вида"
+
+msgid "Tab Column"
+msgstr "Колонка вкладки"
+
+msgid "Tablets: >767px"
+msgstr "Планшеты: >767px"
+
+msgid "Text After Count "
+msgstr "Текст после счётчика "
+
+msgid "Text Alignment"
+msgstr "Выравнивание текста"
+
+msgid "Text Color"
+msgstr "Цвет текста"
+
+msgid "Text Color In hover"
+msgstr "Цвет текста при наведении"
+
+msgid "Time"
+msgstr "Время"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+msgid "Title Hover"
+msgstr "Заголовок при наведении"
+
+msgid "Title Spacing"
+msgstr "Интервал заголовка"
+
+msgid "Top"
+msgstr "Топ"
+
+msgid "Top Background Color"
+msgstr "Цвет фона топ"
+
+msgid "Top Border Color"
+msgstr "Цвет верхней границы"
+
+msgid "Top Text Color"
+msgstr "Цвет текста топ"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Type your description here"
+msgstr "Введите ваше описание здесь"
+
+msgid "Types"
+msgstr "Типы"
+
+msgid "Types field"
+msgstr "Поле типов"
+
+msgid "Typography"
+msgstr "Типографика"
+
+msgid "Unit Color"
+msgstr "Цвет единицы"
+
+msgid "Unit Label Text Color"
+msgstr "Цвет текста метки единицы"
+
+msgid "Unit Label Typography"
+msgstr "Типографика метки единицы"
+
+msgid "Unit Name"
+msgstr "Название единицы"
+
+msgid "Unit Typography"
+msgstr "Типографика единицы"
+
+msgid "Vertical"
+msgstr "Вертикально"
+
+msgid "Vertical View"
+msgstr "Вертикальный вид"
+
+msgid "View"
+msgstr "Просмотр"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "Просмотреть все записи в %s"
+
+msgid "View Switcher"
+msgstr "Переключатель вида"
+
+msgid "Views"
+msgstr "Просмотры"
+
+msgid "Visibility"
+msgstr "Видимость"
+
+msgid "Width"
+msgstr "Ширина"
+
+msgid "Wrapper"
+msgstr "Обёртка"
+
+msgid "Wrapper Padding"
+msgstr "Отступ обёртки"
+
+msgid "Wrapper Spacing"
+msgstr "Интервал обёртки"
+
+msgid "Yes"
+msgstr "Да"

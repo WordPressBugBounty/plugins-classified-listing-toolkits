@@ -1,0 +1,1900 @@
+# Translation of Classified Listing Toolkits in Arabic
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " حسابي"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " تسجيل الدخول"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "لا مشاهدات"
+msgstr[1] "مشاهدة واحدة"
+msgstr[2] "مشاهدتان"
+msgstr[3] "%s مشاهدات"
+msgstr[4] "%s مشاهدة"
+msgstr[5] "%s مشاهدة"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(لا إعلانات)"
+msgstr[1] "(إعلان واحد)"
+msgstr[2] "(إعلانان)"
+msgstr[3] "(%s إعلانات)"
+msgstr[4] "(%s إعلان)"
+msgstr[5] "(%s إعلان)"
+
+msgid "--Select--"
+msgstr "--اختر--"
+
+msgid "1 Col"
+msgstr "عمود واحد"
+
+msgid "1 Second"
+msgstr "ثانية واحدة"
+
+msgid "2 Col"
+msgstr "عمودان"
+
+msgid "2 Seconds"
+msgstr "ثانيتان"
+
+msgid "3 Col"
+msgstr "3 أعمدة"
+
+msgid "3 Seconds"
+msgstr "3 ثوان"
+
+msgid "4 Col"
+msgstr "4 أعمدة"
+
+msgid "4 Seconds"
+msgstr "4 ثوان"
+
+msgid "5 Col"
+msgstr "5 أعمدة"
+
+msgid "5 Seconds"
+msgstr "5 ثوان"
+
+msgid "6 Col"
+msgstr "6 أعمدة"
+
+msgid "6 Seconds"
+msgstr "6 ثوان"
+
+msgid "7 Seconds"
+msgstr "7 ثوان"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">الترقية إلى النسخة الاحترافية</a> لفتح المزيد من الأنماط."
+
+msgid "Action Button Hover Text Color"
+msgstr "لون نص زر الإجراء عند التمرير"
+
+msgid "Action Button Layout"
+msgstr "تخطيط زر الإجراء"
+
+msgid "Action Button Text Color"
+msgstr "لون نص زر الإجراء"
+
+msgid "Active Background Color"
+msgstr "لون الخلفية النشطة"
+
+msgid "Active Color"
+msgstr "اللون النشط"
+
+msgid "Active Text Color"
+msgstr "لون النص النشط"
+
+msgid "Ad Type"
+msgstr "نوع الإعلان"
+
+msgid "Ad Types Field"
+msgstr "حقل أنواع الإعلانات"
+
+msgid "Add / Remove listing location link."
+msgstr "إضافة / إزالة رابط موقع الإعلان."
+
+msgid "Add listing button"
+msgstr "زر إضافة إعلان"
+
+msgid "Add listing button order"
+msgstr "ترتيب زر إضافة إعلان"
+
+msgid "Add Listing Icon"
+msgstr "أيقونة إضافة إعلان"
+
+msgid "Add listing icon order"
+msgstr "ترتيب أيقونة إضافة إعلان"
+
+msgid "Adjust Box Height"
+msgstr "ضبط ارتفاع الصندوق"
+
+msgid "ads"
+msgstr "إعلانات"
+
+msgid "All Location"
+msgstr "جميع المواقع"
+
+msgid "All Locations"
+msgstr "جميع المواقع"
+
+msgid "Arrow Navigation"
+msgstr "التنقل بالأسهم"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "نصف قطر حدود التنقل بالأسهم"
+
+msgid "Arrow Position"
+msgstr "موضع السهم"
+
+msgid "Ascending"
+msgstr "تصاعدي"
+
+msgid "Auto Height"
+msgstr "ارتفاع تلقائي"
+
+msgid "Auto Height. Default: On"
+msgstr "ارتفاع تلقائي. الافتراضي: مفعّل"
+
+msgid "Auto Suggestion"
+msgstr "اقتراح تلقائي"
+
+msgid "Autoplay"
+msgstr "تشغيل تلقائي"
+
+msgid "Autoplay Delay"
+msgstr "تأخير التشغيل التلقائي"
+
+msgid "Autoplay Slide Speed"
+msgstr "سرعة شريحة التشغيل التلقائي"
+
+msgid "Background"
+msgstr "الخلفية"
+
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+msgid "Background Hover"
+msgstr "الخلفية عند التمرير"
+
+msgid "Badge"
+msgstr "شارة"
+
+msgid "Badge "
+msgstr "شارة "
+
+msgid "Badge Background Color"
+msgstr "لون خلفية الشارة"
+
+msgid "Badge Default Background"
+msgstr "خلفية الشارة الافتراضية"
+
+msgid "Badge Default Text Color"
+msgstr "لون نص الشارة الافتراضي"
+
+msgid "Badge Default Typography"
+msgstr "خط الشارة الافتراضي"
+
+msgid "Badge Spacing"
+msgstr "تباعد الشارة"
+
+msgid "Badge Text Color"
+msgstr "لون نص الشارة"
+
+msgid "Badge Visibility "
+msgstr "ظهور الشارة "
+
+msgid "Body"
+msgstr "المحتوى"
+
+msgid "Body background"
+msgstr "خلفية المحتوى"
+
+msgid "Body pading"
+msgstr "حشوة المحتوى"
+
+msgid "Body Section Padding"
+msgstr "حشوة قسم المحتوى"
+
+msgid "Body Section Pading"
+msgstr "حشوة قسم المحتوى"
+
+msgid "Body Spacing"
+msgstr "تباعد المحتوى"
+
+msgid "Border"
+msgstr "الحدود"
+
+msgid "Border Color"
+msgstr "لون الحدود"
+
+msgid "Border Radius"
+msgstr "نصف قطر الحدود"
+
+msgid "Border Radius (px)"
+msgstr "نصف قطر الحدود (بكسل)"
+
+msgid "Box"
+msgstr "صندوق"
+
+msgid "Box Border Radius"
+msgstr "نصف قطر حدود الصندوق"
+
+msgid "Box Height"
+msgstr "ارتفاع الصندوق"
+
+msgid "Box padding"
+msgstr "حشوة الصندوق"
+
+msgid "Box pading"
+msgstr "حشوة الصندوق"
+
+msgid "Box Shadow"
+msgstr "ظل الصندوق"
+
+msgid "Box style"
+msgstr "نمط الصندوق"
+
+msgid "Bump Up"
+msgstr "رفع"
+
+msgid "Bump Up Background Color"
+msgstr "لون خلفية الرفع"
+
+msgid "Bump Up Text Color"
+msgstr "لون نص الرفع"
+
+msgid "Button"
+msgstr "زر"
+
+msgid "Button alignment"
+msgstr "محاذاة الزر"
+
+msgid "Button Background"
+msgstr "خلفية الزر"
+
+msgid "Button Height"
+msgstr "ارتفاع الزر"
+
+msgid "Button Icon"
+msgstr "أيقونة الزر"
+
+msgid "Button Link Type"
+msgstr "نوع رابط الزر"
+
+msgid "Button Padding"
+msgstr "حشوة الزر"
+
+msgid "Button Section"
+msgstr "قسم الزر"
+
+msgid "Button Spacing"
+msgstr "تباعد الزر"
+
+msgid "Button style"
+msgstr "نمط الزر"
+
+msgid "Button Text"
+msgstr "نص الزر"
+
+msgid "Button text"
+msgstr "نص الزر"
+
+msgid "Button Text Color"
+msgstr "لون نص الزر"
+
+msgid "Button Typography"
+msgstr "خط الزر"
+
+msgid "Button URL"
+msgstr "رابط الزر"
+
+msgid "Button width"
+msgstr "عرض الزر"
+
+msgid "Card"
+msgstr "بطاقة"
+
+msgid "Cart Icon"
+msgstr "أيقونة السلة"
+
+msgid "Catalog Ordering"
+msgstr "ترتيب الكتالوج"
+
+msgid "Categories"
+msgstr "الفئات"
+
+msgid "Category"
+msgstr "الفئة"
+
+msgid "Category Color"
+msgstr "لون الفئة"
+
+msgid "Category Description"
+msgstr "وصف الفئة"
+
+msgid "Category Field"
+msgstr "حقل الفئة"
+
+msgid "Category field"
+msgstr "حقل الفئة"
+
+msgid "Category Limit"
+msgstr "حد الفئات"
+
+msgid "Category Slider"
+msgstr "شريط الفئات"
+
+msgid "Center"
+msgstr "وسط"
+
+msgid "Chat"
+msgstr "محادثة"
+
+msgid "Chat Icon"
+msgstr "أيقونة المحادثة"
+
+msgid "Chat icon order"
+msgstr "ترتيب أيقونة المحادثة"
+
+msgid "Chat Option"
+msgstr "خيار المحادثة"
+
+msgid "Child Category Limit"
+msgstr "حد الفئات الفرعية"
+
+msgid "Child List Color"
+msgstr "لون القائمة الفرعية"
+
+msgid "Child List Hover Color"
+msgstr "لون القائمة الفرعية عند التمرير"
+
+msgid "Child List Icon Color"
+msgstr "لون أيقونة القائمة الفرعية"
+
+msgid "Child List Icon Hover Color"
+msgstr "لون أيقونة القائمة الفرعية عند التمرير"
+
+msgid "Child Location"
+msgstr "الموقع الفرعي"
+
+msgid "Classified Listing"
+msgstr "الإعلانات المبوبة"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "أدوات الإعلانات المبوبة تتطلب تثبيت وتفعيل الإعلانات المبوبة."
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "أدوات الإعلانات المبوبة تتطلب الإعلانات المبوبة بإصدار 5.0.1 كحد أدنى"
+
+msgid "Classified Listing Toolkits"
+msgstr "أدوات الإعلانات المبوبة"
+
+msgid "classified Listing Toolkits"
+msgstr "أدوات الإعلانات المبوبة"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "أدوات الإعلانات المبوبة التي تتضمن عدة ودجات إليمنتور ووحدات ديفي لمساعدتك في عرض الإعلانات بأناقة في تخطيطات متنوعة."
+
+msgid "Color"
+msgstr "اللون"
+
+msgid "Column"
+msgstr "عمود"
+
+msgid "Column 1"
+msgstr "عمود 1"
+
+msgid "Column 2"
+msgstr "عمود 2"
+
+msgid "Column 3"
+msgstr "عمود 3"
+
+msgid "Column 4"
+msgstr "عمود 4"
+
+msgid "Compare"
+msgstr "مقارنة"
+
+msgid "Compare icon order"
+msgstr "ترتيب أيقونة المقارنة"
+
+msgid "Content"
+msgstr "المحتوى"
+
+msgid "Content Alignment"
+msgstr "محاذاة المحتوى"
+
+msgid "Content alignment"
+msgstr "محاذاة المحتوى"
+
+msgid "Content Background Color"
+msgstr "لون خلفية المحتوى"
+
+msgid "Content Spacing"
+msgstr "تباعد المحتوى"
+
+msgid "Content spacing"
+msgstr "تباعد المحتوى"
+
+msgid "Content Vertical Alignment"
+msgstr "المحاذاة العمودية للمحتوى"
+
+msgid "Content Visibility "
+msgstr "ظهور المحتوى "
+
+msgid "Count"
+msgstr "العدد"
+
+msgid "Count Color"
+msgstr "لون العدد"
+
+msgid "Count Font Size"
+msgstr "حجم خط العدد"
+
+msgid "Count position"
+msgstr "موضع العدد"
+
+msgid "Count Text"
+msgstr "نص العدد"
+
+msgid "Count Text For Plural Number"
+msgstr "نص العدد للأرقام الجمع"
+
+msgid "Counter"
+msgstr "العداد"
+
+msgid "Counter Spacing"
+msgstr "تباعد العداد"
+
+msgid "Counts Include Children"
+msgstr "يشمل العدد الفئات الفرعية"
+
+msgid "Currency Position"
+msgstr "موضع العملة"
+
+msgid "Currency sign eg. $"
+msgstr "رمز العملة مثل $"
+
+msgid "Currency Symbol"
+msgstr "رمز العملة"
+
+msgid "Currency Typography"
+msgstr "خط العملة"
+
+msgid "Custom"
+msgstr "مخصص"
+
+msgid "Custom Field's"
+msgstr "الحقول المخصصة"
+
+msgid "Custom Fields"
+msgstr "الحقول المخصصة"
+
+msgid "Custom Link"
+msgstr "رابط مخصص"
+
+msgid "Custom Order"
+msgstr "ترتيب مخصص"
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Default Badge"
+msgstr "الشارة الافتراضية"
+
+msgid "Default Color"
+msgstr "اللون الافتراضي"
+
+msgid "Dependency Selection"
+msgstr "اختيار التبعية"
+
+msgid "Descending"
+msgstr "تنازلي"
+
+msgid "Description"
+msgstr "الوصف"
+
+msgid "Description Color"
+msgstr "لون الوصف"
+
+msgid "Description Limit"
+msgstr "حد الوصف"
+
+msgid "Description Word Limit"
+msgstr "حد كلمات الوصف"
+
+msgid "Desktops: >1199px"
+msgstr "أجهزة سطح المكتب: >1199 بكسل"
+
+msgid "Desktops: >991px"
+msgstr "أجهزة سطح المكتب: >991 بكسل"
+
+msgid "Details"
+msgstr "التفاصيل"
+
+msgid "Details Button Background Color"
+msgstr "لون خلفية زر التفاصيل"
+
+msgid "Details Button Text Color"
+msgstr "لون نص زر التفاصيل"
+
+msgid "Display Child category"
+msgstr "عرض الفئة الفرعية"
+
+msgid "Display Sub Category"
+msgstr "عرض الفئة الفرعية"
+
+msgid "Dot Navigation"
+msgstr "التنقل بالنقاط"
+
+msgid "Dot Navigation Settings"
+msgstr "إعدادات التنقل بالنقاط"
+
+msgid "Dot Navigation Spacing"
+msgstr "تباعد التنقل بالنقاط"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "مثل شهر أو سنة. اتركه فارغاً إذا لم ترد إظهار الوحدة"
+
+msgid "Enable Link"
+msgstr "تفعيل الرابط"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "تفعيل أو تعطيل التشغيل التلقائي. الافتراضي: مفعّل"
+
+msgid "Enter Keyword here ..."
+msgstr "أدخل الكلمة المفتاحية هنا ..."
+
+msgid "Enter your keyword here ..."
+msgstr "أدخل كلمتك المفتاحية هنا ..."
+
+msgid "Equal Height"
+msgstr "ارتفاع متساوي"
+
+msgid "Favourites"
+msgstr "المفضلة"
+
+msgid "Favourites icon order"
+msgstr "ترتيب أيقونة المفضلة"
+
+msgid "Feature"
+msgstr "ميزة"
+
+msgid "Featured"
+msgstr "مميز"
+
+msgid "Featured Background Color"
+msgstr "لون خلفية المميز"
+
+msgid "Featured Border Color"
+msgstr "لون حدود المميز"
+
+msgid "Featured Text Color"
+msgstr "لون نص المميز"
+
+msgid "Features"
+msgstr "المميزات"
+
+msgid "Features Margin"
+msgstr "هامش المميزات"
+
+msgid "Features Text As"
+msgstr "نص المميزات كـ"
+
+msgid "Field background"
+msgstr "خلفية الحقل"
+
+msgid "Field Gutter Spacing"
+msgstr "تباعد الحقول"
+
+msgid "Field Height"
+msgstr "ارتفاع الحقل"
+
+msgid "Field text color"
+msgstr "لون نص الحقل"
+
+msgid "Field Types"
+msgstr "أنواع الحقول"
+
+msgid "Field's"
+msgstr "الحقول"
+
+msgid "Field's Gap"
+msgstr "فجوة الحقول"
+
+msgid "Field's Height"
+msgstr "ارتفاع الحقول"
+
+msgid "Fields"
+msgstr "الحقول"
+
+msgid "Fields Gap"
+msgstr "فجوة الحقول"
+
+msgid "Fields Padding (px)"
+msgstr "حشوة الحقول (بكسل)"
+
+msgid "Font Size"
+msgstr "حجم الخط"
+
+msgid "Footer"
+msgstr "التذييل"
+
+msgid "Form"
+msgstr "النموذج"
+
+msgid "Form Background Color"
+msgstr "لون خلفية النموذج"
+
+msgid "Form Field's"
+msgstr "حقول النموذج"
+
+msgid "Form Label"
+msgstr "تسمية النموذج"
+
+msgid "Full Size"
+msgstr "الحجم الكامل"
+
+msgid "General"
+msgstr "عام"
+
+msgid "General Style"
+msgstr "النمط العام"
+
+msgid "Grid"
+msgstr "شبكة"
+
+msgid "Grid Column"
+msgstr "عمود الشبكة"
+
+msgid "Grid View"
+msgstr "عرض شبكي"
+
+msgid "Gutter padding"
+msgstr "حشوة الفواصل"
+
+msgid "Gutter pading"
+msgstr "حشوة الفواصل"
+
+msgid "Gutter Space"
+msgstr "مسافة الفواصل"
+
+msgid "Gutter Spacing"
+msgstr "تباعد الفواصل"
+
+msgid "Head background"
+msgstr "خلفية الرأس"
+
+msgid "Head Section Padding"
+msgstr "حشوة قسم الرأس"
+
+msgid "Head Section Pading"
+msgstr "حشوة قسم الرأس"
+
+msgid "Header"
+msgstr "الرأس"
+
+msgid "Header Border Color"
+msgstr "لون حدود الرأس"
+
+msgid "Header Button"
+msgstr "زر الرأس"
+
+msgid "Header Icon"
+msgstr "أيقونة الرأس"
+
+msgid "Header pading"
+msgstr "حشوة الرأس"
+
+msgid "Header Spacing"
+msgstr "تباعد الرأس"
+
+msgid "Height"
+msgstr "الارتفاع"
+
+msgid "Here you can define a custom color for category description."
+msgstr "هنا يمكنك تحديد لون مخصص لوصف الفئة."
+
+msgid "Here you can define a custom color for category name."
+msgstr "هنا يمكنك تحديد لون مخصص لاسم الفئة."
+
+msgid "Here you can define a custom color for content background."
+msgstr "هنا يمكنك تحديد لون مخصص لخلفية المحتوى."
+
+msgid "Here you can define a custom color for field background."
+msgstr "هنا يمكنك تحديد لون مخصص لخلفية الحقل."
+
+msgid "Here you can define a custom color for form background."
+msgstr "هنا يمكنك تحديد لون مخصص لخلفية النموذج."
+
+msgid "Here you can define a custom color for form label."
+msgstr "هنا يمكنك تحديد لون مخصص لتسمية النموذج."
+
+msgid "Here you can define a custom color for input text."
+msgstr "هنا يمكنك تحديد لون مخصص لنص الإدخال."
+
+msgid "Here you can define a custom color for listing count."
+msgstr "هنا يمكنك تحديد لون مخصص لعدد الإعلانات."
+
+msgid "Here you can define a custom color for listing price."
+msgstr "هنا يمكنك تحديد لون مخصص لسعر الإعلان."
+
+msgid "Here you can define a custom color for listing title."
+msgstr "هنا يمكنك تحديد لون مخصص لعنوان الإعلان."
+
+msgid "Here you can define a custom color for location description."
+msgstr "هنا يمكنك تحديد لون مخصص لوصف الموقع."
+
+msgid "Here you can define a custom color for location name."
+msgstr "هنا يمكنك تحديد لون مخصص لاسم الموقع."
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "هنا يمكنك تحديد لون مخصص لخلفية زر الإرسال."
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "هنا يمكنك تحديد لون نص مخصص لزر الإرسال."
+
+msgid "Here you can define font size for listing count."
+msgstr "هنا يمكنك تحديد حجم الخط لعدد الإعلانات."
+
+msgid "Here you can define gutter for the box."
+msgstr "هنا يمكنك تحديد الفواصل للصندوق."
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "هنا يمكنك تحديد الفواصل لفجوة الحقول."
+
+msgid "Here you can define height for the box."
+msgstr "هنا يمكنك تحديد ارتفاع الصندوق."
+
+msgid "Hide"
+msgstr "إخفاء"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "إخفاء الفئات التي لا تحتوي على إعلانات. الافتراضي: مفعّل"
+
+msgid "Hide Empty"
+msgstr "إخفاء الفارغة"
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "Horizontal View"
+msgstr "عرض أفقي"
+
+msgid "Hover"
+msgstr "عند التمرير"
+
+msgid "Hover & Focus"
+msgstr "عند التمرير والتركيز"
+
+msgid "Hover Background Color"
+msgstr "لون الخلفية عند التمرير"
+
+msgid "Hover Box Shadow"
+msgstr "ظل الصندوق عند التمرير"
+
+msgid "How Many Category will Display ?"
+msgstr "كم عدد الفئات التي ستُعرض؟"
+
+msgid "How Many Child Category will Display ?"
+msgstr "كم عدد الفئات الفرعية التي ستُعرض؟"
+
+msgid "How Many Child Location will Display ?"
+msgstr "كم عدد المواقع الفرعية التي ستُعرض؟"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "كم عدد المواقع التي ستُعرض؟ اتركه فارغاً للجميع."
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "أيقونة"
+
+msgid "Icon Alignment"
+msgstr "محاذاة الأيقونة"
+
+msgid "Icon And Image"
+msgstr "أيقونة وصورة"
+
+msgid "Icon Area"
+msgstr "منطقة الأيقونة"
+
+msgid "Icon Background"
+msgstr "خلفية الأيقونة"
+
+msgid "Icon Background Color"
+msgstr "لون خلفية الأيقونة"
+
+msgid "Icon Before List"
+msgstr "أيقونة قبل القائمة"
+
+msgid "Icon Before Title"
+msgstr "أيقونة قبل العنوان"
+
+msgid "Icon Bg Color"
+msgstr "لون خلفية الأيقونة"
+
+msgid "Icon Bg Hover Color"
+msgstr "لون خلفية الأيقونة عند التمرير"
+
+msgid "Icon Border Radius"
+msgstr "نصف قطر حدود الأيقونة"
+
+msgid "Icon Color"
+msgstr "لون الأيقونة"
+
+msgid "Icon Count Background Color"
+msgstr "لون خلفية عداد الأيقونة"
+
+msgid "Icon Count Color"
+msgstr "لون عداد الأيقونة"
+
+msgid "Icon Font Size"
+msgstr "حجم خط الأيقونة"
+
+msgid "Icon Gap"
+msgstr "فجوة الأيقونة"
+
+msgid "Icon Hover Color"
+msgstr "لون الأيقونة عند التمرير"
+
+msgid "Icon Margin (px)"
+msgstr "هامش الأيقونة (بكسل)"
+
+msgid "Icon order"
+msgstr "ترتيب الأيقونة"
+
+msgid "Icon Rotate"
+msgstr "تدوير الأيقونة"
+
+msgid "Icon Size"
+msgstr "حجم الأيقونة"
+
+msgid "Icon style"
+msgstr "نمط الأيقونة"
+
+msgid "Icon Type"
+msgstr "نوع الأيقونة"
+
+msgid "Icon Wrapper Size"
+msgstr "حجم حاوية الأيقونة"
+
+msgid "ID"
+msgstr "المعرف"
+
+msgid "Image"
+msgstr "صورة"
+
+msgid "Image Size"
+msgstr "حجم الصورة"
+
+msgid "Image Spacing"
+msgstr "تباعد الصورة"
+
+msgid "Image Wrapper"
+msgstr "حاوية الصورة"
+
+msgid "Include Children Categories"
+msgstr "تضمين الفئات الفرعية"
+
+msgid "Include Inner Location"
+msgstr "تضمين الموقع الداخلي"
+
+msgid "Inline"
+msgstr "مضمن"
+
+msgid "Input Background Color"
+msgstr "لون خلفية الإدخال"
+
+msgid "Input Text Color"
+msgstr "لون نص الإدخال"
+
+msgid "Item Wrapper"
+msgstr "حاوية العنصر"
+
+msgid "Keyword"
+msgstr "كلمة مفتاحية"
+
+msgid "Keywords"
+msgstr "الكلمات المفتاحية"
+
+msgid "Keywords Field"
+msgstr "حقل الكلمات المفتاحية"
+
+msgid "Keywords field"
+msgstr "حقل الكلمات المفتاحية"
+
+msgid "Label"
+msgstr "التسمية"
+
+msgid "Label Color"
+msgstr "لون التسمية"
+
+msgid "Label Margin"
+msgstr "هامش التسمية"
+
+msgid "Label Text Color"
+msgstr "لون نص التسمية"
+
+msgid "Label Typography"
+msgstr "خط التسمية"
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "اترك مربعات الاختيار غير محددة لتحديد الكل"
+
+msgid "Left"
+msgstr "يسار"
+
+msgid "Left Top"
+msgstr "أعلى اليسار"
+
+msgid "Limit"
+msgstr "الحد"
+
+msgid "List"
+msgstr "قائمة"
+
+msgid "List Style"
+msgstr "نمط القائمة"
+
+msgid "List Title"
+msgstr "عنوان القائمة"
+
+msgid "List View"
+msgstr "عرض القائمة"
+
+msgid "Listing Categories"
+msgstr "فئات الإعلانات"
+
+msgid "Listing Category"
+msgstr "فئة الإعلان"
+
+msgid "Listing Counts"
+msgstr "عدد الإعلانات"
+
+msgid "Listing Limit"
+msgstr "حد الإعلانات"
+
+msgid "Listing Location"
+msgstr "موقع الإعلان"
+
+msgid "Listing Pagination"
+msgstr "ترقيم صفحات الإعلانات"
+
+msgid "Listing Per Page"
+msgstr "إعلانات لكل صفحة"
+
+msgid "Listing Search Form"
+msgstr "نموذج البحث عن الإعلانات"
+
+msgid "Listing Showcase"
+msgstr "عرض الإعلانات"
+
+msgid "Listing Single Location"
+msgstr "موقع الإعلان الفردي"
+
+msgid "Listing Slider"
+msgstr "شريط الإعلانات"
+
+msgid "Listing Store"
+msgstr "متجر الإعلانات"
+
+msgid "Listing Types"
+msgstr "أنواع الإعلانات"
+
+msgid "Listings Grid"
+msgstr "شبكة الإعلانات"
+
+msgid "Listings List"
+msgstr "قائمة الإعلانات"
+
+msgid "Listings Slider"
+msgstr "شريط الإعلانات"
+
+msgid "Load More Button"
+msgstr "زر تحميل المزيد"
+
+msgid "Location"
+msgstr "الموقع"
+
+msgid "Location Display Type"
+msgstr "نوع عرض الموقع"
+
+msgid "Location Field"
+msgstr "حقل الموقع"
+
+msgid "Location field"
+msgstr "حقل الموقع"
+
+msgid "Location Limit"
+msgstr "حد المواقع"
+
+msgid "Locations"
+msgstr "المواقع"
+
+msgid "Loop"
+msgstr "تكرار"
+
+msgid "Loop to first item. Default: On"
+msgstr "التكرار إلى العنصر الأول. الافتراضي: مفعّل"
+
+msgid "Margin"
+msgstr "الهامش"
+
+msgid "Margin (px)"
+msgstr "الهامش (بكسل)"
+
+msgid "Max"
+msgstr "الأقصى"
+
+msgid "max"
+msgstr "الأقصى"
+
+msgid "Max Price"
+msgstr "السعر الأقصى"
+
+msgid "Max Width"
+msgstr "العرض الأقصى"
+
+msgid "Meta"
+msgstr "البيانات الوصفية"
+
+msgid "Meta Color"
+msgstr "لون البيانات الوصفية"
+
+msgid "Meta Icon Color"
+msgstr "لون أيقونة البيانات الوصفية"
+
+msgid "Meta Item Spacing"
+msgstr "تباعد عناصر البيانات الوصفية"
+
+msgid "Meta Spacing"
+msgstr "تباعد البيانات الوصفية"
+
+msgid "Meta Wrpper Spacing"
+msgstr "تباعد حاوية البيانات الوصفية"
+
+msgid "Middle"
+msgstr "وسط"
+
+msgid "Min"
+msgstr "الأدنى"
+
+msgid "min"
+msgstr "الأدنى"
+
+msgid "Min & Max Field Width"
+msgstr "عرض الحقل الأدنى والأقصى"
+
+msgid "Min Price"
+msgstr "السعر الأدنى"
+
+msgid "Min Width"
+msgstr "العرض الأدنى"
+
+msgid "Min width"
+msgstr "العرض الأدنى"
+
+msgid "Mobile Column"
+msgstr "عمود الجوال"
+
+msgid "Name Color"
+msgstr "لون الاسم"
+
+msgid "New"
+msgstr "جديد"
+
+msgid "New Background Color"
+msgstr "لون خلفية جديد"
+
+msgid "New Line"
+msgstr "سطر جديد"
+
+msgid "New Text Color"
+msgstr "لون نص جديد"
+
+msgid "No"
+msgstr "لا"
+
+msgid "No Listing Found"
+msgstr "لم يُعثر على إعلانات"
+
+msgid "No Listing Text"
+msgstr "نص عدم وجود إعلانات"
+
+msgid "None"
+msgstr "لا شيء"
+
+msgid "Normal"
+msgstr "عادي"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "لا إعلانات"
+msgstr[1] "إعلان واحد"
+msgstr[2] "إعلانان"
+msgstr[3] "%s إعلانات"
+msgstr[4] "%s إعلان"
+msgstr[5] "%s إعلان"
+
+msgid "Number of category to display"
+msgstr "عدد الفئات للعرض"
+
+msgid "Number of Columns"
+msgstr "عدد الأعمدة"
+
+msgid "Number of listing to display"
+msgstr "عدد الإعلانات للعرض"
+
+msgid "Number of location to display"
+msgstr "عدد المواقع للعرض"
+
+msgid "Number of Responsive Columns"
+msgstr "عدد الأعمدة المتجاوبة"
+
+msgid "Number of Words to display"
+msgstr "عدد الكلمات للعرض"
+
+msgid "Number of words to display."
+msgstr "عدد الكلمات للعرض."
+
+msgid "Off"
+msgstr "إيقاف"
+
+msgid "On"
+msgstr "تشغيل"
+
+msgid "On Items Hover Description color"
+msgstr "لون الوصف عند التمرير على العناصر"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "سطر واحد لكل ميزة مثل 10 إعلانات شهرياً مميزة في الأسبوع الأول"
+
+msgid "Only Location that has listings"
+msgstr "المواقع التي تحتوي على إعلانات فقط"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "يعمل للنسخة الاحترافية فقط. الافتراضي: معطّل"
+
+msgid "Order"
+msgstr "الترتيب"
+
+msgid "Order By"
+msgstr "ترتيب حسب"
+
+msgid "Oriantation"
+msgstr "الاتجاه"
+
+msgid "Orientation"
+msgstr "الاتجاه"
+
+msgid "Overlay Background"
+msgstr "خلفية التراكب"
+
+msgid "Overlay Settings"
+msgstr "إعدادات التراكب"
+
+msgid "Padding"
+msgstr "الحشوة"
+
+msgid "padding"
+msgstr "الحشوة"
+
+msgid "Padding (px)"
+msgstr "الحشوة (بكسل)"
+
+msgid "Pagination"
+msgstr "ترقيم الصفحات"
+
+msgid "Pagination spacing"
+msgstr "تباعد ترقيم الصفحات"
+
+msgid "Pagination Typography"
+msgstr "خط ترقيم الصفحات"
+
+msgid "Phones: >575px"
+msgstr "الهواتف: >575 بكسل"
+
+msgid "Placeholder"
+msgstr "نص العنصر النائب"
+
+msgid "Please Select a Location and Background"
+msgstr "يرجى اختيار موقع وخلفية"
+
+msgid "Popular"
+msgstr "شائع"
+
+msgid "Popular Background Color"
+msgstr "لون خلفية الشائع"
+
+msgid "Popular Text Color"
+msgstr "لون نص الشائع"
+
+msgid "Popup"
+msgstr "نافذة منبثقة"
+
+msgid "Post Per Page"
+msgstr "منشورات لكل صفحة"
+
+msgid "Price"
+msgstr "السعر"
+
+msgid "Price Color"
+msgstr "لون السعر"
+
+msgid "Price Field"
+msgstr "حقل السعر"
+
+msgid "Price field"
+msgstr "حقل السعر"
+
+msgid "Price Label Color"
+msgstr "لون تسمية السعر"
+
+msgid "Price Label Typography"
+msgstr "خط تسمية السعر"
+
+msgid "Price Margin"
+msgstr "هامش السعر"
+
+msgid "Price padding"
+msgstr "حشوة السعر"
+
+msgid "Pricing Footer Spacing"
+msgstr "تباعد تذييل التسعير"
+
+msgid "Pricing Page Link"
+msgstr "رابط صفحة التسعير"
+
+msgid "Pricing Table"
+msgstr "جدول التسعير"
+
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+msgid "Profile icon order"
+msgstr "ترتيب أيقونة الملف الشخصي"
+
+msgid "Promotional Post"
+msgstr "منشور ترويجي"
+
+msgid "Promotions"
+msgstr "العروض الترويجية"
+
+msgid "Promotions Exclude"
+msgstr "استثناء العروض الترويجية"
+
+msgid "Query"
+msgstr "الاستعلام"
+
+msgid "Quick View"
+msgstr "عرض سريع"
+
+msgid "Radius"
+msgstr "نصف القطر"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "نصف القطر (%1$s)"
+
+msgid "Radius Field"
+msgstr "حقل نصف القطر"
+
+msgid "Radius Search"
+msgstr "البحث بنصف القطر"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "عشوائي"
+
+msgid "Responsive Columns"
+msgstr "الأعمدة المتجاوبة"
+
+msgid "Result count"
+msgstr "عدد النتائج"
+
+msgid "Right"
+msgstr "يمين"
+
+msgid "Right Top"
+msgstr "أعلى اليمين"
+
+msgid "Search"
+msgstr "بحث"
+
+msgid "Search Button"
+msgstr "زر البحث"
+
+msgid "Search Form"
+msgstr "نموذج البحث"
+
+msgid "Search Form - Sortable"
+msgstr "نموذج البحث - قابل للفرز"
+
+msgid "Select a location"
+msgstr "اختر موقعاً"
+
+msgid "Select a location to display."
+msgstr "اختر موقعاً للعرض."
+
+msgid "Select Category"
+msgstr "اختر الفئة"
+
+msgid "Select column number to display categories."
+msgstr "اختر رقم العمود لعرض الفئات."
+
+msgid "Select column number to display listings."
+msgstr "اختر رقم العمود لعرض الإعلانات."
+
+msgid "Select column number to display location."
+msgstr "اختر رقم العمود لعرض الموقع."
+
+msgid "Select Field"
+msgstr "اختر الحقل"
+
+msgid "Select Form"
+msgstr "اختر النموذج"
+
+msgid "Select Image Size"
+msgstr "اختر حجم الصورة"
+
+msgid "Select Location"
+msgstr "اختر الموقع"
+
+msgid "Select Pricing"
+msgstr "اختر التسعير"
+
+msgid "Select Type"
+msgstr "اختر النوع"
+
+msgid "Select type"
+msgstr "اختر النوع"
+
+msgid "Selected Location"
+msgstr "الموقع المختار"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "عيّن أي قيمة مثل 5 ثوان للتشغيل كل 5 ثوان. الافتراضي: 5 ثوان"
+
+msgid "Short Description"
+msgstr "وصف مختصر"
+
+msgid "Short Description Color"
+msgstr "لون الوصف المختصر"
+
+msgid "Short Description Word Limit"
+msgstr "حد كلمات الوصف المختصر"
+
+msgid "Show"
+msgstr "إظهار"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "إظهار / إخفاء الفئات التي لا تحتوي على إعلانات."
+
+msgid "Show / Hide category description."
+msgstr "إظهار / إخفاء وصف الفئة."
+
+msgid "Show / Hide compare button."
+msgstr "إظهار / إخفاء زر المقارنة."
+
+msgid "Show / Hide keyword field."
+msgstr "إظهار / إخفاء حقل الكلمة المفتاحية."
+
+msgid "Show / Hide listing ad type."
+msgstr "إظهار / إخفاء نوع الإعلان."
+
+msgid "Show / Hide listing author name."
+msgstr "إظهار / إخفاء اسم كاتب الإعلان."
+
+msgid "Show / Hide listing badge."
+msgstr "إظهار / إخفاء شارة الإعلان."
+
+msgid "Show / Hide listing categories."
+msgstr "إظهار / إخفاء فئات الإعلان."
+
+msgid "Show / Hide listing counts."
+msgstr "إظهار / إخفاء عدد الإعلانات."
+
+msgid "Show / Hide listing custom fields."
+msgstr "إظهار / إخفاء الحقول المخصصة للإعلان."
+
+msgid "Show / Hide listing date."
+msgstr "إظهار / إخفاء تاريخ الإعلان."
+
+msgid "Show / Hide listing description."
+msgstr "إظهار / إخفاء وصف الإعلان."
+
+msgid "Show / Hide listing details button."
+msgstr "إظهار / إخفاء زر تفاصيل الإعلان."
+
+msgid "Show / Hide listing favourite button."
+msgstr "إظهار / إخفاء زر المفضلة للإعلان."
+
+msgid "Show / Hide listing image or icon."
+msgstr "إظهار / إخفاء صورة أو أيقونة الإعلان."
+
+msgid "Show / Hide listing image."
+msgstr "إظهار / إخفاء صورة الإعلان."
+
+msgid "Show / Hide listing location."
+msgstr "إظهار / إخفاء موقع الإعلان."
+
+msgid "Show / Hide listing price."
+msgstr "إظهار / إخفاء سعر الإعلان."
+
+msgid "Show / Hide listing views."
+msgstr "إظهار / إخفاء مشاهدات الإعلان."
+
+msgid "Show / Hide location description."
+msgstr "إظهار / إخفاء وصف الموقع."
+
+msgid "Show / Hide location that has no listings."
+msgstr "إظهار / إخفاء الموقع الذي لا يحتوي على إعلانات."
+
+msgid "Show / Hide quick view button."
+msgstr "إظهار / إخفاء زر العرض السريع."
+
+msgid "Show Ad Type"
+msgstr "إظهار نوع الإعلان"
+
+msgid "Show add listing button"
+msgstr "إظهار زر إضافة إعلان"
+
+msgid "Show Author Name"
+msgstr "إظهار اسم الكاتب"
+
+msgid "Show Badge"
+msgstr "إظهار الشارة"
+
+msgid "Show Bump Up?"
+msgstr "إظهار الرفع؟"
+
+msgid "Show Category"
+msgstr "إظهار الفئة"
+
+msgid "Show chat icon"
+msgstr "إظهار أيقونة المحادثة"
+
+msgid "Show Child location"
+msgstr "إظهار الموقع الفرعي"
+
+msgid "Show Compare"
+msgstr "إظهار المقارنة"
+
+msgid "Show compare icon"
+msgstr "إظهار أيقونة المقارنة"
+
+msgid "Show Count"
+msgstr "إظهار العدد"
+
+msgid "Show Counts"
+msgstr "إظهار الأعداد"
+
+msgid "Show Custom Fields"
+msgstr "إظهار الحقول المخصصة"
+
+msgid "Show Custom fields"
+msgstr "إظهار الحقول المخصصة"
+
+msgid "Show Date"
+msgstr "إظهار التاريخ"
+
+msgid "Show Description"
+msgstr "إظهار الوصف"
+
+msgid "Show Details Button"
+msgstr "إظهار زر التفاصيل"
+
+msgid "Show Favourites"
+msgstr "إظهار المفضلة"
+
+msgid "Show favourites icon"
+msgstr "إظهار أيقونة المفضلة"
+
+msgid "Show Featured?"
+msgstr "إظهار المميز؟"
+
+msgid "Show Fields Label"
+msgstr "إظهار تسمية الحقول"
+
+msgid "Show fields Label"
+msgstr "إظهار تسمية الحقول"
+
+msgid "Show Icon/Image"
+msgstr "إظهار الأيقونة/الصورة"
+
+msgid "Show Image"
+msgstr "إظهار الصورة"
+
+msgid "Show Image / Icon"
+msgstr "إظهار الصورة / الأيقونة"
+
+msgid "Show Listing Counts"
+msgstr "إظهار عدد الإعلانات"
+
+msgid "Show Location"
+msgstr "إظهار الموقع"
+
+msgid "Show New?"
+msgstr "إظهار الجديد؟"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "إظهار أو إخفاء عنوان الفئة. الافتراضي: مفعّل"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "إظهار أو إخفاء الفئة. الافتراضي: مفعّل"
+
+msgid "Show or Hide date. Default: On"
+msgstr "إظهار أو إخفاء التاريخ. الافتراضي: مفعّل"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "إظهار أو إخفاء زر التفاصيل. الافتراضي: مفعّل"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "إظهار أو إخفاء الأيقونة. الافتراضي: مفعّل"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "إظهار أو إخفاء التسميات. الافتراضي: مفعّل"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "إظهار أو إخفاء عدد الإعلانات. الافتراضي: مفعّل"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "إظهار أو إخفاء وصف الإعلان. الافتراضي: مفعّل"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "إظهار أو إخفاء أيقونة/صورة الإعلان. الافتراضي: مفعّل"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "إظهار أو إخفاء عنوان الإعلان. الافتراضي: مفعّل"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "إظهار أو إخفاء الموقع. الافتراضي: مفعّل"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "إظهار أو إخفاء علامة لكل. الافتراضي: مفعّل"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "إظهار أو إخفاء السعر. الافتراضي: مفعّل"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "إظهار أو إخفاء الأنواع. الافتراضي: مفعّل"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "إظهار أو إخفاء اسم المستخدم/الكاتب. الافتراضي: مفعّل"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "إظهار أو إخفاء شارة المستخدم/الكاتب الموثق. الافتراضي: مفعّل"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "إظهار أو إخفاء عدد المشاهدات. الافتراضي: مفعّل"
+
+msgid "Show Per Sign"
+msgstr "إظهار علامة لكل"
+
+msgid "Show Phone"
+msgstr "إظهار الهاتف"
+
+msgid "Show Phone No"
+msgstr "إظهار رقم الهاتف"
+
+msgid "Show Popular?"
+msgstr "إظهار الشائع؟"
+
+msgid "Show Price"
+msgstr "إظهار السعر"
+
+msgid "Show Price Type"
+msgstr "إظهار نوع السعر"
+
+msgid "Show Price Unit"
+msgstr "إظهار وحدة السعر"
+
+msgid "Show profile"
+msgstr "إظهار الملف الشخصي"
+
+msgid "Show Quick View"
+msgstr "إظهار العرض السريع"
+
+msgid "Show Time"
+msgstr "إظهار الوقت"
+
+msgid "Show Title"
+msgstr "إظهار العنوان"
+
+msgid "Show Top?"
+msgstr "إظهار الأعلى؟"
+
+msgid "Show Types"
+msgstr "إظهار الأنواع"
+
+msgid "Show User"
+msgstr "إظهار المستخدم"
+
+msgid "Show Verified User Base"
+msgstr "إظهار شارة المستخدم الموثق"
+
+msgid "Show View Count"
+msgstr "إظهار عدد المشاهدات"
+
+msgid "Show Views"
+msgstr "إظهار المشاهدات"
+
+msgid "Sign in Icon"
+msgstr "أيقونة تسجيل الدخول"
+
+msgid "Single Location"
+msgstr "موقع فردي"
+
+msgid "Slide Speed"
+msgstr "سرعة الشريحة"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "سرعة الشريحة بالميلي ثانية. الافتراضي: 200"
+
+msgid "Slider Navigation"
+msgstr "تنقل الشريط"
+
+msgid "Slider Options"
+msgstr "خيارات الشريط"
+
+msgid "Small Phones: <576px"
+msgstr "الهواتف الصغيرة: <576 بكسل"
+
+msgid "Sold Out"
+msgstr "نفذت الكمية"
+
+msgid "Sold Out Background Color"
+msgstr "لون خلفية نفذت الكمية"
+
+msgid "Sold Out Text Color"
+msgstr "لون نص نفذت الكمية"
+
+msgid "Sort By"
+msgstr "فرز حسب"
+
+msgid "Space Between"
+msgstr "مسافة بينية"
+
+msgid "Space Between List"
+msgstr "مسافة بين القائمة"
+
+msgid "Space Between. Default: 20"
+msgstr "مسافة بينية. الافتراضي: 20"
+
+msgid "Spacing"
+msgstr "التباعد"
+
+msgid "Special Style Body Settings"
+msgstr "إعدادات محتوى النمط الخاص"
+
+msgid "Special style Settings"
+msgstr "إعدادات النمط الخاص"
+
+msgid "Standard"
+msgstr "قياسي"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "ابدأ بكتابة أسماء الفئات. إذا كان فارغاً ستُعرض جميع الإعلانات."
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "ابدأ بكتابة أسماء الفئات. إذا كان فارغاً ستُعرض جميع الفئات الرئيسية"
+
+msgid "Start typing locations names."
+msgstr "ابدأ بكتابة أسماء المواقع."
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "إيقاف التشغيل التلقائي عند التمرير بالفأرة. الافتراضي: مفعّل"
+
+msgid "Stop on Hover"
+msgstr "إيقاف عند التمرير"
+
+msgid "Store Pagination"
+msgstr "ترقيم صفحات المتجر"
+
+msgid "Style"
+msgstr "النمط"
+
+msgid "Style 1"
+msgstr "النمط 1"
+
+msgid "Style 2"
+msgstr "النمط 2"
+
+msgid "Style 3"
+msgstr "النمط 3"
+
+msgid "Style 4"
+msgstr "النمط 4"
+
+msgid "Style 5"
+msgstr "النمط 5"
+
+msgid "Sub Category Limit"
+msgstr "حد الفئات الفرعية"
+
+msgid "Sub Location Limit"
+msgstr "حد المواقع الفرعية"
+
+msgid "Submit"
+msgstr "إرسال"
+
+msgid "Submit button"
+msgstr "زر الإرسال"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "التبديل لإظهار شارة الرفع "
+
+msgid "Switch to Show Badge Featured "
+msgstr "التبديل لإظهار شارة المميز "
+
+msgid "Switch to Show Badge New "
+msgstr "التبديل لإظهار شارة الجديد "
+
+msgid "Switch to Show Badge Popular "
+msgstr "التبديل لإظهار شارة الشائع "
+
+msgid "Switch to Show Badge Top "
+msgstr "التبديل لإظهار شارة الأعلى "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "التبديل لإظهار ترتيب الكتالوج"
+
+msgid "Switch to Show Pagination"
+msgstr "التبديل لإظهار ترقيم الصفحات"
+
+msgid "Switch to Show Result Count"
+msgstr "التبديل لإظهار عدد النتائج"
+
+msgid "Switch to Show View Switcher"
+msgstr "التبديل لإظهار مبدّل العرض"
+
+msgid "Tab Column"
+msgstr "عمود التبويب"
+
+msgid "Tablets: >767px"
+msgstr "الأجهزة اللوحية: >767 بكسل"
+
+msgid "Text After Count "
+msgstr "نص بعد العدد "
+
+msgid "Text Alignment"
+msgstr "محاذاة النص"
+
+msgid "Text Color"
+msgstr "لون النص"
+
+msgid "Text Color In hover"
+msgstr "لون النص عند التمرير"
+
+msgid "Time"
+msgstr "الوقت"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Title Color"
+msgstr "لون العنوان"
+
+msgid "Title Hover"
+msgstr "العنوان عند التمرير"
+
+msgid "Title Spacing"
+msgstr "تباعد العنوان"
+
+msgid "Top"
+msgstr "الأعلى"
+
+msgid "Top Background Color"
+msgstr "لون الخلفية العلوية"
+
+msgid "Top Border Color"
+msgstr "لون الحدود العلوية"
+
+msgid "Top Text Color"
+msgstr "لون النص العلوي"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "Type your description here"
+msgstr "اكتب وصفك هنا"
+
+msgid "Types"
+msgstr "الأنواع"
+
+msgid "Types field"
+msgstr "حقل الأنواع"
+
+msgid "Typography"
+msgstr "الخط"
+
+msgid "Unit Color"
+msgstr "لون الوحدة"
+
+msgid "Unit Label Text Color"
+msgstr "لون نص تسمية الوحدة"
+
+msgid "Unit Label Typography"
+msgstr "خط تسمية الوحدة"
+
+msgid "Unit Name"
+msgstr "اسم الوحدة"
+
+msgid "Unit Typography"
+msgstr "خط الوحدة"
+
+msgid "Vertical"
+msgstr "عمودي"
+
+msgid "Vertical View"
+msgstr "عرض عمودي"
+
+msgid "View"
+msgstr "عرض"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "عرض جميع المنشورات في %s"
+
+msgid "View Switcher"
+msgstr "مبدّل العرض"
+
+msgid "Views"
+msgstr "المشاهدات"
+
+msgid "Visibility"
+msgstr "الظهور"
+
+msgid "Width"
+msgstr "العرض"
+
+msgid "Wrapper"
+msgstr "الحاوية"
+
+msgid "Wrapper Padding"
+msgstr "حشوة الحاوية"
+
+msgid "Wrapper Spacing"
+msgstr "تباعد الحاوية"
+
+msgid "Yes"
+msgstr "نعم"

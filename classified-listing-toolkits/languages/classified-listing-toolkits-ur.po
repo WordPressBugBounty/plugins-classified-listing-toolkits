@@ -1,0 +1,1888 @@
+# Translation of Classified Listing Toolkits in Urdu
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Urdu\n"
+"Language: ur\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " میرا اکاؤنٹ"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " سائن ان"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s دیکھا گیا"
+msgstr[1] "%s دیکھے گئے"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(%s اشتہار)"
+msgstr[1] "(%s اشتہارات)"
+
+msgid "--Select--"
+msgstr "--منتخب کریں--"
+
+msgid "1 Col"
+msgstr "1 کالم"
+
+msgid "1 Second"
+msgstr "1 سیکنڈ"
+
+msgid "2 Col"
+msgstr "2 کالم"
+
+msgid "2 Seconds"
+msgstr "2 سیکنڈ"
+
+msgid "3 Col"
+msgstr "3 کالم"
+
+msgid "3 Seconds"
+msgstr "3 سیکنڈ"
+
+msgid "4 Col"
+msgstr "4 کالم"
+
+msgid "4 Seconds"
+msgstr "4 سیکنڈ"
+
+msgid "5 Col"
+msgstr "5 کالم"
+
+msgid "5 Seconds"
+msgstr "5 سیکنڈ"
+
+msgid "6 Col"
+msgstr "6 کالم"
+
+msgid "6 Seconds"
+msgstr "6 سیکنڈ"
+
+msgid "7 Seconds"
+msgstr "7 سیکنڈ"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">پرو میں اپ گریڈ کریں</a> مزید اسٹائل حاصل کرنے کے لیے۔"
+
+msgid "Action Button Hover Text Color"
+msgstr "ایکشن بٹن ہوور ٹیکسٹ کلر"
+
+msgid "Action Button Layout"
+msgstr "ایکشن بٹن لے آؤٹ"
+
+msgid "Action Button Text Color"
+msgstr "ایکشن بٹن ٹیکسٹ کلر"
+
+msgid "Active Background Color"
+msgstr "فعال پس منظر کا رنگ"
+
+msgid "Active Color"
+msgstr "فعال رنگ"
+
+msgid "Active Text Color"
+msgstr "فعال متن کا رنگ"
+
+msgid "Ad Type"
+msgstr "اشتہار کی قسم"
+
+msgid "Ad Types Field"
+msgstr "اشتہار کی اقسام کا فیلڈ"
+
+msgid "Add / Remove listing location link."
+msgstr "لسٹنگ لوکیشن لنک شامل کریں / ہٹائیں۔"
+
+msgid "Add listing button"
+msgstr "لسٹنگ شامل کریں بٹن"
+
+msgid "Add listing button order"
+msgstr "لسٹنگ شامل کریں بٹن ترتیب"
+
+msgid "Add Listing Icon"
+msgstr "لسٹنگ شامل کریں آئیکن"
+
+msgid "Add listing icon order"
+msgstr "لسٹنگ شامل کریں آئیکن ترتیب"
+
+msgid "Adjust Box Height"
+msgstr "باکس کی اونچائی ایڈجسٹ کریں"
+
+msgid "ads"
+msgstr "اشتہارات"
+
+msgid "All Location"
+msgstr "تمام مقامات"
+
+msgid "All Locations"
+msgstr "تمام مقامات"
+
+msgid "Arrow Navigation"
+msgstr "تیر نیویگیشن"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "تیر نیویگیشن بارڈر ریڈیس"
+
+msgid "Arrow Position"
+msgstr "تیر کی پوزیشن"
+
+msgid "Ascending"
+msgstr "صعودی"
+
+msgid "Auto Height"
+msgstr "خودکار اونچائی"
+
+msgid "Auto Height. Default: On"
+msgstr "خودکار اونچائی۔ ڈیفالٹ: آن"
+
+msgid "Auto Suggestion"
+msgstr "خودکار تجویز"
+
+msgid "Autoplay"
+msgstr "خودکار پلے"
+
+msgid "Autoplay Delay"
+msgstr "خودکار پلے تاخیر"
+
+msgid "Autoplay Slide Speed"
+msgstr "خودکار پلے سلائیڈ رفتار"
+
+msgid "Background"
+msgstr "پس منظر"
+
+msgid "Background Color"
+msgstr "پس منظر کا رنگ"
+
+msgid "Background Hover"
+msgstr "پس منظر ہوور"
+
+msgid "Badge"
+msgstr "بیج"
+
+msgid "Badge "
+msgstr "بیج "
+
+msgid "Badge Background Color"
+msgstr "بیج پس منظر کا رنگ"
+
+msgid "Badge Default Background"
+msgstr "بیج ڈیفالٹ پس منظر"
+
+msgid "Badge Default Text Color"
+msgstr "بیج ڈیفالٹ متن کا رنگ"
+
+msgid "Badge Default Typography"
+msgstr "بیج ڈیفالٹ ٹائپوگرافی"
+
+msgid "Badge Spacing"
+msgstr "بیج فاصلہ"
+
+msgid "Badge Text Color"
+msgstr "بیج متن کا رنگ"
+
+msgid "Badge Visibility "
+msgstr "بیج مرئیت "
+
+msgid "Body"
+msgstr "باڈی"
+
+msgid "Body background"
+msgstr "باڈی پس منظر"
+
+msgid "Body pading"
+msgstr "باڈی پیڈنگ"
+
+msgid "Body Section Padding"
+msgstr "باڈی سیکشن پیڈنگ"
+
+msgid "Body Section Pading"
+msgstr "باڈی سیکشن پیڈنگ"
+
+msgid "Body Spacing"
+msgstr "باڈی فاصلہ"
+
+msgid "Border"
+msgstr "بارڈر"
+
+msgid "Border Color"
+msgstr "بارڈر کا رنگ"
+
+msgid "Border Radius"
+msgstr "بارڈر ریڈیس"
+
+msgid "Border Radius (px)"
+msgstr "بارڈر ریڈیس (px)"
+
+msgid "Box"
+msgstr "باکس"
+
+msgid "Box Border Radius"
+msgstr "باکس بارڈر ریڈیس"
+
+msgid "Box Height"
+msgstr "باکس کی اونچائی"
+
+msgid "Box padding"
+msgstr "باکس پیڈنگ"
+
+msgid "Box pading"
+msgstr "باکس پیڈنگ"
+
+msgid "Box Shadow"
+msgstr "باکس شیڈو"
+
+msgid "Box style"
+msgstr "باکس اسٹائل"
+
+msgid "Bump Up"
+msgstr "نمایاں کریں"
+
+msgid "Bump Up Background Color"
+msgstr "نمایاں کریں پس منظر کا رنگ"
+
+msgid "Bump Up Text Color"
+msgstr "نمایاں کریں متن کا رنگ"
+
+msgid "Button"
+msgstr "بٹن"
+
+msgid "Button alignment"
+msgstr "بٹن کی صف بندی"
+
+msgid "Button Background"
+msgstr "بٹن پس منظر"
+
+msgid "Button Height"
+msgstr "بٹن کی اونچائی"
+
+msgid "Button Icon"
+msgstr "بٹن آئیکن"
+
+msgid "Button Link Type"
+msgstr "بٹن لنک کی قسم"
+
+msgid "Button Padding"
+msgstr "بٹن پیڈنگ"
+
+msgid "Button Section"
+msgstr "بٹن سیکشن"
+
+msgid "Button Spacing"
+msgstr "بٹن فاصلہ"
+
+msgid "Button style"
+msgstr "بٹن اسٹائل"
+
+msgid "Button Text"
+msgstr "بٹن متن"
+
+msgid "Button text"
+msgstr "بٹن متن"
+
+msgid "Button Text Color"
+msgstr "بٹن متن کا رنگ"
+
+msgid "Button Typography"
+msgstr "بٹن ٹائپوگرافی"
+
+msgid "Button URL"
+msgstr "بٹن یو آر ایل"
+
+msgid "Button width"
+msgstr "بٹن کی چوڑائی"
+
+msgid "Card"
+msgstr "کارڈ"
+
+msgid "Cart Icon"
+msgstr "کارٹ آئیکن"
+
+msgid "Catalog Ordering"
+msgstr "کیٹلاگ ترتیب"
+
+msgid "Categories"
+msgstr "زمرہ جات"
+
+msgid "Category"
+msgstr "زمرہ"
+
+msgid "Category Color"
+msgstr "زمرہ کا رنگ"
+
+msgid "Category Description"
+msgstr "زمرہ کی تفصیل"
+
+msgid "Category Field"
+msgstr "زمرہ فیلڈ"
+
+msgid "Category field"
+msgstr "زمرہ فیلڈ"
+
+msgid "Category Limit"
+msgstr "زمرہ حد"
+
+msgid "Category Slider"
+msgstr "زمرہ سلائیڈر"
+
+msgid "Center"
+msgstr "مرکز"
+
+msgid "Chat"
+msgstr "چیٹ"
+
+msgid "Chat Icon"
+msgstr "چیٹ آئیکن"
+
+msgid "Chat icon order"
+msgstr "چیٹ آئیکن ترتیب"
+
+msgid "Chat Option"
+msgstr "چیٹ آپشن"
+
+msgid "Child Category Limit"
+msgstr "ذیلی زمرہ حد"
+
+msgid "Child List Color"
+msgstr "ذیلی فہرست کا رنگ"
+
+msgid "Child List Hover Color"
+msgstr "ذیلی فہرست ہوور کا رنگ"
+
+msgid "Child List Icon Color"
+msgstr "ذیلی فہرست آئیکن کا رنگ"
+
+msgid "Child List Icon Hover Color"
+msgstr "ذیلی فہرست آئیکن ہوور کا رنگ"
+
+msgid "Child Location"
+msgstr "ذیلی مقام"
+
+msgid "Classified Listing"
+msgstr "درجہ بند لسٹنگ"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "درجہ بند لسٹنگ ٹول کٹ کے لیے درجہ بند لسٹنگ انسٹال اور فعال ہونا ضروری ہے۔"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "درجہ بند لسٹنگ ٹول کٹ کے لیے درجہ بند لسٹنگ کم از کم ورژن 5.0.1 ہونا ضروری ہے"
+
+msgid "Classified Listing Toolkits"
+msgstr "درجہ بند لسٹنگ ٹول کٹس"
+
+msgid "classified Listing Toolkits"
+msgstr "درجہ بند لسٹنگ ٹول کٹس"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "درجہ بند لسٹنگ ٹول کٹس جس میں کئی Elementor ویجٹس اور Divi ماڈیولز شامل ہیں جو آپ کو مختلف لے آؤٹس میں خوبصورتی سے لسٹنگ دکھانے میں مدد کرتے ہیں۔"
+
+msgid "Color"
+msgstr "رنگ"
+
+msgid "Column"
+msgstr "کالم"
+
+msgid "Column 1"
+msgstr "کالم 1"
+
+msgid "Column 2"
+msgstr "کالم 2"
+
+msgid "Column 3"
+msgstr "کالم 3"
+
+msgid "Column 4"
+msgstr "کالم 4"
+
+msgid "Compare"
+msgstr "موازنہ"
+
+msgid "Compare icon order"
+msgstr "موازنہ آئیکن ترتیب"
+
+msgid "Content"
+msgstr "مواد"
+
+msgid "Content Alignment"
+msgstr "مواد کی صف بندی"
+
+msgid "Content alignment"
+msgstr "مواد کی صف بندی"
+
+msgid "Content Background Color"
+msgstr "مواد پس منظر کا رنگ"
+
+msgid "Content Spacing"
+msgstr "مواد فاصلہ"
+
+msgid "Content spacing"
+msgstr "مواد فاصلہ"
+
+msgid "Content Vertical Alignment"
+msgstr "مواد عمودی صف بندی"
+
+msgid "Content Visibility "
+msgstr "مواد مرئیت "
+
+msgid "Count"
+msgstr "گنتی"
+
+msgid "Count Color"
+msgstr "گنتی کا رنگ"
+
+msgid "Count Font Size"
+msgstr "گنتی فونٹ سائز"
+
+msgid "Count position"
+msgstr "گنتی کی پوزیشن"
+
+msgid "Count Text"
+msgstr "گنتی متن"
+
+msgid "Count Text For Plural Number"
+msgstr "جمع نمبر کے لیے گنتی متن"
+
+msgid "Counter"
+msgstr "کاؤنٹر"
+
+msgid "Counter Spacing"
+msgstr "کاؤنٹر فاصلہ"
+
+msgid "Counts Include Children"
+msgstr "گنتی میں ذیلی شامل ہیں"
+
+msgid "Currency Position"
+msgstr "کرنسی کی پوزیشن"
+
+msgid "Currency sign eg. $"
+msgstr "کرنسی کا نشان مثلاً $"
+
+msgid "Currency Symbol"
+msgstr "کرنسی کا نشان"
+
+msgid "Currency Typography"
+msgstr "کرنسی ٹائپوگرافی"
+
+msgid "Custom"
+msgstr "حسب ضرورت"
+
+msgid "Custom Field's"
+msgstr "حسب ضرورت فیلڈز"
+
+msgid "Custom Fields"
+msgstr "حسب ضرورت فیلڈز"
+
+msgid "Custom Link"
+msgstr "حسب ضرورت لنک"
+
+msgid "Custom Order"
+msgstr "حسب ضرورت ترتیب"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "Default Badge"
+msgstr "ڈیفالٹ بیج"
+
+msgid "Default Color"
+msgstr "ڈیفالٹ رنگ"
+
+msgid "Dependency Selection"
+msgstr "انحصار کا انتخاب"
+
+msgid "Descending"
+msgstr "نزولی"
+
+msgid "Description"
+msgstr "تفصیل"
+
+msgid "Description Color"
+msgstr "تفصیل کا رنگ"
+
+msgid "Description Limit"
+msgstr "تفصیل کی حد"
+
+msgid "Description Word Limit"
+msgstr "تفصیل الفاظ کی حد"
+
+msgid "Desktops: >1199px"
+msgstr "ڈیسک ٹاپ: >1199px"
+
+msgid "Desktops: >991px"
+msgstr "ڈیسک ٹاپ: >991px"
+
+msgid "Details"
+msgstr "تفصیلات"
+
+msgid "Details Button Background Color"
+msgstr "تفصیلات بٹن پس منظر کا رنگ"
+
+msgid "Details Button Text Color"
+msgstr "تفصیلات بٹن متن کا رنگ"
+
+msgid "Display Child category"
+msgstr "ذیلی زمرہ دکھائیں"
+
+msgid "Display Sub Category"
+msgstr "ذیلی زمرہ دکھائیں"
+
+msgid "Dot Navigation"
+msgstr "ڈاٹ نیویگیشن"
+
+msgid "Dot Navigation Settings"
+msgstr "ڈاٹ نیویگیشن سیٹنگز"
+
+msgid "Dot Navigation Spacing"
+msgstr "ڈاٹ نیویگیشن فاصلہ"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "مثلاً مہینہ یا سال۔ اگر یونٹ نہیں دکھانا چاہتے تو خالی رکھیں"
+
+msgid "Enable Link"
+msgstr "لنک فعال کریں"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "خودکار پلے فعال یا غیر فعال کریں۔ ڈیفالٹ: آن"
+
+msgid "Enter Keyword here ..."
+msgstr "یہاں کلیدی لفظ درج کریں ..."
+
+msgid "Enter your keyword here ..."
+msgstr "یہاں اپنا کلیدی لفظ درج کریں ..."
+
+msgid "Equal Height"
+msgstr "برابر اونچائی"
+
+msgid "Favourites"
+msgstr "پسندیدہ"
+
+msgid "Favourites icon order"
+msgstr "پسندیدہ آئیکن ترتیب"
+
+msgid "Feature"
+msgstr "خصوصیت"
+
+msgid "Featured"
+msgstr "نمایاں"
+
+msgid "Featured Background Color"
+msgstr "نمایاں پس منظر کا رنگ"
+
+msgid "Featured Border Color"
+msgstr "نمایاں بارڈر کا رنگ"
+
+msgid "Featured Text Color"
+msgstr "نمایاں متن کا رنگ"
+
+msgid "Features"
+msgstr "خصوصیات"
+
+msgid "Features Margin"
+msgstr "خصوصیات مارجن"
+
+msgid "Features Text As"
+msgstr "خصوصیات متن بطور"
+
+msgid "Field background"
+msgstr "فیلڈ پس منظر"
+
+msgid "Field Gutter Spacing"
+msgstr "فیلڈ گٹر فاصلہ"
+
+msgid "Field Height"
+msgstr "فیلڈ کی اونچائی"
+
+msgid "Field text color"
+msgstr "فیلڈ متن کا رنگ"
+
+msgid "Field Types"
+msgstr "فیلڈ کی اقسام"
+
+msgid "Field's"
+msgstr "فیلڈز"
+
+msgid "Field's Gap"
+msgstr "فیلڈز کا فاصلہ"
+
+msgid "Field's Height"
+msgstr "فیلڈز کی اونچائی"
+
+msgid "Fields"
+msgstr "فیلڈز"
+
+msgid "Fields Gap"
+msgstr "فیلڈز کا فاصلہ"
+
+msgid "Fields Padding (px)"
+msgstr "فیلڈز پیڈنگ (px)"
+
+msgid "Font Size"
+msgstr "فونٹ سائز"
+
+msgid "Footer"
+msgstr "فوٹر"
+
+msgid "Form"
+msgstr "فارم"
+
+msgid "Form Background Color"
+msgstr "فارم پس منظر کا رنگ"
+
+msgid "Form Field's"
+msgstr "فارم فیلڈز"
+
+msgid "Form Label"
+msgstr "فارم لیبل"
+
+msgid "Full Size"
+msgstr "مکمل سائز"
+
+msgid "General"
+msgstr "عمومی"
+
+msgid "General Style"
+msgstr "عمومی اسٹائل"
+
+msgid "Grid"
+msgstr "گرڈ"
+
+msgid "Grid Column"
+msgstr "گرڈ کالم"
+
+msgid "Grid View"
+msgstr "گرڈ ویو"
+
+msgid "Gutter padding"
+msgstr "گٹر پیڈنگ"
+
+msgid "Gutter pading"
+msgstr "گٹر پیڈنگ"
+
+msgid "Gutter Space"
+msgstr "گٹر اسپیس"
+
+msgid "Gutter Spacing"
+msgstr "گٹر فاصلہ"
+
+msgid "Head background"
+msgstr "ہیڈر پس منظر"
+
+msgid "Head Section Padding"
+msgstr "ہیڈ سیکشن پیڈنگ"
+
+msgid "Head Section Pading"
+msgstr "ہیڈ سیکشن پیڈنگ"
+
+msgid "Header"
+msgstr "ہیڈر"
+
+msgid "Header Border Color"
+msgstr "ہیڈر بارڈر کا رنگ"
+
+msgid "Header Button"
+msgstr "ہیڈر بٹن"
+
+msgid "Header Icon"
+msgstr "ہیڈر آئیکن"
+
+msgid "Header pading"
+msgstr "ہیڈر پیڈنگ"
+
+msgid "Header Spacing"
+msgstr "ہیڈر فاصلہ"
+
+msgid "Height"
+msgstr "اونچائی"
+
+msgid "Here you can define a custom color for category description."
+msgstr "یہاں آپ زمرہ کی تفصیل کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for category name."
+msgstr "یہاں آپ زمرہ کے نام کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for content background."
+msgstr "یہاں آپ مواد پس منظر کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for field background."
+msgstr "یہاں آپ فیلڈ پس منظر کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for form background."
+msgstr "یہاں آپ فارم پس منظر کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for form label."
+msgstr "یہاں آپ فارم لیبل کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for input text."
+msgstr "یہاں آپ ان پٹ متن کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for listing count."
+msgstr "یہاں آپ لسٹنگ کی گنتی کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for listing price."
+msgstr "یہاں آپ لسٹنگ کی قیمت کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for listing title."
+msgstr "یہاں آپ لسٹنگ کے عنوان کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for location description."
+msgstr "یہاں آپ مقام کی تفصیل کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for location name."
+msgstr "یہاں آپ مقام کے نام کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "یہاں آپ جمع کروائیں بٹن پس منظر کے لیے حسب ضرورت رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "یہاں آپ جمع کروائیں بٹن کے لیے حسب ضرورت متن کا رنگ متعین کر سکتے ہیں۔"
+
+msgid "Here you can define font size for listing count."
+msgstr "یہاں آپ لسٹنگ کی گنتی کے لیے فونٹ سائز متعین کر سکتے ہیں۔"
+
+msgid "Here you can define gutter for the box."
+msgstr "یہاں آپ باکس کے لیے گٹر متعین کر سکتے ہیں۔"
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "یہاں آپ فیلڈز کے فاصلے کے لیے گٹر متعین کر سکتے ہیں۔"
+
+msgid "Here you can define height for the box."
+msgstr "یہاں آپ باکس کی اونچائی متعین کر سکتے ہیں۔"
+
+msgid "Hide"
+msgstr "چھپائیں"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "ایسے زمرے چھپائیں جن میں کوئی لسٹنگ نہیں۔ ڈیفالٹ: آن"
+
+msgid "Hide Empty"
+msgstr "خالی چھپائیں"
+
+msgid "Home"
+msgstr "ہوم"
+
+msgid "Horizontal View"
+msgstr "افقی ویو"
+
+msgid "Hover"
+msgstr "ہوور"
+
+msgid "Hover & Focus"
+msgstr "ہوور اور فوکس"
+
+msgid "Hover Background Color"
+msgstr "ہوور پس منظر کا رنگ"
+
+msgid "Hover Box Shadow"
+msgstr "ہوور باکس شیڈو"
+
+msgid "How Many Category will Display ?"
+msgstr "کتنے زمرے دکھائے جائیں گے؟"
+
+msgid "How Many Child Category will Display ?"
+msgstr "کتنے ذیلی زمرے دکھائے جائیں گے؟"
+
+msgid "How Many Child Location will Display ?"
+msgstr "کتنے ذیلی مقامات دکھائے جائیں گے؟"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "کتنے مقامات دکھائے جائیں گے؟ سب کے لیے خالی چھوڑیں۔"
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "آئیکن"
+
+msgid "Icon Alignment"
+msgstr "آئیکن کی صف بندی"
+
+msgid "Icon And Image"
+msgstr "آئیکن اور تصویر"
+
+msgid "Icon Area"
+msgstr "آئیکن ایریا"
+
+msgid "Icon Background"
+msgstr "آئیکن پس منظر"
+
+msgid "Icon Background Color"
+msgstr "آئیکن پس منظر کا رنگ"
+
+msgid "Icon Before List"
+msgstr "فہرست سے پہلے آئیکن"
+
+msgid "Icon Before Title"
+msgstr "عنوان سے پہلے آئیکن"
+
+msgid "Icon Bg Color"
+msgstr "آئیکن پس منظر کا رنگ"
+
+msgid "Icon Bg Hover Color"
+msgstr "آئیکن پس منظر ہوور کا رنگ"
+
+msgid "Icon Border Radius"
+msgstr "آئیکن بارڈر ریڈیس"
+
+msgid "Icon Color"
+msgstr "آئیکن کا رنگ"
+
+msgid "Icon Count Background Color"
+msgstr "آئیکن گنتی پس منظر کا رنگ"
+
+msgid "Icon Count Color"
+msgstr "آئیکن گنتی کا رنگ"
+
+msgid "Icon Font Size"
+msgstr "آئیکن فونٹ سائز"
+
+msgid "Icon Gap"
+msgstr "آئیکن فاصلہ"
+
+msgid "Icon Hover Color"
+msgstr "آئیکن ہوور کا رنگ"
+
+msgid "Icon Margin (px)"
+msgstr "آئیکن مارجن (px)"
+
+msgid "Icon order"
+msgstr "آئیکن ترتیب"
+
+msgid "Icon Rotate"
+msgstr "آئیکن گھمائیں"
+
+msgid "Icon Size"
+msgstr "آئیکن سائز"
+
+msgid "Icon style"
+msgstr "آئیکن اسٹائل"
+
+msgid "Icon Type"
+msgstr "آئیکن کی قسم"
+
+msgid "Icon Wrapper Size"
+msgstr "آئیکن ریپر سائز"
+
+msgid "ID"
+msgstr "آئی ڈی"
+
+msgid "Image"
+msgstr "تصویر"
+
+msgid "Image Size"
+msgstr "تصویر کا سائز"
+
+msgid "Image Spacing"
+msgstr "تصویر فاصلہ"
+
+msgid "Image Wrapper"
+msgstr "تصویر ریپر"
+
+msgid "Include Children Categories"
+msgstr "ذیلی زمرے شامل کریں"
+
+msgid "Include Inner Location"
+msgstr "اندرونی مقام شامل کریں"
+
+msgid "Inline"
+msgstr "ان لائن"
+
+msgid "Input Background Color"
+msgstr "ان پٹ پس منظر کا رنگ"
+
+msgid "Input Text Color"
+msgstr "ان پٹ متن کا رنگ"
+
+msgid "Item Wrapper"
+msgstr "آئٹم ریپر"
+
+msgid "Keyword"
+msgstr "کلیدی لفظ"
+
+msgid "Keywords"
+msgstr "کلیدی الفاظ"
+
+msgid "Keywords Field"
+msgstr "کلیدی الفاظ فیلڈ"
+
+msgid "Keywords field"
+msgstr "کلیدی الفاظ فیلڈ"
+
+msgid "Label"
+msgstr "لیبل"
+
+msgid "Label Color"
+msgstr "لیبل کا رنگ"
+
+msgid "Label Margin"
+msgstr "لیبل مارجن"
+
+msgid "Label Text Color"
+msgstr "لیبل متن کا رنگ"
+
+msgid "Label Typography"
+msgstr "لیبل ٹائپوگرافی"
+
+msgid "Layout"
+msgstr "لے آؤٹ"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "سب کو منتخب کرنے کے لیے چیک باکسز غیر نشان زد چھوڑیں"
+
+msgid "Left"
+msgstr "بائیں"
+
+msgid "Left Top"
+msgstr "بائیں اوپر"
+
+msgid "Limit"
+msgstr "حد"
+
+msgid "List"
+msgstr "فہرست"
+
+msgid "List Style"
+msgstr "فہرست اسٹائل"
+
+msgid "List Title"
+msgstr "فہرست عنوان"
+
+msgid "List View"
+msgstr "فہرست ویو"
+
+msgid "Listing Categories"
+msgstr "لسٹنگ زمرہ جات"
+
+msgid "Listing Category"
+msgstr "لسٹنگ زمرہ"
+
+msgid "Listing Counts"
+msgstr "لسٹنگ گنتی"
+
+msgid "Listing Limit"
+msgstr "لسٹنگ حد"
+
+msgid "Listing Location"
+msgstr "لسٹنگ مقام"
+
+msgid "Listing Pagination"
+msgstr "لسٹنگ صفحہ بندی"
+
+msgid "Listing Per Page"
+msgstr "فی صفحہ لسٹنگ"
+
+msgid "Listing Search Form"
+msgstr "لسٹنگ تلاش فارم"
+
+msgid "Listing Showcase"
+msgstr "لسٹنگ شوکیس"
+
+msgid "Listing Single Location"
+msgstr "لسٹنگ واحد مقام"
+
+msgid "Listing Slider"
+msgstr "لسٹنگ سلائیڈر"
+
+msgid "Listing Store"
+msgstr "لسٹنگ سٹور"
+
+msgid "Listing Types"
+msgstr "لسٹنگ کی اقسام"
+
+msgid "Listings Grid"
+msgstr "لسٹنگ گرڈ"
+
+msgid "Listings List"
+msgstr "لسٹنگ فہرست"
+
+msgid "Listings Slider"
+msgstr "لسٹنگ سلائیڈر"
+
+msgid "Load More Button"
+msgstr "مزید لوڈ کریں بٹن"
+
+msgid "Location"
+msgstr "مقام"
+
+msgid "Location Display Type"
+msgstr "مقام ڈسپلے کی قسم"
+
+msgid "Location Field"
+msgstr "مقام فیلڈ"
+
+msgid "Location field"
+msgstr "مقام فیلڈ"
+
+msgid "Location Limit"
+msgstr "مقام حد"
+
+msgid "Locations"
+msgstr "مقامات"
+
+msgid "Loop"
+msgstr "لوپ"
+
+msgid "Loop to first item. Default: On"
+msgstr "پہلے آئٹم پر لوپ۔ ڈیفالٹ: آن"
+
+msgid "Margin"
+msgstr "مارجن"
+
+msgid "Margin (px)"
+msgstr "مارجن (px)"
+
+msgid "Max"
+msgstr "زیادہ سے زیادہ"
+
+msgid "max"
+msgstr "زیادہ سے زیادہ"
+
+msgid "Max Price"
+msgstr "زیادہ سے زیادہ قیمت"
+
+msgid "Max Width"
+msgstr "زیادہ سے زیادہ چوڑائی"
+
+msgid "Meta"
+msgstr "میٹا"
+
+msgid "Meta Color"
+msgstr "میٹا کا رنگ"
+
+msgid "Meta Icon Color"
+msgstr "میٹا آئیکن کا رنگ"
+
+msgid "Meta Item Spacing"
+msgstr "میٹا آئٹم فاصلہ"
+
+msgid "Meta Spacing"
+msgstr "میٹا فاصلہ"
+
+msgid "Meta Wrpper Spacing"
+msgstr "میٹا ریپر فاصلہ"
+
+msgid "Middle"
+msgstr "درمیان"
+
+msgid "Min"
+msgstr "کم از کم"
+
+msgid "min"
+msgstr "کم از کم"
+
+msgid "Min & Max Field Width"
+msgstr "کم از کم اور زیادہ سے زیادہ فیلڈ چوڑائی"
+
+msgid "Min Price"
+msgstr "کم از کم قیمت"
+
+msgid "Min Width"
+msgstr "کم از کم چوڑائی"
+
+msgid "Min width"
+msgstr "کم از کم چوڑائی"
+
+msgid "Mobile Column"
+msgstr "موبائل کالم"
+
+msgid "Name Color"
+msgstr "نام کا رنگ"
+
+msgid "New"
+msgstr "نیا"
+
+msgid "New Background Color"
+msgstr "نیا پس منظر کا رنگ"
+
+msgid "New Line"
+msgstr "نئی لائن"
+
+msgid "New Text Color"
+msgstr "نیا متن کا رنگ"
+
+msgid "No"
+msgstr "نہیں"
+
+msgid "No Listing Found"
+msgstr "کوئی لسٹنگ نہیں ملی"
+
+msgid "No Listing Text"
+msgstr "کوئی لسٹنگ نہیں متن"
+
+msgid "None"
+msgstr "کوئی نہیں"
+
+msgid "Normal"
+msgstr "عام"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s اشتہار"
+msgstr[1] "%s اشتہارات"
+
+msgid "Number of category to display"
+msgstr "دکھانے کے لیے زمرہ جات کی تعداد"
+
+msgid "Number of Columns"
+msgstr "کالموں کی تعداد"
+
+msgid "Number of listing to display"
+msgstr "دکھانے کے لیے لسٹنگ کی تعداد"
+
+msgid "Number of location to display"
+msgstr "دکھانے کے لیے مقامات کی تعداد"
+
+msgid "Number of Responsive Columns"
+msgstr "ریسپانسو کالموں کی تعداد"
+
+msgid "Number of Words to display"
+msgstr "دکھانے کے لیے الفاظ کی تعداد"
+
+msgid "Number of words to display."
+msgstr "دکھانے کے لیے الفاظ کی تعداد۔"
+
+msgid "Off"
+msgstr "آف"
+
+msgid "On"
+msgstr "آن"
+
+msgid "On Items Hover Description color"
+msgstr "آئٹمز ہوور پر تفصیل کا رنگ"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "فی خصوصیت ایک لائن مثلاً 10 اشتہارات فی ماہ پہلے ہفتے میں نمایاں"
+
+msgid "Only Location that has listings"
+msgstr "صرف وہ مقامات جن میں لسٹنگ ہے"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "صرف پرو کے لیے کام کرتا ہے۔ ڈیفالٹ: آف"
+
+msgid "Order"
+msgstr "ترتیب"
+
+msgid "Order By"
+msgstr "ترتیب بلحاظ"
+
+msgid "Oriantation"
+msgstr "سمت"
+
+msgid "Orientation"
+msgstr "سمت"
+
+msgid "Overlay Background"
+msgstr "اوورلے پس منظر"
+
+msgid "Overlay Settings"
+msgstr "اوورلے سیٹنگز"
+
+msgid "Padding"
+msgstr "پیڈنگ"
+
+msgid "padding"
+msgstr "پیڈنگ"
+
+msgid "Padding (px)"
+msgstr "پیڈنگ (px)"
+
+msgid "Pagination"
+msgstr "صفحہ بندی"
+
+msgid "Pagination spacing"
+msgstr "صفحہ بندی فاصلہ"
+
+msgid "Pagination Typography"
+msgstr "صفحہ بندی ٹائپوگرافی"
+
+msgid "Phones: >575px"
+msgstr "فون: >575px"
+
+msgid "Placeholder"
+msgstr "پلیس ہولڈر"
+
+msgid "Please Select a Location and Background"
+msgstr "براہ کرم ایک مقام اور پس منظر منتخب کریں"
+
+msgid "Popular"
+msgstr "مقبول"
+
+msgid "Popular Background Color"
+msgstr "مقبول پس منظر کا رنگ"
+
+msgid "Popular Text Color"
+msgstr "مقبول متن کا رنگ"
+
+msgid "Popup"
+msgstr "پاپ اپ"
+
+msgid "Post Per Page"
+msgstr "فی صفحہ پوسٹ"
+
+msgid "Price"
+msgstr "قیمت"
+
+msgid "Price Color"
+msgstr "قیمت کا رنگ"
+
+msgid "Price Field"
+msgstr "قیمت فیلڈ"
+
+msgid "Price field"
+msgstr "قیمت فیلڈ"
+
+msgid "Price Label Color"
+msgstr "قیمت لیبل کا رنگ"
+
+msgid "Price Label Typography"
+msgstr "قیمت لیبل ٹائپوگرافی"
+
+msgid "Price Margin"
+msgstr "قیمت مارجن"
+
+msgid "Price padding"
+msgstr "قیمت پیڈنگ"
+
+msgid "Pricing Footer Spacing"
+msgstr "قیمت فوٹر فاصلہ"
+
+msgid "Pricing Page Link"
+msgstr "قیمت صفحہ لنک"
+
+msgid "Pricing Table"
+msgstr "قیمت ٹیبل"
+
+msgid "Profile"
+msgstr "پروفائل"
+
+msgid "Profile icon order"
+msgstr "پروفائل آئیکن ترتیب"
+
+msgid "Promotional Post"
+msgstr "پروموشنل پوسٹ"
+
+msgid "Promotions"
+msgstr "پروموشنز"
+
+msgid "Promotions Exclude"
+msgstr "پروموشنز خارج"
+
+msgid "Query"
+msgstr "کوئری"
+
+msgid "Quick View"
+msgstr "فوری دیکھیں"
+
+msgid "Radius"
+msgstr "ریڈیس"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "ریڈیس (%1$s)"
+
+msgid "Radius Field"
+msgstr "ریڈیس فیلڈ"
+
+msgid "Radius Search"
+msgstr "ریڈیس تلاش"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "بے ترتیب"
+
+msgid "Responsive Columns"
+msgstr "ریسپانسو کالم"
+
+msgid "Result count"
+msgstr "نتائج کی گنتی"
+
+msgid "Right"
+msgstr "دائیں"
+
+msgid "Right Top"
+msgstr "دائیں اوپر"
+
+msgid "Search"
+msgstr "تلاش"
+
+msgid "Search Button"
+msgstr "تلاش بٹن"
+
+msgid "Search Form"
+msgstr "تلاش فارم"
+
+msgid "Search Form - Sortable"
+msgstr "تلاش فارم - ترتیب دینے کے قابل"
+
+msgid "Select a location"
+msgstr "ایک مقام منتخب کریں"
+
+msgid "Select a location to display."
+msgstr "دکھانے کے لیے ایک مقام منتخب کریں۔"
+
+msgid "Select Category"
+msgstr "زمرہ منتخب کریں"
+
+msgid "Select column number to display categories."
+msgstr "زمرے دکھانے کے لیے کالم نمبر منتخب کریں۔"
+
+msgid "Select column number to display listings."
+msgstr "لسٹنگ دکھانے کے لیے کالم نمبر منتخب کریں۔"
+
+msgid "Select column number to display location."
+msgstr "مقام دکھانے کے لیے کالم نمبر منتخب کریں۔"
+
+msgid "Select Field"
+msgstr "فیلڈ منتخب کریں"
+
+msgid "Select Form"
+msgstr "فارم منتخب کریں"
+
+msgid "Select Image Size"
+msgstr "تصویر کا سائز منتخب کریں"
+
+msgid "Select Location"
+msgstr "مقام منتخب کریں"
+
+msgid "Select Pricing"
+msgstr "قیمت منتخب کریں"
+
+msgid "Select Type"
+msgstr "قسم منتخب کریں"
+
+msgid "Select type"
+msgstr "قسم منتخب کریں"
+
+msgid "Selected Location"
+msgstr "منتخب مقام"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "کوئی بھی قدر مقرر کریں مثلاً 5 سیکنڈ ہر 5 سیکنڈ میں چلانے کے لیے۔ ڈیفالٹ: 5 سیکنڈ"
+
+msgid "Short Description"
+msgstr "مختصر تفصیل"
+
+msgid "Short Description Color"
+msgstr "مختصر تفصیل کا رنگ"
+
+msgid "Short Description Word Limit"
+msgstr "مختصر تفصیل الفاظ کی حد"
+
+msgid "Show"
+msgstr "دکھائیں"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "ایسے زمرے دکھائیں / چھپائیں جن میں کوئی لسٹنگ نہیں۔"
+
+msgid "Show / Hide category description."
+msgstr "زمرہ کی تفصیل دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide compare button."
+msgstr "موازنہ بٹن دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide keyword field."
+msgstr "کلیدی لفظ فیلڈ دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing ad type."
+msgstr "لسٹنگ اشتہار کی قسم دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing author name."
+msgstr "لسٹنگ مصنف کا نام دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing badge."
+msgstr "لسٹنگ بیج دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing categories."
+msgstr "لسٹنگ زمرے دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing counts."
+msgstr "لسٹنگ گنتی دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing custom fields."
+msgstr "لسٹنگ حسب ضرورت فیلڈز دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing date."
+msgstr "لسٹنگ تاریخ دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing description."
+msgstr "لسٹنگ کی تفصیل دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing details button."
+msgstr "لسٹنگ تفصیلات بٹن دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing favourite button."
+msgstr "لسٹنگ پسندیدہ بٹن دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing image or icon."
+msgstr "لسٹنگ تصویر یا آئیکن دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing image."
+msgstr "لسٹنگ تصویر دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing location."
+msgstr "لسٹنگ مقام دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing price."
+msgstr "لسٹنگ قیمت دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide listing views."
+msgstr "لسٹنگ دیکھے جانے دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide location description."
+msgstr "مقام کی تفصیل دکھائیں / چھپائیں۔"
+
+msgid "Show / Hide location that has no listings."
+msgstr "ایسے مقامات دکھائیں / چھپائیں جن میں کوئی لسٹنگ نہیں۔"
+
+msgid "Show / Hide quick view button."
+msgstr "فوری دیکھیں بٹن دکھائیں / چھپائیں۔"
+
+msgid "Show Ad Type"
+msgstr "اشتہار کی قسم دکھائیں"
+
+msgid "Show add listing button"
+msgstr "لسٹنگ شامل کریں بٹن دکھائیں"
+
+msgid "Show Author Name"
+msgstr "مصنف کا نام دکھائیں"
+
+msgid "Show Badge"
+msgstr "بیج دکھائیں"
+
+msgid "Show Bump Up?"
+msgstr "نمایاں دکھائیں؟"
+
+msgid "Show Category"
+msgstr "زمرہ دکھائیں"
+
+msgid "Show chat icon"
+msgstr "چیٹ آئیکن دکھائیں"
+
+msgid "Show Child location"
+msgstr "ذیلی مقام دکھائیں"
+
+msgid "Show Compare"
+msgstr "موازنہ دکھائیں"
+
+msgid "Show compare icon"
+msgstr "موازنہ آئیکن دکھائیں"
+
+msgid "Show Count"
+msgstr "گنتی دکھائیں"
+
+msgid "Show Counts"
+msgstr "گنتی دکھائیں"
+
+msgid "Show Custom Fields"
+msgstr "حسب ضرورت فیلڈز دکھائیں"
+
+msgid "Show Custom fields"
+msgstr "حسب ضرورت فیلڈز دکھائیں"
+
+msgid "Show Date"
+msgstr "تاریخ دکھائیں"
+
+msgid "Show Description"
+msgstr "تفصیل دکھائیں"
+
+msgid "Show Details Button"
+msgstr "تفصیلات بٹن دکھائیں"
+
+msgid "Show Favourites"
+msgstr "پسندیدہ دکھائیں"
+
+msgid "Show favourites icon"
+msgstr "پسندیدہ آئیکن دکھائیں"
+
+msgid "Show Featured?"
+msgstr "نمایاں دکھائیں؟"
+
+msgid "Show Fields Label"
+msgstr "فیلڈز لیبل دکھائیں"
+
+msgid "Show fields Label"
+msgstr "فیلڈز لیبل دکھائیں"
+
+msgid "Show Icon/Image"
+msgstr "آئیکن/تصویر دکھائیں"
+
+msgid "Show Image"
+msgstr "تصویر دکھائیں"
+
+msgid "Show Image / Icon"
+msgstr "تصویر / آئیکن دکھائیں"
+
+msgid "Show Listing Counts"
+msgstr "لسٹنگ گنتی دکھائیں"
+
+msgid "Show Location"
+msgstr "مقام دکھائیں"
+
+msgid "Show New?"
+msgstr "نیا دکھائیں؟"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "زمرہ عنوان دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "زمرہ دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide date. Default: On"
+msgstr "تاریخ دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "تفصیلات بٹن دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "آئیکن دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "لیبل دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "لسٹنگ گنتی دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "لسٹنگ کی تفصیل دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "لسٹنگ آئیکن/تصویر دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "لسٹنگ عنوان دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "مقام دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "فی نشان دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "قیمت دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "اقسام دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "صارف/مصنف کا نام دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "صارف/مصنف تصدیق شدہ بیس دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "دیکھے جانے کی گنتی دکھائیں یا چھپائیں۔ ڈیفالٹ: آن"
+
+msgid "Show Per Sign"
+msgstr "فی نشان دکھائیں"
+
+msgid "Show Phone"
+msgstr "فون دکھائیں"
+
+msgid "Show Phone No"
+msgstr "فون نمبر دکھائیں"
+
+msgid "Show Popular?"
+msgstr "مقبول دکھائیں؟"
+
+msgid "Show Price"
+msgstr "قیمت دکھائیں"
+
+msgid "Show Price Type"
+msgstr "قیمت کی قسم دکھائیں"
+
+msgid "Show Price Unit"
+msgstr "قیمت یونٹ دکھائیں"
+
+msgid "Show profile"
+msgstr "پروفائل دکھائیں"
+
+msgid "Show Quick View"
+msgstr "فوری دیکھیں دکھائیں"
+
+msgid "Show Time"
+msgstr "وقت دکھائیں"
+
+msgid "Show Title"
+msgstr "عنوان دکھائیں"
+
+msgid "Show Top?"
+msgstr "ٹاپ دکھائیں؟"
+
+msgid "Show Types"
+msgstr "اقسام دکھائیں"
+
+msgid "Show User"
+msgstr "صارف دکھائیں"
+
+msgid "Show Verified User Base"
+msgstr "تصدیق شدہ صارف بیس دکھائیں"
+
+msgid "Show View Count"
+msgstr "دیکھے جانے کی گنتی دکھائیں"
+
+msgid "Show Views"
+msgstr "دیکھے جانے دکھائیں"
+
+msgid "Sign in Icon"
+msgstr "سائن ان آئیکن"
+
+msgid "Single Location"
+msgstr "واحد مقام"
+
+msgid "Slide Speed"
+msgstr "سلائیڈ رفتار"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "سلائیڈ رفتار ملی سیکنڈز میں۔ ڈیفالٹ: 200"
+
+msgid "Slider Navigation"
+msgstr "سلائیڈر نیویگیشن"
+
+msgid "Slider Options"
+msgstr "سلائیڈر آپشنز"
+
+msgid "Small Phones: <576px"
+msgstr "چھوٹے فون: <576px"
+
+msgid "Sold Out"
+msgstr "فروخت ہو گیا"
+
+msgid "Sold Out Background Color"
+msgstr "فروخت ہو گیا پس منظر کا رنگ"
+
+msgid "Sold Out Text Color"
+msgstr "فروخت ہو گیا متن کا رنگ"
+
+msgid "Sort By"
+msgstr "ترتیب بلحاظ"
+
+msgid "Space Between"
+msgstr "درمیانی فاصلہ"
+
+msgid "Space Between List"
+msgstr "فہرست کے درمیان فاصلہ"
+
+msgid "Space Between. Default: 20"
+msgstr "درمیانی فاصلہ۔ ڈیفالٹ: 20"
+
+msgid "Spacing"
+msgstr "فاصلہ"
+
+msgid "Special Style Body Settings"
+msgstr "خاص اسٹائل باڈی سیٹنگز"
+
+msgid "Special style Settings"
+msgstr "خاص اسٹائل سیٹنگز"
+
+msgid "Standard"
+msgstr "معیاری"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "زمرہ کے نام ٹائپ کرنا شروع کریں۔ اگر خالی ہے تو تمام لسٹنگ دکھائی جائیں گی۔"
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "زمرہ کے نام ٹائپ کرنا شروع کریں۔ اگر خالی ہے تو تمام اصل زمرے دکھائے جائیں گے"
+
+msgid "Start typing locations names."
+msgstr "مقامات کے نام ٹائپ کرنا شروع کریں۔"
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "ماؤس ہوور پر خودکار پلے روکیں۔ ڈیفالٹ: آن"
+
+msgid "Stop on Hover"
+msgstr "ہوور پر روکیں"
+
+msgid "Store Pagination"
+msgstr "سٹور صفحہ بندی"
+
+msgid "Style"
+msgstr "اسٹائل"
+
+msgid "Style 1"
+msgstr "اسٹائل 1"
+
+msgid "Style 2"
+msgstr "اسٹائل 2"
+
+msgid "Style 3"
+msgstr "اسٹائل 3"
+
+msgid "Style 4"
+msgstr "اسٹائل 4"
+
+msgid "Style 5"
+msgstr "اسٹائل 5"
+
+msgid "Sub Category Limit"
+msgstr "ذیلی زمرہ حد"
+
+msgid "Sub Location Limit"
+msgstr "ذیلی مقام حد"
+
+msgid "Submit"
+msgstr "جمع کروائیں"
+
+msgid "Submit button"
+msgstr "جمع کروائیں بٹن"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "بیج نمایاں دکھانے کے لیے سوئچ کریں "
+
+msgid "Switch to Show Badge Featured "
+msgstr "بیج فیچرڈ دکھانے کے لیے سوئچ کریں "
+
+msgid "Switch to Show Badge New "
+msgstr "بیج نیا دکھانے کے لیے سوئچ کریں "
+
+msgid "Switch to Show Badge Popular "
+msgstr "بیج مقبول دکھانے کے لیے سوئچ کریں "
+
+msgid "Switch to Show Badge Top "
+msgstr "بیج ٹاپ دکھانے کے لیے سوئچ کریں "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "کیٹلاگ ترتیب دکھانے کے لیے سوئچ کریں"
+
+msgid "Switch to Show Pagination"
+msgstr "صفحہ بندی دکھانے کے لیے سوئچ کریں"
+
+msgid "Switch to Show Result Count"
+msgstr "نتائج کی گنتی دکھانے کے لیے سوئچ کریں"
+
+msgid "Switch to Show View Switcher"
+msgstr "ویو سوئچر دکھانے کے لیے سوئچ کریں"
+
+msgid "Tab Column"
+msgstr "ٹیب کالم"
+
+msgid "Tablets: >767px"
+msgstr "ٹیبلیٹ: >767px"
+
+msgid "Text After Count "
+msgstr "گنتی کے بعد متن "
+
+msgid "Text Alignment"
+msgstr "متن کی صف بندی"
+
+msgid "Text Color"
+msgstr "متن کا رنگ"
+
+msgid "Text Color In hover"
+msgstr "ہوور میں متن کا رنگ"
+
+msgid "Time"
+msgstr "وقت"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Title Color"
+msgstr "عنوان کا رنگ"
+
+msgid "Title Hover"
+msgstr "عنوان ہوور"
+
+msgid "Title Spacing"
+msgstr "عنوان فاصلہ"
+
+msgid "Top"
+msgstr "ٹاپ"
+
+msgid "Top Background Color"
+msgstr "ٹاپ پس منظر کا رنگ"
+
+msgid "Top Border Color"
+msgstr "ٹاپ بارڈر کا رنگ"
+
+msgid "Top Text Color"
+msgstr "ٹاپ متن کا رنگ"
+
+msgid "Type"
+msgstr "قسم"
+
+msgid "Type your description here"
+msgstr "یہاں اپنی تفصیل ٹائپ کریں"
+
+msgid "Types"
+msgstr "اقسام"
+
+msgid "Types field"
+msgstr "اقسام فیلڈ"
+
+msgid "Typography"
+msgstr "ٹائپوگرافی"
+
+msgid "Unit Color"
+msgstr "یونٹ کا رنگ"
+
+msgid "Unit Label Text Color"
+msgstr "یونٹ لیبل متن کا رنگ"
+
+msgid "Unit Label Typography"
+msgstr "یونٹ لیبل ٹائپوگرافی"
+
+msgid "Unit Name"
+msgstr "یونٹ کا نام"
+
+msgid "Unit Typography"
+msgstr "یونٹ ٹائپوگرافی"
+
+msgid "Vertical"
+msgstr "عمودی"
+
+msgid "Vertical View"
+msgstr "عمودی ویو"
+
+msgid "View"
+msgstr "دیکھیں"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s میں تمام پوسٹس دیکھیں"
+
+msgid "View Switcher"
+msgstr "ویو سوئچر"
+
+msgid "Views"
+msgstr "دیکھے گئے"
+
+msgid "Visibility"
+msgstr "مرئیت"
+
+msgid "Width"
+msgstr "چوڑائی"
+
+msgid "Wrapper"
+msgstr "ریپر"
+
+msgid "Wrapper Padding"
+msgstr "ریپر پیڈنگ"
+
+msgid "Wrapper Spacing"
+msgstr "ریپر فاصلہ"
+
+msgid "Yes"
+msgstr "ہاں"

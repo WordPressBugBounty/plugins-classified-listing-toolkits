@@ -1,0 +1,1888 @@
+# Translation of Classified Listing Toolkits in Hebrew
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " החשבון שלי"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " התחברות"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "צפייה %s"
+msgstr[1] "%s צפיות"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(מודעה %s)"
+msgstr[1] "(%s מודעות)"
+
+msgid "--Select--"
+msgstr "--בחירה--"
+
+msgid "1 Col"
+msgstr "עמודה 1"
+
+msgid "1 Second"
+msgstr "שנייה 1"
+
+msgid "2 Col"
+msgstr "2 עמודות"
+
+msgid "2 Seconds"
+msgstr "2 שניות"
+
+msgid "3 Col"
+msgstr "3 עמודות"
+
+msgid "3 Seconds"
+msgstr "3 שניות"
+
+msgid "4 Col"
+msgstr "4 עמודות"
+
+msgid "4 Seconds"
+msgstr "4 שניות"
+
+msgid "5 Col"
+msgstr "5 עמודות"
+
+msgid "5 Seconds"
+msgstr "5 שניות"
+
+msgid "6 Col"
+msgstr "6 עמודות"
+
+msgid "6 Seconds"
+msgstr "6 שניות"
+
+msgid "7 Seconds"
+msgstr "7 שניות"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">שדרג לפרו</a> כדי לפתוח עוד סגנונות."
+
+msgid "Action Button Hover Text Color"
+msgstr "צבע טקסט של כפתור פעולה במעבר עכבר"
+
+msgid "Action Button Layout"
+msgstr "פריסת כפתור פעולה"
+
+msgid "Action Button Text Color"
+msgstr "צבע טקסט של כפתור פעולה"
+
+msgid "Active Background Color"
+msgstr "צבע רקע פעיל"
+
+msgid "Active Color"
+msgstr "צבע פעיל"
+
+msgid "Active Text Color"
+msgstr "צבע טקסט פעיל"
+
+msgid "Ad Type"
+msgstr "סוג מודעה"
+
+msgid "Ad Types Field"
+msgstr "שדה סוגי מודעות"
+
+msgid "Add / Remove listing location link."
+msgstr "הוספה / הסרה של קישור מיקום מודעה."
+
+msgid "Add listing button"
+msgstr "כפתור הוספת מודעה"
+
+msgid "Add listing button order"
+msgstr "סדר כפתור הוספת מודעה"
+
+msgid "Add Listing Icon"
+msgstr "אייקון הוספת מודעה"
+
+msgid "Add listing icon order"
+msgstr "סדר אייקון הוספת מודעה"
+
+msgid "Adjust Box Height"
+msgstr "התאמת גובה תיבה"
+
+msgid "ads"
+msgstr "מודעות"
+
+msgid "All Location"
+msgstr "כל המיקומים"
+
+msgid "All Locations"
+msgstr "כל המיקומים"
+
+msgid "Arrow Navigation"
+msgstr "ניווט חיצים"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "רדיוס גבול ניווט חיצים"
+
+msgid "Arrow Position"
+msgstr "מיקום חץ"
+
+msgid "Ascending"
+msgstr "עולה"
+
+msgid "Auto Height"
+msgstr "גובה אוטומטי"
+
+msgid "Auto Height. Default: On"
+msgstr "גובה אוטומטי. ברירת מחדל: פעיל"
+
+msgid "Auto Suggestion"
+msgstr "הצעה אוטומטית"
+
+msgid "Autoplay"
+msgstr "ניגון אוטומטי"
+
+msgid "Autoplay Delay"
+msgstr "השהיית ניגון אוטומטי"
+
+msgid "Autoplay Slide Speed"
+msgstr "מהירות שקופית ניגון אוטומטי"
+
+msgid "Background"
+msgstr "רקע"
+
+msgid "Background Color"
+msgstr "צבע רקע"
+
+msgid "Background Hover"
+msgstr "רקע במעבר עכבר"
+
+msgid "Badge"
+msgstr "תג"
+
+msgid "Badge "
+msgstr "תג "
+
+msgid "Badge Background Color"
+msgstr "צבע רקע תג"
+
+msgid "Badge Default Background"
+msgstr "רקע ברירת מחדל לתג"
+
+msgid "Badge Default Text Color"
+msgstr "צבע טקסט ברירת מחדל לתג"
+
+msgid "Badge Default Typography"
+msgstr "טיפוגרפיה ברירת מחדל לתג"
+
+msgid "Badge Spacing"
+msgstr "ריווח תג"
+
+msgid "Badge Text Color"
+msgstr "צבע טקסט תג"
+
+msgid "Badge Visibility "
+msgstr "נראות תג "
+
+msgid "Body"
+msgstr "גוף"
+
+msgid "Body background"
+msgstr "רקע גוף"
+
+msgid "Body pading"
+msgstr "ריפוד גוף"
+
+msgid "Body Section Padding"
+msgstr "ריפוד קטע גוף"
+
+msgid "Body Section Pading"
+msgstr "ריפוד קטע גוף"
+
+msgid "Body Spacing"
+msgstr "ריווח גוף"
+
+msgid "Border"
+msgstr "גבול"
+
+msgid "Border Color"
+msgstr "צבע גבול"
+
+msgid "Border Radius"
+msgstr "רדיוס גבול"
+
+msgid "Border Radius (px)"
+msgstr "רדיוס גבול (px)"
+
+msgid "Box"
+msgstr "תיבה"
+
+msgid "Box Border Radius"
+msgstr "רדיוס גבול תיבה"
+
+msgid "Box Height"
+msgstr "גובה תיבה"
+
+msgid "Box padding"
+msgstr "ריפוד תיבה"
+
+msgid "Box pading"
+msgstr "ריפוד תיבה"
+
+msgid "Box Shadow"
+msgstr "צל תיבה"
+
+msgid "Box style"
+msgstr "סגנון תיבה"
+
+msgid "Bump Up"
+msgstr "קידום"
+
+msgid "Bump Up Background Color"
+msgstr "צבע רקע קידום"
+
+msgid "Bump Up Text Color"
+msgstr "צבע טקסט קידום"
+
+msgid "Button"
+msgstr "כפתור"
+
+msgid "Button alignment"
+msgstr "יישור כפתור"
+
+msgid "Button Background"
+msgstr "רקע כפתור"
+
+msgid "Button Height"
+msgstr "גובה כפתור"
+
+msgid "Button Icon"
+msgstr "אייקון כפתור"
+
+msgid "Button Link Type"
+msgstr "סוג קישור כפתור"
+
+msgid "Button Padding"
+msgstr "ריפוד כפתור"
+
+msgid "Button Section"
+msgstr "קטע כפתור"
+
+msgid "Button Spacing"
+msgstr "ריווח כפתור"
+
+msgid "Button style"
+msgstr "סגנון כפתור"
+
+msgid "Button Text"
+msgstr "טקסט כפתור"
+
+msgid "Button text"
+msgstr "טקסט כפתור"
+
+msgid "Button Text Color"
+msgstr "צבע טקסט כפתור"
+
+msgid "Button Typography"
+msgstr "טיפוגרפיה כפתור"
+
+msgid "Button URL"
+msgstr "כתובת URL של כפתור"
+
+msgid "Button width"
+msgstr "רוחב כפתור"
+
+msgid "Card"
+msgstr "כרטיס"
+
+msgid "Cart Icon"
+msgstr "אייקון עגלה"
+
+msgid "Catalog Ordering"
+msgstr "סידור קטלוג"
+
+msgid "Categories"
+msgstr "קטגוריות"
+
+msgid "Category"
+msgstr "קטגוריה"
+
+msgid "Category Color"
+msgstr "צבע קטגוריה"
+
+msgid "Category Description"
+msgstr "תיאור קטגוריה"
+
+msgid "Category Field"
+msgstr "שדה קטגוריה"
+
+msgid "Category field"
+msgstr "שדה קטגוריה"
+
+msgid "Category Limit"
+msgstr "מגבלת קטגוריות"
+
+msgid "Category Slider"
+msgstr "סליידר קטגוריות"
+
+msgid "Center"
+msgstr "מרכז"
+
+msgid "Chat"
+msgstr "צ'אט"
+
+msgid "Chat Icon"
+msgstr "אייקון צ'אט"
+
+msgid "Chat icon order"
+msgstr "סדר אייקון צ'אט"
+
+msgid "Chat Option"
+msgstr "אפשרות צ'אט"
+
+msgid "Child Category Limit"
+msgstr "מגבלת קטגוריות משנה"
+
+msgid "Child List Color"
+msgstr "צבע רשימת משנה"
+
+msgid "Child List Hover Color"
+msgstr "צבע רשימת משנה במעבר עכבר"
+
+msgid "Child List Icon Color"
+msgstr "צבע אייקון רשימת משנה"
+
+msgid "Child List Icon Hover Color"
+msgstr "צבע אייקון רשימת משנה במעבר עכבר"
+
+msgid "Child Location"
+msgstr "מיקום משנה"
+
+msgid "Classified Listing"
+msgstr "מודעות מסווגות"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "Classified Listing Toolkit דורש ש-Classified Listing יהיה מותקן ופעיל."
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "Classified Listing Toolkit דורש ש-Classified Listing יהיה לפחות גרסה 5.0.1"
+
+msgid "Classified Listing Toolkits"
+msgstr "כלי מודעות מסווגות"
+
+msgid "classified Listing Toolkits"
+msgstr "כלי מודעות מסווגות"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "כלי מודעות מסווגות הכוללים מספר ווידג'טים של Elementor ומודולים של Divi כדי לעזור לך להציג מודעות בצורה אלגנטית בפריסות מגוונות."
+
+msgid "Color"
+msgstr "צבע"
+
+msgid "Column"
+msgstr "עמודה"
+
+msgid "Column 1"
+msgstr "עמודה 1"
+
+msgid "Column 2"
+msgstr "עמודה 2"
+
+msgid "Column 3"
+msgstr "עמודה 3"
+
+msgid "Column 4"
+msgstr "עמודה 4"
+
+msgid "Compare"
+msgstr "השוואה"
+
+msgid "Compare icon order"
+msgstr "סדר אייקון השוואה"
+
+msgid "Content"
+msgstr "תוכן"
+
+msgid "Content Alignment"
+msgstr "יישור תוכן"
+
+msgid "Content alignment"
+msgstr "יישור תוכן"
+
+msgid "Content Background Color"
+msgstr "צבע רקע תוכן"
+
+msgid "Content Spacing"
+msgstr "ריווח תוכן"
+
+msgid "Content spacing"
+msgstr "ריווח תוכן"
+
+msgid "Content Vertical Alignment"
+msgstr "יישור אנכי של תוכן"
+
+msgid "Content Visibility "
+msgstr "נראות תוכן "
+
+msgid "Count"
+msgstr "ספירה"
+
+msgid "Count Color"
+msgstr "צבע ספירה"
+
+msgid "Count Font Size"
+msgstr "גודל גופן ספירה"
+
+msgid "Count position"
+msgstr "מיקום ספירה"
+
+msgid "Count Text"
+msgstr "טקסט ספירה"
+
+msgid "Count Text For Plural Number"
+msgstr "טקסט ספירה למספר רבים"
+
+msgid "Counter"
+msgstr "מונה"
+
+msgid "Counter Spacing"
+msgstr "ריווח מונה"
+
+msgid "Counts Include Children"
+msgstr "הספירה כוללת ילדים"
+
+msgid "Currency Position"
+msgstr "מיקום מטבע"
+
+msgid "Currency sign eg. $"
+msgstr "סימן מטבע לדוגמה $"
+
+msgid "Currency Symbol"
+msgstr "סמל מטבע"
+
+msgid "Currency Typography"
+msgstr "טיפוגרפיה מטבע"
+
+msgid "Custom"
+msgstr "מותאם אישית"
+
+msgid "Custom Field's"
+msgstr "שדות מותאמים אישית"
+
+msgid "Custom Fields"
+msgstr "שדות מותאמים אישית"
+
+msgid "Custom Link"
+msgstr "קישור מותאם אישית"
+
+msgid "Custom Order"
+msgstr "סדר מותאם אישית"
+
+msgid "Date"
+msgstr "תאריך"
+
+msgid "Default Badge"
+msgstr "תג ברירת מחדל"
+
+msgid "Default Color"
+msgstr "צבע ברירת מחדל"
+
+msgid "Dependency Selection"
+msgstr "בחירת תלות"
+
+msgid "Descending"
+msgstr "יורד"
+
+msgid "Description"
+msgstr "תיאור"
+
+msgid "Description Color"
+msgstr "צבע תיאור"
+
+msgid "Description Limit"
+msgstr "מגבלת תיאור"
+
+msgid "Description Word Limit"
+msgstr "מגבלת מילים לתיאור"
+
+msgid "Desktops: >1199px"
+msgstr "מחשבים שולחניים: >1199px"
+
+msgid "Desktops: >991px"
+msgstr "מחשבים שולחניים: >991px"
+
+msgid "Details"
+msgstr "פרטים"
+
+msgid "Details Button Background Color"
+msgstr "צבע רקע כפתור פרטים"
+
+msgid "Details Button Text Color"
+msgstr "צבע טקסט כפתור פרטים"
+
+msgid "Display Child category"
+msgstr "הצג קטגוריית משנה"
+
+msgid "Display Sub Category"
+msgstr "הצג קטגוריית משנה"
+
+msgid "Dot Navigation"
+msgstr "ניווט נקודות"
+
+msgid "Dot Navigation Settings"
+msgstr "הגדרות ניווט נקודות"
+
+msgid "Dot Navigation Spacing"
+msgstr "ריווח ניווט נקודות"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "לדוגמה חודש או שנה. השאר ריק אם אינך רוצה להציג יחידה"
+
+msgid "Enable Link"
+msgstr "הפעל קישור"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "הפעל או השבת ניגון אוטומטי. ברירת מחדל: פעיל"
+
+msgid "Enter Keyword here ..."
+msgstr "הזן מילת מפתח כאן ..."
+
+msgid "Enter your keyword here ..."
+msgstr "הזן את מילת המפתח שלך כאן ..."
+
+msgid "Equal Height"
+msgstr "גובה שווה"
+
+msgid "Favourites"
+msgstr "מועדפים"
+
+msgid "Favourites icon order"
+msgstr "סדר אייקון מועדפים"
+
+msgid "Feature"
+msgstr "תכונה"
+
+msgid "Featured"
+msgstr "מומלץ"
+
+msgid "Featured Background Color"
+msgstr "צבע רקע מומלץ"
+
+msgid "Featured Border Color"
+msgstr "צבע גבול מומלץ"
+
+msgid "Featured Text Color"
+msgstr "צבע טקסט מומלץ"
+
+msgid "Features"
+msgstr "תכונות"
+
+msgid "Features Margin"
+msgstr "שוליים תכונות"
+
+msgid "Features Text As"
+msgstr "טקסט תכונות כ"
+
+msgid "Field background"
+msgstr "רקע שדה"
+
+msgid "Field Gutter Spacing"
+msgstr "ריווח בין שדות"
+
+msgid "Field Height"
+msgstr "גובה שדה"
+
+msgid "Field text color"
+msgstr "צבע טקסט שדה"
+
+msgid "Field Types"
+msgstr "סוגי שדות"
+
+msgid "Field's"
+msgstr "שדות"
+
+msgid "Field's Gap"
+msgstr "רווח בין שדות"
+
+msgid "Field's Height"
+msgstr "גובה שדות"
+
+msgid "Fields"
+msgstr "שדות"
+
+msgid "Fields Gap"
+msgstr "רווח בין שדות"
+
+msgid "Fields Padding (px)"
+msgstr "ריפוד שדות (px)"
+
+msgid "Font Size"
+msgstr "גודל גופן"
+
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+msgid "Form"
+msgstr "טופס"
+
+msgid "Form Background Color"
+msgstr "צבע רקע טופס"
+
+msgid "Form Field's"
+msgstr "שדות טופס"
+
+msgid "Form Label"
+msgstr "תווית טופס"
+
+msgid "Full Size"
+msgstr "גודל מלא"
+
+msgid "General"
+msgstr "כללי"
+
+msgid "General Style"
+msgstr "סגנון כללי"
+
+msgid "Grid"
+msgstr "רשת"
+
+msgid "Grid Column"
+msgstr "עמודת רשת"
+
+msgid "Grid View"
+msgstr "תצוגת רשת"
+
+msgid "Gutter padding"
+msgstr "ריפוד מרווח"
+
+msgid "Gutter pading"
+msgstr "ריפוד מרווח"
+
+msgid "Gutter Space"
+msgstr "מרווח"
+
+msgid "Gutter Spacing"
+msgstr "ריווח מרווח"
+
+msgid "Head background"
+msgstr "רקע כותרת"
+
+msgid "Head Section Padding"
+msgstr "ריפוד קטע כותרת"
+
+msgid "Head Section Pading"
+msgstr "ריפוד קטע כותרת"
+
+msgid "Header"
+msgstr "כותרת עליונה"
+
+msgid "Header Border Color"
+msgstr "צבע גבול כותרת עליונה"
+
+msgid "Header Button"
+msgstr "כפתור כותרת עליונה"
+
+msgid "Header Icon"
+msgstr "אייקון כותרת עליונה"
+
+msgid "Header pading"
+msgstr "ריפוד כותרת עליונה"
+
+msgid "Header Spacing"
+msgstr "ריווח כותרת עליונה"
+
+msgid "Height"
+msgstr "גובה"
+
+msgid "Here you can define a custom color for category description."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לתיאור קטגוריה."
+
+msgid "Here you can define a custom color for category name."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לשם קטגוריה."
+
+msgid "Here you can define a custom color for content background."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לרקע תוכן."
+
+msgid "Here you can define a custom color for field background."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לרקע שדה."
+
+msgid "Here you can define a custom color for form background."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לרקע טופס."
+
+msgid "Here you can define a custom color for form label."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לתווית טופס."
+
+msgid "Here you can define a custom color for input text."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לטקסט קלט."
+
+msgid "Here you can define a custom color for listing count."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לספירת מודעות."
+
+msgid "Here you can define a custom color for listing price."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית למחיר מודעה."
+
+msgid "Here you can define a custom color for listing title."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לכותרת מודעה."
+
+msgid "Here you can define a custom color for location description."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לתיאור מיקום."
+
+msgid "Here you can define a custom color for location name."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לשם מיקום."
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "כאן תוכל להגדיר צבע מותאם אישית לרקע כפתור שליחה."
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "כאן תוכל להגדיר צבע טקסט מותאם אישית לכפתור שליחה."
+
+msgid "Here you can define font size for listing count."
+msgstr "כאן תוכל להגדיר גודל גופן לספירת מודעות."
+
+msgid "Here you can define gutter for the box."
+msgstr "כאן תוכל להגדיר מרווח לתיבה."
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "כאן תוכל להגדיר מרווח לרווח בין שדות."
+
+msgid "Here you can define height for the box."
+msgstr "כאן תוכל להגדיר גובה לתיבה."
+
+msgid "Hide"
+msgstr "הסתר"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "הסתר קטגוריות ללא מודעות. ברירת מחדל: פעיל"
+
+msgid "Hide Empty"
+msgstr "הסתר ריק"
+
+msgid "Home"
+msgstr "בית"
+
+msgid "Horizontal View"
+msgstr "תצוגה אופקית"
+
+msgid "Hover"
+msgstr "מעבר עכבר"
+
+msgid "Hover & Focus"
+msgstr "מעבר עכבר ומיקוד"
+
+msgid "Hover Background Color"
+msgstr "צבע רקע במעבר עכבר"
+
+msgid "Hover Box Shadow"
+msgstr "צל תיבה במעבר עכבר"
+
+msgid "How Many Category will Display ?"
+msgstr "כמה קטגוריות יוצגו?"
+
+msgid "How Many Child Category will Display ?"
+msgstr "כמה קטגוריות משנה יוצגו?"
+
+msgid "How Many Child Location will Display ?"
+msgstr "כמה מיקומי משנה יוצגו?"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "כמה מיקומים יוצגו? השאר ריק לכולם."
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "אייקון"
+
+msgid "Icon Alignment"
+msgstr "יישור אייקון"
+
+msgid "Icon And Image"
+msgstr "אייקון ותמונה"
+
+msgid "Icon Area"
+msgstr "אזור אייקון"
+
+msgid "Icon Background"
+msgstr "רקע אייקון"
+
+msgid "Icon Background Color"
+msgstr "צבע רקע אייקון"
+
+msgid "Icon Before List"
+msgstr "אייקון לפני רשימה"
+
+msgid "Icon Before Title"
+msgstr "אייקון לפני כותרת"
+
+msgid "Icon Bg Color"
+msgstr "צבע רקע אייקון"
+
+msgid "Icon Bg Hover Color"
+msgstr "צבע רקע אייקון במעבר עכבר"
+
+msgid "Icon Border Radius"
+msgstr "רדיוס גבול אייקון"
+
+msgid "Icon Color"
+msgstr "צבע אייקון"
+
+msgid "Icon Count Background Color"
+msgstr "צבע רקע ספירת אייקון"
+
+msgid "Icon Count Color"
+msgstr "צבע ספירת אייקון"
+
+msgid "Icon Font Size"
+msgstr "גודל גופן אייקון"
+
+msgid "Icon Gap"
+msgstr "רווח אייקון"
+
+msgid "Icon Hover Color"
+msgstr "צבע אייקון במעבר עכבר"
+
+msgid "Icon Margin (px)"
+msgstr "שוליים אייקון (px)"
+
+msgid "Icon order"
+msgstr "סדר אייקון"
+
+msgid "Icon Rotate"
+msgstr "סיבוב אייקון"
+
+msgid "Icon Size"
+msgstr "גודל אייקון"
+
+msgid "Icon style"
+msgstr "סגנון אייקון"
+
+msgid "Icon Type"
+msgstr "סוג אייקון"
+
+msgid "Icon Wrapper Size"
+msgstr "גודל עטיפת אייקון"
+
+msgid "ID"
+msgstr "מזהה"
+
+msgid "Image"
+msgstr "תמונה"
+
+msgid "Image Size"
+msgstr "גודל תמונה"
+
+msgid "Image Spacing"
+msgstr "ריווח תמונה"
+
+msgid "Image Wrapper"
+msgstr "עטיפת תמונה"
+
+msgid "Include Children Categories"
+msgstr "כלול קטגוריות משנה"
+
+msgid "Include Inner Location"
+msgstr "כלול מיקום פנימי"
+
+msgid "Inline"
+msgstr "בשורה"
+
+msgid "Input Background Color"
+msgstr "צבע רקע קלט"
+
+msgid "Input Text Color"
+msgstr "צבע טקסט קלט"
+
+msgid "Item Wrapper"
+msgstr "עטיפת פריט"
+
+msgid "Keyword"
+msgstr "מילת מפתח"
+
+msgid "Keywords"
+msgstr "מילות מפתח"
+
+msgid "Keywords Field"
+msgstr "שדה מילות מפתח"
+
+msgid "Keywords field"
+msgstr "שדה מילות מפתח"
+
+msgid "Label"
+msgstr "תווית"
+
+msgid "Label Color"
+msgstr "צבע תווית"
+
+msgid "Label Margin"
+msgstr "שוליים תווית"
+
+msgid "Label Text Color"
+msgstr "צבע טקסט תווית"
+
+msgid "Label Typography"
+msgstr "טיפוגרפיה תווית"
+
+msgid "Layout"
+msgstr "פריסה"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "השאר תיבות סימון לא מסומנות כדי לבחור הכל"
+
+msgid "Left"
+msgstr "שמאל"
+
+msgid "Left Top"
+msgstr "שמאל למעלה"
+
+msgid "Limit"
+msgstr "מגבלה"
+
+msgid "List"
+msgstr "רשימה"
+
+msgid "List Style"
+msgstr "סגנון רשימה"
+
+msgid "List Title"
+msgstr "כותרת רשימה"
+
+msgid "List View"
+msgstr "תצוגת רשימה"
+
+msgid "Listing Categories"
+msgstr "קטגוריות מודעות"
+
+msgid "Listing Category"
+msgstr "קטגוריית מודעות"
+
+msgid "Listing Counts"
+msgstr "ספירת מודעות"
+
+msgid "Listing Limit"
+msgstr "מגבלת מודעות"
+
+msgid "Listing Location"
+msgstr "מיקום מודעה"
+
+msgid "Listing Pagination"
+msgstr "עימוד מודעות"
+
+msgid "Listing Per Page"
+msgstr "מודעות לעמוד"
+
+msgid "Listing Search Form"
+msgstr "טופס חיפוש מודעות"
+
+msgid "Listing Showcase"
+msgstr "תצוגת מודעות"
+
+msgid "Listing Single Location"
+msgstr "מיקום מודעה בודדת"
+
+msgid "Listing Slider"
+msgstr "סליידר מודעות"
+
+msgid "Listing Store"
+msgstr "חנות מודעות"
+
+msgid "Listing Types"
+msgstr "סוגי מודעות"
+
+msgid "Listings Grid"
+msgstr "רשת מודעות"
+
+msgid "Listings List"
+msgstr "רשימת מודעות"
+
+msgid "Listings Slider"
+msgstr "סליידר מודעות"
+
+msgid "Load More Button"
+msgstr "כפתור טעינת עוד"
+
+msgid "Location"
+msgstr "מיקום"
+
+msgid "Location Display Type"
+msgstr "סוג תצוגת מיקום"
+
+msgid "Location Field"
+msgstr "שדה מיקום"
+
+msgid "Location field"
+msgstr "שדה מיקום"
+
+msgid "Location Limit"
+msgstr "מגבלת מיקומים"
+
+msgid "Locations"
+msgstr "מיקומים"
+
+msgid "Loop"
+msgstr "לולאה"
+
+msgid "Loop to first item. Default: On"
+msgstr "חזור לפריט הראשון. ברירת מחדל: פעיל"
+
+msgid "Margin"
+msgstr "שוליים"
+
+msgid "Margin (px)"
+msgstr "שוליים (px)"
+
+msgid "Max"
+msgstr "מקסימום"
+
+msgid "max"
+msgstr "מקסימום"
+
+msgid "Max Price"
+msgstr "מחיר מקסימלי"
+
+msgid "Max Width"
+msgstr "רוחב מקסימלי"
+
+msgid "Meta"
+msgstr "מטא"
+
+msgid "Meta Color"
+msgstr "צבע מטא"
+
+msgid "Meta Icon Color"
+msgstr "צבע אייקון מטא"
+
+msgid "Meta Item Spacing"
+msgstr "ריווח פריט מטא"
+
+msgid "Meta Spacing"
+msgstr "ריווח מטא"
+
+msgid "Meta Wrpper Spacing"
+msgstr "ריווח עטיפת מטא"
+
+msgid "Middle"
+msgstr "אמצע"
+
+msgid "Min"
+msgstr "מינימום"
+
+msgid "min"
+msgstr "מינימום"
+
+msgid "Min & Max Field Width"
+msgstr "רוחב שדה מינימלי ומקסימלי"
+
+msgid "Min Price"
+msgstr "מחיר מינימלי"
+
+msgid "Min Width"
+msgstr "רוחב מינימלי"
+
+msgid "Min width"
+msgstr "רוחב מינימלי"
+
+msgid "Mobile Column"
+msgstr "עמודה לנייד"
+
+msgid "Name Color"
+msgstr "צבע שם"
+
+msgid "New"
+msgstr "חדש"
+
+msgid "New Background Color"
+msgstr "צבע רקע חדש"
+
+msgid "New Line"
+msgstr "שורה חדשה"
+
+msgid "New Text Color"
+msgstr "צבע טקסט חדש"
+
+msgid "No"
+msgstr "לא"
+
+msgid "No Listing Found"
+msgstr "לא נמצאו מודעות"
+
+msgid "No Listing Text"
+msgstr "טקסט ללא מודעות"
+
+msgid "None"
+msgstr "ללא"
+
+msgid "Normal"
+msgstr "רגיל"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "מודעה %s"
+msgstr[1] "%s מודעות"
+
+msgid "Number of category to display"
+msgstr "מספר קטגוריות להצגה"
+
+msgid "Number of Columns"
+msgstr "מספר עמודות"
+
+msgid "Number of listing to display"
+msgstr "מספר מודעות להצגה"
+
+msgid "Number of location to display"
+msgstr "מספר מיקומים להצגה"
+
+msgid "Number of Responsive Columns"
+msgstr "מספר עמודות רספונסיביות"
+
+msgid "Number of Words to display"
+msgstr "מספר מילים להצגה"
+
+msgid "Number of words to display."
+msgstr "מספר מילים להצגה."
+
+msgid "Off"
+msgstr "כבוי"
+
+msgid "On"
+msgstr "פעיל"
+
+msgid "On Items Hover Description color"
+msgstr "צבע תיאור במעבר עכבר על פריטים"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "שורה אחת לכל תכונה לדוגמה 10 מודעות בחודש מומלצות בשבוע הראשון"
+
+msgid "Only Location that has listings"
+msgstr "רק מיקומים עם מודעות"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "פועל רק לפרו. ברירת מחדל: כבוי"
+
+msgid "Order"
+msgstr "סדר"
+
+msgid "Order By"
+msgstr "סדר לפי"
+
+msgid "Oriantation"
+msgstr "כיוון"
+
+msgid "Orientation"
+msgstr "כיוון"
+
+msgid "Overlay Background"
+msgstr "רקע שכבת על"
+
+msgid "Overlay Settings"
+msgstr "הגדרות שכבת על"
+
+msgid "Padding"
+msgstr "ריפוד"
+
+msgid "padding"
+msgstr "ריפוד"
+
+msgid "Padding (px)"
+msgstr "ריפוד (px)"
+
+msgid "Pagination"
+msgstr "עימוד"
+
+msgid "Pagination spacing"
+msgstr "ריווח עימוד"
+
+msgid "Pagination Typography"
+msgstr "טיפוגרפיה עימוד"
+
+msgid "Phones: >575px"
+msgstr "טלפונים: >575px"
+
+msgid "Placeholder"
+msgstr "מציין מקום"
+
+msgid "Please Select a Location and Background"
+msgstr "אנא בחר מיקום ורקע"
+
+msgid "Popular"
+msgstr "פופולרי"
+
+msgid "Popular Background Color"
+msgstr "צבע רקע פופולרי"
+
+msgid "Popular Text Color"
+msgstr "צבע טקסט פופולרי"
+
+msgid "Popup"
+msgstr "חלון קופץ"
+
+msgid "Post Per Page"
+msgstr "פוסטים לעמוד"
+
+msgid "Price"
+msgstr "מחיר"
+
+msgid "Price Color"
+msgstr "צבע מחיר"
+
+msgid "Price Field"
+msgstr "שדה מחיר"
+
+msgid "Price field"
+msgstr "שדה מחיר"
+
+msgid "Price Label Color"
+msgstr "צבע תווית מחיר"
+
+msgid "Price Label Typography"
+msgstr "טיפוגרפיה תווית מחיר"
+
+msgid "Price Margin"
+msgstr "שוליים מחיר"
+
+msgid "Price padding"
+msgstr "ריפוד מחיר"
+
+msgid "Pricing Footer Spacing"
+msgstr "ריווח כותרת תחתונה תמחור"
+
+msgid "Pricing Page Link"
+msgstr "קישור לעמוד תמחור"
+
+msgid "Pricing Table"
+msgstr "טבלת תמחור"
+
+msgid "Profile"
+msgstr "פרופיל"
+
+msgid "Profile icon order"
+msgstr "סדר אייקון פרופיל"
+
+msgid "Promotional Post"
+msgstr "פוסט פרסומי"
+
+msgid "Promotions"
+msgstr "מבצעים"
+
+msgid "Promotions Exclude"
+msgstr "אל תכלול מבצעים"
+
+msgid "Query"
+msgstr "שאילתה"
+
+msgid "Quick View"
+msgstr "תצוגה מהירה"
+
+msgid "Radius"
+msgstr "רדיוס"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "רדיוס (%1$s)"
+
+msgid "Radius Field"
+msgstr "שדה רדיוס"
+
+msgid "Radius Search"
+msgstr "חיפוש לפי רדיוס"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "אקראי"
+
+msgid "Responsive Columns"
+msgstr "עמודות רספונסיביות"
+
+msgid "Result count"
+msgstr "ספירת תוצאות"
+
+msgid "Right"
+msgstr "ימין"
+
+msgid "Right Top"
+msgstr "ימין למעלה"
+
+msgid "Search"
+msgstr "חיפוש"
+
+msgid "Search Button"
+msgstr "כפתור חיפוש"
+
+msgid "Search Form"
+msgstr "טופס חיפוש"
+
+msgid "Search Form - Sortable"
+msgstr "טופס חיפוש - ניתן לסידור"
+
+msgid "Select a location"
+msgstr "בחר מיקום"
+
+msgid "Select a location to display."
+msgstr "בחר מיקום להצגה."
+
+msgid "Select Category"
+msgstr "בחר קטגוריה"
+
+msgid "Select column number to display categories."
+msgstr "בחר מספר עמודות להצגת קטגוריות."
+
+msgid "Select column number to display listings."
+msgstr "בחר מספר עמודות להצגת מודעות."
+
+msgid "Select column number to display location."
+msgstr "בחר מספר עמודות להצגת מיקום."
+
+msgid "Select Field"
+msgstr "בחר שדה"
+
+msgid "Select Form"
+msgstr "בחר טופס"
+
+msgid "Select Image Size"
+msgstr "בחר גודל תמונה"
+
+msgid "Select Location"
+msgstr "בחר מיקום"
+
+msgid "Select Pricing"
+msgstr "בחר תמחור"
+
+msgid "Select Type"
+msgstr "בחר סוג"
+
+msgid "Select type"
+msgstr "בחר סוג"
+
+msgid "Selected Location"
+msgstr "מיקום נבחר"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "הגדר כל ערך לדוגמה 5 שניות להפעלה כל 5 שניות. ברירת מחדל: 5 שניות"
+
+msgid "Short Description"
+msgstr "תיאור קצר"
+
+msgid "Short Description Color"
+msgstr "צבע תיאור קצר"
+
+msgid "Short Description Word Limit"
+msgstr "מגבלת מילים לתיאור קצר"
+
+msgid "Show"
+msgstr "הצג"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "הצג / הסתר קטגוריות ללא מודעות."
+
+msgid "Show / Hide category description."
+msgstr "הצג / הסתר תיאור קטגוריה."
+
+msgid "Show / Hide compare button."
+msgstr "הצג / הסתר כפתור השוואה."
+
+msgid "Show / Hide keyword field."
+msgstr "הצג / הסתר שדה מילת מפתח."
+
+msgid "Show / Hide listing ad type."
+msgstr "הצג / הסתר סוג מודעה."
+
+msgid "Show / Hide listing author name."
+msgstr "הצג / הסתר שם מחבר מודעה."
+
+msgid "Show / Hide listing badge."
+msgstr "הצג / הסתר תג מודעה."
+
+msgid "Show / Hide listing categories."
+msgstr "הצג / הסתר קטגוריות מודעה."
+
+msgid "Show / Hide listing counts."
+msgstr "הצג / הסתר ספירת מודעות."
+
+msgid "Show / Hide listing custom fields."
+msgstr "הצג / הסתר שדות מותאמים אישית של מודעה."
+
+msgid "Show / Hide listing date."
+msgstr "הצג / הסתר תאריך מודעה."
+
+msgid "Show / Hide listing description."
+msgstr "הצג / הסתר תיאור מודעה."
+
+msgid "Show / Hide listing details button."
+msgstr "הצג / הסתר כפתור פרטי מודעה."
+
+msgid "Show / Hide listing favourite button."
+msgstr "הצג / הסתר כפתור מועדפים של מודעה."
+
+msgid "Show / Hide listing image or icon."
+msgstr "הצג / הסתר תמונה או אייקון של מודעה."
+
+msgid "Show / Hide listing image."
+msgstr "הצג / הסתר תמונת מודעה."
+
+msgid "Show / Hide listing location."
+msgstr "הצג / הסתר מיקום מודעה."
+
+msgid "Show / Hide listing price."
+msgstr "הצג / הסתר מחיר מודעה."
+
+msgid "Show / Hide listing views."
+msgstr "הצג / הסתר צפיות במודעה."
+
+msgid "Show / Hide location description."
+msgstr "הצג / הסתר תיאור מיקום."
+
+msgid "Show / Hide location that has no listings."
+msgstr "הצג / הסתר מיקום ללא מודעות."
+
+msgid "Show / Hide quick view button."
+msgstr "הצג / הסתר כפתור תצוגה מהירה."
+
+msgid "Show Ad Type"
+msgstr "הצג סוג מודעה"
+
+msgid "Show add listing button"
+msgstr "הצג כפתור הוספת מודעה"
+
+msgid "Show Author Name"
+msgstr "הצג שם מחבר"
+
+msgid "Show Badge"
+msgstr "הצג תג"
+
+msgid "Show Bump Up?"
+msgstr "הצג קידום?"
+
+msgid "Show Category"
+msgstr "הצג קטגוריה"
+
+msgid "Show chat icon"
+msgstr "הצג אייקון צ'אט"
+
+msgid "Show Child location"
+msgstr "הצג מיקום משנה"
+
+msgid "Show Compare"
+msgstr "הצג השוואה"
+
+msgid "Show compare icon"
+msgstr "הצג אייקון השוואה"
+
+msgid "Show Count"
+msgstr "הצג ספירה"
+
+msgid "Show Counts"
+msgstr "הצג ספירות"
+
+msgid "Show Custom Fields"
+msgstr "הצג שדות מותאמים אישית"
+
+msgid "Show Custom fields"
+msgstr "הצג שדות מותאמים אישית"
+
+msgid "Show Date"
+msgstr "הצג תאריך"
+
+msgid "Show Description"
+msgstr "הצג תיאור"
+
+msgid "Show Details Button"
+msgstr "הצג כפתור פרטים"
+
+msgid "Show Favourites"
+msgstr "הצג מועדפים"
+
+msgid "Show favourites icon"
+msgstr "הצג אייקון מועדפים"
+
+msgid "Show Featured?"
+msgstr "הצג מומלץ?"
+
+msgid "Show Fields Label"
+msgstr "הצג תווית שדות"
+
+msgid "Show fields Label"
+msgstr "הצג תווית שדות"
+
+msgid "Show Icon/Image"
+msgstr "הצג אייקון/תמונה"
+
+msgid "Show Image"
+msgstr "הצג תמונה"
+
+msgid "Show Image / Icon"
+msgstr "הצג תמונה / אייקון"
+
+msgid "Show Listing Counts"
+msgstr "הצג ספירת מודעות"
+
+msgid "Show Location"
+msgstr "הצג מיקום"
+
+msgid "Show New?"
+msgstr "הצג חדש?"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "הצג או הסתר כותרת קטגוריה. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "הצג או הסתר קטגוריה. ברירת מחדל: פעיל"
+
+msgid "Show or Hide date. Default: On"
+msgstr "הצג או הסתר תאריך. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "הצג או הסתר כפתור פרטים. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "הצג או הסתר אייקון. ברירת מחדל: פעיל"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "הצג או הסתר תוויות. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "הצג או הסתר ספירת מודעות. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "הצג או הסתר תיאור מודעה. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "הצג או הסתר אייקון/תמונת מודעה. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "הצג או הסתר כותרת מודעה. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "הצג או הסתר מיקום. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "הצג או הסתר סימן ל. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "הצג או הסתר מחיר. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "הצג או הסתר סוגים. ברירת מחדל: פעיל"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "הצג או הסתר שם משתמש/מחבר. ברירת מחדל: פעיל"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "הצג או הסתר בסיס משתמש/מחבר מאומת. ברירת מחדל: פעיל"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "הצג או הסתר ספירת צפיות. ברירת מחדל: פעיל"
+
+msgid "Show Per Sign"
+msgstr "הצג סימן ל"
+
+msgid "Show Phone"
+msgstr "הצג טלפון"
+
+msgid "Show Phone No"
+msgstr "הצג מספר טלפון"
+
+msgid "Show Popular?"
+msgstr "הצג פופולרי?"
+
+msgid "Show Price"
+msgstr "הצג מחיר"
+
+msgid "Show Price Type"
+msgstr "הצג סוג מחיר"
+
+msgid "Show Price Unit"
+msgstr "הצג יחידת מחיר"
+
+msgid "Show profile"
+msgstr "הצג פרופיל"
+
+msgid "Show Quick View"
+msgstr "הצג תצוגה מהירה"
+
+msgid "Show Time"
+msgstr "הצג זמן"
+
+msgid "Show Title"
+msgstr "הצג כותרת"
+
+msgid "Show Top?"
+msgstr "הצג למעלה?"
+
+msgid "Show Types"
+msgstr "הצג סוגים"
+
+msgid "Show User"
+msgstr "הצג משתמש"
+
+msgid "Show Verified User Base"
+msgstr "הצג בסיס משתמש מאומת"
+
+msgid "Show View Count"
+msgstr "הצג ספירת צפיות"
+
+msgid "Show Views"
+msgstr "הצג צפיות"
+
+msgid "Sign in Icon"
+msgstr "אייקון התחברות"
+
+msgid "Single Location"
+msgstr "מיקום בודד"
+
+msgid "Slide Speed"
+msgstr "מהירות שקופית"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "מהירות שקופית במילישניות. ברירת מחדל: 200"
+
+msgid "Slider Navigation"
+msgstr "ניווט סליידר"
+
+msgid "Slider Options"
+msgstr "אפשרויות סליידר"
+
+msgid "Small Phones: <576px"
+msgstr "טלפונים קטנים: <576px"
+
+msgid "Sold Out"
+msgstr "אזל מהמלאי"
+
+msgid "Sold Out Background Color"
+msgstr "צבע רקע אזל מהמלאי"
+
+msgid "Sold Out Text Color"
+msgstr "צבע טקסט אזל מהמלאי"
+
+msgid "Sort By"
+msgstr "מיין לפי"
+
+msgid "Space Between"
+msgstr "מרווח בין"
+
+msgid "Space Between List"
+msgstr "מרווח בין רשימה"
+
+msgid "Space Between. Default: 20"
+msgstr "מרווח בין. ברירת מחדל: 20"
+
+msgid "Spacing"
+msgstr "ריווח"
+
+msgid "Special Style Body Settings"
+msgstr "הגדרות גוף סגנון מיוחד"
+
+msgid "Special style Settings"
+msgstr "הגדרות סגנון מיוחד"
+
+msgid "Standard"
+msgstr "רגיל"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "התחל להקליד שמות קטגוריות. אם ריק יוצגו כל המודעות."
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "התחל להקליד שמות קטגוריות. אם ריק יוצגו כל קטגוריות האב"
+
+msgid "Start typing locations names."
+msgstr "התחל להקליד שמות מיקומים."
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "עצור ניגון אוטומטי במעבר עכבר. ברירת מחדל: פעיל"
+
+msgid "Stop on Hover"
+msgstr "עצור במעבר עכבר"
+
+msgid "Store Pagination"
+msgstr "עימוד חנות"
+
+msgid "Style"
+msgstr "סגנון"
+
+msgid "Style 1"
+msgstr "סגנון 1"
+
+msgid "Style 2"
+msgstr "סגנון 2"
+
+msgid "Style 3"
+msgstr "סגנון 3"
+
+msgid "Style 4"
+msgstr "סגנון 4"
+
+msgid "Style 5"
+msgstr "סגנון 5"
+
+msgid "Sub Category Limit"
+msgstr "מגבלת קטגוריות משנה"
+
+msgid "Sub Location Limit"
+msgstr "מגבלת מיקומי משנה"
+
+msgid "Submit"
+msgstr "שלח"
+
+msgid "Submit button"
+msgstr "כפתור שליחה"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "עבור להצגת תג קידום "
+
+msgid "Switch to Show Badge Featured "
+msgstr "עבור להצגת תג מומלץ "
+
+msgid "Switch to Show Badge New "
+msgstr "עבור להצגת תג חדש "
+
+msgid "Switch to Show Badge Popular "
+msgstr "עבור להצגת תג פופולרי "
+
+msgid "Switch to Show Badge Top "
+msgstr "עבור להצגת תג למעלה "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "עבור להצגת סידור קטלוג"
+
+msgid "Switch to Show Pagination"
+msgstr "עבור להצגת עימוד"
+
+msgid "Switch to Show Result Count"
+msgstr "עבור להצגת ספירת תוצאות"
+
+msgid "Switch to Show View Switcher"
+msgstr "עבור להצגת מחליף תצוגה"
+
+msgid "Tab Column"
+msgstr "עמודת טאב"
+
+msgid "Tablets: >767px"
+msgstr "טאבלטים: >767px"
+
+msgid "Text After Count "
+msgstr "טקסט אחרי ספירה "
+
+msgid "Text Alignment"
+msgstr "יישור טקסט"
+
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+msgid "Text Color In hover"
+msgstr "צבע טקסט במעבר עכבר"
+
+msgid "Time"
+msgstr "זמן"
+
+msgid "Title"
+msgstr "כותרת"
+
+msgid "Title Color"
+msgstr "צבע כותרת"
+
+msgid "Title Hover"
+msgstr "כותרת במעבר עכבר"
+
+msgid "Title Spacing"
+msgstr "ריווח כותרת"
+
+msgid "Top"
+msgstr "למעלה"
+
+msgid "Top Background Color"
+msgstr "צבע רקע למעלה"
+
+msgid "Top Border Color"
+msgstr "צבע גבול למעלה"
+
+msgid "Top Text Color"
+msgstr "צבע טקסט למעלה"
+
+msgid "Type"
+msgstr "סוג"
+
+msgid "Type your description here"
+msgstr "הקלד את התיאור שלך כאן"
+
+msgid "Types"
+msgstr "סוגים"
+
+msgid "Types field"
+msgstr "שדה סוגים"
+
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+msgid "Unit Color"
+msgstr "צבע יחידה"
+
+msgid "Unit Label Text Color"
+msgstr "צבע טקסט תווית יחידה"
+
+msgid "Unit Label Typography"
+msgstr "טיפוגרפיה תווית יחידה"
+
+msgid "Unit Name"
+msgstr "שם יחידה"
+
+msgid "Unit Typography"
+msgstr "טיפוגרפיה יחידה"
+
+msgid "Vertical"
+msgstr "אנכי"
+
+msgid "Vertical View"
+msgstr "תצוגה אנכית"
+
+msgid "View"
+msgstr "צפה"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "צפה בכל הפוסטים ב-%s"
+
+msgid "View Switcher"
+msgstr "מחליף תצוגה"
+
+msgid "Views"
+msgstr "צפיות"
+
+msgid "Visibility"
+msgstr "נראות"
+
+msgid "Width"
+msgstr "רוחב"
+
+msgid "Wrapper"
+msgstr "עטיפה"
+
+msgid "Wrapper Padding"
+msgstr "ריפוד עטיפה"
+
+msgid "Wrapper Spacing"
+msgstr "ריווח עטיפה"
+
+msgid "Yes"
+msgstr "כן"

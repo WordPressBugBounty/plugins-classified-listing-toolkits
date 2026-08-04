@@ -1,0 +1,1885 @@
+# Translation of Classified Listing Toolkits in Chinese (Simplified)
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " 我的账户"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " 登录"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s 次浏览"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(%s 条广告)"
+
+msgid "--Select--"
+msgstr "--选择--"
+
+msgid "1 Col"
+msgstr "1 列"
+
+msgid "1 Second"
+msgstr "1 秒"
+
+msgid "2 Col"
+msgstr "2 列"
+
+msgid "2 Seconds"
+msgstr "2 秒"
+
+msgid "3 Col"
+msgstr "3 列"
+
+msgid "3 Seconds"
+msgstr "3 秒"
+
+msgid "4 Col"
+msgstr "4 列"
+
+msgid "4 Seconds"
+msgstr "4 秒"
+
+msgid "5 Col"
+msgstr "5 列"
+
+msgid "5 Seconds"
+msgstr "5 秒"
+
+msgid "6 Col"
+msgstr "6 列"
+
+msgid "6 Seconds"
+msgstr "6 秒"
+
+msgid "7 Seconds"
+msgstr "7 秒"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">升级到专业版</a>以解锁更多样式。"
+
+msgid "Action Button Hover Text Color"
+msgstr "操作按钮悬停文字颜色"
+
+msgid "Action Button Layout"
+msgstr "操作按钮布局"
+
+msgid "Action Button Text Color"
+msgstr "操作按钮文字颜色"
+
+msgid "Active Background Color"
+msgstr "激活状态背景颜色"
+
+msgid "Active Color"
+msgstr "激活颜色"
+
+msgid "Active Text Color"
+msgstr "激活状态文字颜色"
+
+msgid "Ad Type"
+msgstr "广告类型"
+
+msgid "Ad Types Field"
+msgstr "广告类型字段"
+
+msgid "Add / Remove listing location link."
+msgstr "添加/删除列表位置链接。"
+
+msgid "Add listing button"
+msgstr "添加列表按钮"
+
+msgid "Add listing button order"
+msgstr "添加列表按钮顺序"
+
+msgid "Add Listing Icon"
+msgstr "添加列表图标"
+
+msgid "Add listing icon order"
+msgstr "添加列表图标顺序"
+
+msgid "Adjust Box Height"
+msgstr "调整框高度"
+
+msgid "ads"
+msgstr "广告"
+
+msgid "All Location"
+msgstr "所有位置"
+
+msgid "All Locations"
+msgstr "所有位置"
+
+msgid "Arrow Navigation"
+msgstr "箭头导航"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "箭头导航边框圆角"
+
+msgid "Arrow Position"
+msgstr "箭头位置"
+
+msgid "Ascending"
+msgstr "升序"
+
+msgid "Auto Height"
+msgstr "自动高度"
+
+msgid "Auto Height. Default: On"
+msgstr "自动高度。默认：开启"
+
+msgid "Auto Suggestion"
+msgstr "自动建议"
+
+msgid "Autoplay"
+msgstr "自动播放"
+
+msgid "Autoplay Delay"
+msgstr "自动播放延迟"
+
+msgid "Autoplay Slide Speed"
+msgstr "自动播放幻灯片速度"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Background Color"
+msgstr "背景颜色"
+
+msgid "Background Hover"
+msgstr "悬停背景"
+
+msgid "Badge"
+msgstr "徽章"
+
+msgid "Badge "
+msgstr "徽章 "
+
+msgid "Badge Background Color"
+msgstr "徽章背景颜色"
+
+msgid "Badge Default Background"
+msgstr "徽章默认背景"
+
+msgid "Badge Default Text Color"
+msgstr "徽章默认文字颜色"
+
+msgid "Badge Default Typography"
+msgstr "徽章默认字体"
+
+msgid "Badge Spacing"
+msgstr "徽章间距"
+
+msgid "Badge Text Color"
+msgstr "徽章文字颜色"
+
+msgid "Badge Visibility "
+msgstr "徽章可见性 "
+
+msgid "Body"
+msgstr "主体"
+
+msgid "Body background"
+msgstr "主体背景"
+
+msgid "Body pading"
+msgstr "主体内边距"
+
+msgid "Body Section Padding"
+msgstr "主体区域内边距"
+
+msgid "Body Section Pading"
+msgstr "主体区域内边距"
+
+msgid "Body Spacing"
+msgstr "主体间距"
+
+msgid "Border"
+msgstr "边框"
+
+msgid "Border Color"
+msgstr "边框颜色"
+
+msgid "Border Radius"
+msgstr "边框圆角"
+
+msgid "Border Radius (px)"
+msgstr "边框圆角 (px)"
+
+msgid "Box"
+msgstr "框"
+
+msgid "Box Border Radius"
+msgstr "框边框圆角"
+
+msgid "Box Height"
+msgstr "框高度"
+
+msgid "Box padding"
+msgstr "框内边距"
+
+msgid "Box pading"
+msgstr "框内边距"
+
+msgid "Box Shadow"
+msgstr "框阴影"
+
+msgid "Box style"
+msgstr "框样式"
+
+msgid "Bump Up"
+msgstr "置顶"
+
+msgid "Bump Up Background Color"
+msgstr "置顶背景颜色"
+
+msgid "Bump Up Text Color"
+msgstr "置顶文字颜色"
+
+msgid "Button"
+msgstr "按钮"
+
+msgid "Button alignment"
+msgstr "按钮对齐"
+
+msgid "Button Background"
+msgstr "按钮背景"
+
+msgid "Button Height"
+msgstr "按钮高度"
+
+msgid "Button Icon"
+msgstr "按钮图标"
+
+msgid "Button Link Type"
+msgstr "按钮链接类型"
+
+msgid "Button Padding"
+msgstr "按钮内边距"
+
+msgid "Button Section"
+msgstr "按钮区域"
+
+msgid "Button Spacing"
+msgstr "按钮间距"
+
+msgid "Button style"
+msgstr "按钮样式"
+
+msgid "Button Text"
+msgstr "按钮文字"
+
+msgid "Button text"
+msgstr "按钮文字"
+
+msgid "Button Text Color"
+msgstr "按钮文字颜色"
+
+msgid "Button Typography"
+msgstr "按钮字体"
+
+msgid "Button URL"
+msgstr "按钮链接"
+
+msgid "Button width"
+msgstr "按钮宽度"
+
+msgid "Card"
+msgstr "卡片"
+
+msgid "Cart Icon"
+msgstr "购物车图标"
+
+msgid "Catalog Ordering"
+msgstr "目录排序"
+
+msgid "Categories"
+msgstr "分类"
+
+msgid "Category"
+msgstr "分类"
+
+msgid "Category Color"
+msgstr "分类颜色"
+
+msgid "Category Description"
+msgstr "分类描述"
+
+msgid "Category Field"
+msgstr "分类字段"
+
+msgid "Category field"
+msgstr "分类字段"
+
+msgid "Category Limit"
+msgstr "分类数量限制"
+
+msgid "Category Slider"
+msgstr "分类滑块"
+
+msgid "Center"
+msgstr "居中"
+
+msgid "Chat"
+msgstr "聊天"
+
+msgid "Chat Icon"
+msgstr "聊天图标"
+
+msgid "Chat icon order"
+msgstr "聊天图标顺序"
+
+msgid "Chat Option"
+msgstr "聊天选项"
+
+msgid "Child Category Limit"
+msgstr "子分类数量限制"
+
+msgid "Child List Color"
+msgstr "子列表颜色"
+
+msgid "Child List Hover Color"
+msgstr "子列表悬停颜色"
+
+msgid "Child List Icon Color"
+msgstr "子列表图标颜色"
+
+msgid "Child List Icon Hover Color"
+msgstr "子列表图标悬停颜色"
+
+msgid "Child Location"
+msgstr "子位置"
+
+msgid "Classified Listing"
+msgstr "分类信息"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "分类信息工具包需要安装并激活分类信息插件。"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "分类信息工具包需要分类信息插件最低版本为 5.0.1"
+
+msgid "Classified Listing Toolkits"
+msgstr "分类信息工具包"
+
+msgid "classified Listing Toolkits"
+msgstr "分类信息工具包"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "分类信息工具包包含多个 Elementor 小部件和 Divi 模块，帮助您以多种布局优雅地展示列表。"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Column"
+msgstr "列"
+
+msgid "Column 1"
+msgstr "1 列"
+
+msgid "Column 2"
+msgstr "2 列"
+
+msgid "Column 3"
+msgstr "3 列"
+
+msgid "Column 4"
+msgstr "4 列"
+
+msgid "Compare"
+msgstr "比较"
+
+msgid "Compare icon order"
+msgstr "比较图标顺序"
+
+msgid "Content"
+msgstr "内容"
+
+msgid "Content Alignment"
+msgstr "内容对齐"
+
+msgid "Content alignment"
+msgstr "内容对齐"
+
+msgid "Content Background Color"
+msgstr "内容背景颜色"
+
+msgid "Content Spacing"
+msgstr "内容间距"
+
+msgid "Content spacing"
+msgstr "内容间距"
+
+msgid "Content Vertical Alignment"
+msgstr "内容垂直对齐"
+
+msgid "Content Visibility "
+msgstr "内容可见性 "
+
+msgid "Count"
+msgstr "计数"
+
+msgid "Count Color"
+msgstr "计数颜色"
+
+msgid "Count Font Size"
+msgstr "计数字体大小"
+
+msgid "Count position"
+msgstr "计数位置"
+
+msgid "Count Text"
+msgstr "计数文字"
+
+msgid "Count Text For Plural Number"
+msgstr "复数计数文字"
+
+msgid "Counter"
+msgstr "计数器"
+
+msgid "Counter Spacing"
+msgstr "计数器间距"
+
+msgid "Counts Include Children"
+msgstr "计数包含子项"
+
+msgid "Currency Position"
+msgstr "货币位置"
+
+msgid "Currency sign eg. $"
+msgstr "货币符号，例如 $"
+
+msgid "Currency Symbol"
+msgstr "货币符号"
+
+msgid "Currency Typography"
+msgstr "货币字体"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Custom Field's"
+msgstr "自定义字段"
+
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+msgid "Custom Link"
+msgstr "自定义链接"
+
+msgid "Custom Order"
+msgstr "自定义排序"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Default Badge"
+msgstr "默认徽章"
+
+msgid "Default Color"
+msgstr "默认颜色"
+
+msgid "Dependency Selection"
+msgstr "依赖选择"
+
+msgid "Descending"
+msgstr "降序"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Description Color"
+msgstr "描述颜色"
+
+msgid "Description Limit"
+msgstr "描述字数限制"
+
+msgid "Description Word Limit"
+msgstr "描述字数限制"
+
+msgid "Desktops: >1199px"
+msgstr "桌面端：>1199px"
+
+msgid "Desktops: >991px"
+msgstr "桌面端：>991px"
+
+msgid "Details"
+msgstr "详情"
+
+msgid "Details Button Background Color"
+msgstr "详情按钮背景颜色"
+
+msgid "Details Button Text Color"
+msgstr "详情按钮文字颜色"
+
+msgid "Display Child category"
+msgstr "显示子分类"
+
+msgid "Display Sub Category"
+msgstr "显示子分类"
+
+msgid "Dot Navigation"
+msgstr "点导航"
+
+msgid "Dot Navigation Settings"
+msgstr "点导航设置"
+
+msgid "Dot Navigation Spacing"
+msgstr "点导航间距"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "例如：月或年。如果不想显示单位，请留空"
+
+msgid "Enable Link"
+msgstr "启用链接"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "启用或禁用自动播放。默认：开启"
+
+msgid "Enter Keyword here ..."
+msgstr "在此输入关键词..."
+
+msgid "Enter your keyword here ..."
+msgstr "在此输入您的关键词..."
+
+msgid "Equal Height"
+msgstr "等高"
+
+msgid "Favourites"
+msgstr "收藏"
+
+msgid "Favourites icon order"
+msgstr "收藏图标顺序"
+
+msgid "Feature"
+msgstr "功能"
+
+msgid "Featured"
+msgstr "精选"
+
+msgid "Featured Background Color"
+msgstr "精选背景颜色"
+
+msgid "Featured Border Color"
+msgstr "精选边框颜色"
+
+msgid "Featured Text Color"
+msgstr "精选文字颜色"
+
+msgid "Features"
+msgstr "功能"
+
+msgid "Features Margin"
+msgstr "功能外边距"
+
+msgid "Features Text As"
+msgstr "功能文字显示为"
+
+msgid "Field background"
+msgstr "字段背景"
+
+msgid "Field Gutter Spacing"
+msgstr "字段间隔"
+
+msgid "Field Height"
+msgstr "字段高度"
+
+msgid "Field text color"
+msgstr "字段文字颜色"
+
+msgid "Field Types"
+msgstr "字段类型"
+
+msgid "Field's"
+msgstr "字段"
+
+msgid "Field's Gap"
+msgstr "字段间距"
+
+msgid "Field's Height"
+msgstr "字段高度"
+
+msgid "Fields"
+msgstr "字段"
+
+msgid "Fields Gap"
+msgstr "字段间距"
+
+msgid "Fields Padding (px)"
+msgstr "字段内边距 (px)"
+
+msgid "Font Size"
+msgstr "字体大小"
+
+msgid "Footer"
+msgstr "页脚"
+
+msgid "Form"
+msgstr "表单"
+
+msgid "Form Background Color"
+msgstr "表单背景颜色"
+
+msgid "Form Field's"
+msgstr "表单字段"
+
+msgid "Form Label"
+msgstr "表单标签"
+
+msgid "Full Size"
+msgstr "全尺寸"
+
+msgid "General"
+msgstr "常规"
+
+msgid "General Style"
+msgstr "常规样式"
+
+msgid "Grid"
+msgstr "网格"
+
+msgid "Grid Column"
+msgstr "网格列"
+
+msgid "Grid View"
+msgstr "网格视图"
+
+msgid "Gutter padding"
+msgstr "间隔内边距"
+
+msgid "Gutter pading"
+msgstr "间隔内边距"
+
+msgid "Gutter Space"
+msgstr "间隔空间"
+
+msgid "Gutter Spacing"
+msgstr "间隔距离"
+
+msgid "Head background"
+msgstr "头部背景"
+
+msgid "Head Section Padding"
+msgstr "头部区域内边距"
+
+msgid "Head Section Pading"
+msgstr "头部区域内边距"
+
+msgid "Header"
+msgstr "头部"
+
+msgid "Header Border Color"
+msgstr "头部边框颜色"
+
+msgid "Header Button"
+msgstr "头部按钮"
+
+msgid "Header Icon"
+msgstr "头部图标"
+
+msgid "Header pading"
+msgstr "头部内边距"
+
+msgid "Header Spacing"
+msgstr "头部间距"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Here you can define a custom color for category description."
+msgstr "在此您可以为分类描述定义自定义颜色。"
+
+msgid "Here you can define a custom color for category name."
+msgstr "在此您可以为分类名称定义自定义颜色。"
+
+msgid "Here you can define a custom color for content background."
+msgstr "在此您可以为内容背景定义自定义颜色。"
+
+msgid "Here you can define a custom color for field background."
+msgstr "在此您可以为字段背景定义自定义颜色。"
+
+msgid "Here you can define a custom color for form background."
+msgstr "在此您可以为表单背景定义自定义颜色。"
+
+msgid "Here you can define a custom color for form label."
+msgstr "在此您可以为表单标签定义自定义颜色。"
+
+msgid "Here you can define a custom color for input text."
+msgstr "在此您可以为输入文字定义自定义颜色。"
+
+msgid "Here you can define a custom color for listing count."
+msgstr "在此您可以为列表计数定义自定义颜色。"
+
+msgid "Here you can define a custom color for listing price."
+msgstr "在此您可以为列表价格定义自定义颜色。"
+
+msgid "Here you can define a custom color for listing title."
+msgstr "在此您可以为列表标题定义自定义颜色。"
+
+msgid "Here you can define a custom color for location description."
+msgstr "在此您可以为位置描述定义自定义颜色。"
+
+msgid "Here you can define a custom color for location name."
+msgstr "在此您可以为位置名称定义自定义颜色。"
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "在此您可以为提交按钮背景定义自定义颜色。"
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "在此您可以为提交按钮定义自定义文字颜色。"
+
+msgid "Here you can define font size for listing count."
+msgstr "在此您可以为列表计数定义字体大小。"
+
+msgid "Here you can define gutter for the box."
+msgstr "在此您可以为框定义间隔。"
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "在此您可以为字段间距定义间隔。"
+
+msgid "Here you can define height for the box."
+msgstr "在此您可以为框定义高度。"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "隐藏没有列表的分类。默认：开启"
+
+msgid "Hide Empty"
+msgstr "隐藏空项"
+
+msgid "Home"
+msgstr "首页"
+
+msgid "Horizontal View"
+msgstr "水平视图"
+
+msgid "Hover"
+msgstr "悬停"
+
+msgid "Hover & Focus"
+msgstr "悬停和聚焦"
+
+msgid "Hover Background Color"
+msgstr "悬停背景颜色"
+
+msgid "Hover Box Shadow"
+msgstr "悬停框阴影"
+
+msgid "How Many Category will Display ?"
+msgstr "显示多少个分类？"
+
+msgid "How Many Child Category will Display ?"
+msgstr "显示多少个子分类？"
+
+msgid "How Many Child Location will Display ?"
+msgstr "显示多少个子位置？"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "显示多少个位置？留空则显示全部。"
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "图标"
+
+msgid "Icon Alignment"
+msgstr "图标对齐"
+
+msgid "Icon And Image"
+msgstr "图标和图像"
+
+msgid "Icon Area"
+msgstr "图标区域"
+
+msgid "Icon Background"
+msgstr "图标背景"
+
+msgid "Icon Background Color"
+msgstr "图标背景颜色"
+
+msgid "Icon Before List"
+msgstr "列表前图标"
+
+msgid "Icon Before Title"
+msgstr "标题前图标"
+
+msgid "Icon Bg Color"
+msgstr "图标背景颜色"
+
+msgid "Icon Bg Hover Color"
+msgstr "图标背景悬停颜色"
+
+msgid "Icon Border Radius"
+msgstr "图标边框圆角"
+
+msgid "Icon Color"
+msgstr "图标颜色"
+
+msgid "Icon Count Background Color"
+msgstr "图标计数背景颜色"
+
+msgid "Icon Count Color"
+msgstr "图标计数颜色"
+
+msgid "Icon Font Size"
+msgstr "图标字体大小"
+
+msgid "Icon Gap"
+msgstr "图标间距"
+
+msgid "Icon Hover Color"
+msgstr "图标悬停颜色"
+
+msgid "Icon Margin (px)"
+msgstr "图标外边距 (px)"
+
+msgid "Icon order"
+msgstr "图标顺序"
+
+msgid "Icon Rotate"
+msgstr "图标旋转"
+
+msgid "Icon Size"
+msgstr "图标大小"
+
+msgid "Icon style"
+msgstr "图标样式"
+
+msgid "Icon Type"
+msgstr "图标类型"
+
+msgid "Icon Wrapper Size"
+msgstr "图标容器大小"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "图像"
+
+msgid "Image Size"
+msgstr "图像大小"
+
+msgid "Image Spacing"
+msgstr "图像间距"
+
+msgid "Image Wrapper"
+msgstr "图像容器"
+
+msgid "Include Children Categories"
+msgstr "包含子分类"
+
+msgid "Include Inner Location"
+msgstr "包含内部位置"
+
+msgid "Inline"
+msgstr "内联"
+
+msgid "Input Background Color"
+msgstr "输入框背景颜色"
+
+msgid "Input Text Color"
+msgstr "输入框文字颜色"
+
+msgid "Item Wrapper"
+msgstr "项目容器"
+
+msgid "Keyword"
+msgstr "关键词"
+
+msgid "Keywords"
+msgstr "关键词"
+
+msgid "Keywords Field"
+msgstr "关键词字段"
+
+msgid "Keywords field"
+msgstr "关键词字段"
+
+msgid "Label"
+msgstr "标签"
+
+msgid "Label Color"
+msgstr "标签颜色"
+
+msgid "Label Margin"
+msgstr "标签外边距"
+
+msgid "Label Text Color"
+msgstr "标签文字颜色"
+
+msgid "Label Typography"
+msgstr "标签字体"
+
+msgid "Layout"
+msgstr "布局"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "不勾选复选框则选择全部"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Left Top"
+msgstr "左上"
+
+msgid "Limit"
+msgstr "限制"
+
+msgid "List"
+msgstr "列表"
+
+msgid "List Style"
+msgstr "列表样式"
+
+msgid "List Title"
+msgstr "列表标题"
+
+msgid "List View"
+msgstr "列表视图"
+
+msgid "Listing Categories"
+msgstr "列表分类"
+
+msgid "Listing Category"
+msgstr "列表分类"
+
+msgid "Listing Counts"
+msgstr "列表计数"
+
+msgid "Listing Limit"
+msgstr "列表数量限制"
+
+msgid "Listing Location"
+msgstr "列表位置"
+
+msgid "Listing Pagination"
+msgstr "列表分页"
+
+msgid "Listing Per Page"
+msgstr "每页列表数量"
+
+msgid "Listing Search Form"
+msgstr "列表搜索表单"
+
+msgid "Listing Showcase"
+msgstr "列表展示"
+
+msgid "Listing Single Location"
+msgstr "列表单一位置"
+
+msgid "Listing Slider"
+msgstr "列表滑块"
+
+msgid "Listing Store"
+msgstr "列表商店"
+
+msgid "Listing Types"
+msgstr "列表类型"
+
+msgid "Listings Grid"
+msgstr "列表网格"
+
+msgid "Listings List"
+msgstr "列表清单"
+
+msgid "Listings Slider"
+msgstr "列表滑块"
+
+msgid "Load More Button"
+msgstr "加载更多按钮"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Location Display Type"
+msgstr "位置显示类型"
+
+msgid "Location Field"
+msgstr "位置字段"
+
+msgid "Location field"
+msgstr "位置字段"
+
+msgid "Location Limit"
+msgstr "位置数量限制"
+
+msgid "Locations"
+msgstr "位置"
+
+msgid "Loop"
+msgstr "循环"
+
+msgid "Loop to first item. Default: On"
+msgstr "循环到第一项。默认：开启"
+
+msgid "Margin"
+msgstr "外边距"
+
+msgid "Margin (px)"
+msgstr "外边距 (px)"
+
+msgid "Max"
+msgstr "最大"
+
+msgid "max"
+msgstr "最大"
+
+msgid "Max Price"
+msgstr "最高价格"
+
+msgid "Max Width"
+msgstr "最大宽度"
+
+msgid "Meta"
+msgstr "元信息"
+
+msgid "Meta Color"
+msgstr "元信息颜色"
+
+msgid "Meta Icon Color"
+msgstr "元信息图标颜色"
+
+msgid "Meta Item Spacing"
+msgstr "元信息项目间距"
+
+msgid "Meta Spacing"
+msgstr "元信息间距"
+
+msgid "Meta Wrpper Spacing"
+msgstr "元信息容器间距"
+
+msgid "Middle"
+msgstr "中间"
+
+msgid "Min"
+msgstr "最小"
+
+msgid "min"
+msgstr "最小"
+
+msgid "Min & Max Field Width"
+msgstr "最小和最大字段宽度"
+
+msgid "Min Price"
+msgstr "最低价格"
+
+msgid "Min Width"
+msgstr "最小宽度"
+
+msgid "Min width"
+msgstr "最小宽度"
+
+msgid "Mobile Column"
+msgstr "移动端列数"
+
+msgid "Name Color"
+msgstr "名称颜色"
+
+msgid "New"
+msgstr "最新"
+
+msgid "New Background Color"
+msgstr "最新背景颜色"
+
+msgid "New Line"
+msgstr "新行"
+
+msgid "New Text Color"
+msgstr "最新文字颜色"
+
+msgid "No"
+msgstr "否"
+
+msgid "No Listing Found"
+msgstr "未找到列表"
+
+msgid "No Listing Text"
+msgstr "无列表文字"
+
+msgid "None"
+msgstr "无"
+
+msgid "Normal"
+msgstr "正常"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s 条广告"
+
+msgid "Number of category to display"
+msgstr "要显示的分类数量"
+
+msgid "Number of Columns"
+msgstr "列数"
+
+msgid "Number of listing to display"
+msgstr "要显示的列表数量"
+
+msgid "Number of location to display"
+msgstr "要显示的位置数量"
+
+msgid "Number of Responsive Columns"
+msgstr "响应式列数"
+
+msgid "Number of Words to display"
+msgstr "要显示的字数"
+
+msgid "Number of words to display."
+msgstr "要显示的字数。"
+
+msgid "Off"
+msgstr "关闭"
+
+msgid "On"
+msgstr "开启"
+
+msgid "On Items Hover Description color"
+msgstr "项目悬停描述颜色"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "每行一个功能，例如：每月10条广告 首周精选"
+
+msgid "Only Location that has listings"
+msgstr "仅显示有列表的位置"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "仅适用于专业版。默认：关闭"
+
+msgid "Order"
+msgstr "排序"
+
+msgid "Order By"
+msgstr "排序方式"
+
+msgid "Oriantation"
+msgstr "方向"
+
+msgid "Orientation"
+msgstr "方向"
+
+msgid "Overlay Background"
+msgstr "覆盖层背景"
+
+msgid "Overlay Settings"
+msgstr "覆盖层设置"
+
+msgid "Padding"
+msgstr "内边距"
+
+msgid "padding"
+msgstr "内边距"
+
+msgid "Padding (px)"
+msgstr "内边距 (px)"
+
+msgid "Pagination"
+msgstr "分页"
+
+msgid "Pagination spacing"
+msgstr "分页间距"
+
+msgid "Pagination Typography"
+msgstr "分页字体"
+
+msgid "Phones: >575px"
+msgstr "手机：>575px"
+
+msgid "Placeholder"
+msgstr "占位符"
+
+msgid "Please Select a Location and Background"
+msgstr "请选择位置和背景"
+
+msgid "Popular"
+msgstr "热门"
+
+msgid "Popular Background Color"
+msgstr "热门背景颜色"
+
+msgid "Popular Text Color"
+msgstr "热门文字颜色"
+
+msgid "Popup"
+msgstr "弹窗"
+
+msgid "Post Per Page"
+msgstr "每页文章数"
+
+msgid "Price"
+msgstr "价格"
+
+msgid "Price Color"
+msgstr "价格颜色"
+
+msgid "Price Field"
+msgstr "价格字段"
+
+msgid "Price field"
+msgstr "价格字段"
+
+msgid "Price Label Color"
+msgstr "价格标签颜色"
+
+msgid "Price Label Typography"
+msgstr "价格标签字体"
+
+msgid "Price Margin"
+msgstr "价格外边距"
+
+msgid "Price padding"
+msgstr "价格内边距"
+
+msgid "Pricing Footer Spacing"
+msgstr "定价页脚间距"
+
+msgid "Pricing Page Link"
+msgstr "定价页面链接"
+
+msgid "Pricing Table"
+msgstr "价格表"
+
+msgid "Profile"
+msgstr "个人资料"
+
+msgid "Profile icon order"
+msgstr "个人资料图标顺序"
+
+msgid "Promotional Post"
+msgstr "推广帖子"
+
+msgid "Promotions"
+msgstr "推广"
+
+msgid "Promotions Exclude"
+msgstr "排除推广"
+
+msgid "Query"
+msgstr "查询"
+
+msgid "Quick View"
+msgstr "快速查看"
+
+msgid "Radius"
+msgstr "半径"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "半径 (%1$s)"
+
+msgid "Radius Field"
+msgstr "半径字段"
+
+msgid "Radius Search"
+msgstr "半径搜索"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "随机"
+
+msgid "Responsive Columns"
+msgstr "响应式列"
+
+msgid "Result count"
+msgstr "结果计数"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Right Top"
+msgstr "右上"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search Button"
+msgstr "搜索按钮"
+
+msgid "Search Form"
+msgstr "搜索表单"
+
+msgid "Search Form - Sortable"
+msgstr "搜索表单 - 可排序"
+
+msgid "Select a location"
+msgstr "选择位置"
+
+msgid "Select a location to display."
+msgstr "选择要显示的位置。"
+
+msgid "Select Category"
+msgstr "选择分类"
+
+msgid "Select column number to display categories."
+msgstr "选择用于显示分类的列数。"
+
+msgid "Select column number to display listings."
+msgstr "选择用于显示列表的列数。"
+
+msgid "Select column number to display location."
+msgstr "选择用于显示位置的列数。"
+
+msgid "Select Field"
+msgstr "选择字段"
+
+msgid "Select Form"
+msgstr "选择表单"
+
+msgid "Select Image Size"
+msgstr "选择图像大小"
+
+msgid "Select Location"
+msgstr "选择位置"
+
+msgid "Select Pricing"
+msgstr "选择定价"
+
+msgid "Select Type"
+msgstr "选择类型"
+
+msgid "Select type"
+msgstr "选择类型"
+
+msgid "Selected Location"
+msgstr "已选位置"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "设置任意值，例如5秒，以每5秒播放一次。默认：5秒"
+
+msgid "Short Description"
+msgstr "简短描述"
+
+msgid "Short Description Color"
+msgstr "简短描述颜色"
+
+msgid "Short Description Word Limit"
+msgstr "简短描述字数限制"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "显示/隐藏没有列表的分类。"
+
+msgid "Show / Hide category description."
+msgstr "显示/隐藏分类描述。"
+
+msgid "Show / Hide compare button."
+msgstr "显示/隐藏比较按钮。"
+
+msgid "Show / Hide keyword field."
+msgstr "显示/隐藏关键词字段。"
+
+msgid "Show / Hide listing ad type."
+msgstr "显示/隐藏列表广告类型。"
+
+msgid "Show / Hide listing author name."
+msgstr "显示/隐藏列表作者名称。"
+
+msgid "Show / Hide listing badge."
+msgstr "显示/隐藏列表徽章。"
+
+msgid "Show / Hide listing categories."
+msgstr "显示/隐藏列表分类。"
+
+msgid "Show / Hide listing counts."
+msgstr "显示/隐藏列表计数。"
+
+msgid "Show / Hide listing custom fields."
+msgstr "显示/隐藏列表自定义字段。"
+
+msgid "Show / Hide listing date."
+msgstr "显示/隐藏列表日期。"
+
+msgid "Show / Hide listing description."
+msgstr "显示/隐藏列表描述。"
+
+msgid "Show / Hide listing details button."
+msgstr "显示/隐藏列表详情按钮。"
+
+msgid "Show / Hide listing favourite button."
+msgstr "显示/隐藏列表收藏按钮。"
+
+msgid "Show / Hide listing image or icon."
+msgstr "显示/隐藏列表图像或图标。"
+
+msgid "Show / Hide listing image."
+msgstr "显示/隐藏列表图像。"
+
+msgid "Show / Hide listing location."
+msgstr "显示/隐藏列表位置。"
+
+msgid "Show / Hide listing price."
+msgstr "显示/隐藏列表价格。"
+
+msgid "Show / Hide listing views."
+msgstr "显示/隐藏列表浏览量。"
+
+msgid "Show / Hide location description."
+msgstr "显示/隐藏位置描述。"
+
+msgid "Show / Hide location that has no listings."
+msgstr "显示/隐藏没有列表的位置。"
+
+msgid "Show / Hide quick view button."
+msgstr "显示/隐藏快速查看按钮。"
+
+msgid "Show Ad Type"
+msgstr "显示广告类型"
+
+msgid "Show add listing button"
+msgstr "显示添加列表按钮"
+
+msgid "Show Author Name"
+msgstr "显示作者名称"
+
+msgid "Show Badge"
+msgstr "显示徽章"
+
+msgid "Show Bump Up?"
+msgstr "显示置顶？"
+
+msgid "Show Category"
+msgstr "显示分类"
+
+msgid "Show chat icon"
+msgstr "显示聊天图标"
+
+msgid "Show Child location"
+msgstr "显示子位置"
+
+msgid "Show Compare"
+msgstr "显示比较"
+
+msgid "Show compare icon"
+msgstr "显示比较图标"
+
+msgid "Show Count"
+msgstr "显示计数"
+
+msgid "Show Counts"
+msgstr "显示计数"
+
+msgid "Show Custom Fields"
+msgstr "显示自定义字段"
+
+msgid "Show Custom fields"
+msgstr "显示自定义字段"
+
+msgid "Show Date"
+msgstr "显示日期"
+
+msgid "Show Description"
+msgstr "显示描述"
+
+msgid "Show Details Button"
+msgstr "显示详情按钮"
+
+msgid "Show Favourites"
+msgstr "显示收藏"
+
+msgid "Show favourites icon"
+msgstr "显示收藏图标"
+
+msgid "Show Featured?"
+msgstr "显示精选？"
+
+msgid "Show Fields Label"
+msgstr "显示字段标签"
+
+msgid "Show fields Label"
+msgstr "显示字段标签"
+
+msgid "Show Icon/Image"
+msgstr "显示图标/图像"
+
+msgid "Show Image"
+msgstr "显示图像"
+
+msgid "Show Image / Icon"
+msgstr "显示图像/图标"
+
+msgid "Show Listing Counts"
+msgstr "显示列表计数"
+
+msgid "Show Location"
+msgstr "显示位置"
+
+msgid "Show New?"
+msgstr "显示最新？"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "显示或隐藏分类标题。默认：开启"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "显示或隐藏分类。默认：开启"
+
+msgid "Show or Hide date. Default: On"
+msgstr "显示或隐藏日期。默认：开启"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "显示或隐藏详情按钮。默认：开启"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "显示或隐藏图标。默认：开启"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "显示或隐藏标签。默认：开启"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "显示或隐藏列表计数。默认：开启"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "显示或隐藏列表描述。默认：开启"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "显示或隐藏列表图标/图像。默认：开启"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "显示或隐藏列表标题。默认：开启"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "显示或隐藏位置。默认：开启"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "显示或隐藏每单位符号。默认：开启"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "显示或隐藏价格。默认：开启"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "显示或隐藏类型。默认：开启"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "显示或隐藏用户/作者名称。默认：开启"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "显示或隐藏用户/作者认证标识。默认：开启"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "显示或隐藏浏览计数。默认：开启"
+
+msgid "Show Per Sign"
+msgstr "显示每单位符号"
+
+msgid "Show Phone"
+msgstr "显示电话"
+
+msgid "Show Phone No"
+msgstr "显示电话号码"
+
+msgid "Show Popular?"
+msgstr "显示热门？"
+
+msgid "Show Price"
+msgstr "显示价格"
+
+msgid "Show Price Type"
+msgstr "显示价格类型"
+
+msgid "Show Price Unit"
+msgstr "显示价格单位"
+
+msgid "Show profile"
+msgstr "显示个人资料"
+
+msgid "Show Quick View"
+msgstr "显示快速查看"
+
+msgid "Show Time"
+msgstr "显示时间"
+
+msgid "Show Title"
+msgstr "显示标题"
+
+msgid "Show Top?"
+msgstr "显示置顶？"
+
+msgid "Show Types"
+msgstr "显示类型"
+
+msgid "Show User"
+msgstr "显示用户"
+
+msgid "Show Verified User Base"
+msgstr "显示认证用户标识"
+
+msgid "Show View Count"
+msgstr "显示浏览计数"
+
+msgid "Show Views"
+msgstr "显示浏览量"
+
+msgid "Sign in Icon"
+msgstr "登录图标"
+
+msgid "Single Location"
+msgstr "单一位置"
+
+msgid "Slide Speed"
+msgstr "幻灯片速度"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "幻灯片速度（毫秒）。默认：200"
+
+msgid "Slider Navigation"
+msgstr "滑块导航"
+
+msgid "Slider Options"
+msgstr "滑块选项"
+
+msgid "Small Phones: <576px"
+msgstr "小屏手机：<576px"
+
+msgid "Sold Out"
+msgstr "已售罄"
+
+msgid "Sold Out Background Color"
+msgstr "已售罄背景颜色"
+
+msgid "Sold Out Text Color"
+msgstr "已售罄文字颜色"
+
+msgid "Sort By"
+msgstr "排序方式"
+
+msgid "Space Between"
+msgstr "间距"
+
+msgid "Space Between List"
+msgstr "列表间距"
+
+msgid "Space Between. Default: 20"
+msgstr "间距。默认：20"
+
+msgid "Spacing"
+msgstr "间距"
+
+msgid "Special Style Body Settings"
+msgstr "特殊样式主体设置"
+
+msgid "Special style Settings"
+msgstr "特殊样式设置"
+
+msgid "Standard"
+msgstr "标准"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "开始输入分类名称。如果为空，则显示所有列表。"
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "开始输入分类名称。如果为空，则显示所有父分类"
+
+msgid "Start typing locations names."
+msgstr "开始输入位置名称。"
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "鼠标悬停时停止自动播放。默认：开启"
+
+msgid "Stop on Hover"
+msgstr "悬停时停止"
+
+msgid "Store Pagination"
+msgstr "商店分页"
+
+msgid "Style"
+msgstr "样式"
+
+msgid "Style 1"
+msgstr "样式 1"
+
+msgid "Style 2"
+msgstr "样式 2"
+
+msgid "Style 3"
+msgstr "样式 3"
+
+msgid "Style 4"
+msgstr "样式 4"
+
+msgid "Style 5"
+msgstr "样式 5"
+
+msgid "Sub Category Limit"
+msgstr "子分类数量限制"
+
+msgid "Sub Location Limit"
+msgstr "子位置数量限制"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Submit button"
+msgstr "提交按钮"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "切换显示置顶徽章 "
+
+msgid "Switch to Show Badge Featured "
+msgstr "切换显示精选徽章 "
+
+msgid "Switch to Show Badge New "
+msgstr "切换显示最新徽章 "
+
+msgid "Switch to Show Badge Popular "
+msgstr "切换显示热门徽章 "
+
+msgid "Switch to Show Badge Top "
+msgstr "切换显示顶部徽章 "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "切换显示目录排序"
+
+msgid "Switch to Show Pagination"
+msgstr "切换显示分页"
+
+msgid "Switch to Show Result Count"
+msgstr "切换显示结果计数"
+
+msgid "Switch to Show View Switcher"
+msgstr "切换显示视图切换器"
+
+msgid "Tab Column"
+msgstr "标签列"
+
+msgid "Tablets: >767px"
+msgstr "平板：>767px"
+
+msgid "Text After Count "
+msgstr "计数后文字 "
+
+msgid "Text Alignment"
+msgstr "文字对齐"
+
+msgid "Text Color"
+msgstr "文字颜色"
+
+msgid "Text Color In hover"
+msgstr "悬停时文字颜色"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Title Color"
+msgstr "标题颜色"
+
+msgid "Title Hover"
+msgstr "标题悬停"
+
+msgid "Title Spacing"
+msgstr "标题间距"
+
+msgid "Top"
+msgstr "顶部"
+
+msgid "Top Background Color"
+msgstr "顶部背景颜色"
+
+msgid "Top Border Color"
+msgstr "顶部边框颜色"
+
+msgid "Top Text Color"
+msgstr "顶部文字颜色"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Type your description here"
+msgstr "在此输入您的描述"
+
+msgid "Types"
+msgstr "类型"
+
+msgid "Types field"
+msgstr "类型字段"
+
+msgid "Typography"
+msgstr "字体排版"
+
+msgid "Unit Color"
+msgstr "单位颜色"
+
+msgid "Unit Label Text Color"
+msgstr "单位标签文字颜色"
+
+msgid "Unit Label Typography"
+msgstr "单位标签字体"
+
+msgid "Unit Name"
+msgstr "单位名称"
+
+msgid "Unit Typography"
+msgstr "单位字体"
+
+msgid "Vertical"
+msgstr "垂直"
+
+msgid "Vertical View"
+msgstr "垂直视图"
+
+msgid "View"
+msgstr "视图"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "查看 %s 中的所有文章"
+
+msgid "View Switcher"
+msgstr "视图切换器"
+
+msgid "Views"
+msgstr "浏览量"
+
+msgid "Visibility"
+msgstr "可见性"
+
+msgid "Width"
+msgstr "宽度"
+
+msgid "Wrapper"
+msgstr "容器"
+
+msgid "Wrapper Padding"
+msgstr "容器内边距"
+
+msgid "Wrapper Spacing"
+msgstr "容器间距"
+
+msgid "Yes"
+msgstr "是"

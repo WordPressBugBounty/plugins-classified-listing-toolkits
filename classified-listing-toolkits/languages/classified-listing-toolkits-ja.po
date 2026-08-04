@@ -1,0 +1,1885 @@
+# Translation of Classified Listing Toolkits in Japanese
+# This file is distributed under the same license as the Classified Listing Toolkits plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing Toolkits 1.3.0\n"
+"Report-Msgid-Bugs-To: https://radiustheme.com\n"
+"POT-Creation-Date: 2025-07-18 11:12+0000\n"
+"PO-Revision-Date: 2026-07-06 00:00+0000\n"
+"Last-Translator: Claude AI <noreply@anthropic.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude AI Translation Agent\n"
+"X-Domain: classified-listing-toolkits\n"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " My Account"
+msgstr " マイアカウント"
+
+#: templates/elementor/header-button/header-button.php:19
+msgid " Sign in"
+msgstr " サインイン"
+
+#. %s: views count
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s 閲覧"
+
+#. Ads count
+#, php-format
+msgid "(%s Ad)"
+msgid_plural "(%s Ads)"
+msgstr[0] "(%s 広告)"
+
+msgid "--Select--"
+msgstr "--選択--"
+
+msgid "1 Col"
+msgstr "1列"
+
+msgid "1 Second"
+msgstr "1秒"
+
+msgid "2 Col"
+msgstr "2列"
+
+msgid "2 Seconds"
+msgstr "2秒"
+
+msgid "3 Col"
+msgstr "3列"
+
+msgid "3 Seconds"
+msgstr "3秒"
+
+msgid "4 Col"
+msgstr "4列"
+
+msgid "4 Seconds"
+msgstr "4秒"
+
+msgid "5 Col"
+msgstr "5列"
+
+msgid "5 Seconds"
+msgstr "5秒"
+
+msgid "6 Col"
+msgstr "6列"
+
+msgid "6 Seconds"
+msgstr "6秒"
+
+msgid "7 Seconds"
+msgstr "7秒"
+
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Upgrade to pro</a> to unlock more styles."
+msgstr "<a href=\"%s\" target=\"_blank\" style=\"color: #d004d4\">Proにアップグレード</a>してより多くのスタイルをロック解除。"
+
+msgid "Action Button Hover Text Color"
+msgstr "アクションボタンホバー時テキスト色"
+
+msgid "Action Button Layout"
+msgstr "アクションボタンレイアウト"
+
+msgid "Action Button Text Color"
+msgstr "アクションボタンテキスト色"
+
+msgid "Active Background Color"
+msgstr "アクティブ背景色"
+
+msgid "Active Color"
+msgstr "アクティブ色"
+
+msgid "Active Text Color"
+msgstr "アクティブテキスト色"
+
+msgid "Ad Type"
+msgstr "広告タイプ"
+
+msgid "Ad Types Field"
+msgstr "広告タイプフィールド"
+
+msgid "Add / Remove listing location link."
+msgstr "リスティング場所リンクを追加/削除。"
+
+msgid "Add listing button"
+msgstr "リスティング追加ボタン"
+
+msgid "Add listing button order"
+msgstr "リスティング追加ボタンの順序"
+
+msgid "Add Listing Icon"
+msgstr "リスティング追加アイコン"
+
+msgid "Add listing icon order"
+msgstr "リスティング追加アイコンの順序"
+
+msgid "Adjust Box Height"
+msgstr "ボックス高さを調整"
+
+msgid "ads"
+msgstr "広告"
+
+msgid "All Location"
+msgstr "全ての場所"
+
+msgid "All Locations"
+msgstr "全ての場所"
+
+msgid "Arrow Navigation"
+msgstr "矢印ナビゲーション"
+
+msgid "Arrow Navigation Border Radius"
+msgstr "矢印ナビゲーション角丸"
+
+msgid "Arrow Position"
+msgstr "矢印位置"
+
+msgid "Ascending"
+msgstr "昇順"
+
+msgid "Auto Height"
+msgstr "自動高さ"
+
+msgid "Auto Height. Default: On"
+msgstr "自動高さ。デフォルト: オン"
+
+msgid "Auto Suggestion"
+msgstr "自動候補"
+
+msgid "Autoplay"
+msgstr "自動再生"
+
+msgid "Autoplay Delay"
+msgstr "自動再生遅延"
+
+msgid "Autoplay Slide Speed"
+msgstr "自動再生スライド速度"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Background Color"
+msgstr "背景色"
+
+msgid "Background Hover"
+msgstr "ホバー時背景"
+
+msgid "Badge"
+msgstr "バッジ"
+
+msgid "Badge "
+msgstr "バッジ "
+
+msgid "Badge Background Color"
+msgstr "バッジ背景色"
+
+msgid "Badge Default Background"
+msgstr "バッジデフォルト背景"
+
+msgid "Badge Default Text Color"
+msgstr "バッジデフォルトテキスト色"
+
+msgid "Badge Default Typography"
+msgstr "バッジデフォルトタイポグラフィ"
+
+msgid "Badge Spacing"
+msgstr "バッジ間隔"
+
+msgid "Badge Text Color"
+msgstr "バッジテキスト色"
+
+msgid "Badge Visibility "
+msgstr "バッジ表示 "
+
+msgid "Body"
+msgstr "本文"
+
+msgid "Body background"
+msgstr "本文背景"
+
+msgid "Body pading"
+msgstr "本文パディング"
+
+msgid "Body Section Padding"
+msgstr "本文セクションパディング"
+
+msgid "Body Section Pading"
+msgstr "本文セクションパディング"
+
+msgid "Body Spacing"
+msgstr "本文間隔"
+
+msgid "Border"
+msgstr "枠線"
+
+msgid "Border Color"
+msgstr "枠線色"
+
+msgid "Border Radius"
+msgstr "角丸"
+
+msgid "Border Radius (px)"
+msgstr "角丸 (px)"
+
+msgid "Box"
+msgstr "ボックス"
+
+msgid "Box Border Radius"
+msgstr "ボックス角丸"
+
+msgid "Box Height"
+msgstr "ボックス高さ"
+
+msgid "Box padding"
+msgstr "ボックスパディング"
+
+msgid "Box pading"
+msgstr "ボックスパディング"
+
+msgid "Box Shadow"
+msgstr "ボックスシャドウ"
+
+msgid "Box style"
+msgstr "ボックススタイル"
+
+msgid "Bump Up"
+msgstr "ブーストアップ"
+
+msgid "Bump Up Background Color"
+msgstr "ブーストアップ背景色"
+
+msgid "Bump Up Text Color"
+msgstr "ブーストアップテキスト色"
+
+msgid "Button"
+msgstr "ボタン"
+
+msgid "Button alignment"
+msgstr "ボタン配置"
+
+msgid "Button Background"
+msgstr "ボタン背景"
+
+msgid "Button Height"
+msgstr "ボタン高さ"
+
+msgid "Button Icon"
+msgstr "ボタンアイコン"
+
+msgid "Button Link Type"
+msgstr "ボタンリンクタイプ"
+
+msgid "Button Padding"
+msgstr "ボタンパディング"
+
+msgid "Button Section"
+msgstr "ボタンセクション"
+
+msgid "Button Spacing"
+msgstr "ボタン間隔"
+
+msgid "Button style"
+msgstr "ボタンスタイル"
+
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+msgid "Button text"
+msgstr "ボタンテキスト"
+
+msgid "Button Text Color"
+msgstr "ボタンテキスト色"
+
+msgid "Button Typography"
+msgstr "ボタンタイポグラフィ"
+
+msgid "Button URL"
+msgstr "ボタンURL"
+
+msgid "Button width"
+msgstr "ボタン幅"
+
+msgid "Card"
+msgstr "カード"
+
+msgid "Cart Icon"
+msgstr "カートアイコン"
+
+msgid "Catalog Ordering"
+msgstr "カタログ並び替え"
+
+msgid "Categories"
+msgstr "カテゴリー"
+
+msgid "Category"
+msgstr "カテゴリー"
+
+msgid "Category Color"
+msgstr "カテゴリー色"
+
+msgid "Category Description"
+msgstr "カテゴリー説明"
+
+msgid "Category Field"
+msgstr "カテゴリーフィールド"
+
+msgid "Category field"
+msgstr "カテゴリーフィールド"
+
+msgid "Category Limit"
+msgstr "カテゴリー上限"
+
+msgid "Category Slider"
+msgstr "カテゴリースライダー"
+
+msgid "Center"
+msgstr "中央"
+
+msgid "Chat"
+msgstr "チャット"
+
+msgid "Chat Icon"
+msgstr "チャットアイコン"
+
+msgid "Chat icon order"
+msgstr "チャットアイコンの順序"
+
+msgid "Chat Option"
+msgstr "チャットオプション"
+
+msgid "Child Category Limit"
+msgstr "子カテゴリー上限"
+
+msgid "Child List Color"
+msgstr "子リスト色"
+
+msgid "Child List Hover Color"
+msgstr "子リストホバー色"
+
+msgid "Child List Icon Color"
+msgstr "子リストアイコン色"
+
+msgid "Child List Icon Hover Color"
+msgstr "子リストアイコンホバー色"
+
+msgid "Child Location"
+msgstr "子場所"
+
+msgid "Classified Listing"
+msgstr "クラシファイドリスティング"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be installed and active."
+msgstr "Classified Listing ToolkitはClassified Listingがインストールされ有効化されている必要があります。"
+
+msgid "Classified Listing Toolkit requires Classified Listing to be minimum version 5.0.1"
+msgstr "Classified Listing ToolkitはClassified Listingの最低バージョン5.0.1が必要です"
+
+msgid "Classified Listing Toolkits"
+msgstr "クラシファイドリスティングツールキット"
+
+msgid "classified Listing Toolkits"
+msgstr "クラシファイドリスティングツールキット"
+
+msgid "Classified Listing Toolkits which features several Elementor widgets and Divi modules to help you elegantly display listings in diverse layouts."
+msgstr "クラシファイドリスティングツールキットは、複数のElementorウィジェットとDiviモジュールを備え、様々なレイアウトでリスティングをエレガントに表示するのに役立ちます。"
+
+msgid "Color"
+msgstr "色"
+
+msgid "Column"
+msgstr "列"
+
+msgid "Column 1"
+msgstr "1列"
+
+msgid "Column 2"
+msgstr "2列"
+
+msgid "Column 3"
+msgstr "3列"
+
+msgid "Column 4"
+msgstr "4列"
+
+msgid "Compare"
+msgstr "比較"
+
+msgid "Compare icon order"
+msgstr "比較アイコンの順序"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "Content Alignment"
+msgstr "コンテンツ配置"
+
+msgid "Content alignment"
+msgstr "コンテンツ配置"
+
+msgid "Content Background Color"
+msgstr "コンテンツ背景色"
+
+msgid "Content Spacing"
+msgstr "コンテンツ間隔"
+
+msgid "Content spacing"
+msgstr "コンテンツ間隔"
+
+msgid "Content Vertical Alignment"
+msgstr "コンテンツ垂直配置"
+
+msgid "Content Visibility "
+msgstr "コンテンツ表示 "
+
+msgid "Count"
+msgstr "カウント"
+
+msgid "Count Color"
+msgstr "カウント色"
+
+msgid "Count Font Size"
+msgstr "カウントフォントサイズ"
+
+msgid "Count position"
+msgstr "カウント位置"
+
+msgid "Count Text"
+msgstr "カウントテキスト"
+
+msgid "Count Text For Plural Number"
+msgstr "複数形のカウントテキスト"
+
+msgid "Counter"
+msgstr "カウンター"
+
+msgid "Counter Spacing"
+msgstr "カウンター間隔"
+
+msgid "Counts Include Children"
+msgstr "カウントに子を含める"
+
+msgid "Currency Position"
+msgstr "通貨位置"
+
+msgid "Currency sign eg. $"
+msgstr "通貨記号 例: $"
+
+msgid "Currency Symbol"
+msgstr "通貨記号"
+
+msgid "Currency Typography"
+msgstr "通貨タイポグラフィ"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Custom Field's"
+msgstr "カスタムフィールド"
+
+msgid "Custom Fields"
+msgstr "カスタムフィールド"
+
+msgid "Custom Link"
+msgstr "カスタムリンク"
+
+msgid "Custom Order"
+msgstr "カスタム順序"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Default Badge"
+msgstr "デフォルトバッジ"
+
+msgid "Default Color"
+msgstr "デフォルト色"
+
+msgid "Dependency Selection"
+msgstr "依存関係の選択"
+
+msgid "Descending"
+msgstr "降順"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Description Color"
+msgstr "説明色"
+
+msgid "Description Limit"
+msgstr "説明上限"
+
+msgid "Description Word Limit"
+msgstr "説明文字数上限"
+
+msgid "Desktops: >1199px"
+msgstr "デスクトップ: >1199px"
+
+msgid "Desktops: >991px"
+msgstr "デスクトップ: >991px"
+
+msgid "Details"
+msgstr "詳細"
+
+msgid "Details Button Background Color"
+msgstr "詳細ボタン背景色"
+
+msgid "Details Button Text Color"
+msgstr "詳細ボタンテキスト色"
+
+msgid "Display Child category"
+msgstr "子カテゴリーを表示"
+
+msgid "Display Sub Category"
+msgstr "サブカテゴリーを表示"
+
+msgid "Dot Navigation"
+msgstr "ドットナビゲーション"
+
+msgid "Dot Navigation Settings"
+msgstr "ドットナビゲーション設定"
+
+msgid "Dot Navigation Spacing"
+msgstr "ドットナビゲーション間隔"
+
+msgid "eg. month or year. Keep empty if you don't want to show unit"
+msgstr "例: 月または年。単位を表示しない場合は空のままにしてください"
+
+msgid "Enable Link"
+msgstr "リンクを有効にする"
+
+msgid "Enable or disable autoplay. Default: On"
+msgstr "自動再生を有効または無効にする。デフォルト: オン"
+
+msgid "Enter Keyword here ..."
+msgstr "キーワードを入力..."
+
+msgid "Enter your keyword here ..."
+msgstr "キーワードを入力してください..."
+
+msgid "Equal Height"
+msgstr "高さを揃える"
+
+msgid "Favourites"
+msgstr "お気に入り"
+
+msgid "Favourites icon order"
+msgstr "お気に入りアイコンの順序"
+
+msgid "Feature"
+msgstr "機能"
+
+msgid "Featured"
+msgstr "注目"
+
+msgid "Featured Background Color"
+msgstr "注目背景色"
+
+msgid "Featured Border Color"
+msgstr "注目枠線色"
+
+msgid "Featured Text Color"
+msgstr "注目テキスト色"
+
+msgid "Features"
+msgstr "機能一覧"
+
+msgid "Features Margin"
+msgstr "機能一覧マージン"
+
+msgid "Features Text As"
+msgstr "機能テキスト表示形式"
+
+msgid "Field background"
+msgstr "フィールド背景"
+
+msgid "Field Gutter Spacing"
+msgstr "フィールド溝間隔"
+
+msgid "Field Height"
+msgstr "フィールド高さ"
+
+msgid "Field text color"
+msgstr "フィールドテキスト色"
+
+msgid "Field Types"
+msgstr "フィールドタイプ"
+
+msgid "Field's"
+msgstr "フィールド"
+
+msgid "Field's Gap"
+msgstr "フィールド間隔"
+
+msgid "Field's Height"
+msgstr "フィールド高さ"
+
+msgid "Fields"
+msgstr "フィールド"
+
+msgid "Fields Gap"
+msgstr "フィールド間隔"
+
+msgid "Fields Padding (px)"
+msgstr "フィールドパディング (px)"
+
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+msgid "Footer"
+msgstr "フッター"
+
+msgid "Form"
+msgstr "フォーム"
+
+msgid "Form Background Color"
+msgstr "フォーム背景色"
+
+msgid "Form Field's"
+msgstr "フォームフィールド"
+
+msgid "Form Label"
+msgstr "フォームラベル"
+
+msgid "Full Size"
+msgstr "フルサイズ"
+
+msgid "General"
+msgstr "一般"
+
+msgid "General Style"
+msgstr "一般スタイル"
+
+msgid "Grid"
+msgstr "グリッド"
+
+msgid "Grid Column"
+msgstr "グリッド列"
+
+msgid "Grid View"
+msgstr "グリッド表示"
+
+msgid "Gutter padding"
+msgstr "溝パディング"
+
+msgid "Gutter pading"
+msgstr "溝パディング"
+
+msgid "Gutter Space"
+msgstr "溝スペース"
+
+msgid "Gutter Spacing"
+msgstr "溝間隔"
+
+msgid "Head background"
+msgstr "ヘッド背景"
+
+msgid "Head Section Padding"
+msgstr "ヘッドセクションパディング"
+
+msgid "Head Section Pading"
+msgstr "ヘッドセクションパディング"
+
+msgid "Header"
+msgstr "ヘッダー"
+
+msgid "Header Border Color"
+msgstr "ヘッダー枠線色"
+
+msgid "Header Button"
+msgstr "ヘッダーボタン"
+
+msgid "Header Icon"
+msgstr "ヘッダーアイコン"
+
+msgid "Header pading"
+msgstr "ヘッダーパディング"
+
+msgid "Header Spacing"
+msgstr "ヘッダー間隔"
+
+msgid "Height"
+msgstr "高さ"
+
+msgid "Here you can define a custom color for category description."
+msgstr "ここでカテゴリー説明のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for category name."
+msgstr "ここでカテゴリー名のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for content background."
+msgstr "ここでコンテンツ背景のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for field background."
+msgstr "ここでフィールド背景のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for form background."
+msgstr "ここでフォーム背景のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for form label."
+msgstr "ここでフォームラベルのカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for input text."
+msgstr "ここで入力テキストのカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for listing count."
+msgstr "ここでリスティングカウントのカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for listing price."
+msgstr "ここでリスティング価格のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for listing title."
+msgstr "ここでリスティングタイトルのカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for location description."
+msgstr "ここで場所説明のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for location name."
+msgstr "ここで場所名のカスタム色を定義できます。"
+
+msgid "Here you can define a custom color for submit button background."
+msgstr "ここで送信ボタン背景のカスタム色を定義できます。"
+
+msgid "Here you can define a custom text color for submit button."
+msgstr "ここで送信ボタンのカスタムテキスト色を定義できます。"
+
+msgid "Here you can define font size for listing count."
+msgstr "ここでリスティングカウントのフォントサイズを定義できます。"
+
+msgid "Here you can define gutter for the box."
+msgstr "ここでボックスの溝を定義できます。"
+
+msgid "Here you can define gutter for the fields gap."
+msgstr "ここでフィールド間隔の溝を定義できます。"
+
+msgid "Here you can define height for the box."
+msgstr "ここでボックスの高さを定義できます。"
+
+msgid "Hide"
+msgstr "非表示"
+
+msgid "Hide Categories that has no listings. Default: On"
+msgstr "リスティングがないカテゴリーを非表示。デフォルト: オン"
+
+msgid "Hide Empty"
+msgstr "空を非表示"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Horizontal View"
+msgstr "横表示"
+
+msgid "Hover"
+msgstr "ホバー"
+
+msgid "Hover & Focus"
+msgstr "ホバー & フォーカス"
+
+msgid "Hover Background Color"
+msgstr "ホバー背景色"
+
+msgid "Hover Box Shadow"
+msgstr "ホバーボックスシャドウ"
+
+msgid "How Many Category will Display ?"
+msgstr "何個のカテゴリーを表示しますか？"
+
+msgid "How Many Child Category will Display ?"
+msgstr "何個の子カテゴリーを表示しますか？"
+
+msgid "How Many Child Location will Display ?"
+msgstr "何個の子場所を表示しますか？"
+
+msgid "How Many Location will Display? Leave empty for all."
+msgstr "何個の場所を表示しますか？全て表示する場合は空のままにしてください。"
+
+msgid "https://radiustheme.com"
+msgstr "https://radiustheme.com"
+
+msgid "https://wordpress.org/plugins/classified-listing-toolkits/"
+msgstr "https://wordpress.org/plugins/classified-listing-toolkits/"
+
+msgid "Icon"
+msgstr "アイコン"
+
+msgid "Icon Alignment"
+msgstr "アイコン配置"
+
+msgid "Icon And Image"
+msgstr "アイコンと画像"
+
+msgid "Icon Area"
+msgstr "アイコンエリア"
+
+msgid "Icon Background"
+msgstr "アイコン背景"
+
+msgid "Icon Background Color"
+msgstr "アイコン背景色"
+
+msgid "Icon Before List"
+msgstr "リスト前アイコン"
+
+msgid "Icon Before Title"
+msgstr "タイトル前アイコン"
+
+msgid "Icon Bg Color"
+msgstr "アイコン背景色"
+
+msgid "Icon Bg Hover Color"
+msgstr "アイコン背景ホバー色"
+
+msgid "Icon Border Radius"
+msgstr "アイコン角丸"
+
+msgid "Icon Color"
+msgstr "アイコン色"
+
+msgid "Icon Count Background Color"
+msgstr "アイコンカウント背景色"
+
+msgid "Icon Count Color"
+msgstr "アイコンカウント色"
+
+msgid "Icon Font Size"
+msgstr "アイコンフォントサイズ"
+
+msgid "Icon Gap"
+msgstr "アイコン間隔"
+
+msgid "Icon Hover Color"
+msgstr "アイコンホバー色"
+
+msgid "Icon Margin (px)"
+msgstr "アイコンマージン (px)"
+
+msgid "Icon order"
+msgstr "アイコンの順序"
+
+msgid "Icon Rotate"
+msgstr "アイコン回転"
+
+msgid "Icon Size"
+msgstr "アイコンサイズ"
+
+msgid "Icon style"
+msgstr "アイコンスタイル"
+
+msgid "Icon Type"
+msgstr "アイコンタイプ"
+
+msgid "Icon Wrapper Size"
+msgstr "アイコンラッパーサイズ"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "画像"
+
+msgid "Image Size"
+msgstr "画像サイズ"
+
+msgid "Image Spacing"
+msgstr "画像間隔"
+
+msgid "Image Wrapper"
+msgstr "画像ラッパー"
+
+msgid "Include Children Categories"
+msgstr "子カテゴリーを含める"
+
+msgid "Include Inner Location"
+msgstr "内部場所を含める"
+
+msgid "Inline"
+msgstr "インライン"
+
+msgid "Input Background Color"
+msgstr "入力背景色"
+
+msgid "Input Text Color"
+msgstr "入力テキスト色"
+
+msgid "Item Wrapper"
+msgstr "アイテムラッパー"
+
+msgid "Keyword"
+msgstr "キーワード"
+
+msgid "Keywords"
+msgstr "キーワード"
+
+msgid "Keywords Field"
+msgstr "キーワードフィールド"
+
+msgid "Keywords field"
+msgstr "キーワードフィールド"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Label Color"
+msgstr "ラベル色"
+
+msgid "Label Margin"
+msgstr "ラベルマージン"
+
+msgid "Label Text Color"
+msgstr "ラベルテキスト色"
+
+msgid "Label Typography"
+msgstr "ラベルタイポグラフィ"
+
+msgid "Layout"
+msgstr "レイアウト"
+
+msgid "Leave checkboxes unchecked to select all"
+msgstr "全て選択するにはチェックボックスを未選択のままにしてください"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Left Top"
+msgstr "左上"
+
+msgid "Limit"
+msgstr "上限"
+
+msgid "List"
+msgstr "リスト"
+
+msgid "List Style"
+msgstr "リストスタイル"
+
+msgid "List Title"
+msgstr "リストタイトル"
+
+msgid "List View"
+msgstr "リスト表示"
+
+msgid "Listing Categories"
+msgstr "リスティングカテゴリー"
+
+msgid "Listing Category"
+msgstr "リスティングカテゴリー"
+
+msgid "Listing Counts"
+msgstr "リスティング数"
+
+msgid "Listing Limit"
+msgstr "リスティング上限"
+
+msgid "Listing Location"
+msgstr "リスティング場所"
+
+msgid "Listing Pagination"
+msgstr "リスティングページネーション"
+
+msgid "Listing Per Page"
+msgstr "ページあたりのリスティング数"
+
+msgid "Listing Search Form"
+msgstr "リスティング検索フォーム"
+
+msgid "Listing Showcase"
+msgstr "リスティングショーケース"
+
+msgid "Listing Single Location"
+msgstr "リスティング単一場所"
+
+msgid "Listing Slider"
+msgstr "リスティングスライダー"
+
+msgid "Listing Store"
+msgstr "リスティングストア"
+
+msgid "Listing Types"
+msgstr "リスティングタイプ"
+
+msgid "Listings Grid"
+msgstr "リスティンググリッド"
+
+msgid "Listings List"
+msgstr "リスティングリスト"
+
+msgid "Listings Slider"
+msgstr "リスティングスライダー"
+
+msgid "Load More Button"
+msgstr "もっと読み込むボタン"
+
+msgid "Location"
+msgstr "場所"
+
+msgid "Location Display Type"
+msgstr "場所表示タイプ"
+
+msgid "Location Field"
+msgstr "場所フィールド"
+
+msgid "Location field"
+msgstr "場所フィールド"
+
+msgid "Location Limit"
+msgstr "場所上限"
+
+msgid "Locations"
+msgstr "場所"
+
+msgid "Loop"
+msgstr "ループ"
+
+msgid "Loop to first item. Default: On"
+msgstr "最初のアイテムにループ。デフォルト: オン"
+
+msgid "Margin"
+msgstr "マージン"
+
+msgid "Margin (px)"
+msgstr "マージン (px)"
+
+msgid "Max"
+msgstr "最大"
+
+msgid "max"
+msgstr "最大"
+
+msgid "Max Price"
+msgstr "最高価格"
+
+msgid "Max Width"
+msgstr "最大幅"
+
+msgid "Meta"
+msgstr "メタ"
+
+msgid "Meta Color"
+msgstr "メタ色"
+
+msgid "Meta Icon Color"
+msgstr "メタアイコン色"
+
+msgid "Meta Item Spacing"
+msgstr "メタアイテム間隔"
+
+msgid "Meta Spacing"
+msgstr "メタ間隔"
+
+msgid "Meta Wrpper Spacing"
+msgstr "メタラッパー間隔"
+
+msgid "Middle"
+msgstr "中央"
+
+msgid "Min"
+msgstr "最小"
+
+msgid "min"
+msgstr "最小"
+
+msgid "Min & Max Field Width"
+msgstr "最小・最大フィールド幅"
+
+msgid "Min Price"
+msgstr "最低価格"
+
+msgid "Min Width"
+msgstr "最小幅"
+
+msgid "Min width"
+msgstr "最小幅"
+
+msgid "Mobile Column"
+msgstr "モバイル列"
+
+msgid "Name Color"
+msgstr "名前色"
+
+msgid "New"
+msgstr "新着"
+
+msgid "New Background Color"
+msgstr "新着背景色"
+
+msgid "New Line"
+msgstr "改行"
+
+msgid "New Text Color"
+msgstr "新着テキスト色"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Listing Found"
+msgstr "リスティングが見つかりません"
+
+msgid "No Listing Text"
+msgstr "リスティングなしテキスト"
+
+msgid "None"
+msgstr "なし"
+
+msgid "Normal"
+msgstr "通常"
+
+#, php-format
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] "%s 広告"
+
+msgid "Number of category to display"
+msgstr "表示するカテゴリー数"
+
+msgid "Number of Columns"
+msgstr "列数"
+
+msgid "Number of listing to display"
+msgstr "表示するリスティング数"
+
+msgid "Number of location to display"
+msgstr "表示する場所の数"
+
+msgid "Number of Responsive Columns"
+msgstr "レスポンシブ列数"
+
+msgid "Number of Words to display"
+msgstr "表示する単語数"
+
+msgid "Number of words to display."
+msgstr "表示する単語数。"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "On"
+msgstr "オン"
+
+msgid "On Items Hover Description color"
+msgstr "アイテムホバー時の説明色"
+
+msgid "One line per feature eg. 10 Ads per month Featured on first week"
+msgstr "機能ごとに1行 例: 月10広告 初週は注目表示"
+
+msgid "Only Location that has listings"
+msgstr "リスティングがある場所のみ"
+
+msgid "Only work for Pro. Default: Off"
+msgstr "Proでのみ動作。デフォルト: オフ"
+
+msgid "Order"
+msgstr "順序"
+
+msgid "Order By"
+msgstr "並び順"
+
+msgid "Oriantation"
+msgstr "向き"
+
+msgid "Orientation"
+msgstr "向き"
+
+msgid "Overlay Background"
+msgstr "オーバーレイ背景"
+
+msgid "Overlay Settings"
+msgstr "オーバーレイ設定"
+
+msgid "Padding"
+msgstr "パディング"
+
+msgid "padding"
+msgstr "パディング"
+
+msgid "Padding (px)"
+msgstr "パディング (px)"
+
+msgid "Pagination"
+msgstr "ページネーション"
+
+msgid "Pagination spacing"
+msgstr "ページネーション間隔"
+
+msgid "Pagination Typography"
+msgstr "ページネーションタイポグラフィ"
+
+msgid "Phones: >575px"
+msgstr "スマートフォン: >575px"
+
+msgid "Placeholder"
+msgstr "プレースホルダー"
+
+msgid "Please Select a Location and Background"
+msgstr "場所と背景を選択してください"
+
+msgid "Popular"
+msgstr "人気"
+
+msgid "Popular Background Color"
+msgstr "人気背景色"
+
+msgid "Popular Text Color"
+msgstr "人気テキスト色"
+
+msgid "Popup"
+msgstr "ポップアップ"
+
+msgid "Post Per Page"
+msgstr "ページあたりの投稿数"
+
+msgid "Price"
+msgstr "価格"
+
+msgid "Price Color"
+msgstr "価格色"
+
+msgid "Price Field"
+msgstr "価格フィールド"
+
+msgid "Price field"
+msgstr "価格フィールド"
+
+msgid "Price Label Color"
+msgstr "価格ラベル色"
+
+msgid "Price Label Typography"
+msgstr "価格ラベルタイポグラフィ"
+
+msgid "Price Margin"
+msgstr "価格マージン"
+
+msgid "Price padding"
+msgstr "価格パディング"
+
+msgid "Pricing Footer Spacing"
+msgstr "料金フッター間隔"
+
+msgid "Pricing Page Link"
+msgstr "料金ページリンク"
+
+msgid "Pricing Table"
+msgstr "料金表"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid "Profile icon order"
+msgstr "プロフィールアイコンの順序"
+
+msgid "Promotional Post"
+msgstr "プロモーション投稿"
+
+msgid "Promotions"
+msgstr "プロモーション"
+
+msgid "Promotions Exclude"
+msgstr "プロモーション除外"
+
+msgid "Query"
+msgstr "クエリ"
+
+msgid "Quick View"
+msgstr "クイックビュー"
+
+msgid "Radius"
+msgstr "半径"
+
+#, php-format
+msgid "Radius (%1$s)"
+msgstr "半径 (%1$s)"
+
+msgid "Radius Field"
+msgstr "半径フィールド"
+
+msgid "Radius Search"
+msgstr "半径検索"
+
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+msgid "Rand"
+msgstr "ランダム"
+
+msgid "Responsive Columns"
+msgstr "レスポンシブ列"
+
+msgid "Result count"
+msgstr "結果数"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Right Top"
+msgstr "右上"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Search Button"
+msgstr "検索ボタン"
+
+msgid "Search Form"
+msgstr "検索フォーム"
+
+msgid "Search Form - Sortable"
+msgstr "検索フォーム - ソート可能"
+
+msgid "Select a location"
+msgstr "場所を選択"
+
+msgid "Select a location to display."
+msgstr "表示する場所を選択してください。"
+
+msgid "Select Category"
+msgstr "カテゴリーを選択"
+
+msgid "Select column number to display categories."
+msgstr "カテゴリーを表示する列数を選択。"
+
+msgid "Select column number to display listings."
+msgstr "リスティングを表示する列数を選択。"
+
+msgid "Select column number to display location."
+msgstr "場所を表示する列数を選択。"
+
+msgid "Select Field"
+msgstr "フィールドを選択"
+
+msgid "Select Form"
+msgstr "フォームを選択"
+
+msgid "Select Image Size"
+msgstr "画像サイズを選択"
+
+msgid "Select Location"
+msgstr "場所を選択"
+
+msgid "Select Pricing"
+msgstr "料金を選択"
+
+msgid "Select Type"
+msgstr "タイプを選択"
+
+msgid "Select type"
+msgstr "タイプを選択"
+
+msgid "Selected Location"
+msgstr "選択した場所"
+
+msgid "Set any value for example 5 seconds to play it in every 5 seconds. Default: 5 Seconds"
+msgstr "任意の値を設定 例: 5秒で5秒ごとに再生。デフォルト: 5秒"
+
+msgid "Short Description"
+msgstr "短い説明"
+
+msgid "Short Description Color"
+msgstr "短い説明色"
+
+msgid "Short Description Word Limit"
+msgstr "短い説明文字数上限"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Show / Hide categories that has no listings."
+msgstr "リスティングがないカテゴリーを表示/非表示。"
+
+msgid "Show / Hide category description."
+msgstr "カテゴリー説明を表示/非表示。"
+
+msgid "Show / Hide compare button."
+msgstr "比較ボタンを表示/非表示。"
+
+msgid "Show / Hide keyword field."
+msgstr "キーワードフィールドを表示/非表示。"
+
+msgid "Show / Hide listing ad type."
+msgstr "リスティング広告タイプを表示/非表示。"
+
+msgid "Show / Hide listing author name."
+msgstr "リスティング作成者名を表示/非表示。"
+
+msgid "Show / Hide listing badge."
+msgstr "リスティングバッジを表示/非表示。"
+
+msgid "Show / Hide listing categories."
+msgstr "リスティングカテゴリーを表示/非表示。"
+
+msgid "Show / Hide listing counts."
+msgstr "リスティングカウントを表示/非表示。"
+
+msgid "Show / Hide listing custom fields."
+msgstr "リスティングカスタムフィールドを表示/非表示。"
+
+msgid "Show / Hide listing date."
+msgstr "リスティング日付を表示/非表示。"
+
+msgid "Show / Hide listing description."
+msgstr "リスティング説明を表示/非表示。"
+
+msgid "Show / Hide listing details button."
+msgstr "リスティング詳細ボタンを表示/非表示。"
+
+msgid "Show / Hide listing favourite button."
+msgstr "リスティングお気に入りボタンを表示/非表示。"
+
+msgid "Show / Hide listing image or icon."
+msgstr "リスティング画像またはアイコンを表示/非表示。"
+
+msgid "Show / Hide listing image."
+msgstr "リスティング画像を表示/非表示。"
+
+msgid "Show / Hide listing location."
+msgstr "リスティング場所を表示/非表示。"
+
+msgid "Show / Hide listing price."
+msgstr "リスティング価格を表示/非表示。"
+
+msgid "Show / Hide listing views."
+msgstr "リスティング閲覧数を表示/非表示。"
+
+msgid "Show / Hide location description."
+msgstr "場所説明を表示/非表示。"
+
+msgid "Show / Hide location that has no listings."
+msgstr "リスティングがない場所を表示/非表示。"
+
+msgid "Show / Hide quick view button."
+msgstr "クイックビューボタンを表示/非表示。"
+
+msgid "Show Ad Type"
+msgstr "広告タイプを表示"
+
+msgid "Show add listing button"
+msgstr "リスティング追加ボタンを表示"
+
+msgid "Show Author Name"
+msgstr "作成者名を表示"
+
+msgid "Show Badge"
+msgstr "バッジを表示"
+
+msgid "Show Bump Up?"
+msgstr "ブーストアップを表示しますか？"
+
+msgid "Show Category"
+msgstr "カテゴリーを表示"
+
+msgid "Show chat icon"
+msgstr "チャットアイコンを表示"
+
+msgid "Show Child location"
+msgstr "子場所を表示"
+
+msgid "Show Compare"
+msgstr "比較を表示"
+
+msgid "Show compare icon"
+msgstr "比較アイコンを表示"
+
+msgid "Show Count"
+msgstr "カウントを表示"
+
+msgid "Show Counts"
+msgstr "カウントを表示"
+
+msgid "Show Custom Fields"
+msgstr "カスタムフィールドを表示"
+
+msgid "Show Custom fields"
+msgstr "カスタムフィールドを表示"
+
+msgid "Show Date"
+msgstr "日付を表示"
+
+msgid "Show Description"
+msgstr "説明を表示"
+
+msgid "Show Details Button"
+msgstr "詳細ボタンを表示"
+
+msgid "Show Favourites"
+msgstr "お気に入りを表示"
+
+msgid "Show favourites icon"
+msgstr "お気に入りアイコンを表示"
+
+msgid "Show Featured?"
+msgstr "注目を表示しますか？"
+
+msgid "Show Fields Label"
+msgstr "フィールドラベルを表示"
+
+msgid "Show fields Label"
+msgstr "フィールドラベルを表示"
+
+msgid "Show Icon/Image"
+msgstr "アイコン/画像を表示"
+
+msgid "Show Image"
+msgstr "画像を表示"
+
+msgid "Show Image / Icon"
+msgstr "画像/アイコンを表示"
+
+msgid "Show Listing Counts"
+msgstr "リスティングカウントを表示"
+
+msgid "Show Location"
+msgstr "場所を表示"
+
+msgid "Show New?"
+msgstr "新着を表示しますか？"
+
+msgid "Show or Hide Category Title. Default: On"
+msgstr "カテゴリータイトルを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Category. Default: On"
+msgstr "カテゴリーを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide date. Default: On"
+msgstr "日付を表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Details Button. Default: On"
+msgstr "詳細ボタンを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Icon. Default: On"
+msgstr "アイコンを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide labels. Default: On"
+msgstr "ラベルを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Listing Counts. Default: On"
+msgstr "リスティングカウントを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Listing Description. Default: On"
+msgstr "リスティング説明を表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Listing Icon/Image. Default: On"
+msgstr "リスティングアイコン/画像を表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Listing Title. Default: On"
+msgstr "リスティングタイトルを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Location. Default: On"
+msgstr "場所を表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Per Sign. Default: On"
+msgstr "Perサインを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Price. Default: On"
+msgstr "価格を表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Types. Default: On"
+msgstr "タイプを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide User/Author Name. Default: On"
+msgstr "ユーザー/作成者名を表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide User/Author Verified Base. Default: On"
+msgstr "ユーザー/作成者認証バッジを表示または非表示。デフォルト: オン"
+
+msgid "Show or Hide Views Count's. Default: On"
+msgstr "閲覧数を表示または非表示。デフォルト: オン"
+
+msgid "Show Per Sign"
+msgstr "Perサインを表示"
+
+msgid "Show Phone"
+msgstr "電話番号を表示"
+
+msgid "Show Phone No"
+msgstr "電話番号を表示"
+
+msgid "Show Popular?"
+msgstr "人気を表示しますか？"
+
+msgid "Show Price"
+msgstr "価格を表示"
+
+msgid "Show Price Type"
+msgstr "価格タイプを表示"
+
+msgid "Show Price Unit"
+msgstr "価格単位を表示"
+
+msgid "Show profile"
+msgstr "プロフィールを表示"
+
+msgid "Show Quick View"
+msgstr "クイックビューを表示"
+
+msgid "Show Time"
+msgstr "時間を表示"
+
+msgid "Show Title"
+msgstr "タイトルを表示"
+
+msgid "Show Top?"
+msgstr "トップを表示しますか？"
+
+msgid "Show Types"
+msgstr "タイプを表示"
+
+msgid "Show User"
+msgstr "ユーザーを表示"
+
+msgid "Show Verified User Base"
+msgstr "認証ユーザーバッジを表示"
+
+msgid "Show View Count"
+msgstr "閲覧数を表示"
+
+msgid "Show Views"
+msgstr "閲覧数を表示"
+
+msgid "Sign in Icon"
+msgstr "サインインアイコン"
+
+msgid "Single Location"
+msgstr "単一場所"
+
+msgid "Slide Speed"
+msgstr "スライド速度"
+
+msgid "Slide speed in milliseconds. Default: 200"
+msgstr "スライド速度（ミリ秒）。デフォルト: 200"
+
+msgid "Slider Navigation"
+msgstr "スライダーナビゲーション"
+
+msgid "Slider Options"
+msgstr "スライダーオプション"
+
+msgid "Small Phones: <576px"
+msgstr "小型スマートフォン: <576px"
+
+msgid "Sold Out"
+msgstr "売り切れ"
+
+msgid "Sold Out Background Color"
+msgstr "売り切れ背景色"
+
+msgid "Sold Out Text Color"
+msgstr "売り切れテキスト色"
+
+msgid "Sort By"
+msgstr "並び替え"
+
+msgid "Space Between"
+msgstr "間隔"
+
+msgid "Space Between List"
+msgstr "リスト間の間隔"
+
+msgid "Space Between. Default: 20"
+msgstr "間隔。デフォルト: 20"
+
+msgid "Spacing"
+msgstr "間隔"
+
+msgid "Special Style Body Settings"
+msgstr "特殊スタイル本文設定"
+
+msgid "Special style Settings"
+msgstr "特殊スタイル設定"
+
+msgid "Standard"
+msgstr "標準"
+
+msgid "Start typing category names. If empty then all listings will display."
+msgstr "カテゴリー名を入力してください。空の場合は全てのリスティングが表示されます。"
+
+msgid "Start typing category names. If empty then all parent categories will be displayed"
+msgstr "カテゴリー名を入力してください。空の場合は全ての親カテゴリーが表示されます"
+
+msgid "Start typing locations names."
+msgstr "場所名を入力してください。"
+
+msgid "Stop autoplay on mouse hover. Default: On"
+msgstr "マウスホバー時に自動再生を停止。デフォルト: オン"
+
+msgid "Stop on Hover"
+msgstr "ホバー時に停止"
+
+msgid "Store Pagination"
+msgstr "ストアページネーション"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "Style 1"
+msgstr "スタイル1"
+
+msgid "Style 2"
+msgstr "スタイル2"
+
+msgid "Style 3"
+msgstr "スタイル3"
+
+msgid "Style 4"
+msgstr "スタイル4"
+
+msgid "Style 5"
+msgstr "スタイル5"
+
+msgid "Sub Category Limit"
+msgstr "サブカテゴリー上限"
+
+msgid "Sub Location Limit"
+msgstr "サブ場所上限"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Submit button"
+msgstr "送信ボタン"
+
+msgid "Switch to Show Badge Bump Up "
+msgstr "ブーストアップバッジを表示に切り替え "
+
+msgid "Switch to Show Badge Featured "
+msgstr "注目バッジを表示に切り替え "
+
+msgid "Switch to Show Badge New "
+msgstr "新着バッジを表示に切り替え "
+
+msgid "Switch to Show Badge Popular "
+msgstr "人気バッジを表示に切り替え "
+
+msgid "Switch to Show Badge Top "
+msgstr "トップバッジを表示に切り替え "
+
+msgid "Switch to Show Catalog Ordering"
+msgstr "カタログ並び替えを表示に切り替え"
+
+msgid "Switch to Show Pagination"
+msgstr "ページネーションを表示に切り替え"
+
+msgid "Switch to Show Result Count"
+msgstr "結果数を表示に切り替え"
+
+msgid "Switch to Show View Switcher"
+msgstr "表示切り替えを表示に切り替え"
+
+msgid "Tab Column"
+msgstr "タブ列"
+
+msgid "Tablets: >767px"
+msgstr "タブレット: >767px"
+
+msgid "Text After Count "
+msgstr "カウント後テキスト "
+
+msgid "Text Alignment"
+msgstr "テキスト配置"
+
+msgid "Text Color"
+msgstr "テキスト色"
+
+msgid "Text Color In hover"
+msgstr "ホバー時テキスト色"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Title Color"
+msgstr "タイトル色"
+
+msgid "Title Hover"
+msgstr "タイトルホバー"
+
+msgid "Title Spacing"
+msgstr "タイトル間隔"
+
+msgid "Top"
+msgstr "トップ"
+
+msgid "Top Background Color"
+msgstr "トップ背景色"
+
+msgid "Top Border Color"
+msgstr "トップ枠線色"
+
+msgid "Top Text Color"
+msgstr "トップテキスト色"
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "Type your description here"
+msgstr "ここに説明を入力してください"
+
+msgid "Types"
+msgstr "タイプ"
+
+msgid "Types field"
+msgstr "タイプフィールド"
+
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+msgid "Unit Color"
+msgstr "単位色"
+
+msgid "Unit Label Text Color"
+msgstr "単位ラベルテキスト色"
+
+msgid "Unit Label Typography"
+msgstr "単位ラベルタイポグラフィ"
+
+msgid "Unit Name"
+msgstr "単位名"
+
+msgid "Unit Typography"
+msgstr "単位タイポグラフィ"
+
+msgid "Vertical"
+msgstr "縦"
+
+msgid "Vertical View"
+msgstr "縦表示"
+
+msgid "View"
+msgstr "表示"
+
+#, php-format
+msgid "View all posts in %s"
+msgstr "%sの全ての投稿を見る"
+
+msgid "View Switcher"
+msgstr "表示切り替え"
+
+msgid "Views"
+msgstr "閲覧数"
+
+msgid "Visibility"
+msgstr "表示設定"
+
+msgid "Width"
+msgstr "幅"
+
+msgid "Wrapper"
+msgstr "ラッパー"
+
+msgid "Wrapper Padding"
+msgstr "ラッパーパディング"
+
+msgid "Wrapper Spacing"
+msgstr "ラッパー間隔"
+
+msgid "Yes"
+msgstr "はい"
