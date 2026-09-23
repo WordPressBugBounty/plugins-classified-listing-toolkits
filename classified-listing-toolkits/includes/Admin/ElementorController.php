@@ -131,6 +131,11 @@ class ElementorController {
 			$class_list[] = Widgets\ListingSearchSortableForm::class;
 		}
 
+		// Needs the Job Manager add-on (its job card template).
+		if ( Widgets\JobListings::is_available() ) {
+			$class_list[] = Widgets\JobListings::class;
+		}
+
 		if ( defined( 'RTCL_STORE_VERSION' ) && version_compare( RTCL_STORE_VERSION, '2.1.0', '>=' ) ) {
 			$class_list = array_filter( apply_filters( 'rtcl_el_widget_for_classified_listing', $class_list ) );
 		} else if ( defined( 'RTCL_ELB_VERSION' ) && version_compare( RTCL_ELB_VERSION, '3.0.0', '>=' ) ) {
